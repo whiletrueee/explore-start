@@ -1,0 +1,15 @@
+{
+  "reel_id": "C6YnyOIPkWa",
+  "creator": "empty.japan",
+  "url": "https://www.instagram.com/reel/C6YnyOIPkWa/",
+  "caption": "I have finally done it! 6 months of research and preparations have led to a new home in the north of Nagano prefecture. \n\nThis definitely marks a new chapter for my life and for this page, for which, by the way, I am the most thankful to all of you guys and to Kyoto. Yes, I owe a lot to Kyoto because that’s where empty.japan was born, but the time has come to move on.\n\nA lot of you asked why I moved, so here are some of the main reasons:\n\n1. It will allow me to create new travel guides in the new areas of Honshu island. No worries, I do plan to create Hokkaido and Kyushu guides eventually as well 😁\n\n2. Absolutely stunning nature: Mountains, hot springs, and the sea just a 50-minute drive away. And on top of that, a slower pace of life in the countryside.\n\n3. Simply wanted to experience local life in another part of Japan.\n\nHonestly, there are a lot more other reasons, but I will share them with you along our next and hopefully exciting chapter! Stay tuned ❤️",
+  "metadata": {
+    "hashtags": [],
+    "mentions": [],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/C6YnyOIPkWa/C6YnyOIPkWa.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/C6YnyOIPkWa/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-18T20:04:38.625Z"
+}

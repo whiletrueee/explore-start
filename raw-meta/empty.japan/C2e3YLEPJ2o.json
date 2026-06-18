@@ -1,0 +1,15 @@
+{
+  "reel_id": "C2e3YLEPJ2o",
+  "creator": "empty.japan",
+  "url": "https://www.instagram.com/reel/C2e3YLEPJ2o/",
+  "caption": "My Japan Guide is constantly growing and evolving! Its latest addition: a fantastic two-day itinerary for the Onsen Town that’s over 1300 years old 😍 \n\nStroll in a yukata, savor some of the best seafood in Japan, and explore the hidden gems of local shops and Temples. \n\nOh, and did I mention that all of its public onsens are completely tattoo-friendly?",
+  "metadata": {
+    "hashtags": [],
+    "mentions": [],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/C2e3YLEPJ2o/C2e3YLEPJ2o.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/C2e3YLEPJ2o/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-18T20:03:53.276Z"
+}

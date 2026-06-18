@@ -1,0 +1,41 @@
+{
+  "reel_id": "DTwAnH7EThD",
+  "creator": "thefloridaqueenie",
+  "url": "https://www.instagram.com/reel/DTwAnH7EThD/",
+  "caption": "Looking for things to do in Florida? 👀 This spot (plus 1,000+ more) is in my Florida Travel Guide + Interactive Map perfect for weekend getaways, road trips, and exploring without hours of research and stress! 💬 Comment “GUIDE” and I’ll send it to you!\n\n📅 January – Lost Spring Lake\n📍 8045 NW Gainesville Rd, Ocala, FL 34475\n💧 Start the year with crystal-clear waters, hidden cliffs, and serene beauty in this secret spring-fed lake.\n\n📅 February – Whitney Beach\n📍 N Shore Rd, Longboat Key, FL 34228\n🌊 Escape the crowds with a peaceful beach day and sunset strolls at this tucked-away Gulf Coast gem.\n\n📅 March – Bok Tower Gardens\n📍 1151 Tower Blvd, Lake Wales, FL 33853\n🌸 Spring blooms, quiet trails, and a singing tower – the perfect mix of peace and nature in Central Florida.\n\n📅 April – The Dali Museum\n📍 1 Dali Blvd, St. Petersburg, FL 33701\n🎨 Explore surreal art and waterfront views while the weather is still cool.\n\n📅 May – Bonnet Springs Park\n📍 400 Bonnet Springs Blvd, Lakeland, FL 33815\n🌳 Family fun, interactive art, and nature trails before the summer heat kicks in.\n\n📅 June – Fort De Soto Park\n📍 3500 Pinellas Bayway S, Tierra Verde, FL 33715\n🏖️ Kayak, bike, or beach-hop around this historic park filled with wildlife and wide-open shorelines.\n\n📅 July – Boca Grande\n📍 Boca Grande, FL 33921 (Gasparilla Island)\n🌅 Summer paradise! Clear water, pastel buildings, and island vibes for the perfect Florida July escape.\n\n📅 August – Midnight Pass (Siesta Key)\n📍 Southern end of Siesta Key, Sarasota, FL 34242\n🛶 Kayak through hidden mangrove tunnels to a remote stretch of white sand – Florida’s best-kept secret.\n\n📅 September – Bean Point\n📍 793 N Shore Dr, Anna Maria, FL 34216\n☁️ Unwind on this tranquil northern tip of Anna Maria Island – ideal for early fall sunsets.\n\n📅 October – Henry B. Plant Museum\n📍 401 W. Kennedy Blvd, Tampa, FL 33606\n🏰 Step back into Gilded Age Florida at this ornate, historic hotel-turned-museum.\n\n📅 November – Hindu Temple of Florida\n📍 5509 Lynn Rd, Tampa, FL 33624\n🛕 Discover peace and stunning architecture during fall festivals and Diwali celebrations.\n\n📅 December – Bonnet Springs Park (again!)\n\n#hiddengemsflorida",
+  "metadata": {
+    "hashtags": [
+      "hiddengemsflorida"
+    ],
+    "mentions": [],
+    "geo_locations": [
+      "8045 NW Gainesville Rd, Ocala, FL 34475",
+      "N Shore Rd, Longboat Key, FL 34228",
+      "1151 Tower Blvd, Lake Wales, FL 33853",
+      "1 Dali Blvd, St. Petersburg, FL 33701",
+      "400 Bonnet Springs Blvd, Lakeland, FL 33815",
+      "3500 Pinellas Bayway S, Tierra Verde, FL 33715",
+      "Boca Grande, FL 33921 (Gasparilla Island)",
+      "Southern end of Siesta Key, Sarasota, FL 34242",
+      "793 N Shore Dr, Anna Maria, FL 34216",
+      "401 W. Kennedy Blvd, Tampa, FL 33606",
+      "5509 Lynn Rd, Tampa, FL 33624"
+    ],
+    "pinned_places": [
+      "8045 NW Gainesville Rd, Ocala, FL 34475",
+      "N Shore Rd, Longboat Key, FL 34228",
+      "1151 Tower Blvd, Lake Wales, FL 33853",
+      "1 Dali Blvd, St. Petersburg, FL 33701",
+      "400 Bonnet Springs Blvd, Lakeland, FL 33815",
+      "3500 Pinellas Bayway S, Tierra Verde, FL 33715",
+      "Boca Grande, FL 33921 (Gasparilla Island)",
+      "Southern end of Siesta Key, Sarasota, FL 34242",
+      "793 N Shore Dr, Anna Maria, FL 34216",
+      "401 W. Kennedy Blvd, Tampa, FL 33606",
+      "5509 Lynn Rd, Tampa, FL 33624"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/thefloridaqueenie/DTwAnH7EThD/DTwAnH7EThD.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/thefloridaqueenie/DTwAnH7EThD/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-18T20:11:35.507Z"
+}

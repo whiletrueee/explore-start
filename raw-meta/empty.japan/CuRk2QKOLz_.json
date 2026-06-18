@@ -1,0 +1,19 @@
+{
+  "reel_id": "CuRk2QKOLz_",
+  "creator": "empty.japan",
+  "url": "https://www.instagram.com/reel/CuRk2QKOLz_/",
+  "caption": "📍 Location: For an amazing experience filled with Japanese nature and Princess Mononoke vibes, I suggest a hike starting from the Kinosaki bus stop along the river till Hozukyo JR station. The best time for that hike is spring and autumn 😍🌿",
+  "metadata": {
+    "hashtags": [],
+    "mentions": [],
+    "geo_locations": [
+      "Location: For an amazing experience filled with Japanese nature and Princess Mononoke vibes, I suggest a hike starting from the Kinosaki bus stop along the river till Hozukyo JR station. The best time for that hike is spring and autumn 😍🌿"
+    ],
+    "pinned_places": [
+      "Location: For an amazing experience filled with Japanese nature and Princess Mononoke vibes, I suggest a hike starting from the Kinosaki bus stop along the river till Hozukyo JR station. The best time for that hike is spring and autumn 😍🌿"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/CuRk2QKOLz_/CuRk2QKOLz_.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/CuRk2QKOLz_/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-18T20:05:50.367Z"
+}

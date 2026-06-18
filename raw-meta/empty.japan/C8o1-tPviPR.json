@@ -1,0 +1,15 @@
+{
+  "reel_id": "C8o1-tPviPR",
+  "creator": "empty.japan",
+  "url": "https://www.instagram.com/reel/C8o1-tPviPR/",
+  "caption": "Takenoko Matsuri (Bamboo Festival) in the charming village of Nozawa Onsen. \n\nEach summer during the festival, the village comes alive with food stalls offering incredible local dishes featuring bamboo and some traditional dance performance that I tried not to ruin… not sure whether I succeeded or not 🥲",
+  "metadata": {
+    "hashtags": [],
+    "mentions": [],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/C8o1-tPviPR/C8o1-tPviPR.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/empty.japan/C8o1-tPviPR/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-18T20:04:55.166Z"
+}
