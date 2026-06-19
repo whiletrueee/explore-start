@@ -1,0 +1,29 @@
+{
+  "reel_id": "DPEf3K6ExCm",
+  "creator": "blacktravelpin",
+  "url": "https://www.instagram.com/reel/DPEf3K6ExCm/",
+  "caption": "Dubai is home 🫶\n\nFollow @blacktravelpin for more Daily Dubai Vibes. 😍 \n\n#dubai #dubailife #dubaitravel #travelmoments #travellife #travelproblems #dubaiproblems #dubaitrip #visitdubai #exploreuae #habibicometodubai",
+  "metadata": {
+    "hashtags": [
+      "dubai",
+      "dubailife",
+      "dubaitravel",
+      "travelmoments",
+      "travellife",
+      "travelproblems",
+      "dubaiproblems",
+      "dubaitrip",
+      "visitdubai",
+      "exploreuae",
+      "habibicometodubai"
+    ],
+    "mentions": [
+      "blacktravelpin"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DPEf3K6ExCm/DPEf3K6ExCm.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DPEf3K6ExCm/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:16:59.336Z"
+}

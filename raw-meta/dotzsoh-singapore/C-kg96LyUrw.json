@@ -1,0 +1,36 @@
+{
+  "reel_id": "C-kg96LyUrw",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/C-kg96LyUrw/",
+  "caption": "escaping to sanctuary of nature for the soul  @destination_srilanka @jetwing.viluyana in #sigiriya #srilanka ✨🪷🏡🌿🍃✨ \n\n📍@jetwinghotels Vil Uyana name refers to the garden of lakes, with a tranquil setting & finest of modern ecological luxury located in Sigiriya \n\n🎞️ @dotzsoh @dotzsoh2 \n#sosrilanka #destinationsrilanka #jetwinghotels #jetwingviluyana #luxuryresort #srilankaresort\n#slbloggers #youwillcomebackformore",
+  "metadata": {
+    "hashtags": [
+      "sigiriya",
+      "srilanka",
+      "sosrilanka",
+      "destinationsrilanka",
+      "jetwinghotels",
+      "jetwingviluyana",
+      "luxuryresort",
+      "srilankaresort",
+      "slbloggers",
+      "youwillcomebackformore"
+    ],
+    "mentions": [
+      "destination_srilanka",
+      "jetwing.viluyana",
+      "jetwinghotels",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [
+      "@jetwinghotels Vil Uyana name refers to the garden of lakes, with a tranquil setting & finest of modern ecological luxury located in Sigiriya"
+    ],
+    "pinned_places": [
+      "@jetwinghotels Vil Uyana name refers to the garden of lakes, with a tranquil setting & finest of modern ecological luxury located in Sigiriya"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/C-kg96LyUrw/C-kg96LyUrw.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/C-kg96LyUrw/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:17:51.410Z"
+}

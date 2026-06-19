@@ -1,0 +1,35 @@
+{
+  "reel_id": "CqIsjdcA9yz",
+  "creator": "ladyandhersweetescapes",
+  "url": "https://www.instagram.com/reel/CqIsjdcA9yz/",
+  "caption": "Ramadan Kareem! Looking for a venue to visit this Ramadan? Expo City Dubai is a vibrant destination this Holy Month.\n\nHere are the things to watch out for:\n✨ Ramadan shows, workshops and games\n⭐️ Food and retail market\n✨ Communal Iftar\n\n🗓️ From 3 March to 22 April, 2023\n🎟️ Free entry, selected workshops and activities  are chargeable.\n\n@celebratedubai @styledbydubai #RamadanInDubai\n\n#ladyandhersweetescapes #visitUAE #dubaiblogger #uaeblogger #travelblogger #pinayblogger #mydubai #dubai #visitdubai #dametraveler #DubaiReels #DubaiExpo #ExpoCityDubai #HaiRamadan #CelebrateDubai",
+  "metadata": {
+    "hashtags": [
+      "RamadanInDubai",
+      "ladyandhersweetescapes",
+      "visitUAE",
+      "dubaiblogger",
+      "uaeblogger",
+      "travelblogger",
+      "pinayblogger",
+      "mydubai",
+      "dubai",
+      "visitdubai",
+      "dametraveler",
+      "DubaiReels",
+      "DubaiExpo",
+      "ExpoCityDubai",
+      "HaiRamadan",
+      "CelebrateDubai"
+    ],
+    "mentions": [
+      "celebratedubai",
+      "styledbydubai"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/ladyandhersweetescapes/CqIsjdcA9yz/CqIsjdcA9yz.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/ladyandhersweetescapes/CqIsjdcA9yz/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:21:08.311Z"
+}

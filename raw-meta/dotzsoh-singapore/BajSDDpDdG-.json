@@ -1,0 +1,21 @@
+{
+  "reel_id": "BajSDDpDdG-",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/BajSDDpDdG-/",
+  "caption": "will you try this steep climb and enjoy the beautiful sunset ✨🌅🌄🏝🍂✨ #nusapenida #bali .\nvid @dotzsoh @dotzsoh2",
+  "metadata": {
+    "hashtags": [
+      "nusapenida",
+      "bali"
+    ],
+    "mentions": [
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/BajSDDpDdG-/BajSDDpDdG-.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/BajSDDpDdG-/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:17:48.404Z"
+}

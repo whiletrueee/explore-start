@@ -1,0 +1,30 @@
+{
+  "reel_id": "DKH21ZmpTOO",
+  "creator": "blacktravelpin",
+  "url": "https://www.instagram.com/reel/DKH21ZmpTOO/",
+  "caption": "Dubai Fountain Show is under construction till october. \n\nFollow @blacktravelpin for more Daily Dubai Vibes and Tips. 😍 \n\n#dubai #dubaifountain #dubailife #dubaitravel #travelmoments #travellife #travelproblems #dubaitrip #visitdubai #exploreuae #uaetravelcreators #habibicometodubai",
+  "metadata": {
+    "hashtags": [
+      "dubai",
+      "dubaifountain",
+      "dubailife",
+      "dubaitravel",
+      "travelmoments",
+      "travellife",
+      "travelproblems",
+      "dubaitrip",
+      "visitdubai",
+      "exploreuae",
+      "uaetravelcreators",
+      "habibicometodubai"
+    ],
+    "mentions": [
+      "blacktravelpin"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DKH21ZmpTOO/DKH21ZmpTOO.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DKH21ZmpTOO/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:16:42.117Z"
+}

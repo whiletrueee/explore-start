@@ -1,0 +1,30 @@
+{
+  "reel_id": "C89fKweS4cR",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/C89fKweS4cR/",
+  "caption": "travel is the only thing you buy that makes you richer ✨🌎💠💎🕌✨ visited this stunning mirror mosque in #shiraz with @visitouriran #iran \n\n📍 Ali-Ebn-E-Hamzeh - a Persian architecture build in the 12th century. Also known as the mirror mosque where coloured mirror glass shards covered every inch of the enchanting interior\n\n🎞️ @dotzsoh @dotzsoh2 \n#visitouriran #dotzsoh #shadcheragh #mirrormosque",
+  "metadata": {
+    "hashtags": [
+      "shiraz",
+      "iran",
+      "visitouriran",
+      "dotzsoh",
+      "shadcheragh",
+      "mirrormosque"
+    ],
+    "mentions": [
+      "visitouriran",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [
+      "Ali-Ebn-E-Hamzeh - a Persian architecture build in the 12th century. Also known as the mirror mosque where coloured mirror glass shards covered every inch of the enchanting interior"
+    ],
+    "pinned_places": [
+      "Ali-Ebn-E-Hamzeh - a Persian architecture build in the 12th century. Also known as the mirror mosque where coloured mirror glass shards covered every inch of the enchanting interior"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/C89fKweS4cR/C89fKweS4cR.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/C89fKweS4cR/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:17:59.391Z"
+}

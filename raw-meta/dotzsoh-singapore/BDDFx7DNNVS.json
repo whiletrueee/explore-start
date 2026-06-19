@@ -1,0 +1,23 @@
+{
+  "reel_id": "BDDFx7DNNVS",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/BDDFx7DNNVS/",
+  "caption": "180m long and 25m above the rainforest ... amazing flying fox experience at @destinationgoldcoast @oreillysrainforestretreat Lamington National Park ✨⛳️✌️😍😜✨ pardon my amateur video .\n#visitgoldcoast #oreillysrainforestretreat #thisisqueensland #seeaustralia",
+  "metadata": {
+    "hashtags": [
+      "visitgoldcoast",
+      "oreillysrainforestretreat",
+      "thisisqueensland",
+      "seeaustralia"
+    ],
+    "mentions": [
+      "destinationgoldcoast",
+      "oreillysrainforestretreat"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/BDDFx7DNNVS/BDDFx7DNNVS.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/BDDFx7DNNVS/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:17:47.850Z"
+}

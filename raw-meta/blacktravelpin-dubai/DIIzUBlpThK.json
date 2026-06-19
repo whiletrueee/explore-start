@@ -1,0 +1,36 @@
+{
+  "reel_id": "DIIzUBlpThK",
+  "creator": "blacktravelpin",
+  "url": "https://www.instagram.com/reel/DIIzUBlpThK/",
+  "caption": "We need to normalize flying business class 🤞\n\nFollow @blacktravelpin for more Dubai Vibes. 😍 \n\n#dubai #emiratesairline #dubailife #dubaitravel #travelmoments #travellife #travelproblems #dubaiproblems #dubaitrip #visitdubai #uaetravelcreators #habibicometodubai #emirates #dayinthelife \n#emiratesbusiness #emiratesbusinessclass #businessclass #emirateseconomy",
+  "metadata": {
+    "hashtags": [
+      "dubai",
+      "emiratesairline",
+      "dubailife",
+      "dubaitravel",
+      "travelmoments",
+      "travellife",
+      "travelproblems",
+      "dubaiproblems",
+      "dubaitrip",
+      "visitdubai",
+      "uaetravelcreators",
+      "habibicometodubai",
+      "emirates",
+      "dayinthelife",
+      "emiratesbusiness",
+      "emiratesbusinessclass",
+      "businessclass",
+      "emirateseconomy"
+    ],
+    "mentions": [
+      "blacktravelpin"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DIIzUBlpThK/DIIzUBlpThK.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DIIzUBlpThK/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:16:34.457Z"
+}

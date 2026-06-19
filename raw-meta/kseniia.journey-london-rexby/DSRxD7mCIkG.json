@@ -1,0 +1,26 @@
+{
+  "reel_id": "DSRxD7mCIkG",
+  "creator": "kseniia.journey-london-rexby",
+  "url": "https://www.instagram.com/reel/DSRxD7mCIkG/",
+  "caption": "Where to stay in Munich ✨ @louishotelmunich \n\nA stunning escape right in the heart of Munich filled with beautiful details that make you feel instantly at home🤍 Cosy, design-forward rooms  and a fantastic breakfast with views over the market made our stay extra special🥐☕️\n\nIf you’re looking for a comfortable and stylish place while exploring Munich during Christmas , Louis Hotel is a perfect find!\n\n📍 LOUIS Hotel, Viktualienmarkt 6, 80331 Munich\n\n[press]\n#Munich #WhereToStayInMunich #ChristmasInMunich #CityBreakEurope",
+  "metadata": {
+    "hashtags": [
+      "Munich",
+      "WhereToStayInMunich",
+      "ChristmasInMunich",
+      "CityBreakEurope"
+    ],
+    "mentions": [
+      "louishotelmunich"
+    ],
+    "geo_locations": [
+      "LOUIS Hotel, Viktualienmarkt 6, 80331 Munich"
+    ],
+    "pinned_places": [
+      "LOUIS Hotel, Viktualienmarkt 6, 80331 Munich"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/kseniia.journey-london-rexby/DSRxD7mCIkG/DSRxD7mCIkG.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/kseniia.journey-london-rexby/DSRxD7mCIkG/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:20:02.512Z"
+}

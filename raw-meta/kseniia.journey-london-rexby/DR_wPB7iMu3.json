@@ -1,0 +1,22 @@
+{
+  "reel_id": "DR_wPB7iMu3",
+  "creator": "kseniia.journey-london-rexby",
+  "url": "https://www.instagram.com/reel/DR_wPB7iMu3/",
+  "caption": "Christmas at The Raffles London at The OWO ✨ \nVisiting Café Ciel for its hot chocolate festive special, right next to the giant gingerbread house installation 🎁🎄 @cafeciel.ldn \n\n📸 @kseniia.journey\n\n[press] #london #christmas #festive",
+  "metadata": {
+    "hashtags": [
+      "london",
+      "christmas",
+      "festive"
+    ],
+    "mentions": [
+      "cafeciel.ldn",
+      "kseniia.journey"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/kseniia.journey-london-rexby/DR_wPB7iMu3/DR_wPB7iMu3.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/kseniia.journey-london-rexby/DR_wPB7iMu3/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:19:54.734Z"
+}

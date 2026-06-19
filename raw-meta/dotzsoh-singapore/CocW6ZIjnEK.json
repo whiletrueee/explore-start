@@ -1,0 +1,31 @@
+{
+  "reel_id": "CocW6ZIjnEK",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/CocW6ZIjnEK/",
+  "caption": "don’t let a little rain dampen your spirt cos after the rain the sun will reappear ✨🎋🎋🎋🏯✨ at the beautiful #arashiyamabambooforest #japan using @insta360 #nodronenoproblem \n✨💛🇹🇷🇸🇾✨ sending love & hope to all in #turkey & #syria #earthquaketurkey\n.\n.\nreel @dotzsoh @dotzsoh2 \n#dotzsoh #insta360 #insta360sg #insta360x3 #insta360my",
+  "metadata": {
+    "hashtags": [
+      "arashiyamabambooforest",
+      "japan",
+      "nodronenoproblem",
+      "turkey",
+      "syria",
+      "earthquaketurkey",
+      "dotzsoh",
+      "insta360",
+      "insta360sg",
+      "insta360x3",
+      "insta360my"
+    ],
+    "mentions": [
+      "insta360",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CocW6ZIjnEK/CocW6ZIjnEK.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CocW6ZIjnEK/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:18:29.755Z"
+}

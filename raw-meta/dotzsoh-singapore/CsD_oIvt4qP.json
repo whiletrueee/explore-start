@@ -1,0 +1,31 @@
+{
+  "reel_id": "CsD_oIvt4qP",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/CsD_oIvt4qP/",
+  "caption": "recording my travel moments with @insta360 Flow 🎞️ when you see one of the most amazing pool in the desert #AlUla #NoMoreShakyShots with #insta360flow @insta360mysg #insta360 #insta360sg #insta360mysg \n.\n.\nreel @dotzsoh @dotzsoh2 \n#dotzsoh #gimbal #barrelroll #saudi",
+  "metadata": {
+    "hashtags": [
+      "AlUla",
+      "NoMoreShakyShots",
+      "insta360flow",
+      "insta360",
+      "insta360sg",
+      "insta360mysg",
+      "dotzsoh",
+      "gimbal",
+      "barrelroll",
+      "saudi"
+    ],
+    "mentions": [
+      "insta360",
+      "insta360mysg",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CsD_oIvt4qP/CsD_oIvt4qP.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CsD_oIvt4qP/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:18:34.859Z"
+}

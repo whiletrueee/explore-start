@@ -1,0 +1,20 @@
+{
+  "reel_id": "BbRrqKjlZs1",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/BbRrqKjlZs1/",
+  "caption": "stay focused, go after your dreams and keep moving towards your goals ✨🌅🌅🌅🌴✨ #singapore .\nphoto & edit @dotzsoh @dotzsoh2",
+  "metadata": {
+    "hashtags": [
+      "singapore"
+    ],
+    "mentions": [
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/BbRrqKjlZs1/BbRrqKjlZs1.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/BbRrqKjlZs1/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:17:48.439Z"
+}

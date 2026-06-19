@@ -1,0 +1,32 @@
+{
+  "reel_id": "ClvsdVRjwYW",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/ClvsdVRjwYW/",
+  "caption": "enchanting @christmaswonderlandsg is back at @gardensbythebay ✨🎄🎁🎪🎠✨ #singapore soaking in the festive mood & dazzling lights with @instasg \n#christmaswonderlandsg #christmaswonderlandsg2022 #visitsingapore #christmaswonderland \n.\n.\nreel @dotzsoh @dotzsoh2 \n#dotzsoh #gardensbythebay #christmas2022 #singaporechristmas #christmaswonderland",
+  "metadata": {
+    "hashtags": [
+      "singapore",
+      "christmaswonderlandsg",
+      "christmaswonderlandsg2022",
+      "visitsingapore",
+      "christmaswonderland",
+      "dotzsoh",
+      "gardensbythebay",
+      "christmas2022",
+      "singaporechristmas",
+      "christmaswonderland"
+    ],
+    "mentions": [
+      "christmaswonderlandsg",
+      "gardensbythebay",
+      "instasg",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/ClvsdVRjwYW/ClvsdVRjwYW.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/ClvsdVRjwYW/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:18:29.308Z"
+}

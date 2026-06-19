@@ -1,0 +1,29 @@
+{
+  "reel_id": "Cmt5ay1Bytt",
+  "creator": "ladyandhersweetescapes",
+  "url": "https://www.instagram.com/reel/Cmt5ay1Bytt/",
+  "caption": "Challenge your besties to an ultimate adventure @tepfactor.dubai! \n\nTEP Factor in JBR-The Walk is a cavelike recreation park with 21 challenges in 4 categories (Logic, Skills, Fitness, Patience). It’s great for team building, occasions, and just for a fun day out with friends and family members! \n\n🎟️ 99 AED per person/hour\n\nTag your adventure buddies!\n\n#TEPfactor #JBRDubai #ladyandhersweetescapes #DubaiBlogger #PinayBlogger #UAEblogger #Dubai #uae #DubaiDestinations #MyDubai #visitDubai",
+  "metadata": {
+    "hashtags": [
+      "TEPfactor",
+      "JBRDubai",
+      "ladyandhersweetescapes",
+      "DubaiBlogger",
+      "PinayBlogger",
+      "UAEblogger",
+      "Dubai",
+      "uae",
+      "DubaiDestinations",
+      "MyDubai",
+      "visitDubai"
+    ],
+    "mentions": [
+      "tepfactor.dubai"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/ladyandhersweetescapes/Cmt5ay1Bytt/Cmt5ay1Bytt.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/ladyandhersweetescapes/Cmt5ay1Bytt/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:20:53.098Z"
+}

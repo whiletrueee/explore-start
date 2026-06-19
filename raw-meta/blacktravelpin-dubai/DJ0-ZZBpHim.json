@@ -1,0 +1,32 @@
+{
+  "reel_id": "DJ0-ZZBpHim",
+  "creator": "blacktravelpin",
+  "url": "https://www.instagram.com/reel/DJ0-ZZBpHim/",
+  "caption": "@linealuxespa - Get 20% off until May 31 💆‍♀️✨\n\nThey offer home service across Dubai and bring everything with them: the table, oils, towels, good vibes…\n\nAnd right now they’re giving 20% OFF until May 31.\n\n@linealuxespa \n\nFollow @blacktravelpin for more Daily Dubai Tips. 😍 \n\n#dubai #dubailife #dubaitravel #uaetravelcreators \n#dubaispa #linealuxespa #massagedubai #selfcaregoals #dubailifestyle #spaathome #girlsindubai #wellnessvibes",
+  "metadata": {
+    "hashtags": [
+      "dubai",
+      "dubailife",
+      "dubaitravel",
+      "uaetravelcreators",
+      "dubaispa",
+      "linealuxespa",
+      "massagedubai",
+      "selfcaregoals",
+      "dubailifestyle",
+      "spaathome",
+      "girlsindubai",
+      "wellnessvibes"
+    ],
+    "mentions": [
+      "linealuxespa",
+      "linealuxespa",
+      "blacktravelpin"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DJ0-ZZBpHim/DJ0-ZZBpHim.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DJ0-ZZBpHim/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:16:38.335Z"
+}

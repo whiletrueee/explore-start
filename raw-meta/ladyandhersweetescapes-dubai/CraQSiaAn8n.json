@@ -1,0 +1,35 @@
+{
+  "reel_id": "CraQSiaAn8n",
+  "creator": "ladyandhersweetescapes",
+  "url": "https://www.instagram.com/reel/CraQSiaAn8n/",
+  "caption": "Etisalat by e& Beach Canteen is back! 🏖️ \n\nFor its 10th anniversary, the beachside pop-up looks extra special! There’s a mocktail bar, colorful instagrammable spots, live music, fun activities, and of course a lot of delicious food to try!\n\n🎟️ FREE ENTRY\n📍 Kite Beach behind Sunset Mall\n🗓️ Until May 7, 4 PM to 11 PM\n\n@celebratedubai\n#EidinDubai\n\n#DubaiBeachCanteen #ladyandhersweetescapes #visitUAE #dubaiblogger #uaeblogger #travelblogger #pinayblogger #mydubai #dubai #visitdubai #DubaiReels #DubaiEats",
+  "metadata": {
+    "hashtags": [
+      "EidinDubai",
+      "DubaiBeachCanteen",
+      "ladyandhersweetescapes",
+      "visitUAE",
+      "dubaiblogger",
+      "uaeblogger",
+      "travelblogger",
+      "pinayblogger",
+      "mydubai",
+      "dubai",
+      "visitdubai",
+      "DubaiReels",
+      "DubaiEats"
+    ],
+    "mentions": [
+      "celebratedubai"
+    ],
+    "geo_locations": [
+      "Kite Beach behind Sunset Mall"
+    ],
+    "pinned_places": [
+      "Kite Beach behind Sunset Mall"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/ladyandhersweetescapes/CraQSiaAn8n/CraQSiaAn8n.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/ladyandhersweetescapes/CraQSiaAn8n/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:21:15.486Z"
+}

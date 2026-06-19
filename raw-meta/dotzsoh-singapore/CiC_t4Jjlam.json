@@ -1,0 +1,24 @@
+{
+  "reel_id": "CiC_t4Jjlam",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/CiC_t4Jjlam/",
+  "caption": "sometimes we just need to relax to enjoy life ✨✨⛰🌴🌅🍂✨ #bali #indonesia \nwhich do you like ? ✨ wishing you a wonderful day\n.\n.\nphoto @dotzsoh @dotzsoh2 \n#dotzsoh #wonderfulindonesia #photoreel",
+  "metadata": {
+    "hashtags": [
+      "bali",
+      "indonesia",
+      "dotzsoh",
+      "wonderfulindonesia",
+      "photoreel"
+    ],
+    "mentions": [
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CiC_t4Jjlam/CiC_t4Jjlam.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CiC_t4Jjlam/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:18:22.553Z"
+}

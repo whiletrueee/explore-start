@@ -1,0 +1,34 @@
+{
+  "reel_id": "CjSqdtaDfp4",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/CjSqdtaDfp4/",
+  "caption": "fill your life with experiences, explore & discover ✨🕌🌆🌇🇱🇰✨ visiting #srilanka Red Mosque or Jami Ul-Alfar Masjidin in #colombo has a stunning architecture situated in the bustling Pettah district juxtaposed with the shops surrounding it @destination_srilanka \n.\n.\nreel @dotzsoh @dotzsoh2 \n#dotzsoh #sosrilanka #slbloggers #visitsrilanka #destinationsrilanka #redmosque #jamiulalfarmosque #architecture #citystreets #girlsthatwander #asia #djimini3pro",
+  "metadata": {
+    "hashtags": [
+      "srilanka",
+      "colombo",
+      "dotzsoh",
+      "sosrilanka",
+      "slbloggers",
+      "visitsrilanka",
+      "destinationsrilanka",
+      "redmosque",
+      "jamiulalfarmosque",
+      "architecture",
+      "citystreets",
+      "girlsthatwander",
+      "asia",
+      "djimini3pro"
+    ],
+    "mentions": [
+      "destination_srilanka",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CjSqdtaDfp4/CjSqdtaDfp4.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CjSqdtaDfp4/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:18:25.955Z"
+}

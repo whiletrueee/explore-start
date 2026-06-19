@@ -1,0 +1,24 @@
+{
+  "reel_id": "DOJrB7Ck1H7",
+  "creator": "blacktravelpin",
+  "url": "https://www.instagram.com/reel/DOJrB7Ck1H7/",
+  "caption": "Dubai 🫶\n\n#dubai #dubaitips #dubaitravel #dubaitrip #visitdubai #exploreuae #habibicometodubai #dubaiactivities",
+  "metadata": {
+    "hashtags": [
+      "dubai",
+      "dubaitips",
+      "dubaitravel",
+      "dubaitrip",
+      "visitdubai",
+      "exploreuae",
+      "habibicometodubai",
+      "dubaiactivities"
+    ],
+    "mentions": [],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DOJrB7Ck1H7/DOJrB7Ck1H7.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DOJrB7Ck1H7/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:16:55.248Z"
+}

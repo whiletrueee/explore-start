@@ -1,0 +1,29 @@
+{
+  "reel_id": "DNlgWWfyBgd",
+  "creator": "blacktravelpin",
+  "url": "https://www.instagram.com/reel/DNlgWWfyBgd/",
+  "caption": "Life is better in Dubai 😌\n\nFollow @blacktravelpin for more Daily Dubai Vibes.\n\n#dubai #dubailife #dubaitravel #travelmoments #dubai #burjkhalifadubai #dubaitrip #visitdubai #exploreuae #uaetravelcreators #habibicometodubai",
+  "metadata": {
+    "hashtags": [
+      "dubai",
+      "dubailife",
+      "dubaitravel",
+      "travelmoments",
+      "dubai",
+      "burjkhalifadubai",
+      "dubaitrip",
+      "visitdubai",
+      "exploreuae",
+      "uaetravelcreators",
+      "habibicometodubai"
+    ],
+    "mentions": [
+      "blacktravelpin"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DNlgWWfyBgd/DNlgWWfyBgd.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/blacktravelpin/DNlgWWfyBgd/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:16:51.436Z"
+}

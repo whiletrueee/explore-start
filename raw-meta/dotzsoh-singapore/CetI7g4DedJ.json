@@ -1,0 +1,34 @@
+{
+  "reel_id": "CetI7g4DedJ",
+  "creator": "dotzsoh-singapore",
+  "url": "https://www.instagram.com/reel/CetI7g4DedJ/",
+  "caption": "appreciates the little things ✨🐠🐟🌿🍂✨ beautiful koi pond and garden @shangrilasg #singapore #shangrilasg #shangrilahotel \n.\nhad a lovely #staycation recently @shangrilasg & enjoyed the luxurious tropical sanctuary in the heart of the city. \ndo check out Your Shangri-la Retreat for 50% Chi, The Spa promotions \n@shangrilahotels \n.\n.\nreel @dotzsoh @dotzsoh2 \n#dotzsoh #luxuryhotel #beautifulhotels #uniquehotels #visitsingapore #koipond #tropicalgarden #koipondsingapore",
+  "metadata": {
+    "hashtags": [
+      "singapore",
+      "shangrilasg",
+      "shangrilahotel",
+      "staycation",
+      "dotzsoh",
+      "luxuryhotel",
+      "beautifulhotels",
+      "uniquehotels",
+      "visitsingapore",
+      "koipond",
+      "tropicalgarden",
+      "koipondsingapore"
+    ],
+    "mentions": [
+      "shangrilasg",
+      "shangrilasg",
+      "shangrilahotels",
+      "dotzsoh",
+      "dotzsoh2"
+    ],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CetI7g4DedJ/CetI7g4DedJ.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/dotzsoh-singapore/CetI7g4DedJ/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T12:18:20.397Z"
+}
