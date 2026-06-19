@@ -156,6 +156,41 @@ tr.mxrow{border-bottom:1px solid #E4E9EF;} tr.mxrow:last-child{border-bottom:non
 .srclist a{font-family:ui-monospace,monospace;font-size:11px;border:1px solid var(--line);border-radius:7px;padding:5px 10px;color:var(--accent-2);background:var(--paper);display:inline-flex;gap:6px;align-items:center;}
 .srclist a:hover{border-color:var(--accent-2);}
 .srclist a .ig{color:#C0398A;font-weight:700;}
+/* synthesized lists */
+.lists-sec{margin:4px 0 34px;}
+.lists-sec .sechd{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:14px;}
+.lists-sec .sechd h3{margin:0;font-size:18px;font-weight:800;letter-spacing:-.01em;}
+.lists-sec .sechd .num{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-soft);}
+.lists{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;}
+.list-card{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .12s,box-shadow .12s;}
+.list-card:hover{transform:translateY(-2px);box-shadow:0 16px 38px -18px rgba(21,36,58,.5);}
+.lc-top{padding:11px 15px 9px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line);}
+.lc-badge{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;padding:3px 8px;border-radius:5px;color:#fff;}
+.lc-lens{font-family:ui-monospace,monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);border:1px solid var(--line);border-radius:5px;padding:2px 7px;font-weight:700;}
+.lc-b{padding:13px 16px 15px;display:flex;flex-direction:column;gap:8px;}
+.lc-hd{font-size:19px;font-weight:850;letter-spacing:-.01em;line-height:1.14;}
+.lc-sub{font-size:12.5px;color:var(--ink-soft);}
+.lc-areas{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-soft);line-height:1.4;}
+.lc-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px;}
+.lc-tag{font-family:ui-monospace,monospace;font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);border:1px solid var(--line);border-radius:5px;padding:2px 7px;font-weight:700;}
+.lc-tag.price{color:var(--accent-2);border-color:#C4D6E1;background:#EAF2F7;}
+.lr-els{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px;}
+.lr-els .el{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-soft);border:1px solid var(--line);border-radius:7px;padding:5px 10px;background:var(--paper);}
+.abst{margin-top:14px;background:#FBF3E8;border:1px dashed #E2C795;border-radius:12px;padding:12px 15px;font-size:12.5px;color:#7a5a1a;line-height:1.5;}
+.abst b{font-weight:800;}
+.list-reader{margin-top:14px;}
+.lr-hd{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:4px;}
+.lr-hook{font-size:30px;font-weight:850;letter-spacing:-.02em;line-height:1.06;margin:10px 0 4px;}
+.lr-sub{font-size:14px;color:var(--ink-soft);}
+.lr-help{font-size:12.5px;color:var(--accent-2);background:#EAF2F7;border:1px solid #C4D6E1;border-radius:8px;padding:8px 12px;margin:14px 0 2px;display:inline-block;}
+.opt{display:flex;gap:13px;padding:14px 0;border-top:1px solid var(--line);}
+.opt .rk{font-family:ui-monospace,monospace;font-size:13px;font-weight:800;color:#fff;border-radius:8px;min-width:28px;height:28px;display:flex;align-items:center;justify-content:center;flex:none;}
+.opt .ob{display:flex;flex-direction:column;gap:5px;}
+.opt .onm{font-size:16px;font-weight:800;letter-spacing:-.01em;}
+.opt .onm a{color:inherit;border:none;} .opt .onm a:hover{color:var(--accent-2);}
+.opt .ometa{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);}
+.opt .owhy{font-size:13px;color:#33455c;line-height:1.45;}
+.opt .opills{display:flex;flex-wrap:wrap;gap:6px;font-family:ui-monospace,monospace;font-size:10.5px;margin-top:2px;}
 </style>
 <div class="wrap">
 <header>
@@ -182,6 +217,11 @@ const creators=Object.keys(wb); let active=creators[0], selCity=null, selCat=nul
 const GEMS={}; creators.forEach(c=>Object.values(wb[c].cities).forEach(ci=>ci.items.forEach(it=>GEMS[it.id]=it)));
 const ITINS=DB.itins||[];
 const itinsFor=cr=>ITINS.filter(i=>i.creator===cr);
+let LISTS=[], ABST=[], openList=null;
+const listsFor=cr=>LISTS.filter(l=>l.creator===cr);
+const abstFor=cr=>ABST.filter(a=>a.creator===cr);
+const LENS_C={local:'#2E7D32',tourist:'#2D6A8E'};
+fetch('lists.json').then(r=>r.json()).then(d=>{LISTS=d.lists||[];ABST=d.abstentions||[];render();}).catch(()=>{});
 const esc=s=>(s||'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const mapsLink=t=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(t);
 
@@ -288,9 +328,9 @@ function renderReader(id){const i=ITINS.find(x=>x.id===id);if(!i)return renderIt
   <button class="rback" id="rback2" style="margin-top:18px">← All itineraries</button></div>`;}
 
 function renderPanel(){const cr=active,m=creatorMeta[cr]||{name:cr,tag:''};
- const toggle=ITINS.length?`<div class="modes"><button class="modebtn" aria-pressed="${mode==='gems'}" data-mode="gems">Gems</button><button class="modebtn" aria-pressed="${mode==='itins'}" data-mode="itins">Itineraries</button></div>`:'';
+ const toggle=(ITINS.length||LISTS.length)?`<div class="modes"><button class="modebtn" aria-pressed="${mode==='gems'}" data-mode="gems">Gems</button><button class="modebtn" aria-pressed="${mode==='itins'}" data-mode="itins">Itineraries &amp; lists</button></div>`:'';
  let inner;
- if(mode==='itins'){ inner = openItin ? renderReader(openItin) : renderItinList(cr); }
+ if(mode==='itins'){ inner = openList ? renderListReader(openList) : openItin ? renderReader(openItin) : (renderListsSection(cr)+renderItinList(cr)); }
  else {
   const kc=cats.map(([k,l])=>`<button class="chip" aria-pressed="${selCat===k}" data-cat="${k}">${l}</button>`).join('');
   inner=renderMatrix(cr)+`<div class="bar"><span class="lab">Category</span><button class="chip" aria-pressed="${!selCat}" data-cat="">All</button>${kc}<button class="chip clear" data-clear="1">Reset</button></div><div id="content">${renderContent(cr)}</div>`;
@@ -298,8 +338,9 @@ function renderPanel(){const cr=active,m=creatorMeta[cr]||{name:cr,tag:''};
  panel.innerHTML=`<div class="crtitle"><h2>${m.name}</h2><span class="tg">${m.tag}</span></div>${toggle}${inner}`;
  document.querySelectorAll('.modebtn').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;openItin=null;render();});
  if(mode==='itins'){
-  document.querySelectorAll('.itin-card[data-itin]').forEach(c=>c.onclick=()=>{openItin=c.dataset.itin;render();window.scrollTo(0,0);});
-  ['rback','rback2'].forEach(id=>{const b=document.getElementById(id);if(b)b.onclick=()=>{openItin=null;render();window.scrollTo(0,0);};});
+  document.querySelectorAll('.itin-card[data-itin]').forEach(c=>c.onclick=()=>{openItin=c.dataset.itin;openList=null;render();window.scrollTo(0,0);});
+  document.querySelectorAll('.list-card[data-list]').forEach(c=>c.onclick=()=>{openList=c.dataset.list;openItin=null;render();window.scrollTo(0,0);});
+  ['rback','rback2','lrback','lrback2'].forEach(id=>{const b=document.getElementById(id);if(b)b.onclick=()=>{openItin=null;openList=null;render();window.scrollTo(0,0);};});
   return;
  }
  document.querySelectorAll('.cell[data-city]').forEach(c=>c.onclick=()=>{const ci=c.dataset.city,ca=c.dataset.cat;
@@ -328,6 +369,63 @@ function spotlight(id){const it=GEMS[id];if(!it)return;const p=it.profile||{};
  document.getElementById('slx').onclick=closeSL;}
 function closeSL(){sl.classList.remove('on');slback.classList.remove('on');}
 slback.onclick=closeSL;document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSL();});
+// ---- synthesized lists (appended into the Itineraries & lists view) ----
+const PRICE_LABEL={'free':'Free','mostly-free':'Mostly free','mixed':'Free & paid','paid':'Paid'};
+// list cards surface what *differs* between lists — areas, price band, theme —
+// not venue names (those repeat across lists and belong in the detail view).
+function listCard(l){const c=LENS_C[l.lens]||'#6B7280';
+ const areas=(l.areas||[]).slice(0,3).map(esc).join(' · ');
+ const moreA=(l.areas||[]).length>3?` +${l.areas.length-3}`:'';
+ const areaLine=areas?`<div class="lc-areas">📍 ${areas}${moreA}</div>`:'';
+ const tags=[];
+ if(l.price_band)tags.push(`<span class="lc-tag price">${PRICE_LABEL[l.price_band]||esc(l.price_band)}</span>`);
+ (l.themes||[]).slice(0,2).forEach(t=>tags.push(`<span class="lc-tag">${esc(t)}</span>`));
+ return `<div class="list-card" data-list="${esc(l.id)}">
+  <div class="lc-top"><span class="lc-badge" style="background:${c}">${esc(l.axis_type)}</span>
+   <span class="lc-lens">${l.lens==='local'?'for locals':'for visitors'}</span>
+   <span class="lc-lens">${l.count} options</span></div>
+  <div class="lc-b"><div class="lc-hd">${esc(l.headline)}</div>
+   <div class="lc-sub">${esc(l.subhead)}</div>
+   ${areaLine}
+   <div class="lc-tags">${tags.join('')}</div></div></div>`;}
+function abstNote(ab){const items=ab.map(a=>`<b>${esc(a.place)}</b> (${a.pool_gems} gems)`).join(', ');
+ const rem=(ab[0]?ab[0].remedy:'').replace(/-/g,' ');
+ return `<div class="abst">⚐ No confident list yet for ${items} — not enough corroborated, same-theme gems to clear the quality bar. Remedy: <b>${esc(rem)}</b>.</div>`;}
+function renderListsSection(cr){const ls=listsFor(cr),ab=abstFor(cr);
+ if(!ls.length&&!ab.length)return '';
+ let h=`<div class="lists-sec"><div class="sechd"><h3>Curated lists</h3><span class="num">${ls.length} list${ls.length===1?'':'s'} · synthesized across this creator's reels · pick one or two</span></div>`;
+ if(ls.length)h+=`<div class="lists">${ls.map(listCard).join('')}</div>`;
+ else h+=`<div class="empty">No confident lists for this creator yet.</div>`;
+ if(ab.length)h+=abstNote(ab);
+ return h+`</div>`;}
+function optRow(o,i){const cc=CATC[o.category]||'#2D6A8E';
+ const title=o.location_text?`<a href="${mapsLink(o.location_text)}" target="_blank" rel="noopener">${esc(o.name)} ↗</a>`:esc(o.name);
+ const meta=[CATLABEL[o.category],o.subcategory].filter(Boolean).join(' / ');
+ const pills=[];
+ if(o.area||o.city)pills.push(`<span class="pill loc">📍 ${esc(o.area||o.city)}</span>`);
+ if(o.price_text)pills.push(`<span class="pill">💲 ${esc(o.price_text).slice(0,18)}</span>`);
+ if(o.saved_from>1)pills.push(`<span class="pill has">★ ${o.saved_from} reels</span>`);
+ if(o.source_reel)pills.push(`<a class="pill has" href="${esc(o.source_reel)}" target="_blank" rel="noopener">▶ reel</a>`);
+ return `<div class="opt"><div class="rk" style="background:${cc}">${i+1}</div>
+  <div class="ob"><div class="onm">${title}</div>
+   <div class="ometa">${esc(meta)}${o.confidence?` · <span style="color:${CONFC[o.confidence]||'#999'}">●</span> ${esc(o.confidence)}`:''}</div>
+   <div class="owhy">${esc((o.hook?o.hook+' — ':'')+(o.why||''))}</div>
+   <div class="opills">${pills.join('')}</div></div></div>`;}
+function renderListReader(id){const l=LISTS.find(x=>x.id===id);if(!l)return renderListsSection(active)+renderItinList(active);
+ const cm=creatorMeta[l.creator]||{name:l.creator};
+ const els=[];
+ if((l.areas||[]).length)els.push(`<span class="el">📍 ${l.areas.map(esc).join(' · ')}</span>`);
+ if(l.price_band)els.push(`<span class="el">💲 ${PRICE_LABEL[l.price_band]||esc(l.price_band)}</span>`);
+ if((l.themes||[]).length)els.push(`<span class="el">🏷 ${l.themes.map(esc).join(' · ')}</span>`);
+ els.push(`<span class="el">▶ ${l.source_reel_count} reel${l.source_reel_count===1?'':'s'}</span>`);
+ return `<div class="list-reader"><button class="rback" id="lrback">← Back to itineraries &amp; lists</button>
+  <div class="lr-hd"><div class="eyebrow">${esc(l.place)} · ${l.lens==='local'?'local picks':'visitor picks'} · ${esc(cm.name)}</div>
+   <div class="lr-hook">${esc(l.headline)}</div><div class="lr-sub">${esc(l.subhead)}</div>
+   <div class="lr-els">${els.join('')}</div>
+   <div class="lr-help">These are options, not a route — most people pick one or two.</div></div>
+  ${l.options.map(optRow).join('')}
+  <button class="rback" id="lrback2" style="margin-top:18px">← Back to itineraries &amp; lists</button></div>`;}
+
 function render(){renderTabs();renderPanel();}
 renderLegend();render();
 </script>
