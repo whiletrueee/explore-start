@@ -3,11 +3,15 @@
 import { useEffect, useMemo, useState, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import type { Gem, Pack } from '@/lib/types';
-import { catV2, isMappedV2, GRID } from '@/lib/catalog';
+import { catV2, isMappedV2, GRID, mediaSrc } from '@/lib/catalog';
 import { useSaved } from '@/lib/saved';
 import MapView from '@/components/MapView';
 import PackRow from '@/components/PackRow';
 import GemDetail from '@/components/GemDetail';
+import ItineraryCard from '@/components/ItineraryCard';
+import ItineraryDetail, { type Itin } from '@/components/ItineraryDetail';
+import ListDetail from '@/components/ListDetail';
+import TipRow from '@/components/TipRow';
 
 const PER_GROUP = 6;
 const PRIMARIES: [string, string][] = [
@@ -29,6 +33,7 @@ export default function GuidePage() {
   const [primary, setPrimary] = useState('gems');
   const [cat, setCat] = useState<string | null>(null);
   const [detail, setDetail] = useState<Gem | null>(null);
+  const [itin, setItin] = useState<Itin | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set());
   const [scrolled, setScrolled] = useState(false);
@@ -42,6 +47,7 @@ export default function GuidePage() {
     setCat(null);
     setExpanded(new Set());
     setDetail(null);
+    setItin(null);
     setScrolled(false);
     setUnlocked(localStorage.getItem('hs_unlocked_' + handle) === '1');
     fetch(fileFor(handle))
@@ -65,7 +71,6 @@ export default function GuidePage() {
     });
   const openDetail = (item: Gem) => {
     if (!item) return;
-    setPrimary('gems');
     setSelected(item.id);
     setDetail(item);
   };
@@ -73,7 +78,10 @@ export default function GuidePage() {
     setDetail(null);
     setSelected(null);
   };
-  const pickPin = (id: string) => openDetail(itemsById[id]);
+  const pickPin = (id: string) => {
+    setPrimary('gems');
+    openDetail(itemsById[id]);
+  };
   const onScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const s = (e.target as HTMLDivElement).scrollTop > 30;
     setScrolled((p) => (p === s ? p : s));
@@ -128,7 +136,21 @@ export default function GuidePage() {
   const mapZoom = unlocked ? pack.zoom : cityMeta[FREE_CITY]?.zoom || pack.zoom;
   const mapPins = (primary === 'gems' ? gemsFiltered : browseGems).filter(isMappedV2);
 
-  const listCount = curatedLists.length || lists.length;
+  // Lists tab cards: structured curated lists (rich, with per-item descriptions) + prose round-up items
+  const curatedAsItems: Gem[] = curatedLists.map((L) => ({
+    id: L.id,
+    name: L.headline,
+    hook: L.subhead,
+    why: L.subhead,
+    category: 'list',
+    subcategory: 'roundup',
+    themes: (L.themes as string[]) || [],
+    price_text: L.price_band || null,
+    media_url: (L.options && L.options[0] && (L.options[0].media_url as string)) || null,
+    options: L.options as Gem[],
+  }));
+  const listEntries = [...curatedAsItems, ...lists];
+  const listCount = listEntries.length;
   const count =
     primary === 'gems'
       ? `${gemsFiltered.length} ${cat ? catV2({ category: cat }).label.toLowerCase() : 'gems'}`
@@ -143,6 +165,28 @@ export default function GuidePage() {
           : `${tips.length} tips`;
 
   const itinCount = pack.itinerary ? 1 : itinItems.length;
+
+  // itinerary tab front-page cards: the detailed pack itinerary (if any) + summary itinerary items
+  const itinEntries: Array<{ title: string; hook?: string; cover?: string | null; days?: number; city?: string; raw: Itin }> = [
+    ...(pack.itinerary
+      ? [{
+          title: pack.itinerary.title || 'Itinerary',
+          hook: pack.itinerary.hook,
+          cover: pack.cover,
+          days: pack.itinerary.days_count,
+          city: pack.itinerary.city,
+          raw: pack.itinerary as Itin,
+        }]
+      : []),
+    ...itinItems.map((it) => ({
+      title: it.name || it.hook || 'Itinerary',
+      hook: it.hook,
+      cover: it.media_url,
+      days: typeof it.days === 'number' ? it.days : undefined,
+      city: it.city,
+      raw: it as Itin,
+    })),
+  ];
 
   return (
     <div className="mp">
@@ -159,8 +203,8 @@ export default function GuidePage() {
         <div
           className="mp-banner"
           style={
-            pack.cover
-              ? { backgroundImage: `linear-gradient(180deg, rgba(16,18,22,.30), rgba(16,18,22,.80)), url(${pack.cover})` }
+            mediaSrc(pack.cover)
+              ? { backgroundImage: `linear-gradient(180deg, rgba(16,18,22,.30), rgba(16,18,22,.80)), url(${mediaSrc(pack.cover)})` }
               : { background: `linear-gradient(135deg, ${c.color}, ${c.color}bb)` }
           }
         >
@@ -244,34 +288,23 @@ export default function GuidePage() {
           ) : null}
 
           {primary === 'itinerary' ? (
-            <div className="mp-itin">
-              {pack.itinerary ? (
-                <div className="mp-itin-hd"><strong>{pack.itinerary.title}</strong>{pack.itinerary.hook ? <p>{pack.itinerary.hook}</p> : null}</div>
-              ) : null}
-              {itinItems.length ? (
-                <>
-                  <div className="mp-grouphdr">{pack.itinerary ? 'More itinerary ideas' : 'Itineraries'}<span>{itinItems.length}</span></div>
-                  {itinItems.map((t) => (
-                    <button key={t.id} className="mp-tip" onClick={() => openDetail(t)}>
-                      <strong>{t.hook || t.name}</strong>
-                      <p>{(t.why || '').slice(0, 120)}</p>
-                    </button>
-                  ))}
-                </>
-              ) : null}
-              {!pack.itinerary && !itinItems.length ? <div className="mp-empty">No itinerary in this guide yet.</div> : null}
+            <div className="itin-list">
+              {itinEntries.length ? (
+                itinEntries.map((e, i) => (
+                  <ItineraryCard key={i} title={e.title} hook={e.hook} cover={e.cover} days={e.days} city={e.city} onClick={() => setItin(e.raw)} />
+                ))
+              ) : (
+                <div className="mp-empty">No itinerary in this guide yet.</div>
+              )}
               <div className="mp-bodypad" />
             </div>
           ) : null}
 
           {primary === 'lists' ? (
             <div className="mp-group">
-              {lists.length ? (
-                lists.map((t) => (
-                  <button key={t.id} className="mp-tip" onClick={() => openDetail(t)}>
-                    <strong>{t.hook || t.name}</strong>
-                    <p>{(t.why || '').slice(0, 120)}</p>
-                  </button>
+              {listEntries.length ? (
+                listEntries.map((t) => (
+                  <PackRow key={t.id} item={t} onOpen={openDetail} saved={savedIds.includes(t.id)} onSave={(g) => toggle(g, c)} />
                 ))
               ) : (
                 <div className="mp-empty">No lists in this guide yet.</div>
@@ -281,14 +314,9 @@ export default function GuidePage() {
           ) : null}
 
           {primary === 'tips' ? (
-            <div className="mp-group">
+            <div className="tips-list">
               {tips.length ? (
-                tips.map((t) => (
-                  <button key={t.id} className="mp-tip" onClick={() => openDetail(t)}>
-                    <strong>{t.hook || t.name}</strong>
-                    <p>{(t.why || '').slice(0, 120)}</p>
-                  </button>
-                ))
+                tips.map((t) => <TipRow key={t.id} item={t} />)
               ) : (
                 <div className="mp-empty">No tips in this guide yet.</div>
               )}
@@ -299,10 +327,16 @@ export default function GuidePage() {
       </div>
 
       {detail ? (
-        <GemDetail item={detail} creator={c} pack={pack} onBack={closeDetail} isSaved={savedIds.includes(detail.id)} onToggleSave={toggle} />
+        detail.category === 'list' ? (
+          <ListDetail item={detail} creator={c} onBack={closeDetail} isSaved={savedIds.includes(detail.id)} onToggleSave={toggle} />
+        ) : (
+          <GemDetail item={detail} creator={c} pack={pack} onBack={closeDetail} isSaved={savedIds.includes(detail.id)} onToggleSave={toggle} />
+        )
       ) : null}
 
-      {!unlocked && !detail ? (
+      {itin ? <ItineraryDetail itinerary={itin} itemsById={itemsById} pack={pack} onBack={() => setItin(null)} /> : null}
+
+      {!unlocked && !detail && !itin ? (
         <div className="mp-unlockbar">
           <div className="mp-unlock-info">
             <strong>Unlock the full guide</strong>

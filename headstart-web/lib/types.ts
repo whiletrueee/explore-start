@@ -29,6 +29,8 @@ export interface Gem {
   lng?: number | null;
   approx?: boolean;
   days?: number;
+  // structured round-up items (curated lists) — each is gem-like with its own why/area/price
+  options?: Gem[];
   // attached when saved to the wishlist
   _creator?: { handle: string; name: string; color: string } | null;
 }
@@ -54,13 +56,44 @@ export interface CityMeta {
   count: number;
 }
 
+export interface ItineraryStop {
+  slot?: string;
+  time?: string;
+  gem_id?: string;
+  title?: string;
+  what?: string;
+  why?: string;
+  transit_next?: string;
+  tip?: string;
+}
+export interface ItineraryDay {
+  day: number;
+  hook?: string;
+  theme?: string;
+  area?: string;
+  pace_note?: string;
+  stops?: ItineraryStop[];
+}
+export interface ItineraryData {
+  id?: string;
+  title?: string;
+  hook?: string;
+  summary?: string;
+  best_for?: string;
+  days_count?: number;
+  city?: string;
+  days?: ItineraryDay[];
+  logistics?: { getting_around?: string; where_to_stay?: string; best_time?: string };
+  gem_ids_used?: string[];
+}
+
 export interface Pack {
   creator: { handle: string; name: string; tag: string; color: string; destination: string };
   center: [number, number];
   zoom: number;
   cityMeta: Record<string, CityMeta>;
   items: Gem[];
-  itinerary: { title: string; hook?: string; days?: unknown[] } | null;
+  itinerary: ItineraryData | null;
   price: number;
   curatedLists: Array<{ id: string; headline: string; subhead: string; price_band?: string; lens?: string; options: Gem[] }>;
   guideName: string;

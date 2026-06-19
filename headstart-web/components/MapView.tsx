@@ -1,9 +1,13 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import 'leaflet/dist/leaflet.css';
+import { useEffect, type CSSProperties } from 'react';
+import { Map, AdvancedMarker, useMap, useMapsLibrary } from '@vis.gl/react-google-maps';
 import type { Gem } from '@/lib/types';
 import { meta } from '@/lib/catalog';
+
+// 'DEMO_MAP_ID' lets AdvancedMarkers work in development without creating a Map ID.
+const MAP_ID = process.env.NEXT_PUBLIC_GOOGLE_MAPS_MAP_ID || 'DEMO_MAP_ID';
+const HAS_KEY = !!process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
 interface Props {
   gems: Gem[];
@@ -12,95 +16,107 @@ interface Props {
   center: [number, number];
   zoom: number;
   active?: boolean | string;
-  tiles?: 'minimal' | 'voyager' | 'dark';
+  tiles?: string;
+  path?: [number, number][]; // ordered route to draw (itinerary point-to-point) + fit bounds
+  numbered?: boolean; // show ordered numbered markers (itinerary stops) instead of category pins
 }
 
-// Imperative Leaflet wrapper (client-only). Mirrors the prototype MapView behavior:
-// divIcon pins, click-to-select, pan/fly on selection + scope change, invalidateSize.
-export default function MapView({ gems, selectedId, onSelect, center, zoom, active = true, tiles = 'minimal' }: Props) {
-  const elRef = useRef<HTMLDivElement>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const mapRef = useRef<any>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const markersRef = useRef<Record<string, any>>({});
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const LRef = useRef<any>(null);
+const ROUTE_COLOR = '#8000ff';
 
-  const buildMarkers = () => {
-    const L = LRef.current;
-    const map = mapRef.current;
-    if (!L || !map) return;
-    Object.values(markersRef.current).forEach((mk) => map.removeLayer(mk));
-    markersRef.current = {};
-    gems.forEach((g) => {
-      if (g.lat == null || g.lng == null) return;
-      const m = meta(g);
-      const icon = L.divIcon({
-        className: '',
-        html: `<div class="pin" style="border-color:${m.color}"><div class="pin-dot">${m.emoji}</div></div>`,
-        iconSize: [28, 28],
-        iconAnchor: [14, 26],
-      });
-      const mk = L.marker([g.lat, g.lng], { icon }).addTo(map);
-      mk.on('click', () => onSelect && onSelect(g.id));
-      markersRef.current[g.id] = mk;
+// Itinerary route: a soft halo line + a dotted overlay, fit to bounds. Reads as a walking path.
+function Route({ path }: { path: [number, number][] }) {
+  const map = useMap();
+  const maps = useMapsLibrary('maps');
+  useEffect(() => {
+    if (!map || !maps || !path || path.length < 1) return;
+    const pts = path.map(([lat, lng]) => ({ lat, lng }));
+    const halo = new maps.Polyline({ path: pts, geodesic: true, strokeColor: ROUTE_COLOR, strokeOpacity: 0.2, strokeWeight: 7 });
+    const dotted = new maps.Polyline({
+      path: pts,
+      geodesic: true,
+      strokeOpacity: 0,
+      icons: [
+        {
+          icon: { path: google.maps.SymbolPath.CIRCLE, scale: 3.2, fillColor: ROUTE_COLOR, fillOpacity: 1, strokeColor: '#fff', strokeWeight: 1.4 },
+          offset: '0',
+          repeat: '15px',
+        },
+      ],
     });
-  };
-
-  const reflectSelection = () => {
-    const map = mapRef.current;
-    if (!map) return;
-    Object.entries(markersRef.current).forEach(([id, mk]) => {
-      const el = mk.getElement() && mk.getElement().querySelector('.pin');
-      if (el) el.classList.toggle('active', id === selectedId);
-    });
-    if (selectedId && markersRef.current[selectedId]) {
-      map.panTo(markersRef.current[selectedId].getLatLng(), { animate: true });
+    halo.setMap(map);
+    dotted.setMap(map);
+    if (pts.length > 1) {
+      const bounds = new google.maps.LatLngBounds();
+      pts.forEach((p) => bounds.extend(p));
+      map.fitBounds(bounds, 60);
     }
-  };
-
-  // init once
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      if (mapRef.current || !elRef.current) return;
-      const L = (await import('leaflet')).default;
-      if (cancelled || !elRef.current || mapRef.current) return;
-      LRef.current = L;
-      const map = L.map(elRef.current, { zoomControl: false, attributionControl: false }).setView(center, zoom);
-      const TILE: Record<string, string> = {
-        dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-        minimal: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-        voyager: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-      };
-      L.tileLayer(TILE[tiles] || TILE.voyager, { maxZoom: 19 }).addTo(map);
-      L.control.zoom({ position: 'bottomright' }).addTo(map);
-      mapRef.current = map;
-      buildMarkers();
-      reflectSelection();
-    })();
     return () => {
-      cancelled = true;
-      if (mapRef.current) {
-        mapRef.current.remove();
-        mapRef.current = null;
-      }
+      halo.setMap(null);
+      dotted.setMap(null);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [map, maps, path]);
+  return null;
+}
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => { buildMarkers(); reflectSelection(); }, [gems]);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => { reflectSelection(); }, [selectedId]);
+// Imperatively pan/zoom the camera when center/zoom or the selection changes
+// (mirrors the old Leaflet flyTo/panTo behavior).
+function Camera({ center, zoom, selectedId, gems }: Pick<Props, 'center' | 'zoom' | 'selectedId' | 'gems'>) {
+  const map = useMap();
   useEffect(() => {
-    const map = mapRef.current;
-    if (map && center) map.flyTo(center, zoom, { duration: 0.55 });
+    if (map && center) map.panTo({ lat: center[0], lng: center[1] });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [center?.[0], center?.[1], zoom]);
+  }, [map, center?.[0], center?.[1]]);
   useEffect(() => {
-    if (mapRef.current) setTimeout(() => mapRef.current && mapRef.current.invalidateSize(), 60);
-  }, [active]);
+    if (map) map.setZoom(zoom);
+  }, [map, zoom]);
+  useEffect(() => {
+    if (!map || !selectedId) return;
+    const g = gems.find((x) => x.id === selectedId);
+    if (g && g.lat != null && g.lng != null) map.panTo({ lat: g.lat, lng: g.lng });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [map, selectedId]);
+  return null;
+}
 
-  return <div className="map" ref={elRef} />;
+export default function MapView({ gems, selectedId, onSelect, center, zoom, path, numbered }: Props) {
+  if (!HAS_KEY) {
+    return (
+      <div className="map map-noapi">
+        <span>Set NEXT_PUBLIC_GOOGLE_MAPS_API_KEY in .env.local to enable the map</span>
+      </div>
+    );
+  }
+  return (
+    <Map
+      className="map"
+      mapId={MAP_ID}
+      defaultCenter={{ lat: center[0], lng: center[1] }}
+      defaultZoom={zoom}
+      gestureHandling="greedy"
+      disableDefaultUI
+      zoomControl
+      clickableIcons={false}
+    >
+      {path && path.length ? <Route path={path} /> : <Camera center={center} zoom={zoom} selectedId={selectedId} gems={gems} />}
+      {gems.map((g, i) => {
+        if (g.lat == null || g.lng == null) return null;
+        const m = meta(g);
+        const on = g.id === selectedId;
+        return (
+          <AdvancedMarker key={`${g.id}-${i}`} position={{ lat: g.lat, lng: g.lng }} onClick={() => onSelect && onSelect(g.id)}>
+            {numbered ? (
+              <div className={'pinnum' + (on ? ' active' : '')}>{i + 1}</div>
+            ) : (
+              <div className={'pinm' + (on ? ' active' : '')} style={{ ['--pc']: m.color } as CSSProperties}>
+                <svg viewBox="0 0 24 32" width="22" height="29" aria-hidden="true">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 8.4 12 20 12 20s12-11.6 12-20C24 5.37 18.63 0 12 0z" fill={m.color} stroke="#fff" strokeWidth="2" />
+                  <circle cx="12" cy="12" r="3.6" fill="#fff" />
+                </svg>
+              </div>
+            )}
+          </AdvancedMarker>
+        );
+      })}
+    </Map>
+  );
 }

@@ -43,16 +43,9 @@ export default function Home() {
   if (country) shown = shown.filter((c) => countryOf(c) === country);
   if (cityF) shown = shown.filter((c) => c.city === cityF);
 
-  const allOff = () => {
-    setCountry(null);
+  const onCountry = (v: string) => {
+    setCountry(v || null);
     setCityF(null);
-  };
-  const pickCountry = (co: string) => {
-    if (co === country) allOff();
-    else {
-      setCountry(co);
-      setCityF(null);
-    }
   };
   const scope = cityF || country;
 
@@ -77,34 +70,38 @@ export default function Home() {
 
       <div className="hm-filter">
         <div className="hm-filter-lbl">Browse by destination</div>
-        <div className="hm-chiprow">
-          <button className={'hm-fchip' + (!country ? ' on' : '')} onClick={allOff}>
-            All
-          </button>
-          {countryList.map((co) => (
-            <button key={co} className={'hm-fchip' + (country === co ? ' on' : '')} onClick={() => pickCountry(co)}>
-              {co}
-              <i>{countries[co].count}</i>
-            </button>
-          ))}
+        <div className="hm-selects">
+          <label className="hm-select">
+            <span className="hm-select-cap">Country</span>
+            <div className="hm-select-box">
+              <select value={country ?? ''} onChange={(e) => onCountry(e.target.value)}>
+                <option value="">All destinations</option>
+                {countryList.map((co) => (
+                  <option key={co} value={co}>
+                    {co} ({countries[co].count})
+                  </option>
+                ))}
+              </select>
+              <span className="hm-select-chev">▾</span>
+            </div>
+          </label>
+
+          <label className={'hm-select' + (country ? '' : ' is-disabled')}>
+            <span className="hm-select-cap">City</span>
+            <div className="hm-select-box">
+              <select value={cityF ?? ''} disabled={!country} onChange={(e) => setCityF(e.target.value || null)}>
+                <option value="">{country ? `All of ${country}` : 'Pick a country first'}</option>
+                {country &&
+                  cityList.map((ci) => (
+                    <option key={ci} value={ci}>
+                      {ci} ({countries[country].cities[ci]})
+                    </option>
+                  ))}
+              </select>
+              <span className="hm-select-chev">▾</span>
+            </div>
+          </label>
         </div>
-        {country && cityList.length ? (
-          <div className="hm-chiprow hm-chiprow-sub">
-            <button className={'hm-fchip hm-fchip-sm' + (!cityF ? ' on' : '')} onClick={() => setCityF(null)}>
-              All of {country}
-            </button>
-            {cityList.map((ci) => (
-              <button
-                key={ci}
-                className={'hm-fchip hm-fchip-sm' + (cityF === ci ? ' on' : '')}
-                onClick={() => setCityF(cityF === ci ? null : ci)}
-              >
-                {ci}
-                <i>{countries[country].cities[ci]}</i>
-              </button>
-            ))}
-          </div>
-        ) : null}
       </div>
 
       <div className="hm-cat-hd">
