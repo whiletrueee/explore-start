@@ -1,11 +1,14 @@
 {
  "counts": {
-  "lists": 18,
-  "abstentions": 6,
+  "lists": 43,
+  "abstentions": 9,
   "by_creator": {
    "thefloridaqueenie": 4,
    "exploringlondon": 12,
-   "empty.japan": 2
+   "empty.japan": 2,
+   "blacktravelpin-dubai": 7,
+   "ladyandhersweetescapes-dubai": 12,
+   "dotzsoh-singapore": 6
   }
  },
  "thresholds": {
@@ -142,7 +145,8 @@
      "source_reel": "https://www.instagram.com/reel/DZU4QkNHWIL/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-tampa-from",
@@ -480,7 +484,8 @@
      "source_reel": "https://www.instagram.com/reel/DT5zIs9kQcU/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-boca-grande-theme-photo-spot",
@@ -649,7 +654,8 @@
      "source_reel": "https://www.instagram.com/reel/DZm5XU2DVja/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-boca-grande-theme-hidden-gem",
@@ -838,7 +844,8 @@
      "source_reel": "https://www.instagram.com/reel/DZm5XU2DVja/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "exploringlondon-london-hybrid-seasonal-see-do",
@@ -1056,7 +1063,8 @@
      "source_reel": "https://www.instagram.com/reel/DZhfU2UKMT4/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-hybrid-photo-spot-see-do",
@@ -1345,7 +1353,8 @@
      "source_reel": "https://www.instagram.com/reel/DZDQxDSKSbK/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-hybrid-hidden-gem-shop",
@@ -1469,7 +1478,8 @@
      "source_reel": "https://www.instagram.com/reel/DYpfHerKJbp/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-hybrid-hidden-gem-drink",
@@ -1753,7 +1763,8 @@
      "source_reel": "https://www.instagram.com/reel/DWtflI9CvXQ/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-hybrid-bucket-list-eat",
@@ -1903,7 +1914,8 @@
      "source_reel": "https://www.instagram.com/reel/DWHfDpGCjJA/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-hybrid-photo-spot-eat",
@@ -2077,7 +2089,8 @@
      "source_reel": "https://www.instagram.com/reel/DXwUxCjqCuF/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-type-park-garden",
@@ -2206,7 +2219,8 @@
      "source_reel": "https://www.instagram.com/reel/DWjkRlXCtyP/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-type-museum-gallery",
@@ -2376,7 +2390,8 @@
      "source_reel": "https://www.instagram.com/reel/DZDQxDSKSbK/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-type-bakery-dessert",
@@ -2501,7 +2516,8 @@
      "source_reel": "https://www.instagram.com/reel/DZKeFz7qlfU/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-from",
@@ -2853,7 +2869,8 @@
      "source_reel": "https://www.instagram.com/reel/DYwmFf7K8zA/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-theme-free",
@@ -3194,7 +3211,8 @@
      "source_reel": "https://www.instagram.com/reel/DYE8hlfqYPg/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-london-theme-luxury",
@@ -3365,7 +3383,8 @@
      "source_reel": "https://www.instagram.com/reel/DWHfDpGCjJA/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "empty.japan-kyoto-hybrid-hidden-gem-see-do",
@@ -3565,7 +3584,8 @@
      "source_reel": "https://www.instagram.com/reel/Cv9xXoUuOoG/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
   },
   {
    "id": "empty.japan-kyoto-hybrid-photo-spot-nature",
@@ -3714,7 +3734,5037 @@
      "source_reel": "https://www.instagram.com/reel/C0jV0R6vi8A/",
      "media_url": null
     }
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-hybrid-seasonal-see-do",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "hybrid",
+   "axis": "seasonal × see-do",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "local",
+   "headline": "Seasonal things to do in Dubai",
+   "subhead": "9 spots locals rate, pulled from 4 reels",
+   "count": 9,
+   "source_reel_count": 4,
+   "themes": [
+    "seasonal",
+    "bucket-list",
+    "free",
+    "family"
+   ],
+   "areas": [
+    "Jumeirah",
+    "Al Barsha",
+    "Al Habtoor City",
+    "Downtown Dubai",
+    "Zabeel",
+    "Bluewaters Island",
+    "Festival City",
+    "Al Barsha South"
+   ],
+   "price_band": "free",
+   "lead": "Christmas Market at Madinat Jumeirah",
+   "quality": {
+    "cardinality": 9,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "christmas-market-at-madinat-jumeirah",
+     "name": "Christmas Market at Madinat Jumeirah",
+     "hook": "Madinat Jumeirah Christmas market magic",
+     "why": "A traditional-style Christmas market set within the iconic waterway-laced Madinat Jumeirah resort, running through December 31.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Madinat Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Dec 5 – Dec 31, 2025",
+     "themes": [
+      "seasonal",
+      "family",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DR52vjpE7Ur/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ski-dubai-winter-wonderland",
+     "name": "Ski Dubai Winter Wonderland",
+     "hook": "Ski indoors, then Christmas shop",
+     "why": "Real snow, a ski slope, and a Christmas wonderland experience inside Mall of the Emirates — Dubai's most surreal festive mash-up.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Al Barsha",
+     "city": "Dubai",
+     "location_text": "Mall of the Emirates, Sheikh Zayed Road, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Dec 1 – Dec 25, 2025",
+     "themes": [
+      "seasonal",
+      "family",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DR52vjpE7Ur/",
+     "media_url": null
+    },
+    {
+     "gem_id": "la-perle-by-dragone",
+     "name": "La Perle by Dragone",
+     "hook": "Free La Perle ticket with Emirates flight",
+     "why": "Dubai's resident spectacular — acrobatics, water stunts, and Dragone stagecraft in a purpose-built aqua theatre. Book an Emirates flight by Nov 24 and get a complimentary Silver ticket.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Al Habtoor City",
+     "city": "Dubai",
+     "location_text": "La Perle by Dragone, Al Habtoor City, Dubai",
+     "website": "https://laperle.com",
+     "price_text": "Free Silver ticket with qualifying Emirates booking",
+     "date_info": "Complimentary ticket offer: book Emirates by Nov 24, 2025; travel Nov 7 – Dec 10, 2025",
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DRMEjOaE9hh/",
+     "media_url": null
+    },
+    {
+     "gem_id": "burj-khalifa-new-year-s-fireworks",
+     "name": "Burj Khalifa New Year's Fireworks",
+     "hook": "Free front-row fireworks at the Burj",
+     "why": "The world's most iconic NYE fireworks show lights up the Burj Khalifa at midnight — best free viewing from Burj Park, Dubai Mall Promenade, or Souk Al Bahar.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Burj Park, Downtown Dubai",
+     "website": null,
+     "price_text": "free",
+     "date_info": "New Year's Eve, December 31, midnight (00:00)",
+     "themes": [
+      "free",
+      "bucket-list",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DSztIhFiDiD/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-frame-new-year-s-show",
+     "name": "Dubai Frame New Year's Show",
+     "hook": "Fireworks and drones at Dubai Frame",
+     "why": "Dubai Frame hosts a combined fireworks and drone show at midnight — free viewing from Zabeel Park with a striking old-meets-new Dubai backdrop.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Zabeel",
+     "city": "Dubai",
+     "location_text": "Zabeel Park, Dubai",
+     "website": null,
+     "price_text": "free",
+     "date_info": "New Year's Eve, December 31, midnight (00:00); includes drone show",
+     "themes": [
+      "free",
+      "seasonal",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DSztIhFiDiD/",
+     "media_url": null
+    },
+    {
+     "gem_id": "burj-al-arab-new-year-s-fireworks",
+     "name": "Burj Al Arab New Year's Fireworks",
+     "hook": "NYE fireworks by a legendary hotel",
+     "why": "The sail-shaped Burj Al Arab hosts its own NYE fireworks display — best viewed for free from Kite Beach, Jumeirah Beach, or Umm Suqeim at midnight.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Kite Beach, Jumeirah, Dubai",
+     "website": null,
+     "price_text": "free",
+     "date_info": "New Year's Eve, December 31, midnight (00:00)",
+     "themes": [
+      "free",
+      "seasonal",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DSztIhFiDiD/",
+     "media_url": null
+    },
+    {
+     "gem_id": "bluewaters-island-new-year-s-fireworks",
+     "name": "Bluewaters Island New Year's Fireworks",
+     "hook": "Island countdown with Ain Dubai backdrop",
+     "why": "Bluewaters Island hosts vibrant NYE fireworks with Ain Dubai — the world's largest Ferris wheel — as the centerpiece of the midnight skyline.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Bluewaters Island",
+     "city": "Dubai",
+     "location_text": "Bluewaters Island, Dubai",
+     "website": null,
+     "price_text": "free",
+     "date_info": "New Year's Eve, December 31, midnight (00:00)",
+     "themes": [
+      "free",
+      "seasonal",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DSztIhFiDiD/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-festival-city-imagine-show",
+     "name": "Dubai Festival City IMAGINE Show",
+     "hook": "Laser and water spectacle on the Creek",
+     "why": "The record-breaking IMAGINE laser, light, and water show at Dubai Festival City goes all-out for NYE — a free and technically astonishing midnight spectacle.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Festival City",
+     "city": "Dubai",
+     "location_text": "Dubai Festival City Mall, Al Khail Road, Dubai",
+     "website": null,
+     "price_text": "free",
+     "date_info": "New Year's Eve, December 31, midnight (00:00)",
+     "themes": [
+      "free",
+      "seasonal",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DSztIhFiDiD/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-miracle-garden",
+     "name": "Dubai Miracle Garden",
+     "hook": "A garden made of millions of flowers",
+     "why": "The world's largest natural flower garden, with over 150 million blooms shaped into stunning sculptures, arches, and displays — a surreal floral spectacle in the desert.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Al Barsha South",
+     "city": "Dubai",
+     "location_text": "Dubai Miracle Garden, Al Barsha South 3, Dubai, UAE",
+     "website": "https://www.dubaimiraclegarden.com",
+     "price_text": null,
+     "date_info": "Seasonal — typically open October to April",
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "seasonal",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DU8jpOejKKP/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-hybrid-family-see-do",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "hybrid",
+   "axis": "family × see-do",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Family-friendly things to do in Dubai",
+   "subhead": "7 top picks, pulled from 6 reels",
+   "count": 7,
+   "source_reel_count": 6,
+   "themes": [
+    "family",
+    "bucket-list",
+    "photo-spot",
+    "seasonal"
+   ],
+   "areas": [
+    "Downtown Dubai",
+    "Zabeel Park",
+    "Jumeirah",
+    "Al Barsha",
+    "Palm Jumeirah",
+    "Al Barsha South"
+   ],
+   "price_band": "mostly-free",
+   "lead": "Dubai Frame",
+   "quality": {
+    "cardinality": 7,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "dubai-frame",
+     "name": "Dubai Frame",
+     "hook": "Stand inside a giant picture frame",
+     "why": "A 150-metre picture-frame skyscraper bridging old and new Dubai, with panoramic views of both skylines. Adults AED 50 (~$14), kids AED 20, under-3s free.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Zabeel Park",
+     "city": "Dubai",
+     "location_text": "Dubai Frame, Zabeel Park, Dubai",
+     "website": "https://www.thedubaiframe.com",
+     "price_text": "AED 50 adults (~$14), AED 20 children (3–12), free under 3",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DOingosk_jz/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-fountain",
+     "name": "Dubai Fountain",
+     "hook": "Watch Dubai's fountain roar back",
+     "why": "The world's largest choreographed fountain, shooting water 150 m high over Burj Lake. Back after a 6-month hiatus — a free nightly spectacle beneath the Burj Khalifa.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Dubai Fountain, Burj Lake, Downtown Dubai",
+     "website": "https://www.thedubaimall.com/en/entertainment/the-dubai-fountain",
+     "price_text": "free",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "free",
+      "photo-spot",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DPV8kOWCNzt/",
+     "media_url": null
+    },
+    {
+     "gem_id": "house-of-hype-dubai",
+     "name": "House of Hype Dubai",
+     "hook": "Neon rooms built for your reel",
+     "why": "Massive immersive art space inside Dubai Mall with creative rooms, neon installations, and interactive exhibits — plan 2–3 hours and save 20% on weekdays.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "House of Hype Dubai, Dubai Mall, Dubai, UAE",
+     "website": null,
+     "price_text": "20% off on weekdays",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "family",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DQ_dduXk6Xp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "christmas-market-at-madinat-jumeirah",
+     "name": "Christmas Market at Madinat Jumeirah",
+     "hook": "Madinat Jumeirah Christmas market magic",
+     "why": "A traditional-style Christmas market set within the iconic waterway-laced Madinat Jumeirah resort, running through December 31.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Madinat Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Dec 5 – Dec 31, 2025",
+     "themes": [
+      "seasonal",
+      "family",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DR52vjpE7Ur/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ski-dubai-winter-wonderland",
+     "name": "Ski Dubai Winter Wonderland",
+     "hook": "Ski indoors, then Christmas shop",
+     "why": "Real snow, a ski slope, and a Christmas wonderland experience inside Mall of the Emirates — Dubai's most surreal festive mash-up.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Al Barsha",
+     "city": "Dubai",
+     "location_text": "Mall of the Emirates, Sheikh Zayed Road, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Dec 1 – Dec 25, 2025",
+     "themes": [
+      "seasonal",
+      "family",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DR52vjpE7Ur/",
+     "media_url": null
+    },
+    {
+     "gem_id": "the-lost-chambers-aquarium",
+     "name": "The Lost Chambers Aquarium",
+     "hook": "Walk through mythical underwater ruins",
+     "why": "A labyrinthine aquarium inside Atlantis The Palm built around the legend of Atlantis — wandering past 65,000 marine animals amid ancient ruins.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Atlantis The Palm, Palm Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "family",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DSj6K8qiCqs/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-miracle-garden",
+     "name": "Dubai Miracle Garden",
+     "hook": "A garden made of millions of flowers",
+     "why": "The world's largest natural flower garden, with over 150 million blooms shaped into stunning sculptures, arches, and displays — a surreal floral spectacle in the desert.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Al Barsha South",
+     "city": "Dubai",
+     "location_text": "Dubai Miracle Garden, Al Barsha South 3, Dubai, UAE",
+     "website": "https://www.dubaimiraclegarden.com",
+     "price_text": null,
+     "date_info": "Seasonal — typically open October to April",
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "seasonal",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DU8jpOejKKP/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-hybrid-bucket-list-eat",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "hybrid",
+   "axis": "bucket-list × eat",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Bucket-list food spots in Dubai",
+   "subhead": "4 top picks, pulled from 2 reels",
+   "count": 4,
+   "source_reel_count": 2,
+   "themes": [
+    "luxury",
+    "bucket-list",
+    "seasonal",
+    "photo-spot"
+   ],
+   "areas": [
+    "Downtown Dubai",
+    "Palm Jumeirah"
+   ],
+   "price_band": null,
+   "lead": "The Pods Dubai",
+   "quality": {
+    "cardinality": 4,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "the-pods-dubai",
+     "name": "The Pods Dubai",
+     "hook": "Dine inside a private glass pod",
+     "why": "Celebrate in a private glass pod with Dubai skyline views, red carpet arrival, balloons, candles, and sparklers — an over-the-top birthday or special-occasion experience.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "The Pods Dubai, Dubai, UAE",
+     "website": "https://thepodsdubai.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DNiWF3iJ8pQ/",
+     "media_url": null
+    },
+    {
+     "gem_id": "c-la-vi-dubai",
+     "name": "Cé La Vi Dubai",
+     "hook": "NYE dinner above Dubai's skyline",
+     "why": "Perched on Level 54 of Address Sky View Hotel, this sky-high venue offers New Year's Eve dining from 8 PM with panoramic city views.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Address Sky View Hotel, Level 54, Downtown Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM onwards",
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "thiptara",
+     "name": "Thiptara",
+     "hook": "Thai fine dining by the Burj",
+     "why": "Authentic Thai fine dining at Palace Downtown with direct Burj Khalifa views — a magical NYE setting from 8 PM to 1 AM.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Palace Downtown Hotel, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM – 1 AM",
+     "themes": [
+      "luxury",
+      "seasonal",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ossiano",
+     "name": "Ossiano",
+     "hook": "Dine underwater on New Year's Eve",
+     "why": "One of Dubai's most dramatic dining experiences — an underwater restaurant at Atlantis The Palm open from 7 PM for NYE celebrations.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Atlantis The Palm, Palm Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 7 PM onwards",
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-hybrid-luxury-eat",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "hybrid",
+   "axis": "luxury × eat",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Luxury food spots in Dubai",
+   "subhead": "11 top picks, pulled from 6 reels",
+   "count": 11,
+   "source_reel_count": 6,
+   "themes": [
+    "luxury",
+    "seasonal",
+    "bucket-list",
+    "food"
+   ],
+   "areas": [
+    "Downtown Dubai",
+    "Palm Jumeirah",
+    "JBR / JA Ocean View Hotel",
+    "Dubai Harbour",
+    "Dubai Creek Harbour",
+    "Trade Centre",
+    "Jumeirah"
+   ],
+   "price_band": null,
+   "lead": "The Pods Dubai",
+   "quality": {
+    "cardinality": 11,
+    "corroboration": 0.598,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "the-pods-dubai",
+     "name": "The Pods Dubai",
+     "hook": "Dine inside a private glass pod",
+     "why": "Celebrate in a private glass pod with Dubai skyline views, red carpet arrival, balloons, candles, and sparklers — an over-the-top birthday or special-occasion experience.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "The Pods Dubai, Dubai, UAE",
+     "website": "https://thepodsdubai.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DNiWF3iJ8pQ/",
+     "media_url": null
+    },
+    {
+     "gem_id": "smoked-nights-by-lena-dubai",
+     "name": "Smoked Nights by Lena Dubai",
+     "hook": "Fire meets flavor on the Palm",
+     "why": "A theatrical Friday-night dining experience at St. Regis Gardens on Palm Jumeirah, where live fire cooking and dramatic tableside service turn dinner into a full-on show.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "St. Regis Gardens, Palm Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Friday nights",
+     "themes": [
+      "luxury",
+      "nightlife",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DP9zpt-CCHO/",
+     "media_url": null
+    },
+    {
+     "gem_id": "oia-dubai-santorini-saturdays-brunch",
+     "name": "OIA Dubai — Santorini Saturdays Brunch",
+     "hook": "Santorini vibes, Dubai skyline",
+     "why": "Greek-Aegean brunch every Saturday at JA Ocean View Hotel — ocean views, live entertainment, dancers, and Aegean-inspired food from AED 249 per person (5–8 PM).",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "JBR / JA Ocean View Hotel",
+     "city": "Dubai",
+     "location_text": "OIA Dubai, JA Ocean View Hotel, JBR, Dubai, UAE",
+     "website": null,
+     "price_text": "From AED 249 per person",
+     "date_info": "Every Saturday, 5 PM – 8 PM",
+     "themes": [
+      "food",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DQC4eenCMrI/",
+     "media_url": null
+    },
+    {
+     "gem_id": "c-la-vi-dubai",
+     "name": "Cé La Vi Dubai",
+     "hook": "NYE dinner above Dubai's skyline",
+     "why": "Perched on Level 54 of Address Sky View Hotel, this sky-high venue offers New Year's Eve dining from 8 PM with panoramic city views.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Address Sky View Hotel, Level 54, Downtown Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM onwards",
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "thiptara",
+     "name": "Thiptara",
+     "hook": "Thai fine dining by the Burj",
+     "why": "Authentic Thai fine dining at Palace Downtown with direct Burj Khalifa views — a magical NYE setting from 8 PM to 1 AM.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Palace Downtown Hotel, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM – 1 AM",
+     "themes": [
+      "luxury",
+      "seasonal",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ossiano",
+     "name": "Ossiano",
+     "hook": "Dine underwater on New Year's Eve",
+     "why": "One of Dubai's most dramatic dining experiences — an underwater restaurant at Atlantis The Palm open from 7 PM for NYE celebrations.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Atlantis The Palm, Palm Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 7 PM onwards",
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "son-of-a-fish",
+     "name": "Son of a Fish",
+     "hook": "Greek taverna on the Dubai waterfront",
+     "why": "A new Greek restaurant at Dubai Harbour bringing Aegean flavors — fresh seafood, vibrant mezze, and a buzzy waterfront setting — to Dubai's dining scene.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Dubai Harbour",
+     "city": "Dubai",
+     "location_text": "Son of a Fish, Dubai Harbour, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": "New opening 2026",
+     "themes": [
+      "food",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DUBDAHhk3r7/",
+     "media_url": null
+    },
+    {
+     "gem_id": "argentina-grill-dubai",
+     "name": "Argentina Grill Dubai",
+     "hook": "Tomahawk steak by the Creek",
+     "why": "Argentine steakhouse at Dubai Creek Harbour serving show-stopping tomahawk cuts. A carnivore's dream with waterfront location vibes.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Dubai Creek Harbour",
+     "city": "Dubai",
+     "location_text": "Dubai Creek Harbour, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DMQeFaDpKun/",
+     "media_url": null
+    },
+    {
+     "gem_id": "mi-amie",
+     "name": "Mi Amie",
+     "hook": "Ring in the new year at Mi Amie",
+     "why": "New Year's Eve celebration at Jumeirah Emirates Tower from 8 PM to 2 AM — a stylish venue for a late-night Dubai countdown.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Trade Centre",
+     "city": "Dubai",
+     "location_text": "Jumeirah Emirates Tower, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM – 2 AM",
+     "themes": [
+      "luxury",
+      "seasonal",
+      "nightlife"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "shimmers",
+     "name": "Shimmers",
+     "hook": "Bohemian NYE vibes on the water",
+     "why": "Bohemian-chic waterfront dining at Jumeirah Mina Al Salam for NYE — festive dress code and celebrations until 2 AM.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Jumeirah Mina Al Salam Hotel, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM – 2 AM; bohemian-inspired chic dress code",
+     "themes": [
+      "luxury",
+      "seasonal",
+      "nightlife"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "gal-dubai",
+     "name": "Gal Dubai",
+     "hook": "Downtown NYE at Gal Dubai",
+     "why": "NYE dinner from 7 PM in a Downtown Hotel setting with easy access to the Burj Khalifa fireworks — a solid base for the midnight countdown.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Downtown Hotel, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 7 PM onwards",
+     "themes": [
+      "luxury",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-hybrid-photo-spot-view",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "hybrid",
+   "axis": "photo-spot × view",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Most photogenic viewpoints in Dubai",
+   "subhead": "4 top picks, pulled from 7 reels",
+   "count": 4,
+   "source_reel_count": 7,
+   "themes": [
+    "photo-spot",
+    "bucket-list",
+    "luxury",
+    "free"
+   ],
+   "areas": [
+    "Palm Jumeirah",
+    "Downtown Dubai",
+    "Jumeirah Beach Residence",
+    "Port Saeed"
+   ],
+   "price_band": "mostly-free",
+   "lead": "The Dubai Balloon",
+   "quality": {
+    "cardinality": 4,
+    "corroboration": 0.565,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "the-dubai-balloon",
+     "name": "The Dubai Balloon",
+     "hook": "Rise 225 meters above Palm Jumeirah",
+     "why": "Tethered helium balloon soaring 225 m above Palm Jumeirah — panoramic views of Atlantis The Royal, Burj Khalifa, and the entire Dubai skyline in ~10 minutes of flight.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "The Dubai Balloon, Atlantis The Palm, Palm Jumeirah, Dubai, UAE",
+     "website": null,
+     "price_text": "From AED 195 per person",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DQMytQikx6v/",
+     "media_url": null
+    },
+    {
+     "gem_id": "burj-khalifa",
+     "name": "Burj Khalifa",
+     "hook": "Skip the mall, ascend the Burj",
+     "why": "The world's tallest tower with observation decks on floors 124, 125, and 148. Dubai's skyline from the top is one of the most dramatic views on Earth.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Burj Khalifa, 1 Sheikh Mohammed bin Rashid Blvd, Downtown Dubai",
+     "website": "https://www.burjkhalifa.ae",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 4,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DIbn6emSlJ8/",
+     "media_url": null
+    },
+    {
+     "gem_id": "skyviews-observatory-dubai",
+     "name": "Skyviews Observatory Dubai",
+     "hook": "Edge-walk Dubai's tallest rooftop glass slide",
+     "why": "A glass-floored observation deck and outdoor edge-walk on Address Beach Resort, offering some of the highest panoramic views of Dubai's coastline and skyline.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Jumeirah Beach Residence",
+     "city": "Dubai",
+     "location_text": "Skyviews Observatory, Address Beach Resort, Jumeirah Beach Residence, Dubai",
+     "website": "https://www.skyviewsdubai.ae",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DP3YljbiF7P/",
+     "media_url": null
+    },
+    {
+     "gem_id": "port-saeed-sunset-viewpoint",
+     "name": "Port Saeed Sunset Viewpoint",
+     "hook": "Waterfront sunsets over Dubai Creek",
+     "why": "Port Saeed's open waterfront promenade frames Dubai's creek skyline in warm golden light at dusk — a low-key local favourite for catching the city's most photogenic sunsets.",
+     "category": "view",
+     "subcategory": "scenic-overlook",
+     "area": "Port Saeed",
+     "city": "Dubai",
+     "location_text": "Port Saeed, Deira, Dubai, UAE",
+     "website": null,
+     "price_text": "free",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "free"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DUSVZsJE6fN/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-type-restaurant",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "type",
+   "axis": "restaurant",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Best restaurants in Dubai",
+   "subhead": "7 top picks, pulled from 7 reels",
+   "count": 7,
+   "source_reel_count": 7,
+   "themes": [
+    "food",
+    "luxury",
+    "photo-spot",
+    "family"
+   ],
+   "areas": [
+    "JBR / JA Ocean View Hotel",
+    "Dubai Creek",
+    "Dubai Harbour",
+    "Dubai Creek Harbour",
+    "Bluewaters Island"
+   ],
+   "price_band": "paid",
+   "lead": "OIA Dubai — Santorini Saturdays Brunch",
+   "quality": {
+    "cardinality": 7,
+    "corroboration": 0.5,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "oia-dubai-santorini-saturdays-brunch",
+     "name": "OIA Dubai — Santorini Saturdays Brunch",
+     "hook": "Santorini vibes, Dubai skyline",
+     "why": "Greek-Aegean brunch every Saturday at JA Ocean View Hotel — ocean views, live entertainment, dancers, and Aegean-inspired food from AED 249 per person (5–8 PM).",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "JBR / JA Ocean View Hotel",
+     "city": "Dubai",
+     "location_text": "OIA Dubai, JA Ocean View Hotel, JBR, Dubai, UAE",
+     "website": null,
+     "price_text": "From AED 249 per person",
+     "date_info": "Every Saturday, 5 PM – 8 PM",
+     "themes": [
+      "food",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DQC4eenCMrI/",
+     "media_url": null
+    },
+    {
+     "gem_id": "brunch-bask-at-serein",
+     "name": "Brunch & Bask at Serein",
+     "hook": "Peaceful family brunch beside Burj Khalifa views",
+     "why": "A calm Saturday brunch at Hilton Dubai Creek — unlimited buffet, soft drinks, pool access, and a stunning Dubai Creek and Burj Khalifa view for just AED 150, running every Saturday 12–4 PM.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Dubai Creek",
+     "city": "Dubai",
+     "location_text": "Hilton Dubai Creek Hotel & Residences, Baniyas Road, Dubai Creek, Dubai",
+     "website": null,
+     "price_text": "AED 150 per person (unlimited buffet + soft beverages + pool access)",
+     "date_info": "Every Saturday, 12 PM – 4 PM",
+     "themes": [
+      "family",
+      "budget",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DTyRmE9E1K3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "son-of-a-fish",
+     "name": "Son of a Fish",
+     "hook": "Greek taverna on the Dubai waterfront",
+     "why": "A new Greek restaurant at Dubai Harbour bringing Aegean flavors — fresh seafood, vibrant mezze, and a buzzy waterfront setting — to Dubai's dining scene.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Dubai Harbour",
+     "city": "Dubai",
+     "location_text": "Son of a Fish, Dubai Harbour, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": "New opening 2026",
+     "themes": [
+      "food",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DUBDAHhk3r7/",
+     "media_url": null
+    },
+    {
+     "gem_id": "saya-brasserie",
+     "name": "Saya Brasserie",
+     "hook": "Dubai's most camera-ready brasserie",
+     "why": "A beautifully styled Dubai brasserie celebrated for its Instagrammable interiors. One of three standout photogenic cafes recommended for Dubai visitors.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Saya Brasserie, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DJG5eGnJW_v/",
+     "media_url": null
+    },
+    {
+     "gem_id": "argentina-grill-dubai",
+     "name": "Argentina Grill Dubai",
+     "hook": "Tomahawk steak by the Creek",
+     "why": "Argentine steakhouse at Dubai Creek Harbour serving show-stopping tomahawk cuts. A carnivore's dream with waterfront location vibes.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Dubai Creek Harbour",
+     "city": "Dubai",
+     "location_text": "Dubai Creek Harbour, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DMQeFaDpKun/",
+     "media_url": null
+    },
+    {
+     "gem_id": "the-pods",
+     "name": "The Pods",
+     "hook": "Island-side NYE at Bluewaters",
+     "why": "Ring in the new year at Bluewaters Island with Ain Dubai as your backdrop — festivities from 9 PM with a vibrant waterfront energy.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Bluewaters Island",
+     "city": "Dubai",
+     "location_text": "Bluewaters Island, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 9 PM onwards",
+     "themes": [
+      "seasonal",
+      "nightlife"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "russian-cuisine-restaurant-dubai",
+     "name": "Russian Cuisine Restaurant Dubai",
+     "hook": "Borscht and pelmeni in the desert",
+     "why": "A cozy spot in Dubai serving authentic Russian classics — borscht, pelmeni, and blini. Comfort food from the steppe, unexpectedly landed in the UAE.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "low",
+     "source_reel": "https://www.instagram.com/reel/DN2whwWZhta/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai-type-drink",
+   "kind": "list",
+   "creator": "blacktravelpin-dubai",
+   "axis_type": "type",
+   "axis": "drink",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Top bars & drinks in Dubai",
+   "subhead": "4 top picks, pulled from 4 reels",
+   "count": 4,
+   "source_reel_count": 4,
+   "themes": [
+    "luxury",
+    "nightlife",
+    "photo-spot",
+    "seasonal"
+   ],
+   "areas": [
+    "DIFC",
+    "Palm Jumeirah",
+    "Al Qudra"
+   ],
+   "price_band": null,
+   "lead": "1920 Bar",
+   "quality": {
+    "cardinality": 4,
+    "corroboration": 0.49,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "1920-bar",
+     "name": "1920 Bar",
+     "hook": "1920s speakeasy meets Dubai skyline",
+     "why": "A rooftop speakeasy on Level 52 of ICD Brookfield Place in DIFC, blending 1920s glamour with a sweeping modern Dubai skyline backdrop — ideal for a sophisticated date night.",
+     "category": "drink",
+     "subcategory": "speakeasy",
+     "area": "DIFC",
+     "city": "Dubai",
+     "location_text": "1920 Bar, Level 52, ICD Brookfield Place, DIFC, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "nightlife",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DTlJs7zE-9c/",
+     "media_url": null
+    },
+    {
+     "gem_id": "eve-penthouse-dubai",
+     "name": "Eve Penthouse Dubai",
+     "hook": "Golden hour skyline drinks, Dubai",
+     "why": "A rooftop penthouse bar serving sunset cocktails with sweeping Dubai skyline views. Equal parts luxury lounge and golden-hour spectacle.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Eve Penthouse Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "nightlife"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DQoACU5k1FC/",
+     "media_url": null
+    },
+    {
+     "gem_id": "coucou",
+     "name": "CouCou",
+     "hook": "Countdown from 52 floors up",
+     "why": "New Year's Eve on Level 52 of Palm Tower — one of Dubai's highest rooftop venues with sweeping Palm Jumeirah views from 8 PM.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Palm Tower, Level 52, Palm Jumeirah, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, December 31, 8 PM onwards",
+     "themes": [
+      "luxury",
+      "seasonal",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DS7QVJOiLvm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "hidden-cafe-dubai",
+     "name": "Hidden Cafe Dubai",
+     "hook": "Cozy desert cafe for quiet nights",
+     "why": "A tucked-away cafe on the edge of the desert offering a peaceful escape from Dubai's bustle — ideal for a quiet evening with a desert vibe.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Al Qudra",
+     "city": "Dubai",
+     "location_text": "Hidden Cafe, Al Qudra, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DSj6K8qiCqs/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-bucket-list-eat",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "bucket-list × eat",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Bucket-list food spots in Dubai",
+   "subhead": "8 top picks, pulled from 8 reels",
+   "count": 8,
+   "source_reel_count": 8,
+   "themes": [
+    "bucket-list",
+    "food",
+    "luxury",
+    "photo-spot"
+   ],
+   "areas": [
+    "Sheikh Zayed Road",
+    "Bluewaters Island",
+    "Mall of the Emirates",
+    "Jumeirah",
+    "Dubai Mall Chinatown",
+    "Za'abeel",
+    "Palm Jumeirah"
+   ],
+   "price_band": "paid",
+   "lead": "24th St at Dusit Thani Dubai",
+   "quality": {
+    "cardinality": 8,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "24th-st-at-dusit-thani-dubai",
+     "name": "24th St at Dusit Thani Dubai",
+     "hook": "Seafood feast with Burj Khalifa views",
+     "why": "A Saturday-night seafood fiesta with blue crab, prawns, calamari and your choice of bold sauces — all for AED 189 for two with unlimited rice and a Burj Khalifa backdrop.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Sheikh Zayed Road",
+     "city": "Dubai",
+     "location_text": "24th St, Dusit Thani Dubai, Sheikh Zayed Road, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 189 for 2, with unlimited rice",
+     "date_info": "Every Saturday, 7–11 PM",
+     "themes": [
+      "food",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_0ileVP5nm/",
+     "media_url": null
+    },
+    {
+     "gem_id": "the-pods-dubai-2",
+     "name": "The Pods Dubai",
+     "hook": "Dine in a private sea-view pod",
+     "why": "Private dining pods at Bluewaters with stunning sea views, now accessible via an AED 99 two-course lunch set — a fraction of the original price.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Bluewaters Island",
+     "city": "Dubai",
+     "location_text": "The Pods Dubai, Bluewaters Island, Dubai",
+     "website": null,
+     "price_text": "AED 99 for 2-course lunch; AED 99 for 3-drink set (1-4 PM); AED 100 extra for seaview pod",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_pVKWEvhMC/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dinner-in-the-sky-dubai",
+     "name": "Dinner in the Sky Dubai",
+     "hook": "Dine suspended high above Dubai",
+     "why": "A suspended platform lifts diners 50 metres into the air for a meal with jaw-dropping bird's-eye views of the Dubai skyline — theatrical and unforgettable.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Dubai, UAE",
+     "website": "https://www.dinnerinthesky.ae",
+     "price_text": "From AED 599 per person",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CoME1Tzgc9C/",
+     "media_url": null
+    },
+    {
+     "gem_id": "black-tap-dubai",
+     "name": "Black Tap Dubai",
+     "hook": "Gravity-defying milkshakes and craft burgers",
+     "why": "A globally famous craft burger and CrazyShake destination with several Dubai outlets; try the Truffle Burger (90 AED) and the over-the-top Cake Shake — easily shared between two.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Mall of the Emirates",
+     "city": "Dubai",
+     "location_text": "Black Tap, Mall of the Emirates, Dubai",
+     "website": null,
+     "price_text": "64–90 AED burgers; 62 AED CrazyShake",
+     "date_info": null,
+     "themes": [
+      "food",
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cqqr-jZgCOh/",
+     "media_url": null
+    },
+    {
+     "gem_id": "pier-chic",
+     "name": "Pier Chic",
+     "hook": "Overwater dining beside the Burj Al Arab",
+     "why": "Romantic overwater restaurant steps from Burj Al Arab offering Italian Mediterranean cuisine. Caught during Dubai Restaurant Week at 125 AED for a 2-course lunch.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Pier Chic, Al Qasr Hotel, Madinat Jumeirah, Dubai",
+     "website": null,
+     "price_text": "125 AED for 2-course lunch (Dubai Restaurant Week); regular pricing higher",
+     "date_info": "Dubai Restaurant Week limited-time pricing",
+     "themes": [
+      "luxury",
+      "food",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CrtZlpqAu4h/",
+     "media_url": null
+    },
+    {
+     "gem_id": "haidilao-dubai-mall-chinatown",
+     "name": "Haidilao Dubai Mall Chinatown",
+     "hook": "Chinese hotpot with a Dubai twist",
+     "why": "The world-famous Chinese hotpot chain's Dubai outpost delivers lavish freebies, hand-pulled dancing noodles tableside, and the signature three-delicacies broth for ~150 AED per person.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Dubai Mall Chinatown",
+     "city": "Dubai",
+     "location_text": "Haidilao, Dubai Mall Chinatown, Dubai",
+     "website": null,
+     "price_text": "~150 AED per person; Haidilao noodles 11 AED",
+     "date_info": null,
+     "themes": [
+      "food",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CwHzb1-IzSW/",
+     "media_url": null
+    },
+    {
+     "gem_id": "arrazuna-at-one-only-one-za-abeel",
+     "name": "Arrazuna at One&Only One Za'abeel",
+     "hook": "Dubai's dining room in midair",
+     "why": "A suspended culinary and retail hall inside the world's longest cantilever, with sweeping views of Dubai Frame, Burj Khalifa and Downtown. Upscale pricing, expect ~75 AED per coffee.",
+     "category": "eat",
+     "subcategory": "food-hall",
+     "area": "Za'abeel",
+     "city": "Dubai",
+     "location_text": "One&Only One Za'abeel, Za'abeel, Dubai",
+     "website": "https://www.oneandonlyresorts.com/one-zaabeel",
+     "price_text": "~75 AED per latte; premium pricing throughout",
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DDG5QU4vREn/",
+     "media_url": null
+    },
+    {
+     "gem_id": "bread-street-kitchen-dubai",
+     "name": "Bread Street Kitchen Dubai",
+     "hook": "Beef Wellington on the Palm",
+     "why": "Gordon Ramsay's British brasserie inside Atlantis The Palm, famous for its sharing-portion Beef Wellington alongside standout Lobster Tagliolini and Chocolate Fondant.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Atlantis The Palm, Crescent Road, Palm Jumeirah, Dubai",
+     "website": "https://www.atlantis.com/dubai/atlantis-the-palm/restaurants/bread-street-kitchen",
+     "price_text": "High-end; Beef Wellington in sharing portions",
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "bucket-list",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DDluS3SvdRD/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-budget-eat",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "budget × eat",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "local",
+   "headline": "Budget food spots in Dubai",
+   "subhead": "10 spots locals rate, pulled from 11 reels",
+   "count": 10,
+   "source_reel_count": 11,
+   "themes": [
+    "food",
+    "budget",
+    "luxury",
+    "hidden-gem"
+   ],
+   "areas": [
+    "DIFC",
+    "Al Wasl",
+    "Deira",
+    "Sheikh Zayed Road",
+    "Dubai Healthcare City",
+    "Jumeirah Lakes Towers (JLT)",
+    "Jumeirah",
+    "Al Fahidi Historical District"
+   ],
+   "price_band": "paid",
+   "lead": "Muchachas Mexican Cantina",
+   "quality": {
+    "cardinality": 10,
+    "corroboration": 0.73,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "muchachas-mexican-cantina",
+     "name": "Muchachas Mexican Cantina",
+     "hook": "Mexican Saturday brunch, buy one get one",
+     "why": "Lively Mexican cantina at Holiday Inn Express Al Wasl running a BOGO Saturday brunch with nachos, tacos, fajitas and churros from 159 AED including soft drinks.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Al Wasl",
+     "city": "Dubai",
+     "location_text": "Muchachas Mexican Cantina, Holiday Inn Express, Al Wasl, Dubai",
+     "website": null,
+     "price_text": "159 AED (soft drinks) / 249 AED (house beverages) — BOGO",
+     "date_info": "Every Saturday, 1 PM to 4 PM",
+     "themes": [
+      "food",
+      "budget"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cs0NefqgDB3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "tako-ichiban-house",
+     "name": "Tako Ichiban House",
+     "hook": "Ramen and takoyaki under 55 AED",
+     "why": "Affordable Japanese ramen and takoyaki spot inside Flayva at Al Ghurair Centre, from the team behind beloved Ichiryu. Ramen + takoyaki combo comes in at just 55 AED.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Deira",
+     "city": "Dubai",
+     "location_text": "Tako Ichiban House, Flayva, Al Ghurair Centre, Dubai",
+     "website": null,
+     "price_text": "Ramen + takoyaki AED 55; rice meal AED 30",
+     "date_info": null,
+     "themes": [
+      "budget",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C-sS4BVNdd5/",
+     "media_url": null
+    },
+    {
+     "gem_id": "josette",
+     "name": "Josette",
+     "hook": "Michelin French lunch for 135 AED",
+     "why": "A Michelin Guide-approved Parisian restaurant inside DIFC offering a weekday business lunch of starter and main for just AED 135 — pink interiors, classic French dishes.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "DIFC",
+     "city": "Dubai",
+     "location_text": "Josette, ICD Brookfield Place, DIFC, Dubai",
+     "website": null,
+     "price_text": "AED 135 for starter + main",
+     "date_info": "Business Lunch weekdays only, reservation recommended",
+     "themes": [
+      "food",
+      "luxury",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C14mjp9vwX1/",
+     "media_url": null
+    },
+    {
+     "gem_id": "bb-social-dining",
+     "name": "BB Social Dining",
+     "hook": "Luxe Asian lunch for the price of a coffee",
+     "why": "Creative Asian-inspired restaurant in the heart of DIFC offering a 3-course business lunch for just 125 AED — soft-shell crab bao and veal ribs are must-tries.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "DIFC",
+     "city": "Dubai",
+     "location_text": "BB Social Dining, DIFC, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 125 for 3-course business lunch",
+     "date_info": "Weekday business lunch only, Monday to Friday",
+     "themes": [
+      "food",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C2PMf-6vDwM/",
+     "media_url": null
+    },
+    {
+     "gem_id": "benjarong-at-dusit-thani-dubai",
+     "name": "Benjarong at Dusit Thani Dubai",
+     "hook": "Award-winning Thai for under 110 AED",
+     "why": "An acclaimed Thai restaurant inside Dusit Thani Dubai offering an exceptional weekday business lunch — authentic Pad Thai, Tom Yum and Gai Satay for as little as AED 99.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Sheikh Zayed Road",
+     "city": "Dubai",
+     "location_text": "Dusit Thani Dubai, Sheikh Zayed Road, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 99 for 2 courses; AED 109 for 3 courses; AED 25 for unlimited Thai iced tea/coffee",
+     "date_info": "Business lunch Monday to Friday only",
+     "themes": [
+      "food",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_arB2HPcfC/",
+     "media_url": null
+    },
+    {
+     "gem_id": "circle-cafe",
+     "name": "Circle Cafe",
+     "hook": "Eat everything on the menu for AED 69",
+     "why": "Weekend all-you-can-eat breakfast at Circle Cafe lets you order anything on the menu — shakshuka, eggs benny, French toast — plus one coffee, for just AED 69.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Dubai Healthcare City",
+     "city": "Dubai",
+     "location_text": "Circle Cafe, Al Razi Building, Dubai Healthcare City, Dubai",
+     "website": null,
+     "price_text": "AED 69 per person (all-you-can-eat + 1 coffee/tea)",
+     "date_info": "Weekends 8 AM–4 PM",
+     "themes": [
+      "food",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CmlwfiahOlw/",
+     "media_url": null
+    },
+    {
+     "gem_id": "mashisoyo",
+     "name": "Mashisoyo",
+     "hook": "Korean BBQ discounts in JLT",
+     "why": "Homey Korean BBQ restaurant in JLT offering authentic grilled meats — try the Dak Bulgogi or premium Galbi — with free banchan side dishes and up to 25% off Mon–Wed.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Jumeirah Lakes Towers (JLT)",
+     "city": "Dubai",
+     "location_text": "Mashisoyo, Jumeirah Lakes Towers, Dubai, UAE",
+     "website": null,
+     "price_text": "Dak Bulgogi 80 AED, La Galbi 140 AED; 25% off Mon–Wed, 15% off Thu–Sun",
+     "date_info": null,
+     "themes": [
+      "food",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CsWbblMgsEF/",
+     "media_url": null
+    },
+    {
+     "gem_id": "clap-dubai",
+     "name": "CLAP Dubai",
+     "hook": "Michelin lunch for under 120 AED",
+     "why": "A Michelin Guide-selected Japanese restaurant in DIFC offers an exceptional 3-course business lunch — miso soup, generous starters, Wagyu Donburi — for just 115 AED Mon–Fri.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "DIFC",
+     "city": "Dubai",
+     "location_text": "CLAP, Building 11, Gate Village, DIFC, Dubai",
+     "website": null,
+     "price_text": "115 AED 3-course lunch; +35 AED dessert",
+     "date_info": "Business Lunch Mon–Fri, 12:00–15:30",
+     "themes": [
+      "food",
+      "budget",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CvJxfinAd8z/",
+     "media_url": null
+    },
+    {
+     "gem_id": "lavash-at-j3-mall",
+     "name": "Lavash at J3 Mall",
+     "hook": "Unlimited breakfast from 49 dirhams",
+     "why": "All-you-can-eat breakfast buffet in Jumeirah with tiered packages from AED 49 (9 dishes) up to AED 79 (27 dishes); hearty portions perfect for sharing with friends.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Lavash, J3 Mall, Jumeirah, Dubai",
+     "website": null,
+     "price_text": "AED 49–79 per person (food only); AED 139 incl. drinks",
+     "date_info": null,
+     "themes": [
+      "budget",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DADTh0dP91v/",
+     "media_url": null
+    },
+    {
+     "gem_id": "al-khayma-heritage-restaurant",
+     "name": "Al Khayma Heritage Restaurant",
+     "hook": "Michelin-starred Emirati breakfast for two",
+     "why": "Michelin Bib Gourmand spot in Old Dubai's historic Al Fahidi district serving traditional Emirati cuisine; the AED 89 breakfast tray for two loaded with shakshuka, foul, falafel, and Arabic pancakes is outstanding value.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Al Fahidi Historical District",
+     "city": "Dubai",
+     "location_text": "Al Khayma Heritage Restaurant, Al Fahidi Historical District, Dubai",
+     "website": null,
+     "price_text": "AED 89 for 2 (Arabian Breakfast Tray)",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DATU4-Rv3YE/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-luxury-drink",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "luxury × drink",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Luxury bars & drinks in Dubai",
+   "subhead": "5 top picks, pulled from 6 reels",
+   "count": 5,
+   "source_reel_count": 6,
+   "themes": [
+    "luxury",
+    "photo-spot",
+    "nightlife",
+    "bucket-list"
+   ],
+   "areas": [
+    "Za'abeel",
+    "JLT",
+    "JBR / Jumeirah Beach Residence",
+    "Jumeirah",
+    "Palm Jumeirah"
+   ],
+   "price_band": "paid",
+   "lead": "Tapasake",
+   "quality": {
+    "cardinality": 5,
+    "corroboration": 0.76,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "tapasake",
+     "name": "Tapasake",
+     "hook": "Poolside Nikkei with Burj views",
+     "why": "Outdoor lounge and bar at One&Only One Za'abeel serving Nikkei cuisine and cocktails beside the pool deck, with front-row views of the Burj Khalifa at sunset.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "Za'abeel",
+     "city": "Dubai",
+     "location_text": "One&Only One Za'abeel, Za'abeel, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "nightlife"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DDG5QU4vREn/",
+     "media_url": null
+    },
+    {
+     "gem_id": "paros-rooftop-lounge",
+     "name": "Paros Rooftop Lounge",
+     "hook": "Mediterranean chic above Dubai Marina",
+     "why": "Chic Mediterranean-style rooftop at Taj Dubai in JLT with panoramic views of the Dubai Marina skyline. Open noon to 1 AM — ideal for long lunches or evening cocktails.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "JLT",
+     "city": "Dubai",
+     "location_text": "Paros, Taj Dubai, JLT, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Best October–April; 12 PM–1 AM",
+     "themes": [
+      "nightlife",
+      "photo-spot",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C056atqPbwb/",
+     "media_url": null
+    },
+    {
+     "gem_id": "zeta-seventy-seven-at-address-beach-resort",
+     "name": "Zeta Seventy Seven at Address Beach Resort",
+     "hook": "Dubai's highest rooftop infinity pool",
+     "why": "An exclusive rooftop lounge on the 77th floor of Address Beach Resort — one of Dubai's most breathtaking bucket-list views, accessible with a minimum spend.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "JBR / Jumeirah Beach Residence",
+     "city": "Dubai",
+     "location_text": "Address Beach Resort, Jumeirah Beach Residence, Dubai, UAE",
+     "website": null,
+     "price_text": "Minimum spend required; afternoon tea at The Lounge can grant access",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_8Wq0HuT3P/",
+     "media_url": null
+    },
+    {
+     "gem_id": "onda-by-pierchic",
+     "name": "Onda by Pierchic",
+     "hook": "Sunset drinks perched over the sea",
+     "why": "Dubai's most romantic lounge bar sits on a wooden pier over the Arabian Gulf at Jumeirah Al Qasr — sip cocktails while watching the sun sink behind Burj Al Arab with no minimum spend.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Onda by Pierchic, Jumeirah Al Qasr, Dubai",
+     "website": null,
+     "price_text": "Mocktails AED 45, truffle fries AED 40; no minimum spend",
+     "date_info": "Opens at 5 PM",
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DBdYzDKvaEd/",
+     "media_url": null
+    },
+    {
+     "gem_id": "poseidon-cafe",
+     "name": "Poseidon Cafe",
+     "hook": "Coffee overlooking the Palm aquarium",
+     "why": "A dreamy aquarium-view cafe inside Atlantis The Palm with no minimum spend. Coffee and a croissant run about AED 50 — affordable luxury in one of Dubai's most iconic resorts.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Poseidon Cafe, Atlantis The Palm, Palm Jumeirah, Dubai, UAE",
+     "website": null,
+     "price_text": "~AED 50 for coffee and croissant",
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DGXYy4DP-xc/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-free-nature",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "free × nature",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "local",
+   "headline": "Free nature escapes in Dubai",
+   "subhead": "8 spots locals rate, pulled from 5 reels",
+   "count": 8,
+   "source_reel_count": 5,
+   "themes": [
+    "free",
+    "nature",
+    "photo-spot",
+    "hidden-gem"
+   ],
+   "areas": [
+    "Al Jaddaf",
+    "Ras Al Khor",
+    "Downtown Dubai",
+    "Umm Suqeim",
+    "Bur Dubai",
+    "Palm Jumeirah",
+    "Deira / Dubai Islands",
+    "Business Bay"
+   ],
+   "price_band": "mostly-free",
+   "lead": "Al Jaddaf Walk",
+   "quality": {
+    "cardinality": 8,
+    "corroboration": 0.665,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "al-jaddaf-walk",
+     "name": "Al Jaddaf Walk",
+     "hook": "Sunset stroll with Dubai skyline views",
+     "why": "A beautiful free waterfront promenade along the Dubai Creek with sweeping skyline views — perfect for late-afternoon walks and golden-hour photography.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Al Jaddaf",
+     "city": "Dubai",
+     "location_text": "Al Jaddaf Walk, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C1oxpPxvjYp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ras-al-khor-wildlife-sanctuary",
+     "name": "Ras Al Khor Wildlife Sanctuary",
+     "hook": "Flamingos in the heart of Dubai",
+     "why": "A remarkable free nature reserve inside the city where hundreds of flamingos wade in shallow lagoons — one of Dubai's most surprising wildlife encounters.",
+     "category": "nature",
+     "subcategory": "natural-landmark",
+     "area": "Ras Al Khor",
+     "city": "Dubai",
+     "location_text": "Ras Al Khor Wildlife Sanctuary, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": "Winter season (Oct–Mar): 7:30 AM – 5:30 PM",
+     "themes": [
+      "free",
+      "nature",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C1oxpPxvjYp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "burj-park",
+     "name": "Burj Park",
+     "hook": "A park with front-row Burj Khalifa views",
+     "why": "A beautifully landscaped public park on an island in Downtown Dubai offering some of the best unobstructed views of Burj Khalifa and the Dubai Fountain — completely free.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Burj Park, Downtown Dubai, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C2CZJpVPTDc/",
+     "media_url": null
+    },
+    {
+     "gem_id": "umm-suqeim-beach",
+     "name": "Umm Suqeim Beach",
+     "hook": "Sunset beach with a Burj Al Arab view",
+     "why": "Known as Sunset Beach, this popular public stretch of sand sits directly beside Burj Al Arab — the ultimate free spot for golden-hour shots of Dubai's most iconic hotel.",
+     "category": "nature",
+     "subcategory": "beach",
+     "area": "Umm Suqeim",
+     "city": "Dubai",
+     "location_text": "Umm Suqeim Beach, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot",
+      "nature",
+      "beach"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C2CZJpVPTDc/",
+     "media_url": null
+    },
+    {
+     "gem_id": "creek-park",
+     "name": "Creek Park",
+     "hook": "Dubai's best 5-dirham picnic park",
+     "why": "A sprawling green escape along Dubai Creek with BBQ areas, playgrounds, bike rentals, and food stalls — all for just 5 AED entry, best on quiet weekday mornings.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Bur Dubai",
+     "city": "Dubai",
+     "location_text": "Creek Park, Bur Dubai, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 5 entry",
+     "date_info": "Best on weekday mornings for fewer crowds",
+     "themes": [
+      "free",
+      "budget",
+      "family",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C2j8A7Uvh_F/",
+     "media_url": null
+    },
+    {
+     "gem_id": "palm-west-beach",
+     "name": "Palm West Beach",
+     "hook": "Free beach with Marina skyline views",
+     "why": "A free, laid-back beach strip on Palm Jumeirah with Insta-worthy spots, beachfront restaurants, and sweeping views of the Dubai Marina skyline — no entrance fee required.",
+     "category": "nature",
+     "subcategory": "beach",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Palm West Beach, Palm Jumeirah, Dubai, UAE",
+     "website": null,
+     "price_text": "Free entry",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Co8qYjhgdbb/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-islands-beach",
+     "name": "Dubai Islands Beach",
+     "hook": "Free beach with Deira sunset views",
+     "why": "A newly opened public beach in Deira with free entry, free sun loungers, pet-friendly access, showers, and gorgeous sunset vistas — near Centara Mirage Resort on Dubai Islands.",
+     "category": "nature",
+     "subcategory": "beach",
+     "area": "Deira / Dubai Islands",
+     "city": "Dubai",
+     "location_text": "Dubai Islands Beach, near Centara Mirage Resort, Deira, Dubai, UAE",
+     "website": null,
+     "price_text": "Free entry; free sun loungers",
+     "date_info": null,
+     "themes": [
+      "free",
+      "family",
+      "photo-spot",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CtJu6YlgXa7/",
+     "media_url": null
+    },
+    {
+     "gem_id": "bbq-spot-near-business-bay-bridge",
+     "name": "BBQ Spot near Business Bay Bridge",
+     "hook": "Picnic by the Business Bay bridge",
+     "why": "A laid-back free public area along Dubai Creek near Business Bay — ideal for picnics, watching the city lights, and catching fireworks with a local crowd.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Business Bay",
+     "city": "Dubai",
+     "location_text": "BBQ area near Business Bay Bridge, Dubai Creek, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "free",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/C1oxpPxvjYp/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-photo-spot-view",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "photo-spot × view",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Most photogenic viewpoints in Dubai",
+   "subhead": "11 top picks, pulled from 6 reels",
+   "count": 11,
+   "source_reel_count": 6,
+   "themes": [
+    "photo-spot",
+    "bucket-list",
+    "free",
+    "hidden-gem"
+   ],
+   "areas": [
+    "Downtown Dubai",
+    "Dubai Creek Harbour",
+    "Madinat Jumeirah",
+    "Business Bay",
+    "DIFC",
+    "Bluewaters Island",
+    "Za'abeel Park",
+    "Palm Jumeirah"
+   ],
+   "price_band": "free",
+   "lead": "Burj Khalifa",
+   "quality": {
+    "cardinality": 11,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "burj-khalifa-5",
+     "name": "Burj Khalifa",
+     "hook": "The iconic view of Burj Khalifa",
+     "why": "The world's tallest building is best viewed from Downtown Dubai — catch the daytime skyline or the free nightly fountain and light show from street level.",
+     "category": "view",
+     "subcategory": "skyline",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Downtown Dubai, Dubai",
+     "website": null,
+     "price_text": "Free (exterior viewing and fountain show)",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "free"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C1EdrqKPWCp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "burj-al-arab",
+     "name": "Burj Al Arab",
+     "hook": "Sail-shaped icon at Souk Madinat",
+     "why": "Dubai's most iconic sail-shaped hotel is best photographed from the Souk Madinat Jumeirah terrace — free entry, perfect framing day or night.",
+     "category": "view",
+     "subcategory": "photo-spot",
+     "area": "Madinat Jumeirah",
+     "city": "Dubai",
+     "location_text": "Souk Madinat Jumeirah terrace, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "free",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C1EdrqKPWCp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-canal",
+     "name": "Dubai Canal",
+     "hook": "Pedestrian bridges over the Dubai Canal",
+     "why": "A picturesque 3.2km urban waterway with striking Instagram-worthy pedestrian bridges, skyline views, and a free waterfront promenade — walkable and photogenic.",
+     "category": "view",
+     "subcategory": "scenic-overlook",
+     "area": "Business Bay",
+     "city": "Dubai",
+     "location_text": "Dubai Canal, Business Bay, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C2CZJpVPTDc/",
+     "media_url": null
+    },
+    {
+     "gem_id": "gate-avenue-difc-nye-fireworks-viewpoint",
+     "name": "Gate Avenue, DIFC — NYE Fireworks Viewpoint",
+     "hook": "Skip the crowd, watch Burj fireworks",
+     "why": "Gate Avenue in DIFC offers a clear, uncrowded vantage point for Burj Khalifa New Year's Eve fireworks — far better than the downtown crush.",
+     "category": "view",
+     "subcategory": "photo-spot",
+     "area": "DIFC",
+     "city": "Dubai",
+     "location_text": "Gate Avenue, DIFC, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": "New Year's Eve / New Year's fireworks season",
+     "themes": [
+      "hidden-gem",
+      "free",
+      "seasonal",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cm2bibSBZJi/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-creek-harbour-viewing-deck",
+     "name": "Dubai Creek Harbour Viewing Deck",
+     "hook": "Free sunset deck gone viral on Instagram",
+     "why": "A free, newly opened viewing deck near Address Grand Creek Harbour offering one of Dubai's best viral sunset spots — accessible by public RTA boat.",
+     "category": "view",
+     "subcategory": "scenic-overlook",
+     "area": "Dubai Creek Harbour",
+     "city": "Dubai",
+     "location_text": "Near Address Grand Creek Harbour, Dubai Creek Harbour, Dubai",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cq5pEuVgYl9/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-creek-harbour-sunset-viewpoint",
+     "name": "Dubai Creek Harbour Sunset Viewpoint",
+     "hook": "Dubai skyline bathed in golden light",
+     "why": "One of Dubai's best free sunset spots; the Creek Harbour promenade frames the entire downtown skyline in warm golden rays — reach it easily via Green Line metro and a short RTA boat hop.",
+     "category": "view",
+     "subcategory": "skyline",
+     "area": "Dubai Creek Harbour",
+     "city": "Dubai",
+     "location_text": "Dubai Creek Harbour, Dubai",
+     "website": null,
+     "price_text": "free",
+     "date_info": "Best on clear days; avoid sandstorm season",
+     "themes": [
+      "free",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DAYS-3sPleQ/",
+     "media_url": null
+    },
+    {
+     "gem_id": "sky-views-observatory",
+     "name": "Sky Views Observatory",
+     "hook": "Glass walk over the Dubai skyline",
+     "why": "Perched high above Za'abeel, Sky Views offers a glass-bottomed walk, a glass slide, and panoramic views of the Burj Khalifa and downtown Dubai skyline.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Sky Views Observatory, Address Sky View Hotel, Downtown Dubai",
+     "website": "https://www.skyviewsdubai.ae",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DF2BfAaPRXN/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ain-dubai",
+     "name": "Ain Dubai",
+     "hook": "The world's highest Ferris wheel",
+     "why": "The world's tallest observation wheel on Bluewaters Island delivers sweeping 360° views of Palm Jumeirah and Dubai Marina from its giant gondolas.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Bluewaters Island",
+     "city": "Dubai",
+     "location_text": "Ain Dubai, Bluewaters Island, Dubai",
+     "website": "https://www.aindubai.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DF2BfAaPRXN/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dubai-frame-2",
+     "name": "Dubai Frame",
+     "hook": "See old and new Dubai simultaneously",
+     "why": "The world's largest picture frame has a glass-floored sky bridge that frames old Deira on one side and modern Downtown Dubai on the other — a uniquely symbolic view.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Za'abeel Park",
+     "city": "Dubai",
+     "location_text": "Dubai Frame, Za'abeel Park, Dubai",
+     "website": "https://www.thedubaiframe.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DF2BfAaPRXN/",
+     "media_url": null
+    },
+    {
+     "gem_id": "at-the-top-burj-khalifa",
+     "name": "At The Top — Burj Khalifa",
+     "hook": "Stand atop the world's tallest tower",
+     "why": "The iconic observation deck on the 124th (and 148th) floors of the Burj Khalifa offers unmatched views of Dubai and the Arabian Gulf — the definitive Dubai bucket-list stop.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Burj Khalifa, 1 Sheikh Mohammed bin Rashid Blvd, Downtown Dubai",
+     "website": "https://www.burjkhalifa.ae",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DF2BfAaPRXN/",
+     "media_url": null
+    },
+    {
+     "gem_id": "the-view-at-the-palm",
+     "name": "The View at The Palm",
+     "hook": "360 degrees of Palm Jumeirah",
+     "why": "Atop the Palm Tower, this 360° observation deck gives the only aerial view of the full Palm Jumeirah frond layout plus Dubai Marina and the Gulf beyond.",
+     "category": "view",
+     "subcategory": "observation-deck",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "The View at The Palm, Palm Tower, Palm Jumeirah, Dubai",
+     "website": "https://www.theviewatthepalm.ae",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DF2BfAaPRXN/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-hidden-gem-see-do",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "hidden-gem × see-do",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "local",
+   "headline": "Hidden-gem things to do in Dubai",
+   "subhead": "12 spots locals rate, pulled from 13 reels",
+   "count": 12,
+   "source_reel_count": 13,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "free",
+    "family"
+   ],
+   "areas": [
+    "Nad Al Sheba",
+    "Al Khawaneej",
+    "JBR — The Walk",
+    "Dubai Design District (D3)",
+    "Palm Jumeirah",
+    "Dubai Harbour",
+    "Al Jaddaf",
+    "Al Barsha",
+    "The World Islands"
+   ],
+   "price_band": "mixed",
+   "lead": "Keturah Reserve",
+   "quality": {
+    "cardinality": 12,
+    "corroboration": 0.702,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "keturah-reserve",
+     "name": "Keturah Reserve",
+     "hook": "Olive tree avenue in a luxury reserve",
+     "why": "An Instagram-worthy luxury real estate development in Nad Al Sheba with a stunning olive-tree-lined promenade, cafes, vintage cars on display, and free public access.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Nad Al Sheba",
+     "city": "Dubai",
+     "location_text": "Keturah Reserve, Nad Al Sheba, Dubai",
+     "website": null,
+     "price_text": "Free entry",
+     "date_info": null,
+     "themes": [
+      "free",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C2CZJpVPTDc/",
+     "media_url": null
+    },
+    {
+     "gem_id": "al-khawaneej-walk",
+     "name": "Al Khawaneej Walk",
+     "hook": "Love locks and food trucks in the suburbs",
+     "why": "A charming neighborhood outdoor mall with a love lock bridge, al fresco dining, food trucks, and quirky photo spots — free to explore and off the tourist trail.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Al Khawaneej",
+     "city": "Dubai",
+     "location_text": "Al Khawaneej Walk, Dubai",
+     "website": null,
+     "price_text": "Free entry",
+     "date_info": null,
+     "themes": [
+      "free",
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C1oxpPxvjYp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "sagra-dubai-pasta-making-class",
+     "name": "Sagra Dubai Pasta-Making Class",
+     "hook": "Roll fresh pasta with a real chef",
+     "why": "Learn to make flat pasta from scratch under expert chef guidance at this Italian restaurant — you leave with your own pasta, the recipe, and a delicious tasting session.",
+     "category": "see-do",
+     "subcategory": "class-workshop",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Sagra Dubai, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 250 per person",
+     "date_info": "Advance reservation recommended; book via Sagra's Instagram",
+     "themes": [
+      "food",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_IlUQhP_EF/",
+     "media_url": null
+    },
+    {
+     "gem_id": "tep-factor",
+     "name": "TEP Factor",
+     "hook": "21 challenges inside a Dubai cave park",
+     "why": "A cave-like indoor recreation park at JBR with 21 challenges across logic, skills, fitness, and patience categories — perfect for groups, team building, and adventurous families.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "JBR — The Walk",
+     "city": "Dubai",
+     "location_text": "TEP Factor, JBR The Walk, Dubai",
+     "website": null,
+     "price_text": "AED 99 per person per hour",
+     "date_info": null,
+     "themes": [
+      "family",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cmt5ay1Bytt/",
+     "media_url": null
+    },
+    {
+     "gem_id": "sky-castle-by-eness",
+     "name": "Sky Castle by Eness",
+     "hook": "Walk through arches that sing to you",
+     "why": "A globally touring interactive sound and light installation where walking through glowing arches triggers a vibrant melodic symphony. Free public art in Dubai's Design District.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Dubai Design District (D3)",
+     "city": "Dubai",
+     "location_text": "D3, Between Building 9 and 10, Dubai Design District",
+     "website": null,
+     "price_text": "free",
+     "date_info": "Until January 29, 2023",
+     "themes": [
+      "hidden-gem",
+      "photo-spot",
+      "free",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CnHZHwOBSgI/",
+     "media_url": null
+    },
+    {
+     "gem_id": "costa-azzurra-electric-catamaran",
+     "name": "Costa Azzurra Electric Catamaran",
+     "hook": "Self-drive electric catamaran for two",
+     "why": "Dubai's most romantic water activity — pilot your own silent electric catamaran for two around The Pointe with Atlantis and the Palm skyline as your backdrop.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "The Pointe, Palm Jumeirah, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 200 for 15 min / AED 350 for 30 min (2 persons)",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CoUZJuuAood/",
+     "media_url": null
+    },
+    {
+     "gem_id": "hero-odysea-self-drive-boat-tour",
+     "name": "Hero OdySea Self-Drive Boat Tour",
+     "hook": "Captain your own boat in the Gulf",
+     "why": "Dubai's first self-drive boat tour — no license needed. Cruise the Arabian Gulf for 60–90 minutes past Ain Dubai, Atlantis, Burj Al Arab, and the glittering Marina with a guide on board.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Dubai Harbour",
+     "city": "Dubai",
+     "location_text": "Dubai Harbour, Marina Zone A, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CobY9LKIoMP/",
+     "media_url": null
+    },
+    {
+     "gem_id": "jameel-arts-centre",
+     "name": "Jameel Arts Centre",
+     "hook": "Free contemporary art by the waterfront",
+     "why": "A free, open-access contemporary art centre at Al Jaddaf Waterfront with an outdoor sculpture park, landscaped gardens, and captivating modern works; Michelin-listed Teible restaurant is next door.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Al Jaddaf",
+     "city": "Dubai",
+     "location_text": "Jameel Arts Centre, Al Jaddaf Waterfront, Dubai",
+     "website": "https://www.jameelartscentre.org",
+     "price_text": "Free (register at welcome desk)",
+     "date_info": "Sat–Thu 10am–8pm; Fri 12pm–8pm; closed Tuesday",
+     "themes": [
+      "free",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CpKYT5WAALy/",
+     "media_url": null
+    },
+    {
+     "gem_id": "al-barsha-pond-park-swan-paddle-boats",
+     "name": "Al Barsha Pond Park — Swan Paddle Boats",
+     "hook": "Swan boat dates for forty dirhams",
+     "why": "A charming and affordable paddle-boat ride on the pond in Al Barsha Pond Park — 40 AED for 20 minutes in a swan-shaped boat, perfect for a romantic outing.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Al Barsha",
+     "city": "Dubai",
+     "location_text": "Al Barsha Pond Park, Al Barsha, Dubai",
+     "website": null,
+     "price_text": "40 AED / 20 minutes",
+     "date_info": null,
+     "themes": [
+      "budget",
+      "hidden-gem",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CqoFFb3AWu8/",
+     "media_url": null
+    },
+    {
+     "gem_id": "yadaw-i-studio-pottery-on-the-wheel",
+     "name": "Yadawéi Studio — Pottery on the Wheel",
+     "hook": "Throw clay, take home pottery",
+     "why": "Beginner wheel-throwing class includes clay, tools, step-by-step guidance, and a glazing session two weeks later when your piece is fired. Therapeutic, hands-on, and genuinely fun.",
+     "category": "see-do",
+     "subcategory": "class-workshop",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Yadawéi Studio, Dubai",
+     "website": null,
+     "price_text": "AED 210 per person",
+     "date_info": null,
+     "themes": [
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cwf36pjoEHo/",
+     "media_url": null
+    },
+    {
+     "gem_id": "raining-street-at-voco-monaco-dubai",
+     "name": "Raining Street at Voco Monaco Dubai",
+     "hook": "A street that rains every fifteen minutes",
+     "why": "Dubai's famous Raining Street at The World Islands resort unleashes a full downpour every 15 minutes — an absurdly fun novelty that leaves you soaked and grinning.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "The World Islands",
+     "city": "Dubai",
+     "location_text": "Voco Monaco Dubai, The World Islands, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DA8ADEuPytp/",
+     "media_url": null
+    },
+    {
+     "gem_id": "mo-fun-studio",
+     "name": "Mo Fun Studio",
+     "hook": "Make your own rug in Dubai",
+     "why": "An arts-and-crafts studio in Dubai offering tufting, fluid art, acrylic painting and more. Make a custom rug in about two hours — a fun, hands-on date or solo creative session.",
+     "category": "see-do",
+     "subcategory": "class-workshop",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Mo Fun Studio, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/C-Rwmp9vcqK/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-photo-spot-drink",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "photo-spot × drink",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Picture-perfect bars & drinks in Dubai",
+   "subhead": "18 top picks, pulled from 19 reels",
+   "count": 18,
+   "source_reel_count": 19,
+   "themes": [
+    "photo-spot",
+    "hidden-gem",
+    "nightlife",
+    "luxury"
+   ],
+   "areas": [
+    "Jumeirah",
+    "Sheikh Zayed Road",
+    "JBR / The Walk",
+    "Za'abeel",
+    "JLT",
+    "JBR / Jumeirah Beach Residence",
+    "Al Jaddaf",
+    "JBR",
+    "Al Wasl / Box Park",
+    "Al Quoz",
+    "Dubai Healthcare City",
+    "Palm Jumeirah",
+    "Dubai Design District (D3)",
+    "Dubai Creek",
+    "DIFC"
+   ],
+   "price_band": "paid",
+   "lead": "Level 43 Sky Lounge",
+   "quality": {
+    "cardinality": 18,
+    "corroboration": 0.719,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "level-43-sky-lounge",
+     "name": "Level 43 Sky Lounge",
+     "hook": "Skyline drinks above Sheikh Zayed Road",
+     "why": "Chill rooftop bar at Four Points by Sheraton with panoramic views of Burj Khalifa, Museum of the Future and SZR skyline. Open until 3 AM — perfect for a late-night Dubai fix.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "Sheikh Zayed Road",
+     "city": "Dubai",
+     "location_text": "Level 43 Sky Lounge, Four Points by Sheraton, Sheikh Zayed Road, Dubai",
+     "website": "https://www.level43dubai.com",
+     "price_text": null,
+     "date_info": "Best October–April (cooler months); 2 PM–3 AM",
+     "themes": [
+      "nightlife",
+      "photo-spot"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C056atqPbwb/",
+     "media_url": null
+    },
+    {
+     "gem_id": "pure-sky-lounge",
+     "name": "Pure Sky Lounge",
+     "hook": "Sunset over the Palm from a rooftop",
+     "why": "Rooftop bar and restaurant at Hilton Dubai The Walk with sweeping sunset views over Ain Dubai and Palm Jumeirah. Open 5 PM–1 AM for golden-hour drinks by the sea.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "JBR / The Walk",
+     "city": "Dubai",
+     "location_text": "Pure Sky Lounge, Hilton Dubai The Walk, JBR, Dubai",
+     "website": null,
+     "price_text": "From AED 350 per person (Sunset Brunch package)",
+     "date_info": "Best October–April; 5 PM–1 AM",
+     "themes": [
+      "nightlife",
+      "photo-spot"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C056atqPbwb/",
+     "media_url": null
+    },
+    {
+     "gem_id": "tapasake",
+     "name": "Tapasake",
+     "hook": "Poolside Nikkei with Burj views",
+     "why": "Outdoor lounge and bar at One&Only One Za'abeel serving Nikkei cuisine and cocktails beside the pool deck, with front-row views of the Burj Khalifa at sunset.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "Za'abeel",
+     "city": "Dubai",
+     "location_text": "One&Only One Za'abeel, Za'abeel, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "nightlife"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DDG5QU4vREn/",
+     "media_url": null
+    },
+    {
+     "gem_id": "paros-rooftop-lounge",
+     "name": "Paros Rooftop Lounge",
+     "hook": "Mediterranean chic above Dubai Marina",
+     "why": "Chic Mediterranean-style rooftop at Taj Dubai in JLT with panoramic views of the Dubai Marina skyline. Open noon to 1 AM — ideal for long lunches or evening cocktails.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "JLT",
+     "city": "Dubai",
+     "location_text": "Paros, Taj Dubai, JLT, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": "Best October–April; 12 PM–1 AM",
+     "themes": [
+      "nightlife",
+      "photo-spot",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C056atqPbwb/",
+     "media_url": null
+    },
+    {
+     "gem_id": "zeta-seventy-seven-at-address-beach-resort",
+     "name": "Zeta Seventy Seven at Address Beach Resort",
+     "hook": "Dubai's highest rooftop infinity pool",
+     "why": "An exclusive rooftop lounge on the 77th floor of Address Beach Resort — one of Dubai's most breathtaking bucket-list views, accessible with a minimum spend.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "JBR / Jumeirah Beach Residence",
+     "city": "Dubai",
+     "location_text": "Address Beach Resort, Jumeirah Beach Residence, Dubai, UAE",
+     "website": null,
+     "price_text": "Minimum spend required; afternoon tea at The Lounge can grant access",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_8Wq0HuT3P/",
+     "media_url": null
+    },
+    {
+     "gem_id": "kulture-house-dubai",
+     "name": "Kulture House Dubai",
+     "hook": "A cafe that doubles as an art gallery",
+     "why": "A vibrant Jumeirah cafe with a concept store and mini gallery — the eclectic menu spans shakshouka to stuffed shell pasta in a quirky, creatively charged space.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Kulture House, Jumeirah, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_fJB8IvsUh/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dreams-boats-floating-caf",
+     "name": "Dreams Boats Floating Café",
+     "hook": "Coffee date on a floating boat",
+     "why": "A private 45-minute sailing café experience on Al Jaddaf Waterfront — Arabic coffee, tea, cold drinks, and light bites in a serene waterfront setting behind Palazzo Versace.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Al Jaddaf",
+     "city": "Dubai",
+     "location_text": "Al Jaddaf Waterfront, behind Palazzo Versace, Dubai, UAE",
+     "website": null,
+     "price_text": "AED 450 for 2 persons (45 minutes)",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CogtABkA2vy/",
+     "media_url": null
+    },
+    {
+     "gem_id": "wavebreaker-jbr",
+     "name": "Wavebreaker JBR",
+     "hook": "Sunset beach bar with Ain Dubai view",
+     "why": "A wooden beachfront sunset deck at the Hilton JBR with Ain Dubai panoramas, lively beach bar energy, sundowner deals from 38 AED and charcuterie sharing platters.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "JBR",
+     "city": "Dubai",
+     "location_text": "Wavebreaker, Hilton Dubai Jumeirah, JBR Walk, Dubai",
+     "website": null,
+     "price_text": "Drinks from 38 AED; charcuterie platter 85 AED",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "nightlife",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cp9g0g3A-4R/",
+     "media_url": null
+    },
+    {
+     "gem_id": "forever-rose-cafe",
+     "name": "Forever Rose Cafe",
+     "hook": "Step inside a 2D fairy-tale cafe",
+     "why": "A whimsical 2D storybook-themed cafe at Box Park Dubai with affordable, well-presented drinks and food — the Forever Rose Latte and Enchanted Waffle are crowd favourites.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Al Wasl / Box Park",
+     "city": "Dubai",
+     "location_text": "Box Park, Al Wasl Road, Dubai",
+     "website": null,
+     "price_text": "25 AED latte; 36 AED truffle fries",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "hidden-gem",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CqfLoYSACRw/",
+     "media_url": null
+    },
+    {
+     "gem_id": "la-nena",
+     "name": "La Nena",
+     "hook": "A Spanish cafe hidden in industrial Dubai",
+     "why": "A visually stunning Spanish cafe and concept store tucked in Al Quoz's industrial district — the iced Spanish latte and tiramisu cheesecake make it one of Dubai's most aesthetic spots.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Al Quoz",
+     "city": "Dubai",
+     "location_text": "La Nena, Al Quoz, Dubai",
+     "website": null,
+     "price_text": "Iced Spanish Latte 30 AED; Tiramisu Cheesecake 28 AED",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CwZionrI9Oh/",
+     "media_url": null
+    },
+    {
+     "gem_id": "onda-by-pierchic",
+     "name": "Onda by Pierchic",
+     "hook": "Sunset drinks perched over the sea",
+     "why": "Dubai's most romantic lounge bar sits on a wooden pier over the Arabian Gulf at Jumeirah Al Qasr — sip cocktails while watching the sun sink behind Burj Al Arab with no minimum spend.",
+     "category": "drink",
+     "subcategory": "rooftop",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Onda by Pierchic, Jumeirah Al Qasr, Dubai",
+     "website": null,
+     "price_text": "Mocktails AED 45, truffle fries AED 40; no minimum spend",
+     "date_info": "Opens at 5 PM",
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DBdYzDKvaEd/",
+     "media_url": null
+    },
+    {
+     "gem_id": "sketch-art-cafe",
+     "name": "Sketch Art Cafe",
+     "hook": "Paint your coffee cup here",
+     "why": "A cafe where every order comes with a free paper cup to paint — take it home or display it in the gallery. Other crafts like coloring pads and design-your-own pouches also available.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Sketch Art Cafe, Dubai",
+     "website": null,
+     "price_text": "AED 39 per drink (Sea Salt Latte, Strawberry Matcha)",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DBifsmWvtGa/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ibric-cafe",
+     "name": "Ibric Cafe",
+     "hook": "Pastel-pretty cafe with 10 AED drinks",
+     "why": "Aesthetically pleasing and genuinely affordable new cafe in Dubai Healthcare City — drinks start at 10 AED and their Pretty in Pink Matcha is a standout at just 23 AED.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Dubai Healthcare City",
+     "city": "Dubai",
+     "location_text": "Ibric Cafe, Al Jalila Foundation, Dubai Healthcare City, Dubai",
+     "website": null,
+     "price_text": "Drinks from 10 AED; Pink Matcha 23 AED",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "budget",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DFUojVKPBD5/",
+     "media_url": null
+    },
+    {
+     "gem_id": "poseidon-cafe",
+     "name": "Poseidon Cafe",
+     "hook": "Coffee overlooking the Palm aquarium",
+     "why": "A dreamy aquarium-view cafe inside Atlantis The Palm with no minimum spend. Coffee and a croissant run about AED 50 — affordable luxury in one of Dubai's most iconic resorts.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Poseidon Cafe, Atlantis The Palm, Palm Jumeirah, Dubai, UAE",
+     "website": null,
+     "price_text": "~AED 50 for coffee and croissant",
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DGXYy4DP-xc/",
+     "media_url": null
+    },
+    {
+     "gem_id": "amg-kaffeehaus-mercedes-benz-cafe",
+     "name": "AMG Kaffeehaus (Mercedes-Benz Cafe)",
+     "hook": "Sip espresso beside a Benz showroom",
+     "why": "A premium cafe inside the Mercedes-Benz showroom in Dubai Design District — glossy luxury cars as decor, great iced lattes and desserts. Two iced lattes + dessert for about AED 80.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "Dubai Design District (D3)",
+     "city": "Dubai",
+     "location_text": "AMG Kaffeehaus, Dubai Design District (D3), Dubai, UAE",
+     "website": null,
+     "price_text": "~AED 80 for two (2 iced lattes + 1 dessert)",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DI--LwuvtHA/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ruby-ru",
+     "name": "Ruby Ru",
+     "hook": "Parisian cocktails at Dubai's creek",
+     "why": "Parisian-style cocktail bar on a terrace overlooking the Dubai Creek. Sundowner happy hour (Ruby's Hour) runs 4–8 pm Monday–Friday with drinks from AED 27 — ideal for a golden-hour date.",
+     "category": "drink",
+     "subcategory": "cocktail-bar",
+     "area": "Dubai Creek",
+     "city": "Dubai",
+     "location_text": "Ruby Ru, Marriott Marquis Dubai, Sheikh Zayed Road, Dubai, UAE",
+     "website": null,
+     "price_text": "Cocktails from AED 27 (happy hour); Ruby Ru Crispy AED 55",
+     "date_info": null,
+     "themes": [
+      "nightlife",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DI0eA0RvQzK/",
+     "media_url": null
+    },
+    {
+     "gem_id": "dreams-boats-floating-cafe",
+     "name": "Dreams Boats Floating Cafe",
+     "hook": "Your coffee date on the water",
+     "why": "A private floating cafe that sails for 45 minutes — enjoy Arabic coffee or tea on the Dubai waterway in intimate, peaceful surroundings.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Dubai waterways, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/C2ZzmN6Peqn/",
+     "media_url": null
+    },
+    {
+     "gem_id": "more-matcha-pop-up",
+     "name": "More Matcha Pop-Up",
+     "hook": "All-matcha pop-up inside Dubai's DIFC",
+     "why": "A cute, Instagrammable pop-up in DIFC serving matcha everything — drinks, desserts, and an oversized vanilla-matcha soft serve (AED 30) that's easily shareable.",
+     "category": "drink",
+     "subcategory": "coffee",
+     "area": "DIFC",
+     "city": "Dubai",
+     "location_text": "DIFC, Dubai, UAE",
+     "website": null,
+     "price_text": "Vanilla-matcha softy AED 30",
+     "date_info": "Winter pop-up; limited-time availability",
+     "themes": [
+      "hidden-gem",
+      "photo-spot",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/CoOrDZDg2np/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-hybrid-luxury-see-do",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "hybrid",
+   "axis": "luxury × see-do",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "High-end things to do in Dubai",
+   "subhead": "4 top picks, pulled from 4 reels",
+   "count": 4,
+   "source_reel_count": 4,
+   "themes": [
+    "luxury",
+    "bucket-list",
+    "nature",
+    "seasonal"
+   ],
+   "areas": [
+    "Dubai Desert Conservation Reserve",
+    "Jumeirah",
+    "Palm Jumeirah"
+   ],
+   "price_band": null,
+   "lead": "Platinum Heritage Desert Safari",
+   "quality": {
+    "cardinality": 4,
+    "corroboration": 0.56,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "platinum-heritage-desert-safari",
+     "name": "Platinum Heritage Desert Safari",
+     "hook": "Eco-luxury safari in the dunes",
+     "why": "An upscale eco-safari through Dubai Desert Conservation Reserve — spot Arabian Oryx, gazelles, and Ghaf trees on a 60-minute nature drive, with canapés and traditional welcome gifts.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Dubai Desert Conservation Reserve",
+     "city": "Dubai",
+     "location_text": "Dubai Desert Conservation Reserve, Dubai, UAE",
+     "website": "https://www.platinumheritage.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "nature",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CnrUcynBwnS/",
+     "media_url": null
+    },
+    {
+     "gem_id": "burj-al-arab-guided-tour",
+     "name": "Burj Al Arab Guided Tour",
+     "hook": "Inside the world's most iconic hotel",
+     "why": "90-minute butler-guided tour of the Burj Al Arab including the Royal Suite, Experience Suite, Arabic coffee and dates, and a buggy ride across the private island.",
+     "category": "see-do",
+     "subcategory": "tour",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Burj Al Arab, Jumeirah, Dubai",
+     "website": "https://www.jumeirah.com/en/hotels-resorts/dubai/burj-al-arab",
+     "price_text": "AED 249 per adult",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CryfmLQAFh2/",
+     "media_url": null
+    },
+    {
+     "gem_id": "resorts-world-one-cruise",
+     "name": "Resorts World One Cruise",
+     "hook": "Sail to a new port while you party",
+     "why": "Boutique cruise ship departing Dubai with foam parties, silent disco, live shows, a water slide, and multiple restaurants — meals included in the ticket, new destinations every morning.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Resorts World One, Dubai Cruise Terminal, Dubai",
+     "website": "https://www.rwcruises.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DB6YsAkPVdF/",
+     "media_url": null
+    },
+    {
+     "gem_id": "atlantis-the-palm-christmas-celebrations",
+     "name": "Atlantis The Palm — Christmas Celebrations",
+     "hook": "Christmas magic at Atlantis The Palm",
+     "why": "Atlantis The Palm goes all-out for the festive season — grand decorations, seasonal installations, and a joyful atmosphere that rivals any luxury Christmas destination worldwide.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Palm Jumeirah",
+     "city": "Dubai",
+     "location_text": "Atlantis The Palm, Palm Jumeirah, Dubai",
+     "website": "https://www.atlantis.com/dubai",
+     "price_text": null,
+     "date_info": "December (Christmas season)",
+     "themes": [
+      "luxury",
+      "seasonal",
+      "photo-spot",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DD9Hq0gPMVL/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-type-cafe",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "type",
+   "axis": "cafe",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Best cafés in Dubai",
+   "subhead": "9 top picks, pulled from 9 reels",
+   "count": 9,
+   "source_reel_count": 9,
+   "themes": [
+    "food",
+    "hidden-gem",
+    "photo-spot",
+    "seasonal"
+   ],
+   "areas": [
+    "Jumeirah",
+    "Bur Dubai",
+    "Al Quoz",
+    "Sheikh Zayed Road",
+    "Dubai Healthcare City",
+    "City Walk",
+    "Dubai Creek Harbour",
+    "Umm Hurair"
+   ],
+   "price_band": "paid",
+   "lead": "Mazmi Cafe",
+   "quality": {
+    "cardinality": 9,
+    "corroboration": 0.702,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "mazmi-cafe",
+     "name": "Mazmi Cafe",
+     "hook": "All-day breakfast by the old souk",
+     "why": "A riverside al fresco cafe tucked in Bur Dubai Souk serving all-day breakfast alongside Italian and Arabic dishes, perfect for soaking up Old Dubai atmosphere at ~150 AED for two.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Bur Dubai",
+     "city": "Dubai",
+     "location_text": "Bur Dubai Souk, Old Dubai",
+     "website": null,
+     "price_text": "~150 AED for 2",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CnMUvcqBMq_/",
+     "media_url": null
+    },
+    {
+     "gem_id": "cassette-dxb",
+     "name": "Cassette DXB",
+     "hook": "A Parisian bistro hidden in Al Quoz",
+     "why": "A modern Parisian-style bistro tucked inside a cultural courtyard in Al Quoz, serving wholesome all-day brunch with vegan options at very reasonable prices.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Al Quoz",
+     "city": "Dubai",
+     "location_text": "The Courtyard, Al Quoz, Dubai",
+     "website": null,
+     "price_text": "~AED 150 for two",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C0qvm33Pcut/",
+     "media_url": null
+    },
+    {
+     "gem_id": "public-pop-up-at-museum-of-the-future",
+     "name": "Public Pop-Up at Museum of the Future",
+     "hook": "Breakfast beside the Museum of the Future",
+     "why": "A seasonal al fresco dining pop-up right beside Dubai's iconic Museum of the Future — great breakfast dishes, minimal wait times, and a stunning architectural backdrop.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Sheikh Zayed Road",
+     "city": "Dubai",
+     "location_text": "Museum of the Future, Sheikh Zayed Road, Dubai",
+     "website": null,
+     "price_text": "~AED 62–67 per dish",
+     "date_info": "Winter season; breakfast 9 AM – 1 PM daily; open until midnight/1 AM",
+     "themes": [
+      "seasonal",
+      "photo-spot",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C1bmV8mPt6F/",
+     "media_url": null
+    },
+    {
+     "gem_id": "circle-cafe",
+     "name": "Circle Cafe",
+     "hook": "Eat everything on the menu for AED 69",
+     "why": "Weekend all-you-can-eat breakfast at Circle Cafe lets you order anything on the menu — shakshuka, eggs benny, French toast — plus one coffee, for just AED 69.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Dubai Healthcare City",
+     "city": "Dubai",
+     "location_text": "Circle Cafe, Al Razi Building, Dubai Healthcare City, Dubai",
+     "website": null,
+     "price_text": "AED 69 per person (all-you-can-eat + 1 coffee/tea)",
+     "date_info": "Weekends 8 AM–4 PM",
+     "themes": [
+      "food",
+      "budget"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CmlwfiahOlw/",
+     "media_url": null
+    },
+    {
+     "gem_id": "hapi",
+     "name": "HAPI",
+     "hook": "Sweet potato pancakes under the trees",
+     "why": "A charming al fresco cafe in Al Khazzan Park opposite City Walk, known for sweet potato pancakes, burgers, and giant marshmallow desserts at around 100 AED for two.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "City Walk",
+     "city": "Dubai",
+     "location_text": "Al Khazzan Park, opposite City Walk, Dubai",
+     "website": null,
+     "price_text": "~100 AED for 2",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CnMUvcqBMq_/",
+     "media_url": null
+    },
+    {
+     "gem_id": "coco-paris-dubai",
+     "name": "Coco Paris Dubai",
+     "hook": "Pink wonderland with Burj views",
+     "why": "A whimsical pink cafe inside The Mall Jumeirah with Burj Al Arab views, unique milk tea, creative fusions like Udon Pasta, and Instagram-worthy desserts including the city's best brownie.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Coco Paris Dubai, The Mall, Jumeirah, Dubai",
+     "website": null,
+     "price_text": "~300 AED for two at lunch/dinner",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "food",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CoueVExAs0d/",
+     "media_url": null
+    },
+    {
+     "gem_id": "seven-seeds-dubai",
+     "name": "Seven Seeds Dubai",
+     "hook": "Lush garden cafe in Jumeirah",
+     "why": "A cozy garden cafe with lush outdoor seating serving all-day breakfast to wholesome mains; the Truffle Trio pizza and Penne Rose are highlights.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Jumeirah",
+     "city": "Dubai",
+     "location_text": "Seven Seeds Dubai, Jumeirah, Dubai",
+     "website": null,
+     "price_text": "Truffle Trio 85 AED; Penne Rose 55 AED",
+     "date_info": null,
+     "themes": [
+      "food",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CpAJBNKAc4v/",
+     "media_url": null
+    },
+    {
+     "gem_id": "aqaya-cafe",
+     "name": "Aqaya Cafe",
+     "hook": "Storybook desserts meet Creek Harbour views",
+     "why": "A creative \"bakefectionary\" in Dubai Creek Harbour serving playful global dishes — think mango-coconut toast disguised as eggs, hot honey chicken, and a mystery cube dessert.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Dubai Creek Harbour",
+     "city": "Dubai",
+     "location_text": "Aqaya Cafe, Dubai Creek Harbour, Dubai",
+     "website": null,
+     "price_text": "50–60 AED per dish",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cq-vq5ogK4v/",
+     "media_url": null
+    },
+    {
+     "gem_id": "biella-italian-cafe-and-pizzeria",
+     "name": "Biella Italian Cafe and Pizzeria",
+     "hook": "Italian pizza inside an Egyptian palace",
+     "why": "A relaxed Italian cafe inside Wafi City, perfect for a laid-back lunch with an atmosphere that feels worlds away from the usual Dubai spots.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Umm Hurair",
+     "city": "Dubai",
+     "location_text": "Wafi City, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/C2Ho3EHPIig/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-type-museum-gallery",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "type",
+   "axis": "museum-gallery",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Top museums & galleries in Dubai",
+   "subhead": "5 top picks, pulled from 5 reels",
+   "count": 5,
+   "source_reel_count": 5,
+   "themes": [
+    "photo-spot",
+    "free",
+    "bucket-list",
+    "family"
+   ],
+   "areas": [
+    "Downtown Dubai",
+    "Al Seef",
+    "Al Jaddaf",
+    "Al Jaddaf / Creek",
+    "Al Shindagha"
+   ],
+   "price_band": "mostly-free",
+   "lead": "Arte Museum Dubai",
+   "quality": {
+    "cardinality": 5,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "arte-museum-dubai",
+     "name": "Arte Museum Dubai",
+     "hook": "Step inside a living digital dreamscape",
+     "why": "A multi-sensory digital art exhibition at Dubai Mall blending visuals, sounds and scents — think infinite waterfalls, beach auroras and blooming camellia immersions plus a mystical tea bar.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Downtown Dubai",
+     "city": "Dubai",
+     "location_text": "Arte Museum, Dubai Mall, Downtown Dubai",
+     "website": "https://www.artemuseum.ae",
+     "price_text": "General Admission + Tea Bar AED 149 online; VIP AED 249",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C-ffpFpPh8J/",
+     "media_url": null
+    },
+    {
+     "gem_id": "museum-of-illusions-dubai",
+     "name": "Museum of Illusions Dubai",
+     "hook": "Sixty mind-bending illusions await",
+     "why": "60+ optical illusion displays including an upside-down train cabin, vortex tunnel, anti-gravity room, and distorted room — endlessly fun for families and photo lovers.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Al Seef",
+     "city": "Dubai",
+     "location_text": "Al Seef, Dubai, UAE",
+     "website": "https://www.museumofillusions.ae",
+     "price_text": "Adults AED 80; Child (5–15) AED 60; Family (2+2) AED 225; under-5 free",
+     "date_info": null,
+     "themes": [
+      "family",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Co4B9ogA3qN/",
+     "media_url": null
+    },
+    {
+     "gem_id": "jameel-arts-centre",
+     "name": "Jameel Arts Centre",
+     "hook": "Free contemporary art by the waterfront",
+     "why": "A free, open-access contemporary art centre at Al Jaddaf Waterfront with an outdoor sculpture park, landscaped gardens, and captivating modern works; Michelin-listed Teible restaurant is next door.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Al Jaddaf",
+     "city": "Dubai",
+     "location_text": "Jameel Arts Centre, Al Jaddaf Waterfront, Dubai",
+     "website": "https://www.jameelartscentre.org",
+     "price_text": "Free (register at welcome desk)",
+     "date_info": "Sat–Thu 10am–8pm; Fri 12pm–8pm; closed Tuesday",
+     "themes": [
+      "free",
+      "photo-spot",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CpKYT5WAALy/",
+     "media_url": null
+    },
+    {
+     "gem_id": "mohammed-bin-rashid-library",
+     "name": "Mohammed Bin Rashid Library",
+     "hook": "The Arab world's largest library",
+     "why": "The largest library in the region — free entry with advance booking — featuring striking architecture and a vast collection of knowledge. Near Creek Metro, requires modest dress.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Al Jaddaf / Creek",
+     "city": "Dubai",
+     "location_text": "Mohammed Bin Rashid Library, Al Jaddaf, Dubai, UAE",
+     "website": "https://mbrl.ae",
+     "price_text": "Free (advance booking required at mbrl.ae)",
+     "date_info": "Closed Sundays; Fri open 2PM–9PM; Mon–Sat 9AM–9PM",
+     "themes": [
+      "free",
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CtEHMUbAdyd/",
+     "media_url": null
+    },
+    {
+     "gem_id": "al-shindagha-museum",
+     "name": "Al Shindagha Museum",
+     "hook": "Step into Emirati history for free",
+     "why": "A heritage museum in historic Al Shindagha district tracing the UAE's cultural roots, with free outdoor cultural activities during National Day and paid indoor exhibits.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Al Shindagha",
+     "city": "Dubai",
+     "location_text": "Al Shindagha Museum, Al Shindagha, Dubai",
+     "website": null,
+     "price_text": "Free outdoor activities; AED 50 for museum exhibits",
+     "date_info": "Free outdoor activities Nov 28 – Dec 3 (National Day season)",
+     "themes": [
+      "free",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DC_dIihP9iJ/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-type-bakery-dessert",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "type",
+   "axis": "bakery-dessert",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Standout bakeries & dessert spots in Dubai",
+   "subhead": "4 top picks, pulled from 4 reels",
+   "count": 4,
+   "source_reel_count": 4,
+   "themes": [
+    "food",
+    "photo-spot",
+    "hidden-gem"
+   ],
+   "areas": [
+    "D3 (Dubai Design District)",
+    "Al Barsha",
+    "Dubai Festival City"
+   ],
+   "price_band": "paid",
+   "lead": "Bakerist UAE",
+   "quality": {
+    "cardinality": 4,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "bakerist-uae",
+     "name": "Bakerist UAE",
+     "hook": "Giant croissant made for eight",
+     "why": "Famous for a massive shareable croissant — flaky, crisp outside, soft and layered inside with creamy filling. Pre-book the giant combo in your flavor of choice.",
+     "category": "eat",
+     "subcategory": "bakery-dessert",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Bakerist UAE, Dubai",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C-VCBJQvwlx/",
+     "media_url": null
+    },
+    {
+     "gem_id": "bageri-form",
+     "name": "Bageri Form",
+     "hook": "Scandinavian pastries, Burj Khalifa backdrop",
+     "why": "A minimal Scandinavian-inspired bakery in Dubai Design District (D3) with freshly baked pastries, Swedish cinnamon buns, and cozy outdoor seating overlooking the Burj Khalifa.",
+     "category": "eat",
+     "subcategory": "bakery-dessert",
+     "area": "D3 (Dubai Design District)",
+     "city": "Dubai",
+     "location_text": "Bageri Form, Dubai Design District (D3), Dubai",
+     "website": null,
+     "price_text": "Pastries from 23–25 AED; tea 22 AED",
+     "date_info": null,
+     "themes": [
+      "food",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CpHnu2nAaaV/",
+     "media_url": null
+    },
+    {
+     "gem_id": "bread-ahead",
+     "name": "Bread Ahead",
+     "hook": "Viral doughnuts that conquered Dubai",
+     "why": "Famous London bakery known for its impossibly fluffy filled doughnuts; went viral at Expo 2020. Try the Banana Chocolate Hazelnut or Blackcurrant Cheesecake for 18-20 AED.",
+     "category": "eat",
+     "subcategory": "bakery-dessert",
+     "area": "Al Barsha",
+     "city": "Dubai",
+     "location_text": "Bread Ahead, Mall of the Emirates, Dubai",
+     "website": "https://www.breadahead.com",
+     "price_text": "18-20 AED per doughnut",
+     "date_info": null,
+     "themes": [
+      "food",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CrWjmP7gB7x/",
+     "media_url": null
+    },
+    {
+     "gem_id": "cafe-be-k",
+     "name": "Cafe Be.K",
+     "hook": "Japanese shaved-ice heaven in Dubai",
+     "why": "A Japanese dessert cafe at Dubai Festival City specializing in kakigori shaved ice and Shibuya toast — the Watermelon Kakigori is the must-try signature for a cool summer treat.",
+     "category": "eat",
+     "subcategory": "bakery-dessert",
+     "area": "Dubai Festival City",
+     "city": "Dubai",
+     "location_text": "Cafe Be.K, Dubai Festival City Mall, Ground Floor near Lulu, Dubai, UAE",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cu6SjXDgJcl/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai-type-stay",
+   "kind": "list",
+   "creator": "ladyandhersweetescapes-dubai",
+   "axis_type": "type",
+   "axis": "stay",
+   "place": "Dubai",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Don't-miss stays in Dubai",
+   "subhead": "5 top picks, pulled from 6 reels",
+   "count": 5,
+   "source_reel_count": 6,
+   "themes": [
+    "luxury",
+    "bucket-list",
+    "budget",
+    "family"
+   ],
+   "areas": [
+    "The World Islands",
+    "Al Seef",
+    "La Mer"
+   ],
+   "price_band": "mostly-free",
+   "lead": "Voco Monaco Dubai",
+   "quality": {
+    "cardinality": 5,
+    "corroboration": 0.648,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "voco-monaco-dubai",
+     "name": "Voco Monaco Dubai",
+     "hook": "Adults-only island resort beyond the city",
+     "why": "Adults-only party resort on The World Islands with white-sand beach, a street that rains 24/7, great restaurants, and epic foam parties — reached by private boat from Dubai Canal Marine Station.",
+     "category": "stay",
+     "subcategory": "resort",
+     "area": "The World Islands",
+     "city": "Dubai",
+     "location_text": "Voco Monaco Dubai, The World Islands, Dubai",
+     "website": "https://www.ihg.com/voco/hotels/gb/en/dubai/dxbwi/hoteldetail",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "bucket-list",
+      "nightlife"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DBG4sCVPT4Y/",
+     "media_url": null
+    },
+    {
+     "gem_id": "hampton-by-hilton-al-seef",
+     "name": "Hampton by Hilton Al Seef",
+     "hook": "Dubai's most playful affordable hotel",
+     "why": "A colorful, design-forward Hampton in Dubai's Al Seef heritage district with a map of Dubai painted on the ceiling, free breakfast, lobby games, and rooms from ~200 AED/night.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "Al Seef",
+     "city": "Dubai",
+     "location_text": "Hampton by Hilton Al Seef, Al Seef District, Dubai, UAE",
+     "website": null,
+     "price_text": "~200 AED/night for two including free breakfast",
+     "date_info": null,
+     "themes": [
+      "budget",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CuGmRM1Aq-w/",
+     "media_url": null
+    },
+    {
+     "gem_id": "25hours-hotel-dubai",
+     "name": "25hours Hotel Dubai",
+     "hook": "Quirky hotel with a vinyl record bar",
+     "why": "A design-forward boutique hotel with a Nomad Day Bar for coffee, a colorful courtyard, mini library, and Analogue Circus — a vintage record shop and nostalgia dive within the lobby.",
+     "category": "stay",
+     "subcategory": "boutique-hotel",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "25hours Hotel Dubai, Dubai",
+     "website": "https://www.25hours-hotels.com/dubai",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DCOnr0Cvkwv/",
+     "media_url": null
+    },
+    {
+     "gem_id": "rove-hotels-la-mer",
+     "name": "Rove Hotels La Mer",
+     "hook": "Beach hotel deal for 99 AED",
+     "why": "A beachfront Rove property at La Mer that ran a 99 AED promo — proof that Dubai beach staycations can be surprisingly affordable when you catch the right deal.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "La Mer",
+     "city": "Dubai",
+     "location_text": "Rove La Mer Beach, La Mer, Jumeirah, Dubai",
+     "website": "https://www.rovehotels.com",
+     "price_text": "From 99 AED during promotions",
+     "date_info": null,
+     "themes": [
+      "budget",
+      "family"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/C-M617gv5C7/",
+     "media_url": null
+    },
+    {
+     "gem_id": "resorts-world-cruises-dubai-to-sir-bani-yas",
+     "name": "Resorts World Cruises — Dubai to Sir Bani Yas",
+     "hook": "Weekend cruise to a private island",
+     "why": "A 2-night cruise departing Dubai on Friday evening and returning Sunday noon, stopping at the wildlife island of Sir Bani Yas — the easiest luxury weekend escape from the city.",
+     "category": "stay",
+     "subcategory": "unique-stay",
+     "area": null,
+     "city": "Dubai",
+     "location_text": "Dubai Cruise Terminal 2, Dubai",
+     "website": "https://www.rwcruises.com",
+     "price_text": null,
+     "date_info": "Departs every Friday at 9 PM, returns Sunday at 12 NN",
+     "themes": [
+      "luxury",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/DCBTau_PPDA/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "dotzsoh-singapore-kyoto-hybrid-bucket-list-see-do",
+   "kind": "list",
+   "creator": "dotzsoh-singapore",
+   "axis_type": "hybrid",
+   "axis": "bucket-list × see-do",
+   "place": "Kyoto",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Bucket-list things to do in Kyoto",
+   "subhead": "7 top picks, pulled from 4 reels",
+   "count": 7,
+   "source_reel_count": 4,
+   "themes": [
+    "bucket-list",
+    "photo-spot",
+    "nature",
+    "seasonal"
+   ],
+   "areas": [
+    "Higashiyama",
+    "Arashiyama",
+    "Kinkaku-ji",
+    "Fushimi"
+   ],
+   "price_band": null,
+   "lead": "Kinkaku-ji (Golden Pavilion)",
+   "quality": {
+    "cardinality": 7,
+    "corroboration": 0.743,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "kinkaku-ji-golden-pavilion",
+     "name": "Kinkaku-ji (Golden Pavilion)",
+     "hook": "Gold shimmers on a still zen pond",
+     "why": "Kyoto's iconic three-storey gold-leaf-covered Zen Buddhist temple reflected in the Mirror Pond is one of Japan's most breathtaking sights, especially serene in quiet weather.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Kinkaku-ji",
+     "city": "Kyoto",
+     "location_text": "Kinkaku-ji, 1 Kinkakujicho, Kita Ward, Kyoto",
+     "website": "https://www.shokoku-ji.jp/kinkakuji/",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cpm_D4mjcQG/",
+     "media_url": null
+    },
+    {
+     "gem_id": "sagano-romantic-train-sagano-scenic-railway",
+     "name": "Sagano Romantic Train (Sagano Scenic Railway)",
+     "hook": "A mountain railway through bamboo groves",
+     "why": "This vintage open-air train winds through the Hozugawa Gorge and Arashiyama's famous bamboo landscape — one of Japan's most scenic short rides.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Arashiyama",
+     "city": "Kyoto",
+     "location_text": "Sagano Scenic Railway, Sagano Torokko Station, Arashiyama, Kyoto",
+     "website": "https://www.sagano-kanko.co.jp/en/",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_dKSOYSsGg/",
+     "media_url": null
+    },
+    {
+     "gem_id": "hozugawa-river-cruise",
+     "name": "Hozugawa River Cruise",
+     "hook": "Float the gorge by wooden boat",
+     "why": "A traditional wooden boat glides 16 km down the Hozu River rapids through forested canyon scenery — the most dramatic way to experience Arashiyama.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Arashiyama",
+     "city": "Kyoto",
+     "location_text": "Hozugawa River Cruise, Kameoka, Kyoto",
+     "website": "https://www.hozugawakudari.jp/en",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "nature",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_dKSOYSsGg/",
+     "media_url": null
+    },
+    {
+     "gem_id": "kiyomizu-dera-temple",
+     "name": "Kiyomizu-dera Temple",
+     "hook": "Autumn crimson at Kyoto's sacred cliff",
+     "why": "Kyoto's iconic hillside temple offers sweeping city views and is surrounded by fiery autumn foliage in fall — a peaceful yet awe-inspiring UNESCO site.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Higashiyama",
+     "city": "Kyoto",
+     "location_text": "Kiyomizu-dera Temple, 1-294 Kiyomizu, Higashiyama Ward, Kyoto, Japan",
+     "website": "https://www.kiyomizudera.or.jp",
+     "price_text": null,
+     "date_info": "Autumn foliage peak: mid-November to early December",
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "seasonal",
+      "nature"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CkveyyXDLdb/",
+     "media_url": null
+    },
+    {
+     "gem_id": "fushimi-inari-taisha",
+     "name": "Fushimi Inari Taisha",
+     "hook": "Ten thousand torii gates at dawn",
+     "why": "Kyoto's iconic Shinto shrine with thousands of vermilion torii gates winding up a forested mountain. An otherworldly tunnel of red that rewards early risers with near-empty paths.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Fushimi",
+     "city": "Kyoto",
+     "location_text": "Fushimi Inari Taisha, 68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto",
+     "website": null,
+     "price_text": "free",
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "free"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DAQnGkLy1my/",
+     "media_url": null
+    },
+    {
+     "gem_id": "kiyomizu-dera",
+     "name": "Kiyomizu-dera",
+     "hook": "Wooden stage over Kyoto's canopy",
+     "why": "An 8th-century hillside temple whose famous wooden veranda juts out over a wooded valley with sweeping city views. Sacred, dramatic, and utterly photogenic.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Higashiyama",
+     "city": "Kyoto",
+     "location_text": "Kiyomizudera, 1-294 Kiyomizu, Higashiyama Ward, Kyoto",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DAQnGkLy1my/",
+     "media_url": null
+    },
+    {
+     "gem_id": "higashiyama-district",
+     "name": "Higashiyama District",
+     "hook": "Ancient lanes lined with stone lanterns",
+     "why": "Kyoto's best-preserved historic district: narrow cobblestone lanes, traditional machiya townhouses, tea shops and shrines — the Japan of a hundred years ago.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Higashiyama",
+     "city": "Kyoto",
+     "location_text": "Higashiyama-ku, Kyoto",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DAQnGkLy1my/",
+     "media_url": null
+    }
+   ],
+   "guide_id": null
+  },
+  {
+   "id": "dotzsoh-singapore-singapore-hybrid-seasonal-see-do",
+   "kind": "list",
+   "creator": "dotzsoh-singapore",
+   "axis_type": "hybrid",
+   "axis": "seasonal × see-do",
+   "place": "Singapore",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "local",
+   "headline": "Seasonal things to do in Singapore",
+   "subhead": "4 spots locals rate, pulled from 5 reels",
+   "count": 4,
+   "source_reel_count": 5,
+   "themes": [
+    "seasonal",
+    "nightlife",
+    "photo-spot",
+    "bucket-list"
+   ],
+   "areas": [
+    "Marina Bay"
+   ],
+   "price_band": null,
+   "lead": "Christmas Wonderland at Gardens by the Bay",
+   "quality": {
+    "cardinality": 4,
+    "corroboration": 0.775,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "christmas-wonderland-at-gardens-by-the-bay",
+     "name": "Christmas Wonderland at Gardens by the Bay",
+     "hook": "A dazzling Christmas village in the tropics",
+     "why": "Singapore's beloved annual Christmas festival transforms Gardens by the Bay into a fairground of glittering lights, a European market, rides, and festive installations.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Gardens by the Bay, 18 Marina Gardens Drive, Singapore",
+     "website": "https://www.christmaswonderland.sg",
+     "price_text": null,
+     "date_info": "Annual December event; 2022 edition referenced",
+     "themes": [
+      "seasonal",
+      "family",
+      "nightlife"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/ClvsdVRjwYW/",
+     "media_url": null
+    },
+    {
+     "gem_id": "flower-dome-sakura-festival-gardens-by-the-bay",
+     "name": "Flower Dome – Sakura Festival, Gardens by the Bay",
+     "hook": "Cherry blossoms bloom inside a glass dome",
+     "why": "Singapore's iconic climate-controlled Flower Dome hosts a stunning Sakura festival with real cherry blossom displays — bringing the Japanese spring indoors year-round.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Flower Dome, Gardens by the Bay, 18 Marina Gardens Drive, Singapore",
+     "website": "https://www.gardensbythebay.com.sg",
+     "price_text": null,
+     "date_info": "Sakura display seasonal — check Gardens by the Bay for current dates",
+     "themes": [
+      "photo-spot",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CqQNlY_jWP3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "marina-bay-sands-new-year-s-countdown",
+     "name": "Marina Bay Sands New Year's Countdown",
+     "hook": "Fireworks in the sky at Marina Bay Sands",
+     "why": "Marina Bay Sands hosts one of Asia's most spectacular NYE countdowns with a sky-high fireworks show that lights up the entire bay.",
+     "category": "see-do",
+     "subcategory": "show",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, 10 Bayfront Avenue, Singapore",
+     "website": "https://www.marinabaysands.com",
+     "price_text": null,
+     "date_info": "New Year's Eve, 31 December annually",
+     "themes": [
+      "bucket-list",
+      "seasonal",
+      "nightlife"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DEQQKZ6T7Ox/",
+     "media_url": null
+    },
+    {
+     "gem_id": "marina-bay-sands-new-year-fireworks",
+     "name": "Marina Bay Sands New Year Fireworks",
+     "hook": "New Year fireworks over Marina Bay",
+     "why": "Singapore's Marina Bay rings in the New Year with a spectacular fireworks display that lights up the city skyline — one of Asia's most iconic countdown celebrations.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, Singapore",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, 31 December",
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7Q-0WE70a/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "dotzsoh-singapore-singapore"
+  },
+  {
+   "id": "dotzsoh-singapore-singapore-hybrid-luxury-stay",
+   "kind": "list",
+   "creator": "dotzsoh-singapore",
+   "axis_type": "hybrid",
+   "axis": "luxury × stay",
+   "place": "Singapore",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Luxury stays in Singapore",
+   "subhead": "5 top picks, pulled from 5 reels",
+   "count": 5,
+   "source_reel_count": 5,
+   "themes": [
+    "luxury",
+    "photo-spot",
+    "hidden-gem",
+    "bucket-list"
+   ],
+   "areas": [
+    "Marina Bay",
+    "Orchard",
+    "Sentosa"
+   ],
+   "price_band": null,
+   "lead": "Marina Bay Sands Infinity Pool (Sand Suite)",
+   "quality": {
+    "cardinality": 5,
+    "corroboration": 0.644,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "marina-bay-sands-infinity-pool-sand-suite",
+     "name": "Marina Bay Sands Infinity Pool (Sand Suite)",
+     "hook": "Float above Singapore in a pool",
+     "why": "The world's largest rooftop infinity pool atop one of the most Instagrammable hotels on Earth — the Sand Suite offers panoramic city views and sanctuary-level design.",
+     "category": "stay",
+     "subcategory": "unique-stay",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, 10 Bayfront Avenue, Singapore",
+     "website": "https://www.marinabaysands.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C_iRsNUyPp6/",
+     "media_url": null
+    },
+    {
+     "gem_id": "the-barracks-hotel-sentosa",
+     "name": "The Barracks Hotel Sentosa",
+     "hook": "Colonial heritage meets tropical pool paradise",
+     "why": "A Forbes Travel Guide-recognised boutique hotel in a lovingly restored British barracks on Sentosa, with lush tropical pool gardens that feel worlds away from the city.",
+     "category": "stay",
+     "subcategory": "boutique-hotel",
+     "area": "Sentosa",
+     "city": "Singapore",
+     "location_text": "The Barracks Hotel, 2 Artillery Avenue, Sentosa, Singapore",
+     "website": "https://www.thebarrackshotel.com.sg",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cdazrd7DRno/",
+     "media_url": null
+    },
+    {
+     "gem_id": "shangri-la-singapore-garden-wing-koi-pond",
+     "name": "Shangri-La Singapore Garden Wing Koi Pond",
+     "hook": "A secret koi garden inside a luxury hotel",
+     "why": "The Shangri-La Singapore's Garden Wing hides a stunning koi pond and tropical sanctuary — a rare slice of tranquil greenery in the heart of Orchard Road.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "Orchard",
+     "city": "Singapore",
+     "location_text": "Shangri-La Singapore, 22 Orange Grove Road, Singapore",
+     "website": "https://www.shangri-la.com/singapore/shangrila",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CetI7g4DedJ/",
+     "media_url": null
+    },
+    {
+     "gem_id": "marina-bay-sands-premium-suite-tower-2",
+     "name": "Marina Bay Sands — Premium Suite Tower 2",
+     "hook": "Newly refurbished suite with skyline views",
+     "why": "Freshly renovated premium suites at MBS come loaded with Elite Sands Lifestyle Card perks — complimentary experiences, resort dollars, and the best skyline vantage in the city.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, 10 Bayfront Avenue, Singapore 018956",
+     "website": "https://www.marinabaysands.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CvmoabQsgZE/",
+     "media_url": null
+    },
+    {
+     "gem_id": "hilton-singapore-orchard",
+     "name": "Hilton Singapore Orchard",
+     "hook": "Singapore's chicest Orchard Road staycation",
+     "why": "A luxury urban retreat on Orchard Road housing multiple acclaimed restaurants and a spa under one roof — perfect for a lavish Singapore staycation.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "Orchard",
+     "city": "Singapore",
+     "location_text": "Hilton Singapore Orchard, 333 Orchard Road, Singapore",
+     "website": "https://www.hilton.com/en/hotels/sinorhi-hilton-singapore-orchard/",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/CpC7f95jorg/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "dotzsoh-singapore-singapore"
+  },
+  {
+   "id": "dotzsoh-singapore-singapore-type-experience",
+   "kind": "list",
+   "creator": "dotzsoh-singapore",
+   "axis_type": "type",
+   "axis": "experience",
+   "place": "Singapore",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "Best experiences in Singapore",
+   "subhead": "7 top picks, pulled from 8 reels",
+   "count": 7,
+   "source_reel_count": 8,
+   "themes": [
+    "photo-spot",
+    "bucket-list",
+    "seasonal",
+    "family"
+   ],
+   "areas": [
+    "Marina Bay",
+    "Mandai"
+   ],
+   "price_band": null,
+   "lead": "Christmas Wonderland at Gardens by the Bay",
+   "quality": {
+    "cardinality": 7,
+    "corroboration": 0.703,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "christmas-wonderland-at-gardens-by-the-bay",
+     "name": "Christmas Wonderland at Gardens by the Bay",
+     "hook": "A dazzling Christmas village in the tropics",
+     "why": "Singapore's beloved annual Christmas festival transforms Gardens by the Bay into a fairground of glittering lights, a European market, rides, and festive installations.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Gardens by the Bay, 18 Marina Gardens Drive, Singapore",
+     "website": "https://www.christmaswonderland.sg",
+     "price_text": null,
+     "date_info": "Annual December event; 2022 edition referenced",
+     "themes": [
+      "seasonal",
+      "family",
+      "nightlife"
+     ],
+     "saved_from": 2,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/ClvsdVRjwYW/",
+     "media_url": null
+    },
+    {
+     "gem_id": "ocbc-skyway",
+     "name": "OCBC Skyway",
+     "hook": "Walk above the treetops at Gardens by the Bay",
+     "why": "An elevated walkway threading between the iconic Supertrees at Gardens by the Bay, offering a bird's-eye perspective over the sculptural grove and Marina Bay skyline.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "OCBC Skyway, Gardens by the Bay, 18 Marina Gardens Drive, Singapore",
+     "website": "https://www.gardensbythebay.com.sg",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C50snF0PCbh/",
+     "media_url": null
+    },
+    {
+     "gem_id": "marina-bay-sands-rooftop-infinity-pool",
+     "name": "Marina Bay Sands Rooftop Infinity Pool",
+     "hook": "Sunset swim above the skyline",
+     "why": "The world's largest rooftop infinity pool sits 57 floors up with a panoramic sweep of Singapore's iconic skyline — magical at golden hour.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, 10 Bayfront Avenue, Singapore",
+     "website": "https://www.marinabaysands.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CXEBo2NJgba/",
+     "media_url": null
+    },
+    {
+     "gem_id": "flower-dome-sakura-festival-gardens-by-the-bay",
+     "name": "Flower Dome – Sakura Festival, Gardens by the Bay",
+     "hook": "Cherry blossoms bloom inside a glass dome",
+     "why": "Singapore's iconic climate-controlled Flower Dome hosts a stunning Sakura festival with real cherry blossom displays — bringing the Japanese spring indoors year-round.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Flower Dome, Gardens by the Bay, 18 Marina Gardens Drive, Singapore",
+     "website": "https://www.gardensbythebay.com.sg",
+     "price_text": null,
+     "date_info": "Sakura display seasonal — check Gardens by the Bay for current dates",
+     "themes": [
+      "photo-spot",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CqQNlY_jWP3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "marina-bay-sands-infinity-rooftop-pool",
+     "name": "Marina Bay Sands — Infinity Rooftop Pool",
+     "hook": "Swim in the sky above Singapore",
+     "why": "The world's largest rooftop infinity pool crowns the iconic Marina Bay Sands at 57 storeys, offering a surreal swim above the Singapore skyline — hotel guests only.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, 10 Bayfront Avenue, Singapore 018956",
+     "website": "https://www.marinabaysands.com",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CvmoabQsgZE/",
+     "media_url": null
+    },
+    {
+     "gem_id": "marina-bay-sands-new-year-fireworks",
+     "name": "Marina Bay Sands New Year Fireworks",
+     "hook": "New Year fireworks over Marina Bay",
+     "why": "Singapore's Marina Bay rings in the New Year with a spectacular fireworks display that lights up the city skyline — one of Asia's most iconic countdown celebrations.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "Marina Bay Sands, Singapore",
+     "website": null,
+     "price_text": null,
+     "date_info": "New Year's Eve, 31 December",
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DS7Q-0WE70a/",
+     "media_url": null
+    },
+    {
+     "gem_id": "lory-loft-at-bird-paradise",
+     "name": "Lory Loft at Bird Paradise",
+     "hook": "Walk among free-flying lories overhead",
+     "why": "An open-air free-flight aviary at Bird Paradise (formerly Jurong Bird Park) where colourful lories swoop and land on visitors — a joyful, immersive wildlife encounter for all ages.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Mandai",
+     "city": "Singapore",
+     "location_text": "Bird Paradise, 20 Mandai Lake Road, Singapore",
+     "website": "https://www.birdparadise.com.sg",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "family",
+      "nature",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/CfeHiPSjCj1/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "dotzsoh-singapore-singapore"
+  },
+  {
+   "id": "dotzsoh-singapore-macau-theme-luxury",
+   "kind": "list",
+   "creator": "dotzsoh-singapore",
+   "axis_type": "theme",
+   "axis": "luxury",
+   "place": "Macau",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "tourist",
+   "headline": "High-end highlights in Macau",
+   "subhead": "6 top picks, pulled from 2 reels",
+   "count": 6,
+   "source_reel_count": 2,
+   "themes": [
+    "luxury",
+    "food",
+    "photo-spot",
+    "bucket-list"
+   ],
+   "areas": [
+    "Cotai Strip"
+   ],
+   "price_band": null,
+   "lead": "Andaz Macau",
+   "quality": {
+    "cardinality": 6,
+    "corroboration": 0.7,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "andaz-macau",
+     "name": "Andaz Macau",
+     "hook": "Macau's most cinematic luxury hotel lobby",
+     "why": "A design-forward luxury hotel inside Galaxy Macau where a jaw-dropping lobby fuses modern elegance with traditional Macanese heritage, setting the tone for an unforgettable stay.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "Cotai Strip",
+     "city": "Macau",
+     "location_text": "Andaz Macau, Galaxy Macau, Cotai, Macau SAR",
+     "website": "https://www.andaz.com/macau",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DMXuiA8Tvq3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "andaz-kitchen",
+     "name": "Andaz Kitchen",
+     "hook": "Portuguese-Macanese flavours in one kitchen",
+     "why": "A vibrant all-day restaurant at Andaz Macau celebrating the unique blend of Portuguese and Macanese culinary heritage in a welcoming, colourful setting.",
+     "category": "eat",
+     "subcategory": "restaurant",
+     "area": "Cotai Strip",
+     "city": "Macau",
+     "location_text": "Andaz Kitchen, Andaz Macau, Galaxy Macau, Cotai, Macau SAR",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DMXuiA8Tvq3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "blossom-palace",
+     "name": "Blossom Palace (花悅庭)",
+     "hook": "Peking duck and imperial Chinese elegance",
+     "why": "An award-worthy fine-dining restaurant at Galaxy Macau serving authentic Beijing and Huaiyang cuisines with innovative flair — the must-try Peking duck is legendary.",
+     "category": "eat",
+     "subcategory": "fine-dining",
+     "area": "Cotai Strip",
+     "city": "Macau",
+     "location_text": "Blossom Palace, Galaxy Macau, Cotai, Macau SAR",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "food",
+      "luxury"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DMXuiA8Tvq3/",
+     "media_url": null
+    },
+    {
+     "gem_id": "raffles-at-galaxy-macau-panoramic-two-bedroom-suite",
+     "name": "Raffles at Galaxy Macau – Panoramic Two-Bedroom Suite",
+     "hook": "Sanctuary suite above Macau's glittering skyline",
+     "why": "Raffles' opulent two-bedroom suite pairs breathtaking skyline and water views with VIP butler service, setting the gold standard for luxury in Macau.",
+     "category": "stay",
+     "subcategory": "boutique-hotel",
+     "area": "Cotai Strip",
+     "city": "Macau",
+     "location_text": "Raffles at Galaxy Macau, Cotai, Macau",
+     "website": "https://www.raffles.com/macau/",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DMxb8P_Rnsw/",
+     "media_url": null
+    },
+    {
+     "gem_id": "raffles-lounge-terrace",
+     "name": "Raffles Lounge & Terrace",
+     "hook": "The most elegant afternoon tea in Macau",
+     "why": "Raffles' signature afternoon tea features finely crafted pastries and delicate sandwiches in an inviting terrace setting — effortlessly elegant and worth lingering over.",
+     "category": "eat",
+     "subcategory": "cafe",
+     "area": "Cotai Strip",
+     "city": "Macau",
+     "location_text": "Raffles Lounge & Terrace, Raffles at Galaxy Macau, Cotai, Macau",
+     "website": "https://www.raffles.com/macau/",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "food"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DMxb8P_Rnsw/",
+     "media_url": null
+    },
+    {
+     "gem_id": "raffles-long-bar-macau",
+     "name": "Raffles Long Bar Macau",
+     "hook": "Order the Macau Sling at this legendary bar",
+     "why": "The Macau Sling is the star of Raffles' iconic Long Bar, a convivial gathering spot where the colonial-heritage glamour of the Singapore original meets Macau's energy.",
+     "category": "drink",
+     "subcategory": "cocktail-bar",
+     "area": "Cotai Strip",
+     "city": "Macau",
+     "location_text": "Raffles Long Bar, Raffles at Galaxy Macau, Cotai, Macau",
+     "website": "https://www.raffles.com/macau/dining/long-bar/",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "nightlife"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/DMxb8P_Rnsw/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "dotzsoh-singapore-macau"
+  },
+  {
+   "id": "dotzsoh-singapore-singapore-theme-hidden-gem",
+   "kind": "list",
+   "creator": "dotzsoh-singapore",
+   "axis_type": "theme",
+   "axis": "hidden-gem",
+   "place": "Singapore",
+   "place_scope": "city",
+   "frame": "in",
+   "lens": "local",
+   "headline": "Hidden gems in Singapore",
+   "subhead": "6 spots locals rate, pulled from 6 reels",
+   "count": 6,
+   "source_reel_count": 6,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "luxury",
+    "free"
+   ],
+   "areas": [
+    "Robertson Quay",
+    "Sentosa",
+    "Orchard",
+    "Marina Bay",
+    "Mandai"
+   ],
+   "price_band": "free",
+   "lead": "Alkaff Bridge",
+   "quality": {
+    "cardinality": 6,
+    "corroboration": 0.653,
+    "tightness": "city"
+   },
+   "options": [
+    {
+     "gem_id": "alkaff-bridge",
+     "name": "Alkaff Bridge",
+     "hook": "Singapore's prettiest pedestrian bridge crossing",
+     "why": "A vibrantly painted footbridge over the Singapore River at Robertson Quay, bursting with rainbow circles — one of the most photogenic and overlooked spots in the city.",
+     "category": "view",
+     "subcategory": "photo-spot",
+     "area": "Robertson Quay",
+     "city": "Singapore",
+     "location_text": "Alkaff Bridge, Robertson Quay, Singapore",
+     "website": null,
+     "price_text": "Free",
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "free",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/C50snF0PCbh/",
+     "media_url": null
+    },
+    {
+     "gem_id": "the-barracks-hotel-sentosa",
+     "name": "The Barracks Hotel Sentosa",
+     "hook": "Colonial heritage meets tropical pool paradise",
+     "why": "A Forbes Travel Guide-recognised boutique hotel in a lovingly restored British barracks on Sentosa, with lush tropical pool gardens that feel worlds away from the city.",
+     "category": "stay",
+     "subcategory": "boutique-hotel",
+     "area": "Sentosa",
+     "city": "Singapore",
+     "location_text": "The Barracks Hotel, 2 Artillery Avenue, Sentosa, Singapore",
+     "website": "https://www.thebarrackshotel.com.sg",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/Cdazrd7DRno/",
+     "media_url": null
+    },
+    {
+     "gem_id": "shangri-la-singapore-garden-wing-koi-pond",
+     "name": "Shangri-La Singapore Garden Wing Koi Pond",
+     "hook": "A secret koi garden inside a luxury hotel",
+     "why": "The Shangri-La Singapore's Garden Wing hides a stunning koi pond and tropical sanctuary — a rare slice of tranquil greenery in the heart of Orchard Road.",
+     "category": "stay",
+     "subcategory": "hotel",
+     "area": "Orchard",
+     "city": "Singapore",
+     "location_text": "Shangri-La Singapore, 22 Orange Grove Road, Singapore",
+     "website": "https://www.shangri-la.com/singapore/shangrila",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "luxury",
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CetI7g4DedJ/",
+     "media_url": null
+    },
+    {
+     "gem_id": "crystal-universe-artscience-museum",
+     "name": "Crystal Universe — ArtScience Museum",
+     "hook": "Step inside a galaxy of falling crystals",
+     "why": "teamLab's immersive Crystal Universe installation at ArtScience Museum envelops you in thousands of LEDs forming infinite constellation-like worlds — one of Singapore's most photogenic experiences.",
+     "category": "see-do",
+     "subcategory": "museum-gallery",
+     "area": "Marina Bay",
+     "city": "Singapore",
+     "location_text": "ArtScience Museum, 6 Bayfront Avenue, Marina Bay Sands, Singapore",
+     "website": "https://www.marinabaysands.com/museum.html",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "photo-spot",
+      "bucket-list",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CiIA4EGDK8x/",
+     "media_url": null
+    },
+    {
+     "gem_id": "maya-food-bomb-fish-skin-bomb",
+     "name": "Maya Food Bomb — Fish Skin Bomb",
+     "hook": "Singapore's crispiest salted egg fish skin",
+     "why": "Salted egg fish skin snack made in Singapore — crispy, addictive, and bold-flavoured. Ships online and is hailed as one of the best takes on the local classic.",
+     "category": "shop",
+     "subcategory": "specialty",
+     "area": null,
+     "city": "Singapore",
+     "location_text": null,
+     "website": "https://www.mayafoodbomb.com",
+     "price_text": "Free delivery above S$50 with code FREEDEL",
+     "date_info": null,
+     "themes": [
+      "food",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "high",
+     "source_reel": "https://www.instagram.com/reel/CyQj2yTv4SR/",
+     "media_url": null
+    },
+    {
+     "gem_id": "lory-loft-at-bird-paradise",
+     "name": "Lory Loft at Bird Paradise",
+     "hook": "Walk among free-flying lories overhead",
+     "why": "An open-air free-flight aviary at Bird Paradise (formerly Jurong Bird Park) where colourful lories swoop and land on visitors — a joyful, immersive wildlife encounter for all ages.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Mandai",
+     "city": "Singapore",
+     "location_text": "Bird Paradise, 20 Mandai Lake Road, Singapore",
+     "website": "https://www.birdparadise.com.sg",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "family",
+      "nature",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "confidence": "medium",
+     "source_reel": "https://www.instagram.com/reel/CfeHiPSjCj1/",
+     "media_url": null
+    }
+   ],
+   "guide_id": "dotzsoh-singapore-singapore"
   }
  ],
  "abstentions": [
@@ -3770,6 +8820,33 @@
    "pool_gems": 5,
    "reason": "sparse",
    "best_attempt": "bucket-list × see-do in Tokyo (2 gems, need 4)",
+   "remedy": "scrape-more-reels"
+  },
+  {
+   "creator": "dotzsoh-singapore",
+   "place": "AlUla",
+   "status": "no_list",
+   "pool_gems": 5,
+   "reason": "sparse",
+   "best_attempt": "bucket-list × see-do in AlUla (3 gems, need 4)",
+   "remedy": "scrape-more-reels"
+  },
+  {
+   "creator": "dotzsoh-singapore",
+   "place": "Chengdu",
+   "status": "no_list",
+   "pool_gems": 5,
+   "reason": "sparse",
+   "best_attempt": "bucket-list × see-do in Chengdu (2 gems, need 4)",
+   "remedy": "scrape-more-reels"
+  },
+  {
+   "creator": "dotzsoh-singapore",
+   "place": "Göreme",
+   "status": "no_list",
+   "pool_gems": 5,
+   "reason": "sparse",
+   "best_attempt": "bucket-list × see-do in Göreme (3 gems, need 4)",
    "remedy": "scrape-more-reels"
   }
  ]

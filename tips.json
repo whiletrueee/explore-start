@@ -1,7 +1,7 @@
 {
  "counts": {
-  "units": 14,
-  "tips": 28,
+  "units": 21,
+  "tips": 37,
   "by_creator": {
    "thefloridaqueenie": {
     "units": 2,
@@ -18,6 +18,18 @@
    "raimeetravel": {
     "units": 7,
     "tips": 17
+   },
+   "blacktravelpin-dubai": {
+    "units": 2,
+    "tips": 3
+   },
+   "ladyandhersweetescapes-dubai": {
+    "units": 3,
+    "tips": 4
+   },
+   "dotzsoh-singapore": {
+    "units": 2,
+    "tips": 2
    }
   }
  },
@@ -55,7 +67,8 @@
     "confidence": "high",
     "saved_from": 1,
     "source_reel": "https://www.instagram.com/reel/DX6voJvj8q0/"
-   }
+   },
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-tip-what-to-skip",
@@ -77,7 +90,8 @@
     "confidence": "high",
     "saved_from": 1,
     "source_reel": "https://www.instagram.com/reel/DXg_2nGFLgO/"
-   }
+   },
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "exploringlondon-tip-budget-hack",
@@ -99,7 +113,8 @@
     "confidence": "high",
     "saved_from": 1,
     "source_reel": "https://www.instagram.com/reel/DVqbxTUCuCI/"
-   }
+   },
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "empty.japan-tips-where-to-go",
@@ -140,7 +155,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/C8ExyvgvuP-/"
     }
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
   },
   {
    "id": "empty.japan-tips-when-to-go",
@@ -180,7 +196,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DMfTJ-ZPEvj/"
     }
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
   },
   {
    "id": "empty.japan-tips-budget-hack",
@@ -222,7 +239,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/C6liw6PvoYe/"
     }
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
   },
   {
    "id": "empty.japan-tips-what-to-skip",
@@ -258,7 +276,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/CzJIPL3PypS/"
     }
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
   },
   {
    "id": "raimeetravel-tips-where-to-go",
@@ -309,7 +328,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DYS09yxSfey/"
     }
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-tips-when-to-go",
@@ -348,7 +368,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DY5avnbs_cC/"
     }
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-tips-transit",
@@ -399,7 +420,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DZazj9IsmPg/"
     }
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-tips-budget-hack",
@@ -462,7 +484,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DYrweaOMnqg/"
     }
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-tips-booking",
@@ -499,7 +522,8 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DXPO-OCDGon/"
     }
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-tip-packing",
@@ -520,7 +544,8 @@
     "confidence": "high",
     "saved_from": 1,
     "source_reel": "https://www.instagram.com/reel/DXcATRejm9d/"
-   }
+   },
+   "guide_id": null
   },
   {
    "id": "raimeetravel-tips-points-miles",
@@ -557,7 +582,201 @@
      "saved_from": 1,
      "source_reel": "https://www.instagram.com/reel/DWR3eMrjA3v/"
     }
-   ]
+   ],
+   "guide_id": null
+  },
+  {
+   "id": "blacktravelpin-dubai-tips-transit",
+   "creator": "blacktravelpin-dubai",
+   "kind": "group",
+   "subcategory": "transit",
+   "heading": "Getting around",
+   "place": "dubai",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Dubai Metro rules that cost you",
+     "detail": "Official RTA fines range from AED 100 for eating or chewing gum to AED 2,000 for misusing the emergency button — knowing the rules saves real money on every ride.",
+     "name": "Dubai Metro RTA Fine Guide",
+     "subcategory": "transit",
+     "place": "Dubai",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DNvVQOi5ioZ/"
+    },
+    {
+     "text": "Five apps every Dubai visitor needs",
+     "detail": "Careem (rides), Visit Dubai (events), Talabat (food delivery), Nol Travel (metro top-up), and Entertainer (2-for-1 deals) cover almost every practical need for a Dubai trip.",
+     "name": "Top 5 Apps for Dubai Tourists",
+     "subcategory": "transit",
+     "place": "Dubai",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DOdsEddk0jk/"
+    }
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "blacktravelpin-dubai-tip-what-to-skip",
+   "creator": "blacktravelpin-dubai",
+   "kind": "solo",
+   "subcategory": "what-to-skip",
+   "place": "dubai",
+   "size": 1,
+   "tip": {
+    "text": "Dubai Fountain is closed till October",
+    "detail": "The iconic Dubai Fountain at Downtown Dubai is under construction and out of operation until October — don't plan your trip around it during this window.",
+    "name": "Dubai Fountain Closure Advisory",
+    "subcategory": "what-to-skip",
+    "place": "Dubai",
+    "themes": [
+     "budget"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DKH21ZmpTOO/"
+   },
+   "guide_id": "blacktravelpin-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-tips-when-to-go",
+   "creator": "ladyandhersweetescapes-dubai",
+   "kind": "group",
+   "subcategory": "when-to-go",
+   "heading": "When to go",
+   "place": "dubai",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Where to watch DSF fireworks free",
+     "detail": "A venue-by-venue schedule for Dubai's DSF fireworks season — from Dubai Festival City to Al Seef and Bluewaters — all free to watch from public areas.",
+     "name": "Dubai Shopping Festival Fireworks Guide",
+     "subcategory": "when-to-go",
+     "place": "Dubai",
+     "themes": [
+      "free",
+      "seasonal"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C1MNPwkv1p1/"
+    },
+    {
+     "text": "UAE National Day fireworks guide",
+     "detail": "Fireworks at Bluewaters, The Beach, Hatta, Dubai Festival City, and Al Seef across Dec 1–3; free cultural activities at Al Shindagha Museum and Flag Garden at Umm Suqeim Beach.",
+     "name": "UAE National Day Celebrations Guide",
+     "subcategory": "when-to-go",
+     "place": "Dubai",
+     "themes": [
+      "free",
+      "seasonal",
+      "family"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DC_dIihP9iJ/"
+    }
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-tip-transit",
+   "creator": "ladyandhersweetescapes-dubai",
+   "kind": "solo",
+   "subcategory": "transit",
+   "place": "dubai",
+   "size": 1,
+   "tip": {
+    "text": "Cheap ferry to the best sunset spot",
+    "detail": "Take the Green Line metro to Creek station, walk to Al Jaddaf Marine Station, and hop an RTA ferry to Dubai Creek Harbour — an affordable, scenic alternative to a taxi.",
+    "name": "Al Jaddaf to Dubai Creek Harbour RTA Boat",
+    "subcategory": "transit",
+    "place": "Dubai",
+    "themes": [
+     "budget"
+    ],
+    "confidence": "medium",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DAYS-3sPleQ/"
+   },
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-tip-budget-hack",
+   "creator": "ladyandhersweetescapes-dubai",
+   "kind": "solo",
+   "subcategory": "budget-hack",
+   "place": "dubai",
+   "size": 1,
+   "tip": {
+    "text": "Free access to the future's museum",
+    "detail": "You can explore the Metro Link Bridge, lobby, cafe, souvenir shop, and Level 1 Terrace (via Parker's pop-up dining) at the Museum of the Future completely free.",
+    "name": "Museum of the Future — Free Areas",
+    "subcategory": "budget-hack",
+    "place": "Dubai",
+    "themes": [
+     "free",
+     "hidden-gem",
+     "bucket-list"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/Cm-t0A8hz-7/"
+   },
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
+  },
+  {
+   "id": "dotzsoh-singapore-tip-booking",
+   "creator": "dotzsoh-singapore",
+   "kind": "solo",
+   "subcategory": "booking",
+   "place": "other",
+   "size": 1,
+   "tip": {
+    "text": "A flying chef cooks gourmet at 35,000 ft",
+    "detail": "Turkish Airlines' long-haul business class features an onboard flying chef who prepares fresh gourmet meals to order — a standout for premium transatlantic and intercontinental routes.",
+    "name": "Turkish Airlines Business Class",
+    "subcategory": "booking",
+    "place": "other",
+    "themes": [
+     "luxury",
+     "bucket-list"
+    ],
+    "confidence": "medium",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DQ4Jk2ak5z9/"
+   },
+   "guide_id": "dotzsoh-singapore-macau"
+  },
+  {
+   "id": "dotzsoh-singapore-tip-points-miles",
+   "creator": "dotzsoh-singapore",
+   "kind": "solo",
+   "subcategory": "points-miles",
+   "place": "other",
+   "size": 1,
+   "tip": {
+    "text": "Istanbul's lounge that rivals a hotel",
+    "detail": "One of the world's top airport lounges at Istanbul Airport, featuring Turkish cuisine, media zones, golf simulation, massage services, and premium comfort — accessible to business class and Miles&Smiles elite members.",
+    "name": "Turkish Airlines Business Lounge Istanbul",
+    "subcategory": "points-miles",
+    "place": "Istanbul",
+    "themes": [
+     "luxury",
+     "budget"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DLXXxDuTJZN/"
+   },
+   "guide_id": "dotzsoh-singapore-macau"
   }
  ]
 }

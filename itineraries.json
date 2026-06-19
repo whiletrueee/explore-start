@@ -1,5 +1,5 @@
 {
- "count": 9,
+ "count": 15,
  "itineraries": [
   {
    "id": "emptyjapan-kyoto",
@@ -1348,6 +1348,1183 @@
     "sharky-s-beach",
     "three-bridges-brewing",
     "finn-s-on-the-pier"
+   ]
+  },
+  {
+   "id": "blacktravelpin-dubai-dubai",
+   "creator": "blacktravelpin-dubai",
+   "destination": "dubai",
+   "city": "Dubai",
+   "days_count": 5,
+   "title": "Dubai in 5 Days: Icons, Hidden Corners & Real Splurges",
+   "hook": "Dubai is loud and unashamed — lean into it.",
+   "summary": "Five days that balance the big-ticket bucket-list moments with quieter, crowd-free finds the guides miss. No white-knuckle schedules — just one area, one anchor, and room to breathe each day.",
+   "best_for": "First-time visitors who want both the icons and the insider edge without burning out",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Sky-high Downtown",
+     "theme": "Downtown Dubai icons at your own pace",
+     "area": "Downtown Dubai",
+     "anchor_gem_id": "burj-khalifa",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "artisan-bakers",
+       "title": "Artisan Bakers",
+       "what": "Grab coffee and fresh pastries to start the day.",
+       "why": "Best aesthetics-meets-flavor bakery in the city.",
+       "transit_next": "10-min taxi to Dubai Mall / Burj Khalifa base",
+       "tip": null
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:00",
+       "gem_id": "burj-khalifa",
+       "title": "Burj Khalifa",
+       "what": "Ascend to floor 124 for Dubai's most dramatic skyline view.",
+       "why": "Nothing else puts the city's scale in perspective like this.",
+       "transit_next": "5-min walk into Dubai Mall",
+       "tip": "Book online a day ahead — floor 124 tickets sell out fast."
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "house-of-hype-dubai",
+       "title": "House of Hype Dubai",
+       "what": "Explore immersive neon art rooms inside Dubai Mall.",
+       "why": "2–3 hours of content; weekday entry is 20% cheaper.",
+       "transit_next": "5-min walk to Burj Lake waterfront",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "17:30",
+       "gem_id": "saya-brasserie",
+       "title": "Saya Brasserie",
+       "what": "Dinner at Dubai's most camera-ready brasserie.",
+       "why": "Gorgeous interiors + solid food — a proper sit-down after the day.",
+       "transit_next": "10-min taxi to hotel",
+       "tip": null
+      }
+     ],
+     "pace_note": "Four stops, one tight area — no rushing needed."
+    },
+    {
+     "day": 2,
+     "hook": "Palm & the waterline",
+     "theme": "Palm Jumeirah from water level to the sky",
+     "area": "Palm Jumeirah",
+     "anchor_gem_id": "dubai-balloon",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "brunch-cake",
+       "title": "Brunch & Cake",
+       "what": "Leisurely brunch at Dubai's most photogenic cafe.",
+       "why": "Great food, social-media-ready plating, sets the right tone.",
+       "transit_next": "25-min taxi to Atlantis / Palm balloon launch",
+       "tip": null
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:00",
+       "gem_id": "dubai-balloon",
+       "title": "Dubai Balloon",
+       "what": "Ride the tethered balloon 300 m above Palm Jumeirah.",
+       "why": "Best single aerial view of the Palm and the whole coastline.",
+       "transit_next": "5-min walk inside Atlantis compound",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:00",
+       "gem_id": "the-lost-chambers-aquarium",
+       "title": "The Lost Chambers Aquarium",
+       "what": "Wander Atlantis's mythical underwater aquarium ruins.",
+       "why": "65,000 marine animals in a genuinely beautiful setting.",
+       "transit_next": "30-min taxi toward JBR",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "18:00",
+       "gem_id": "skyviews-observatory-dubai",
+       "title": "Skyviews Observatory Dubai",
+       "what": "Glass-floor observatory and outdoor edge-walk at Address Beach Resort.",
+       "why": "Sunset coastal views that rival the Burj deck at a fraction of the crowd.",
+       "transit_next": "10-min taxi back to hotel",
+       "tip": null
+      }
+     ],
+     "pace_note": "Palm to JBR — same coastline strip, zero backtracking."
+    },
+    {
+     "day": 3,
+     "hook": "Desert escape, then DIFC glamour",
+     "theme": "Al Qudra dunes in the day, city sophistication at night",
+     "area": "Al Qudra / DIFC",
+     "anchor_gem_id": "love-lake-dubai",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "love-lake-dubai",
+       "title": "Love Lake Dubai",
+       "what": "Walk the heart-shaped lakes in Al Qudra desert.",
+       "why": "Surreal and quiet — nothing else in Dubai looks like this.",
+       "transit_next": "5-min drive within Al Qudra",
+       "tip": "Go early — by 11 AM it gets hot; bring water."
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:00",
+       "gem_id": "hidden-cafe-dubai",
+       "title": "Hidden Cafe Dubai",
+       "what": "Relax at a tucked-away desert-edge cafe.",
+       "why": "Perfect decompression before heading back to the city.",
+       "transit_next": "45-min taxi back into the city",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "dubai-frame",
+       "title": "Dubai Frame",
+       "what": "Stand inside the giant picture frame bridging old and new Dubai.",
+       "why": "AED 50, genuinely mind-bending views of both skylines.",
+       "transit_next": "20-min taxi to DIFC",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "1920-bar",
+       "title": "1920 Bar",
+       "what": "Cocktails in a rooftop speakeasy on Level 52, DIFC.",
+       "why": "1920s glamour meets a sweeping modern Dubai skyline — ideal date night.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Morning in the dunes, evening in the city — two worlds, one day."
+    },
+    {
+     "day": 4,
+     "hook": "Dinner is the event",
+     "theme": "Theatrical dining and an airborne perspective",
+     "area": "Downtown Dubai / Al Habtoor City",
+     "anchor_gem_id": "le-petit-chef-dubai",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "falcon-heli-tours-dubai",
+       "title": "Falcon Heli Tours Dubai",
+       "what": "12-minute helicopter over Burj Khalifa, Palm, and Burj Al Arab.",
+       "why": "The only way to truly grasp Dubai's sheer scale in one shot.",
+       "transit_next": "20-min taxi toward Al Barsha",
+       "tip": null
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:30",
+       "gem_id": "ibn-battuta-mall",
+       "title": "Ibn Battuta Mall",
+       "what": "Wander the world's most theatrical themed mall.",
+       "why": "Free to enter; six countries of architecture in one building.",
+       "transit_next": "25-min taxi to Dubai Miracle Garden area or hotel",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "dubai-miracle-garden",
+       "title": "Dubai Miracle Garden",
+       "what": "Stroll among 150 million flowers in the desert.",
+       "why": "No photo filter needed — the scale is genuinely surreal.",
+       "transit_next": "30-min taxi to Al Habtoor City",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "le-petit-chef-dubai",
+       "title": "Le Petit Chef Dubai",
+       "what": "Multi-course dinner with 3D miniature chef projected on your plate.",
+       "why": "Completely unique — food plus theatre in a single sitting.",
+       "transit_next": null,
+       "tip": "Book well in advance — slots fill weeks out."
+      }
+     ],
+     "pace_note": "Helicopter earns the day; dinner closes it in style."
+    },
+    {
+     "day": 5,
+     "hook": "Old Creek, new eats",
+     "theme": "Dubai Creek history, Greek waterfront vibes",
+     "area": "Dubai Creek / Dubai Harbour",
+     "anchor_gem_id": "son-of-a-fish",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "port-saeed-sunset-viewpoint",
+       "title": "Port Saeed Waterfront",
+       "what": "Morning walk along the Creek waterfront promenade.",
+       "why": "Free, crowd-free, and the most cinematic angle of old Dubai.",
+       "transit_next": "5-min walk or taxi along Baniyas Road",
+       "tip": null
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:00",
+       "gem_id": "brunch-bask-at-serein",
+       "title": "Brunch & Bask at Serein",
+       "what": "Unlimited Saturday brunch with pool access at Hilton Dubai Creek.",
+       "why": "AED 150 all-in — the city's best-value brunch with Creek views.",
+       "transit_next": "30-min taxi to Dubai Harbour",
+       "tip": "Saturday only, 12–4 PM. Arrive right at noon for the full window."
+      },
+      {
+       "slot": "afternoon",
+       "time": "16:00",
+       "gem_id": "nova-boats-dubai",
+       "title": "Nova Boats Dubai",
+       "what": "Golden-hour private yacht cruise from Dubai Harbour.",
+       "why": "Burj Khalifa from the water at dusk — nothing tops this for the last day.",
+       "transit_next": "5-min walk from harbour dock",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "son-of-a-fish",
+       "title": "Son of a Fish",
+       "what": "Dinner at the new Greek waterfront restaurant at Dubai Harbour.",
+       "why": "Fresh Aegean seafood — end the trip with something exciting and new.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Slow morning, one cruise, one great dinner — a proper send-off."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Use Careem for taxis — reliable, metered, and cheaper than hotel cabs. Dubai Metro is great for Downtown and the Marina strip; download the Nol Travel app to top up your card. Avoid driving yourself unless you know the city well.",
+    "where_to_stay": "Downtown Dubai keeps you central for Days 1 and 4. For Palm access, a night at Atlantis or any Palm hotel is worth it. The Hilton Dubai Creek is a strong mid-range pick for Day 5.",
+    "best_time": "October to April for comfortable outdoor weather. July–September is survivable but brutally hot outdoors.",
+    "budget": "Budget AED 500–800/day for food and activities at a comfortable pace; add AED 1,000–2,000 for helicopter, balloon, and Le Petit Chef. Download the Entertainer app for 2-for-1 deals at restaurants.",
+    "creator_tip_gem_ids": [
+     "dubai-metro-rta-fine-guide",
+     "top-5-apps-for-dubai-tourists"
+    ]
+   },
+   "gem_ids_used": [
+    "artisan-bakers",
+    "burj-khalifa",
+    "house-of-hype-dubai",
+    "saya-brasserie",
+    "brunch-cake",
+    "dubai-balloon",
+    "the-lost-chambers-aquarium",
+    "skyviews-observatory-dubai",
+    "love-lake-dubai",
+    "hidden-cafe-dubai",
+    "dubai-frame",
+    "1920-bar",
+    "falcon-heli-tours-dubai",
+    "ibn-battuta-mall",
+    "dubai-miracle-garden",
+    "le-petit-chef-dubai",
+    "port-saeed-sunset-viewpoint",
+    "brunch-bask-at-serein",
+    "nova-boats-dubai",
+    "son-of-a-fish"
+   ]
+  },
+  {
+   "id": "dotzsoh-singapore-kyoto",
+   "creator": "dotzsoh-singapore",
+   "destination": "japan",
+   "city": "Kyoto",
+   "days_count": 2,
+   "title": "Kyoto in Two Days: Gorges, Gates & Ancient Lanes",
+   "hook": "Two days. Two very different Kyotos.",
+   "summary": "Day one is all Arashiyama — bamboo, a vintage train, and a wooden-boat river run through the gorge. Day two is the city's spiritual and historic core: golden pavilion, ten thousand torii gates, and the cobblestoned Higashiyama lanes at dusk.",
+   "best_for": "First-timers who want both the wild and the sacred sides of Kyoto without rushing.",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Bamboo, trains, rivers",
+     "theme": "Arashiyama full day",
+     "area": "Arashiyama",
+     "anchor_gem_id": "hozugawa-river-cruise",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "sagano-romantic-train-sagano-scenic-railway",
+       "title": "Sagano Romantic Train",
+       "what": "Ride the open-air vintage train through bamboo and gorge",
+       "why": "25-minute scenic ride — the gentlest start to an outdoor day",
+       "transit_next": "5-min walk to Kameoka boat dock",
+       "tip": "Book tickets online ahead — the train sells out fast, especially on weekends"
+      },
+      {
+       "slot": "late-morning",
+       "time": "10:30",
+       "gem_id": "hozugawa-river-cruise",
+       "title": "Hozugawa River Cruise",
+       "what": "Float 16 km downriver on a traditional wooden boat",
+       "why": "Forested canyon rapids — nothing else in Kyoto looks like this",
+       "transit_next": "10-min walk back into Arashiyama village",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:00",
+       "gem_id": "arashiyama-bamboo-forest",
+       "title": "Arashiyama Bamboo Forest",
+       "what": "Walk the famous bamboo corridor — free, 20 minutes end-to-end",
+       "why": "Towering stalks block the sky; moody even on a grey day",
+       "transit_next": "15-min walk or taxi to lunch spot in the village",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:15",
+       "gem_id": "genji-kyoto-sky-forest-garden",
+       "title": "Genji Kyoto — Sky Forest Garden",
+       "what": "Check in, drop bags, rest on the rooftop garden",
+       "why": "Central Kamo River location — great base for both days",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "River cruise + bamboo are back-to-back in one area — no rushing."
+    },
+    {
+     "day": 2,
+     "hook": "Gates, gold, cobblestones",
+     "theme": "Kyoto's spiritual and historic core",
+     "area": "Fushimi / Kinkaku-ji / Higashiyama",
+     "anchor_gem_id": "fushimi-inari-taisha",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "fushimi-inari-taisha",
+       "title": "Fushimi Inari Taisha",
+       "what": "Walk the torii-gate tunnels up the forested mountain",
+       "why": "Paths are quieter early; the vermilion light is best before noon",
+       "transit_next": "30-min train (JR Nara Line) + bus to Kinkaku-ji",
+       "tip": null
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:30",
+       "gem_id": "kinkaku-ji-golden-pavilion",
+       "title": "Kinkaku-ji (Golden Pavilion)",
+       "what": "See the gold-leaf pavilion reflected in the Mirror Pond",
+       "why": "One of Japan's most iconic sights — worth the 30-min detour north",
+       "transit_next": "Bus or taxi, 30 min to Higashiyama",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "higashiyama-district",
+       "title": "Higashiyama District",
+       "what": "Wander cobblestone lanes, browse tea shops, soak in old Japan",
+       "why": "Kyoto's best-preserved historic streetscape — best light mid-afternoon",
+       "transit_next": "10-min walk uphill to Kiyomizu-dera",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "15:00",
+       "gem_id": "kiyomizu-dera",
+       "title": "Kiyomizu-dera",
+       "what": "Stand on the wooden veranda for sweeping valley views",
+       "why": "Sacred hillside temple — the view is the reward",
+       "transit_next": null,
+       "tip": "Autumn peak (mid-Nov to early Dec) turns the valley crimson — plan around it if you can"
+      }
+     ],
+     "pace_note": "Three areas but Higashiyama and Kiyomizu-dera are a 10-min walk apart."
+    }
+   ],
+   "logistics": {
+    "getting_around": "IC card (Suica/ICOCA) covers buses and trains. Day 1 is fully walkable once in Arashiyama. Day 2 needs two bus/train legs — budget 30 min each.",
+    "where_to_stay": "Genji Kyoto (gem: genji-kyoto-sky-forest-garden) — boutique hotel on the Kamo River, central for both days.",
+    "best_time": "Spring (cherry blossom, late March–April) or Autumn (foliage, mid-November to early December) for peak colour at Kiyomizu-dera.",
+    "budget": "Budget ¥3,000–5,000/day for entry fees and transport; Sagano train and Hozugawa cruise are the main paid items on Day 1.",
+    "creator_tip_gem_ids": [
+     "sagano-romantic-train-sagano-scenic-railway",
+     "kiyomizu-dera"
+    ]
+   },
+   "gem_ids_used": [
+    "sagano-romantic-train-sagano-scenic-railway",
+    "hozugawa-river-cruise",
+    "arashiyama-bamboo-forest",
+    "genji-kyoto-sky-forest-garden",
+    "fushimi-inari-taisha",
+    "kinkaku-ji-golden-pavilion",
+    "higashiyama-district",
+    "kiyomizu-dera"
+   ]
+  },
+  {
+   "id": "dotzsoh-singapore-macau",
+   "creator": "dotzsoh-singapore",
+   "destination": "other",
+   "city": "Macau",
+   "days_count": 2,
+   "title": "Macau in 2 Days: Old Charm, Big Glam",
+   "hook": "Two days, two faces of Macau — cobblestones then Cotai.",
+   "summary": "Day one is all about Old Macau's UNESCO lanes and a food-festival waterfront. Day two goes full galaxy — a rooftop water park, a legendary bar, and a Peking duck dinner you won't forget.",
+   "best_for": "Couples and groups who want heritage in the morning and luxury by night.",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Old lanes, big food.",
+     "theme": "Historic Centre + Fisherman's Wharf food festival",
+     "area": "Historic Centre of Macao / Fisherman's Wharf",
+     "anchor_gem_id": "2025-international-cities-of-gastronomy-fest",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "pop-mart-macau-city-walk",
+       "title": "POP MART Macau City Walk",
+       "what": "Hunt stamps at UNESCO sites with Baby Molly and LABUBU.",
+       "why": "Heritage walk with a playful collectible trail built in.",
+       "transit_next": "15-min walk downhill to Fisherman's Wharf",
+       "tip": "Grab your stamp card at the first checkpoint early — lines build by 11 am."
+      },
+      {
+       "slot": "lunch",
+       "time": "12:30",
+       "gem_id": "2025-international-cities-of-gastronomy-fest",
+       "title": "International Cities of Gastronomy Fest",
+       "what": "Graze food stalls from Macao, China, and cities worldwide.",
+       "why": "Ten nations of street food steps from the waterfront.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Two stops, same walkable belt — easy half-day, free afternoon."
+    },
+    {
+     "day": 2,
+     "hook": "Galaxy, all day.",
+     "theme": "Galaxy Macau — water park, afternoon tea, fine dining, and cocktails",
+     "area": "Cotai Strip",
+     "anchor_gem_id": "grand-resort-deck-at-galaxy-macau",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "diamond-show-at-galaxy-macau",
+       "title": "Diamond Show at Galaxy Macau",
+       "what": "Watch a giant diamond rise from a fountain of lights — free.",
+       "why": "Best free spectacle in Cotai, sets the Galaxy mood.",
+       "transit_next": "5-min walk within Galaxy Macau to the resort deck",
+       "tip": null
+      },
+      {
+       "slot": "mid-morning",
+       "time": "11:00",
+       "gem_id": "grand-resort-deck-at-galaxy-macau",
+       "title": "Grand Resort Deck",
+       "what": "Ride the world's longest rooftop river and the skytop wave pool.",
+       "why": "Bucket-list water park above the Cotai Strip skyline.",
+       "transit_next": "10-min walk to Raffles tower within Galaxy Macau",
+       "tip": "Book entry online the night before — day-of tickets sell out on weekends."
+      },
+      {
+       "slot": "afternoon",
+       "time": "15:30",
+       "gem_id": "raffles-lounge-terrace",
+       "title": "Raffles Lounge & Terrace",
+       "what": "Unwind with Raffles afternoon tea — pastries, sandwiches, terrace views.",
+       "why": "Perfect recovery after a morning in the water.",
+       "transit_next": "2-min walk within Raffles to the Long Bar",
+       "tip": null
+      },
+      {
+       "slot": "pre-dinner",
+       "time": "18:30",
+       "gem_id": "raffles-long-bar-macau",
+       "title": "Raffles Long Bar Macau",
+       "what": "Order the Macau Sling at this colonial-glam cocktail bar.",
+       "why": "The Singapore Sling's Macau cousin — iconic opener to the evening.",
+       "transit_next": "10-min walk within Galaxy Macau to Blossom Palace",
+       "tip": null
+      },
+      {
+       "slot": "dinner",
+       "time": "20:00",
+       "gem_id": "blossom-palace",
+       "title": "Blossom Palace (花悅庭)",
+       "what": "Order the legendary Peking duck in an imperial dining room.",
+       "why": "Award-worthy Beijing cuisine — the best closing meal in Macau.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All five stops are inside one complex — zero transit stress."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Cotai and Fisherman's Wharf are each walkable within themselves; free casino shuttle buses connect Cotai Strip to the ferry terminal and Historic Centre.",
+    "where_to_stay": "Andaz Macau or Raffles at Galaxy Macau — both sit inside Galaxy Macau, putting Day 2 entirely on your doorstep.",
+    "best_time": "Weekdays to avoid weekend crowds at the resort deck; July 11–20 if you want the Gastronomy Fest.",
+    "budget": "Day 1 can be done cheaply (festival food, free stamp trail); Day 2 is luxury-tier — budget MOP 800–1,500+ per person for resort deck + afternoon tea + fine dining.",
+    "creator_tip_gem_ids": [
+     "turkish-airlines-business-lounge-istanbul",
+     "turkish-airlines-business-class"
+    ]
+   },
+   "gem_ids_used": [
+    "pop-mart-macau-city-walk",
+    "2025-international-cities-of-gastronomy-fest",
+    "diamond-show-at-galaxy-macau",
+    "grand-resort-deck-at-galaxy-macau",
+    "raffles-lounge-terrace",
+    "raffles-long-bar-macau",
+    "blossom-palace"
+   ]
+  },
+  {
+   "id": "dotzsoh-singapore-osaka",
+   "creator": "dotzsoh-singapore",
+   "destination": "japan",
+   "city": "Osaka",
+   "days_count": 2,
+   "title": "48 Hours in Osaka Done Right",
+   "hook": "Old castle, neon chaos, a lion shrine, and one full day of blockbuster rides.",
+   "summary": "Two days, two totally different Osakas. Day one is the city's soul — feudal history in the morning, retro back-streets at dusk, and Dotonbori's famous neon madness at night. Day two hands the wheel entirely to Universal Studios.",
+   "best_for": "First-timers who want both the culture hits and the fun-park bucket-list moment.",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Castle, shrine, neon",
+     "theme": "Osaka's historic core to its wildest nightlife strip",
+     "area": "Chuo Ward → Namba → Dotonbori",
+     "anchor_gem_id": "dotonbori-shinsaibashi",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "osaka-castle",
+       "title": "Osaka Castle",
+       "what": "Walk the castle grounds and climb the museum tower.",
+       "why": "Free grounds, incredible moat views, worth the ¥600 inside.",
+       "transit_next": "Subway to Namba, ~20 min",
+       "tip": "Skip the interior on a busy weekend — the grounds and golden donjon exterior are the real photo moment."
+      },
+      {
+       "slot": "afternoon",
+       "time": "12:30",
+       "gem_id": "namba-yasaka-shrine",
+       "title": "Namba Yasaka Shrine",
+       "what": "See the giant lion-head stage up close.",
+       "why": "Free, five-minute detour, wildly surreal photo you won't get anywhere else.",
+       "transit_next": "5-min walk to Shinsekai",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "shinsekai",
+       "title": "Shinsekai",
+       "what": "Wander the retro neon lanes and grab kushikatsu lunch.",
+       "why": "Best kushikatsu in Osaka, old-school atmosphere nothing like tourist Namba.",
+       "transit_next": "10-min walk to Dotonbori",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "18:00",
+       "gem_id": "dotonbori-shinsaibashi",
+       "title": "Dotonbori & Shinsaibashi",
+       "what": "Walk the canal strip at golden hour into full neon night.",
+       "why": "Hits completely differently after dark — this is the real Osaka sensory overload.",
+       "transit_next": "2-min walk to dinner",
+       "tip": null
+      },
+      {
+       "slot": "dinner",
+       "time": "20:00",
+       "gem_id": "yakiniku-and-wagyu-shabu-shabu-in-osaka",
+       "title": "Wagyu Yakiniku Dinner",
+       "what": "Grill wagyu at one of Dotonbori's BBQ spots.",
+       "why": "Best beef in Japan, right in the middle of the night's action.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Castle is done by noon; Namba stops cluster tightly, no backtracking."
+    },
+    {
+     "day": 2,
+     "hook": "Full day, one park",
+     "theme": "Universal Studios Japan — this IS the day",
+     "area": "Sakurajima",
+     "anchor_gem_id": "universal-studios-japan",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "universal-studios-japan",
+       "title": "Universal Studios Japan",
+       "what": "Full day across Super Nintendo World, Harry Potter, Jurassic Park.",
+       "why": "Nintendo World alone is a half-day; this is a proper bucket-list theme park.",
+       "transit_next": null,
+       "tip": "Buy Express Pass for Super Nintendo World separately — the standard queue can run 90+ min and kills your day."
+      }
+     ],
+     "pace_note": "One destination all day — park opens at 9, plan to stay until close."
+    }
+   ],
+   "logistics": {
+    "getting_around": "IC card (ICOCA) handles all subway and JR rides. Day 1 is walkable once you reach Namba. USJ is a direct JR Yumesaki Line ride from Osaka Station (~5 min).",
+    "where_to_stay": "Stay in Namba or Shinsaibashi — walking distance to Day 1 stops and easy JR access for USJ.",
+    "best_time": "Mid-November to early December for Osaka Castle autumn foliage at its peak.",
+    "budget": "USJ tickets + Express Pass are the big spend (~¥10,000–¥20,000+). Day 1 is mostly cheap street food and free entry.",
+    "creator_tip_gem_ids": [
+     "shinsekai",
+     "namba-yasaka-shrine"
+    ]
+   },
+   "gem_ids_used": [
+    "osaka-castle",
+    "namba-yasaka-shrine",
+    "shinsekai",
+    "dotonbori-shinsaibashi",
+    "yakiniku-and-wagyu-shabu-shabu-in-osaka",
+    "universal-studios-japan"
+   ]
+  },
+  {
+   "id": "dotzsoh-singapore-singapore",
+   "creator": "dotzsoh-singapore",
+   "destination": "singapore",
+   "city": "Singapore",
+   "days_count": 4,
+   "title": "Singapore in 4 Days: Bay, Orchard, Changi & Sentosa",
+   "hook": "Four areas, four moods — Singapore done properly.",
+   "summary": "Start with the iconic Marina Bay skyline and Supertrees, then work through Orchard's hidden hotel gardens and legendary chicken rice. Day three combines the world's tallest indoor waterfall at Jewel with free-flying lories at Bird Paradise. Close it all at a colonial-era boutique hotel on Sentosa.",
+   "best_for": "First-timers who want the bucket-list icons without exhaustion",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Golden bay mornings",
+     "theme": "Marina Bay Icons",
+     "area": "Marina Bay",
+     "anchor_gem_id": "gardens-by-the-bay",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "marina-bay",
+       "title": "Marina Bay Waterfront",
+       "what": "Walk the bayfront promenade at golden hour.",
+       "why": "Best free skyline panorama in Singapore.",
+       "transit_next": "10-min walk to Gardens by the Bay entrance",
+       "tip": null
+      },
+      {
+       "slot": "mid-morning",
+       "time": "10:30",
+       "gem_id": "ocbc-skyway",
+       "title": "OCBC Skyway",
+       "what": "Walk the elevated path threading between the Supertrees.",
+       "why": "Bird's-eye view of the grove you can't get from the ground.",
+       "transit_next": "5-min walk to ArtScience Museum via MBS mall",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:00",
+       "gem_id": "crystal-universe-artscience-museum",
+       "title": "Crystal Universe — ArtScience Museum",
+       "what": "Step inside teamLab's LED constellation installation.",
+       "why": "Most photogenic hour you'll spend indoors in Singapore.",
+       "transit_next": "10-min walk back to Gardens by the Bay",
+       "tip": "Book tickets online to skip the queue; last entry 1 hr before closing."
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "gardens-by-the-bay",
+       "title": "Gardens by the Bay — Supertree Light Show",
+       "what": "Watch the free nightly light and music show at the grove.",
+       "why": "The Supertrees glow in sync with music — completely free.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All four stops within 15-min walk of each other."
+    },
+    {
+     "day": 2,
+     "hook": "Orchard at your own pace",
+     "theme": "Hidden Gardens & Legendary Eats",
+     "area": "Orchard",
+     "anchor_gem_id": "chatterbox",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "shangri-la-singapore-garden-wing-koi-pond",
+       "title": "Shangri-La Koi Garden",
+       "what": "Wander the hotel's tropical koi pond and garden sanctuary.",
+       "why": "A genuinely peaceful escape hidden in plain sight on Orchard.",
+       "transit_next": "10-min walk down Orchard Road to Hilton",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "12:30",
+       "gem_id": "chatterbox",
+       "title": "Chatterbox",
+       "what": "Sit down for Singapore's most famous hotel chicken rice.",
+       "why": "Silky poached chicken, fragrant rice — the city's comfort-food institution.",
+       "transit_next": "Same building, walk down to Osteria Mozza level",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "osteria-mozza-singapore",
+       "title": "Osteria Mozza Singapore",
+       "what": "Dinner of handmade mozzarella and pasta at Nancy Silverton's outpost.",
+       "why": "Best Italian in Singapore, in a setting that doesn't feel like a hotel.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Three stops, no rushing — afternoon is deliberately free."
+    },
+    {
+     "day": 3,
+     "hook": "Waterfalls and wild birds",
+     "theme": "Changi Wonder & Mandai Wildlife",
+     "area": "Changi / Mandai",
+     "anchor_gem_id": "jewel-changi-airport-rain-vortex-canopy-bridge",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "jewel-changi-airport-rain-vortex-canopy-bridge",
+       "title": "Jewel Changi — Rain Vortex & Canopy Bridge",
+       "what": "See the 40-metre indoor waterfall and walk the sky bridge.",
+       "why": "Nothing else in the world looks like this — free to enter.",
+       "transit_next": "Grab a cab, ~20 min to Bird Paradise at Mandai",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "lory-loft-at-bird-paradise",
+       "title": "Lory Loft at Bird Paradise",
+       "what": "Enter a free-flight aviary and let lories land on you.",
+       "why": "Joyful, immersive — the best 30 minutes at Bird Paradise.",
+       "transit_next": null,
+       "tip": "Buy the nectar cup at the aviary entrance — lories come straight to you."
+      }
+     ],
+     "pace_note": "Two big stops, 20-min ride apart — relaxed and unhurried."
+    },
+    {
+     "day": 4,
+     "hook": "Colonial cool on the island",
+     "theme": "Robertson Quay to Sentosa",
+     "area": "Robertson Quay / Sentosa",
+     "anchor_gem_id": "the-barracks-hotel-sentosa",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "alkaff-bridge",
+       "title": "Alkaff Bridge",
+       "what": "Cross Robertson Quay's rainbow-painted pedestrian bridge.",
+       "why": "30 seconds to cross, 10 minutes to photograph properly.",
+       "transit_next": "15-min cab to Sentosa via VivoCity",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "11:00",
+       "gem_id": "the-barracks-hotel-sentosa",
+       "title": "The Barracks Hotel Sentosa",
+       "what": "Explore the restored British barracks, pool gardens, and lunch.",
+       "why": "Lush tropical grounds that feel nothing like the Singapore you've seen.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Easy half-day finish — Sentosa is a full unwind, not a sprint."
+    }
+   ],
+   "logistics": {
+    "getting_around": "MRT covers Days 1–2 easily. Grab (ride-hail) is the call for Day 3 Changi–Mandai leg and Day 4 to Sentosa. Sentosa Entry Levy applies via Sentosa Gateway; budget ~S$6 round trip.",
+    "where_to_stay": "Marina Bay Sands (if budget allows — rooftop pool access is hotel-guest only) or a mid-range option near Clarke Quay for central access to all four days.",
+    "best_time": "February–April (dry, lower humidity) or December for Christmas Wonderland at Gardens by the Bay. Avoid school holiday peaks (June, December) for Jewel Changi crowds.",
+    "budget": "Mid-range S$150–250/day covers transport, entry fees, and meals at the listed restaurants. OCBC Skyway ~S$14; ArtScience Museum ~S$25–35; Bird Paradise ~S$49.",
+    "creator_tip_gem_ids": [
+     "crystal-universe-artscience-museum",
+     "lory-loft-at-bird-paradise",
+     "alkaff-bridge"
+    ]
+   },
+   "gem_ids_used": [
+    "marina-bay",
+    "ocbc-skyway",
+    "crystal-universe-artscience-museum",
+    "gardens-by-the-bay",
+    "shangri-la-singapore-garden-wing-koi-pond",
+    "chatterbox",
+    "osteria-mozza-singapore",
+    "jewel-changi-airport-rain-vortex-canopy-bridge",
+    "lory-loft-at-bird-paradise",
+    "alkaff-bridge",
+    "the-barracks-hotel-sentosa"
+   ]
+  },
+  {
+   "id": "ladyandhersweetescapes-dubai-dubai",
+   "creator": "ladyandhersweetescapes-dubai",
+   "destination": "dubai",
+   "city": "Dubai",
+   "days_count": 5,
+   "title": "Dubai Through a Sweet Escape Lens",
+   "hook": "Five days of hidden gems, rooftop views, and waterfront magic.",
+   "summary": "This is Dubai the way the locals who actually live here experience it — not the glossy brochure version. Expect hole-in-the-wall ramen, free sunset decks, pirate ships, and a flamingo sanctuary inside the city.",
+   "best_for": "Couples and solo travelers who want the real Dubai mix: free finds, splurge-worthy moments, and great food at every budget.",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Old Dubai, slow and soulful",
+     "theme": "Heritage waterfront + Creek-side charm",
+     "area": "Al Seef / Bur Dubai / Al Jaddaf",
+     "anchor_gem_id": "al-seef",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "mazmi-cafe",
+       "title": "Mazmi Cafe",
+       "what": "Riverside al fresco breakfast at Bur Dubai Souk.",
+       "why": "Old Dubai atmosphere, all-day menu, ~150 AED for two.",
+       "transit_next": "5-min walk south along the creek to Al Seef",
+       "tip": null
+      },
+      {
+       "slot": "late-morning",
+       "time": "10:30",
+       "gem_id": "al-seef",
+       "title": "Al Seef Heritage Waterfront",
+       "what": "Wander the restored souq alleys and creek promenade.",
+       "why": "Free to explore; best preserved old-Dubai streetscape.",
+       "transit_next": "2-min walk to Museum of Illusions next door",
+       "tip": "Arrive before noon — alley stalls open early and it's much cooler in the shade."
+      },
+      {
+       "slot": "midday",
+       "time": "12:00",
+       "gem_id": "museum-of-illusions-dubai",
+       "title": "Museum of Illusions Dubai",
+       "what": "Sixty optical illusions: vortex tunnel, anti-gravity room, more.",
+       "why": "Compact, very photogenic, 80 AED adults — worth every dirham.",
+       "transit_next": "10-min walk or quick Uber to Al Jaddaf Waterfront",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "jameel-arts-centre",
+       "title": "Jameel Arts Centre",
+       "what": "Free sculpture garden, contemporary galleries, waterfront stroll.",
+       "why": "Walk the adjacent Al Jaddaf promenade for golden-hour Creek views.",
+       "transit_next": "15-min Uber to Al Fanar at Al Seef for dinner",
+       "tip": null
+      },
+      {
+       "slot": "dinner",
+       "time": "19:00",
+       "gem_id": "al-fanar-restaurant",
+       "title": "Al Fanar Restaurant",
+       "what": "Traditional Emirati dinner at the Al Seef waterfront.",
+       "why": "Beloved Emirati spot; saved twice by the creator for good reason.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All stops within 15 minutes of each other; no rush needed."
+    },
+    {
+     "day": 2,
+     "hook": "Downtown Dubai at its most electric",
+     "theme": "Iconic skyline + bucket-list experiences",
+     "area": "Downtown Dubai / DIFC",
+     "anchor_gem_id": "skyviews-edge-walk",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "bageri-form",
+       "title": "Bageri Form",
+       "what": "Scandinavian pastries and coffee in Dubai Design District.",
+       "why": "Swedish cinnamon buns + Burj Khalifa backdrop from outdoor seats.",
+       "transit_next": "10-min Uber to DIFC",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "12:00",
+       "gem_id": "josette",
+       "title": "Josette",
+       "what": "Michelin-listed French lunch: starter + main for 135 AED.",
+       "why": "Pink interiors, classic dishes — the best value lunch in DIFC.",
+       "transit_next": "10-min walk through Gate Avenue toward Downtown",
+       "tip": "Reserve ahead — weekday only and seats fill fast."
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "arte-museum-dubai",
+       "title": "Arte Museum Dubai",
+       "what": "Immersive digital art: waterfalls, beach auroras, mystical tea bar.",
+       "why": "Multi-sensory and very photogenic; 149 AED with tea bar.",
+       "transit_next": "5-min walk to Burj Park island",
+       "tip": null
+      },
+      {
+       "slot": "late-afternoon",
+       "time": "17:00",
+       "gem_id": "skyviews-edge-walk",
+       "title": "Skyviews Edge Walk",
+       "what": "Walk the open-air ledge of one of Dubai's tallest towers.",
+       "why": "The most thrilling 360° view of Downtown — safety gear provided.",
+       "transit_next": "20-min Uber to Sheikh Zayed Road",
+       "tip": null
+      },
+      {
+       "slot": "nightcap",
+       "time": "21:30",
+       "gem_id": "level-43-sky-lounge",
+       "title": "Level 43 Sky Lounge",
+       "what": "Rooftop drinks with Burj Khalifa and Museum of the Future views.",
+       "why": "Saved twice; open until 3 AM — perfect post-Edge Walk wind-down.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Downtown stops are walkable; Uber only for two short hops."
+    },
+    {
+     "day": 3,
+     "hook": "Palm, sea breeze, and a drone light show",
+     "theme": "Beach morning + waterfront evening at JBR/Bluewaters",
+     "area": "Palm Jumeirah / JBR / Bluewaters Island",
+     "anchor_gem_id": "costa-azzurra-electric-catamaran",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "kokobay-restaurant",
+       "title": "Kokobay Restaurant",
+       "what": "Bali-vibes breakfast, then free beach stroll at Palm West Beach.",
+       "why": "Full English for 79 AED; Marina skyline views right outside the door.",
+       "transit_next": "10-min Uber to The Pointe",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "12:30",
+       "gem_id": "costa-azzurra-electric-catamaran",
+       "title": "Costa Azzurra Electric Catamaran",
+       "what": "Self-pilot a silent electric catamaran for two at The Pointe.",
+       "why": "200 AED for 15 min — Dubai's most romantic water moment.",
+       "transit_next": "5-min walk to The Pods",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "13:30",
+       "gem_id": "the-pods-dubai-2",
+       "title": "The Pods Dubai",
+       "what": "Private seaview pod lunch: 2 courses for 99 AED.",
+       "why": "A bucket-list dining experience at a fraction of the original price.",
+       "transit_next": "20-min Uber to JBR Walk",
+       "tip": "Add 100 AED for the actual seaview pod — worth it."
+      },
+      {
+       "slot": "sunset",
+       "time": "17:30",
+       "gem_id": "wavebreaker-jbr",
+       "title": "Wavebreaker JBR",
+       "what": "Sundowner drinks on a wooden beachfront deck at the Hilton.",
+       "why": "Ain Dubai panoramas, drinks from 38 AED, charcuterie platters.",
+       "transit_next": "5-min walk to The Beach at JBR",
+       "tip": null
+      },
+      {
+       "slot": "night",
+       "time": "20:00",
+       "gem_id": "dubai-drone-show",
+       "title": "Dubai Drone Show",
+       "what": "Watch hundreds of drones paint the sky above Bluewaters.",
+       "why": "Free, nightly — one of Dubai's most spectacular free shows.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Beach morning flows into waterfront evening; zero rushing needed."
+    },
+    {
+     "day": 4,
+     "hook": "Nature, flamingos, and a floating cafe",
+     "theme": "Wildlife + creek waterfront + Al Jaddaf hidden gems",
+     "area": "Ras Al Khor / Al Jaddaf / Dubai Creek Harbour",
+     "anchor_gem_id": "ras-al-khor-wildlife-sanctuary",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "07:30",
+       "gem_id": "ras-al-khor-wildlife-sanctuary",
+       "title": "Ras Al Khor Wildlife Sanctuary",
+       "what": "Watch hundreds of flamingos wade in city-centre lagoons.",
+       "why": "Free entry; flamingos are most active in the cool early hours.",
+       "transit_next": "20-min Uber to Mohammed Bin Rashid Library",
+       "tip": "Bring binoculars if you have them — the birds are spectacular up close from the hides."
+      },
+      {
+       "slot": "late-morning",
+       "time": "09:30",
+       "gem_id": "mohammed-bin-rashid-library",
+       "title": "Mohammed Bin Rashid Library",
+       "what": "Explore the region's largest library — free with advance booking.",
+       "why": "Striking architecture; outdoor terrace views of the creek.",
+       "transit_next": "10-min walk to Al Jaddaf Waterfront",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "11:30",
+       "gem_id": "dreams-boats-floating-caf",
+       "title": "Dreams Boats Floating Cafe",
+       "what": "45-minute private sail with Arabic coffee and light bites.",
+       "why": "Hidden gem on Al Jaddaf Waterfront; 450 AED for two persons.",
+       "transit_next": "RTA ferry or 15-min Uber to Dubai Creek Harbour",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "aqaya-cafe",
+       "title": "Aqaya Cafe",
+       "what": "Creative brunch: mango-coconut toast disguised as eggs, mystery cube dessert.",
+       "why": "50–60 AED a dish; the most playful food in Creek Harbour.",
+       "transit_next": "5-min walk to the Viewing Deck",
+       "tip": null
+      },
+      {
+       "slot": "late-afternoon",
+       "time": "17:30",
+       "gem_id": "dubai-creek-harbour-viewing-deck",
+       "title": "Dubai Creek Harbour Viewing Deck",
+       "what": "Free sunset deck with viral skyline views over the Creek.",
+       "why": "Hidden gem; best golden-hour spot in this part of the city.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Early start pays off; afternoon is relaxed with no backtracking."
+    },
+    {
+     "day": 5,
+     "hook": "The desert, then dinner above the clouds",
+     "theme": "Eco-desert safari + SZR skyline dinner",
+     "area": "Dubai Desert Conservation Reserve / Sheikh Zayed Road",
+     "anchor_gem_id": "platinum-heritage-desert-safari",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "benjarong-at-dusit-thani-dubai",
+       "title": "Benjarong at Dusit Thani Dubai",
+       "what": "Award-winning Thai business lunch: 3 courses for 109 AED.",
+       "why": "Pad Thai, Tom Yum, Gai Satay — one of Dubai's best-value meals.",
+       "transit_next": "Hotel lobby pickup for desert safari (arranged by Platinum Heritage)",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "15:00",
+       "gem_id": "platinum-heritage-desert-safari",
+       "title": "Platinum Heritage Desert Safari",
+       "what": "Eco-luxury safari: spot Arabian Oryx and Ghaf trees in the dunes.",
+       "why": "The most ethical, atmospheric desert experience in Dubai.",
+       "transit_next": "Hotel drop-off; 30-min Uber back to Sheikh Zayed Road",
+       "tip": "Book direct via platinumheritage.com — departures are typically 3–4 PM in winter."
+      },
+      {
+       "slot": "dinner",
+       "time": "19:00",
+       "gem_id": "24th-st-at-dusit-thani-dubai",
+       "title": "24th St at Dusit Thani Dubai",
+       "what": "Saturday seafood feast: crab, prawns, calamari for 189 AED for two.",
+       "why": "Unlimited rice, Burj Khalifa backdrop — best dinner deal on SZR.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Desert pickup is mid-afternoon; day is purposefully light before and after."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Uber is the easiest option for most trips. The Dubai Metro (Red and Green lines) covers Downtown, DIFC, JBR, and Deira well. For Al Jaddaf to Creek Harbour, the RTA ferry is cheap and scenic.",
+    "where_to_stay": "Rove Hotels La Mer (from 99 AED on promo) is a great budget-beach pick. For a mid-range central base, Hampton by Hilton Al Seef puts you steps from Days 1 and 4.",
+    "best_time": "October to April. Dubai summers are brutally hot for outdoor plans. Winter months unlock all the rooftop terraces and outdoor pop-ups.",
+    "budget": "This trip ranges from very affordable (100–200 AED days) to one splurge (Platinum Heritage safari). Budget roughly 500–800 AED per day per person, more if you add SkyViews Edge Walk.",
+    "creator_tip_gem_ids": [
+     "museum-of-the-future-free-areas",
+     "al-jaddaf-to-dubai-creek-harbour-rta-boat",
+     "dubai-shopping-festival-fireworks-guide"
+    ]
+   },
+   "gem_ids_used": [
+    "mazmi-cafe",
+    "al-seef",
+    "museum-of-illusions-dubai",
+    "jameel-arts-centre",
+    "al-fanar-restaurant",
+    "bageri-form",
+    "josette",
+    "arte-museum-dubai",
+    "skyviews-edge-walk",
+    "level-43-sky-lounge",
+    "kokobay-restaurant",
+    "costa-azzurra-electric-catamaran",
+    "the-pods-dubai-2",
+    "wavebreaker-jbr",
+    "dubai-drone-show",
+    "ras-al-khor-wildlife-sanctuary",
+    "mohammed-bin-rashid-library",
+    "dreams-boats-floating-caf",
+    "aqaya-cafe",
+    "dubai-creek-harbour-viewing-deck",
+    "benjarong-at-dusit-thani-dubai",
+    "platinum-heritage-desert-safari",
+    "24th-st-at-dusit-thani-dubai"
    ]
   }
  ]
