@@ -1,0 +1,643 @@
+{
+ "taxonomy": {
+  "eat": [
+   "restaurant",
+   "cafe",
+   "bakery-dessert",
+   "street-food",
+   "food-hall",
+   "market",
+   "fine-dining"
+  ],
+  "drink": [
+   "cocktail-bar",
+   "wine-bar",
+   "brewery",
+   "coffee",
+   "rooftop",
+   "speakeasy"
+  ],
+  "stay": [
+   "hotel",
+   "boutique-hotel",
+   "resort",
+   "hostel",
+   "unique-stay"
+  ],
+  "see-do": [
+   "landmark",
+   "museum-gallery",
+   "experience",
+   "tour",
+   "show",
+   "class-workshop",
+   "nightlife"
+  ],
+  "shop": [
+   "boutique",
+   "market",
+   "mall",
+   "bookstore",
+   "specialty"
+  ],
+  "view": [
+   "observation-deck",
+   "skyline",
+   "scenic-overlook",
+   "photo-spot"
+  ],
+  "nature": [
+   "beach",
+   "park-garden",
+   "hike-trail",
+   "waterfall",
+   "island",
+   "natural-landmark"
+  ],
+  "plan": [
+   "budget-hack",
+   "when-to-go",
+   "what-to-skip",
+   "transit",
+   "packing",
+   "booking",
+   "points-miles"
+  ],
+  "itinerary": [
+   "day-trip",
+   "multi-day",
+   "neighborhood-walk",
+   "food-crawl",
+   "weekend"
+  ],
+  "list": [
+   "roundup",
+   "ranking",
+   "themed-collection"
+  ]
+ },
+ "profiles": {
+  "eat/restaurant": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "eat/cafe": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "eat/bakery-dessert": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "eat/street-food": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "eat/food-hall": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "eat/market": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "eat/fine-dining": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "drink/cocktail-bar": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "drink/wine-bar": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "drink/brewery": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "drink/coffee": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "drink/rooftop": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "drink/speakeasy": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "stay/hotel": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "stay/boutique-hotel": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "stay/resort": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "stay/hostel": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "stay/unique-stay": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/landmark": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/museum-gallery": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/experience": {
+   "loc": 1,
+   "addr": false,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/tour": {
+   "loc": 1,
+   "addr": false,
+   "web": 1,
+   "book": 1,
+   "date": 1,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/show": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": 1,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/class-workshop": {
+   "loc": 1,
+   "addr": false,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": false,
+   "price": 1,
+   "scope": "point"
+  },
+  "see-do/nightlife": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "shop/boutique": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "shop/market": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "shop/mall": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "shop/bookstore": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "shop/specialty": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "view/observation-deck": {
+   "loc": 1,
+   "addr": 1,
+   "web": 1,
+   "book": 1,
+   "date": false,
+   "hours": 1,
+   "price": 1,
+   "scope": "point"
+  },
+  "view/skyline": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "view/scenic-overlook": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "view/photo-spot": {
+   "loc": 1,
+   "addr": 1,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "nature/beach": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": 1,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "nature/park-garden": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": 1,
+   "price": false,
+   "scope": "point"
+  },
+  "nature/hike-trail": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "nature/waterfall": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "nature/island": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "nature/natural-landmark": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "point"
+  },
+  "plan/budget-hack": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "plan/when-to-go": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "plan/what-to-skip": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "plan/transit": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "city"
+  },
+  "plan/packing": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "plan/booking": {
+   "loc": false,
+   "addr": false,
+   "web": 1,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "plan/points-miles": {
+   "loc": false,
+   "addr": false,
+   "web": 1,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "itinerary/day-trip": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": 1,
+   "hours": false,
+   "price": false,
+   "scope": "multi"
+  },
+  "itinerary/multi-day": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": 1,
+   "hours": false,
+   "price": false,
+   "scope": "multi"
+  },
+  "itinerary/neighborhood-walk": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": 1,
+   "hours": false,
+   "price": false,
+   "scope": "multi"
+  },
+  "itinerary/food-crawl": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": 1,
+   "hours": false,
+   "price": false,
+   "scope": "multi"
+  },
+  "itinerary/weekend": {
+   "loc": 1,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": 1,
+   "hours": false,
+   "price": false,
+   "scope": "multi"
+  },
+  "list/roundup": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "list/ranking": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  },
+  "list/themed-collection": {
+   "loc": false,
+   "addr": false,
+   "web": false,
+   "book": false,
+   "date": false,
+   "hours": false,
+   "price": false,
+   "scope": "none"
+  }
+ },
+ "categories": [
+  "eat",
+  "drink",
+  "stay",
+  "see-do",
+  "shop",
+  "view",
+  "nature",
+  "plan",
+  "itinerary",
+  "list"
+ ]
+}
