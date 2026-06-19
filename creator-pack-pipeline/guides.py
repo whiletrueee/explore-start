@@ -6,8 +6,9 @@ Rule (threshold = MIN_GEMS):
   - within each destination, find cities with >= MIN_GEMS gems
   - >=2 such cities  -> ONE destination-as-city guide  (e.g. "Florida")
   - exactly 1        -> that city is the guide          (Kyoto, London, Dubai, Singapore, Macau)
-  - 0                -> no guide for that destination   (gems dropped)
-  Gems outside a guide's cities are dropped entirely.
+  - 0                -> no guide for that destination
+  Gems outside a guide's cities are not part of any guide. They are NOT removed
+  from the dataset: build_dataset keeps every gem and sets guide_id=null for them.
 
 Routing:
   - gem        -> guide whose .cities contains gem.city
@@ -65,9 +66,3 @@ def guide_for_city(guides, creator, city):
         if city in g["cities"]:
             return g["id"]
     return None
-
-def guide_for_dest(guides, creator, dest):
-    cands = [g for g in guides.get(creator, []) if g["destination"] == dest]
-    if not cands:
-        return None
-    return max(cands, key=lambda g: g["n"])["id"]

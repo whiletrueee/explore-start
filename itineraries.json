@@ -183,7 +183,8 @@
     "kitano-tenmangu-shrine-flea-market-tenjin-san",
     "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
     "rokujuan"
-   ]
+   ],
+   "guide_id": "empty.japan-kyoto"
   },
   {
    "id": "exploringlondon-london",
@@ -467,7 +468,8 @@
     "waterstones-piccadilly",
     "biscuitorium-at-fortnum-mason",
     "nan-hot-pot"
-   ]
+   ],
+   "guide_id": "exploringlondon-london"
   },
   {
    "id": "exploringlondon-york",
@@ -579,7 +581,8 @@
     "betty-s-cafe-tea-rooms",
     "monk-bar-chocolatiers",
     "tass"
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-kyoto",
@@ -689,7 +692,8 @@
     "kyoto-meditation-center",
     "yoshiminadera-temple",
     "raksai-bamboo-park"
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "raimeetravel-madrid",
@@ -800,7 +804,8 @@
     "la-latina",
     "museo-reina-sofia",
     "casa-lucio"
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "thefloridaqueenie-boca-grande",
@@ -941,7 +946,8 @@
     "boca-grande-rail-trail-gasparilla-island",
     "whidden-s-marina",
     "the-pink-elephant-restaurant"
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-sarasota",
@@ -1073,7 +1079,8 @@
     "midnight-pass",
     "siesta-key-beach",
     "the-cottage-on-siesta-key"
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-tampa",
@@ -1205,7 +1212,8 @@
     "florida-aquarium",
     "sparkman-wharf",
     "beacon-tampa"
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "thefloridaqueenie-venice",
@@ -1348,7 +1356,8 @@
     "sharky-s-beach",
     "three-bridges-brewing",
     "finn-s-on-the-pier"
-   ]
+   ],
+   "guide_id": "thefloridaqueenie-florida"
   },
   {
    "id": "blacktravelpin-dubai-dubai",
@@ -1643,7 +1652,8 @@
     "brunch-bask-at-serein",
     "nova-boats-dubai",
     "son-of-a-fish"
-   ]
+   ],
+   "guide_id": "blacktravelpin-dubai-dubai"
   },
   {
    "id": "dotzsoh-singapore-kyoto",
@@ -1776,7 +1786,8 @@
     "kinkaku-ji-golden-pavilion",
     "higashiyama-district",
     "kiyomizu-dera"
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "dotzsoh-singapore-macau",
@@ -1898,7 +1909,8 @@
     "raffles-lounge-terrace",
     "raffles-long-bar-macau",
     "blossom-palace"
-   ]
+   ],
+   "guide_id": "dotzsoh-singapore-macau"
   },
   {
    "id": "dotzsoh-singapore-osaka",
@@ -2009,7 +2021,8 @@
     "dotonbori-shinsaibashi",
     "yakiniku-and-wagyu-shabu-shabu-in-osaka",
     "universal-studios-japan"
-   ]
+   ],
+   "guide_id": null
   },
   {
    "id": "dotzsoh-singapore-singapore",
@@ -2196,7 +2209,8 @@
     "lory-loft-at-bird-paradise",
     "alkaff-bridge",
     "the-barracks-hotel-sentosa"
-   ]
+   ],
+   "guide_id": "dotzsoh-singapore-singapore"
   },
   {
    "id": "ladyandhersweetescapes-dubai-dubai",
@@ -2525,7 +2539,8 @@
     "benjarong-at-dusit-thani-dubai",
     "platinum-heritage-desert-safari",
     "24th-st-at-dusit-thani-dubai"
-   ]
+   ],
+   "guide_id": "ladyandhersweetescapes-dubai-dubai"
   }
  ]
 }

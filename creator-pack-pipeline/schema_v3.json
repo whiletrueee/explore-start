@@ -44,7 +44,7 @@
                  "headout_tgid", "headout_poi", "headout_subcategory_id", "headout_collection_id",
                  "guide.hero_image"],
 
-  "dropped_from_v2": ["hours (profile flag + field) — removed entirely", "_city (internal alias)"],
+  "dropped_from_v2": ["hours (profile flag + field) — stripped by build_dataset into the v3 canonical; the legacy classified-items-v2 source still carries it", "_city (internal alias)"],
 
   "headout_columns": {
     "headout_tgid": "Headout Tour Group ID for Book-on-Headout deeplink",

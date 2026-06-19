@@ -94,13 +94,12 @@ def main():
     g_city = lambda cr, c: city2guide.get((cr, c))
     g_dest = lambda cr, ds: dest2guide.get((cr, ds))
 
-    # itineraries -> guide by city
+    # route content to guides + persist guide_id to each canonical file:
+    #   itineraries/lists keyed by city, tips keyed by destination
+    tag_content(ITIN, "itineraries", lambda r: g_city(r.get("creator"), r.get("city")))
+    tag_content(LISTS, "lists", lambda r: g_city(r.get("creator"), r.get("place")))
+    tag_content(TIPS, "units", lambda r: g_dest(r.get("creator"), r.get("place")))
     itins = json.load(open(ITIN)).get("itineraries", [])
-    for it in itins:
-        it["guide_id"] = g_city(it.get("creator"), it.get("city"))
-    # lists -> by city place ; tips -> by destination place
-    tag_content(LISTS, "lists", lambda r: g_city(r["creator"], r.get("place")))
-    tag_content(TIPS, "units", lambda r: g_dest(r["creator"], r.get("place")))
 
     wb = build_wb(gems, media)
     creatorMeta = {c["id"]: {"name": c["name"], "tag": c["tag"], "c": c["color"]} for c in creators}
