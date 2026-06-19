@@ -1,0 +1,1354 @@
+{
+ "count": 9,
+ "itineraries": [
+  {
+   "id": "emptyjapan-kyoto",
+   "creator": "empty.japan",
+   "destination": "japan",
+   "city": "Kyoto",
+   "days_count": 3,
+   "title": "Kyoto Off the Map",
+   "hook": "The Kyoto nobody else finds.",
+   "summary": "Three days roaming the forests, hillside temples, and hidden markets that tourists miss entirely. No crowds, no queues — just the real Kyoto.",
+   "best_for": "Slow travellers who want nature, spirituality, and genuine discovery over highlight-reel ticking.",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Moss, cedar, stone monks",
+     "theme": "Hidden temples deep in Arashiyama's back lanes",
+     "area": "Sagano / Arashiyama",
+     "anchor_gem_id": "otagi-nenbutsu-ji-temple",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "arashiyama",
+       "title": "Arashiyama Bamboo Grove + Tenryu-ji",
+       "what": "Walk the bamboo grove, explore the Tenryu-ji garden.",
+       "why": "Stunning year-round; beautiful early before tour groups arrive.",
+       "transit_next": "15-min walk north through Sagano lanes",
+       "tip": "Get your Goshuincho stamped at Tenryu-ji (300–500 yen) — first of many on the trip."
+      },
+      {
+       "slot": "late-morning",
+       "time": "10:30",
+       "gem_id": "otagi-nenbutsu-ji-temple",
+       "title": "Otagi Nenbutsu-ji Temple",
+       "what": "Wander 1,200 moss-covered stone rakan statues.",
+       "why": "Each face is unique — you keep spotting new ones.",
+       "transit_next": "20-min walk or 10-min taxi back toward Arashiyama",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "12:30",
+       "gem_id": "arashiyama",
+       "title": "Lunch in Arashiyama village",
+       "what": "Pick a riverside tofu or soba spot along Nakanoshima.",
+       "why": "Refuel before the afternoon; great views over the Oi River.",
+       "transit_next": "30-min bus or taxi to Nakagyo",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "arancino-kyoto",
+       "title": "Arancino Kyoto",
+       "what": "Multi-course Italian-Japanese fusion beside Takase River.",
+       "why": "Every course is as photogenic as it is delicious.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Compact western Kyoto loop; easy walking between stops."
+    },
+    {
+     "day": 2,
+     "hook": "Mountain shrine, cedar forest",
+     "theme": "Northern wilds — Kibune valley and Daisugi groves",
+     "area": "Kibune / Northern Kyoto",
+     "anchor_gem_id": "kifune-shrine",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "kifune-shrine",
+       "title": "Kifune Shrine",
+       "what": "Try water Omikuji fortune-telling at the river shrine.",
+       "why": "Atmospheric mountain setting; ritual you won't find elsewhere.",
+       "transit_next": "Short walk into the surrounding cedar valley",
+       "tip": "Take the Eizan Railway to Kibune-guchi (35 min from Demachiyanagi) — no need to rent a car."
+      },
+      {
+       "slot": "late-morning",
+       "time": "10:45",
+       "gem_id": "daisugi-northern-kyoto",
+       "title": "Daisugi Cedar Groves",
+       "what": "See dozens of straight trunks rising from a single base.",
+       "why": "An ancient forestry technique that looks like nothing else.",
+       "transit_next": "40-min bus south toward Ohara",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "kochidani-amida-ji-temple",
+       "title": "Kochidani Amida-ji Temple",
+       "what": "Explore a barely-visited mossy hillside temple in Ohara.",
+       "why": "Pure wabi-sabi — cedar, moss, total silence.",
+       "transit_next": "10-min walk to Ohara village centre for dinner",
+       "tip": null
+      },
+      {
+       "slot": "dinner",
+       "time": "18:00",
+       "gem_id": "kochidani-amida-ji-temple",
+       "title": "Ohara village dinner",
+       "what": "Simple set meal at a local shokudo in Ohara.",
+       "why": "Small village restaurants close early — eat here before heading back.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "One valley per half-day; bus connections keep it relaxed."
+    },
+    {
+     "day": 3,
+     "hook": "Dragon pine, market finds",
+     "theme": "Western hills ancient pines + flea market morning",
+     "area": "Nishiyama / Kamigyo-ku",
+     "anchor_gem_id": "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "kitano-tenmangu-shrine-flea-market-tenjin-san",
+       "title": "Kitano Tenmangu Flea Market (Tenjin-san)",
+       "what": "Browse ceramics, vintage kimono, and street food stalls.",
+       "why": "Beloved monthly market — a real slice of local Kyoto life.",
+       "transit_next": "30-min taxi or bus west to Nishiyama",
+       "tip": "Market runs on the 25th of every month, 08:00–16:00 — plan your dates around it."
+      },
+      {
+       "slot": "late-morning",
+       "time": "11:30",
+       "gem_id": "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+       "title": "Dragon Pine at Yoshiminedera Temple",
+       "what": "See a 600-year-old pine trained into a sweeping dragon canopy.",
+       "why": "One of Japan's three great pines — jaw-dropping natural sculpture.",
+       "transit_next": "20-min drive back toward central Kyoto",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:00",
+       "gem_id": "rokujuan",
+       "title": "Rokujuan Cafe",
+       "what": "Warabi Mochi decorated with real flowers in a century-old townhouse.",
+       "why": "A rare, beautiful sweet worth the hunt.",
+       "transit_next": "10-min walk to Nakagyo dining area",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "arancino-kyoto",
+       "title": "Farewell dinner at Arancino Kyoto",
+       "what": "Return to the Takase River canal for a final long dinner.",
+       "why": "Perfect close — every course a photograph, every bite a memory.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Easy pace — market, one temple, one cafe, one dinner."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Eizan Railway for the northern valley (Kibune); local buses and taxis for Ohara and Nishiyama. No car needed within the city.",
+    "where_to_stay": "Stay in Nakagyo or Higashiyama — central enough for all three day-trip directions.",
+    "best_time": "Year-round. Plum blossom (Feb) and cherry season (late Mar–Apr) add spectacular colour to most stops.",
+    "budget": "Budget ~3,000–5,000 yen/day for entry fees and transport. Pick up a Goshuincho book (500–1,000 yen) for temple stamps at 300–500 yen each.",
+    "creator_tip_gem_ids": [
+     "goshuin-temple-stamp-collecting",
+     "rural-japan-hidden-sakura-hunting"
+    ]
+   },
+   "gem_ids_used": [
+    "arashiyama",
+    "otagi-nenbutsu-ji-temple",
+    "arancino-kyoto",
+    "kifune-shrine",
+    "daisugi-northern-kyoto",
+    "kochidani-amida-ji-temple",
+    "kitano-tenmangu-shrine-flea-market-tenjin-san",
+    "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+    "rokujuan"
+   ]
+  },
+  {
+   "id": "exploringlondon-london",
+   "creator": "exploringlondon",
+   "destination": "london",
+   "city": "London",
+   "days_count": 4,
+   "title": "London's Hidden Side: 4 Days Off the Beaten Path",
+   "hook": "London that most visitors never find.",
+   "summary": "Four days across London's most surprising pockets — rooftop gardens above train stations, bombed-out church ruins, the oldest restaurant in England, and a glass floor above the Thames. Each day stays in one tight area so you walk, not rush.",
+   "best_for": "Curious explorers who want the real London — free finds, bold food, and genuine hidden gems.",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Covent Garden to the City",
+     "theme": "Hidden streets, ancient ruins, London's oldest restaurant",
+     "area": "Covent Garden / City of London",
+     "anchor_gem_id": "rules-restaurant",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "bombolone-london",
+       "title": "Bombolone London",
+       "what": "Start the day with fresh Italian bomboloni doughnuts.",
+       "why": "Only dedicated bomboloni bakery in London — opens fresh daily.",
+       "transit_next": "2-min walk to Cecil Court",
+       "tip": null
+      },
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "cecil-court",
+       "title": "Cecil Court",
+       "what": "Browse the Victorian lane of rare and antique bookshops.",
+       "why": "Thought to have inspired Harry Potter's Diagon Alley — free to wander.",
+       "transit_next": "5-min walk via the Strand to Embankment",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "11:30",
+       "gem_id": "victoria-embankment-gardens",
+       "title": "Victoria Embankment Gardens",
+       "what": "Stroll the Thames-side garden with seasonal floral displays.",
+       "why": "Free tulip garden minutes from the Strand — genuinely tranquil.",
+       "transit_next": "25-min walk or 15-min Tube to Monument",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "st-dunstan-in-the-east",
+       "title": "St Dunstan in the East",
+       "what": "Sit inside the ivy-draped ruins of a Blitz-bombed medieval church.",
+       "why": "One of London's most hauntingly beautiful free spots — almost no crowds.",
+       "transit_next": "10-min walk back toward Covent Garden via Tube",
+       "tip": "Go midweek to have the ruins almost to yourself."
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "rules-restaurant",
+       "title": "Rules Restaurant",
+       "what": "Dine at London's oldest restaurant, open since 1798.",
+       "why": "Ten monarchs' worth of history on the walls; classic British menu.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All stops within 30 min of each other; afternoon has built-in breathing room."
+    },
+    {
+     "day": 2,
+     "hook": "South Bank and Battersea",
+     "theme": "Glass floors, chimney-top views, rooftop dining",
+     "area": "Tower Bridge / Battersea",
+     "anchor_gem_id": "tower-bridge-glass-walkway",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "michelangelo-s-sistine-chapel-the-exhibition",
+       "title": "Sistine Chapel Exhibition",
+       "what": "Walk through 34 life-sized Sistine Chapel reproductions near Tower Hill.",
+       "why": "Immersive and intimate — without the Vatican crowds.",
+       "transit_next": "10-min walk along the river to Tower Bridge",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "11:30",
+       "gem_id": "tower-bridge-glass-walkway",
+       "title": "Tower Bridge Glass Walkway",
+       "what": "Walk the glass-floored high-level walkways above the Thames.",
+       "why": "Vertiginous views straight down to the river — genuinely thrilling.",
+       "transit_next": "5-min walk to Tower Bridge Collective",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "13:00",
+       "gem_id": "house-of-habesha-at-tower-bridge-collective",
+       "title": "House of Habesha",
+       "what": "Share an Eritrean platter with Tower Bridge framed in the window.",
+       "why": "Vegan platter plus a stunning setting — a rare combination.",
+       "transit_next": "Tube or bus to Battersea, about 25 min",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "15:00",
+       "gem_id": "lift-109-at-battersea-power-station",
+       "title": "Lift 109 at Battersea Power Station",
+       "what": "Ride a glass lift to the top of an iconic chimney stack.",
+       "why": "360-degree London skyline from inside the famous power station.",
+       "transit_next": "5-min walk within Battersea Power Station",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "joia-at-art-otel-battersea",
+       "title": "Joia at Art'otel Battersea",
+       "what": "Dinner at a 15th-floor rooftop with Portuguese Michelin-star cooking.",
+       "why": "Power Station views plus two-Michelin-starred chef Henrique Sá Pessoa.",
+       "transit_next": null,
+       "tip": "Book well ahead — this rooftop fills up fast."
+      }
+     ],
+     "pace_note": "Two riverside clusters; Battersea is the anchor so no backtracking."
+    },
+    {
+     "day": 3,
+     "hook": "Kensington and South Kensington",
+     "theme": "Royal gardens, world-class museums, a Victorian cafe palace",
+     "area": "Kensington / South Kensington",
+     "anchor_gem_id": "kensington-palace-and-the-sunken-garden",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "chelsea-physic-garden",
+       "title": "Chelsea Physic Garden",
+       "what": "Wander London's oldest botanic garden, open since 1673.",
+       "why": "Four acres of medicinal plants and 100-year-old glasshouses.",
+       "transit_next": "15-min bus or Tube to Kensington Gardens",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "11:30",
+       "gem_id": "kensington-palace-and-the-sunken-garden",
+       "title": "Kensington Palace and Sunken Garden",
+       "what": "Tour the working royal palace and Diana's beloved formal garden.",
+       "why": "Serene and historically rich — the Sunken Garden is free to view.",
+       "transit_next": "5-min walk to V&A Museum",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "13:30",
+       "gem_id": "the-gamble-room-v-a-museum",
+       "title": "The Gamble Room, V&A Museum",
+       "what": "Lunch inside the world's oldest museum restaurant.",
+       "why": "Free entry; opulent William Morris tilework you simply cannot beat.",
+       "transit_next": "Stay inside V&A Museum",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "15:00",
+       "gem_id": "the-last-princesses-of-punjab",
+       "title": "The Last Princesses of Punjab — Kensington Palace",
+       "what": "See rare artefacts from Queen Victoria's Indian goddaughter suffragette.",
+       "why": "Powerful exhibition open until November 2026; use code EXPLORING20 to save.",
+       "transit_next": "10-min walk to South Kensington",
+       "tip": "Book tickets in advance; use code EXPLORING20 for 20% off."
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "natural-history-museum-silent-disco",
+       "title": "Natural History Museum Silent Disco",
+       "what": "Dance among dinosaur skeletons with wireless headphones after dark.",
+       "why": "Three DJs, one iconic venue — a bucket-list London after-dark experience.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Chelsea garden is an early start; everything else is within 15 min on foot."
+    },
+    {
+     "day": 4,
+     "hook": "Mayfair and the West End",
+     "theme": "Hidden cafes, secret shops, a Piccadilly splurge",
+     "area": "Mayfair / Piccadilly / Covent Garden",
+     "anchor_gem_id": "waterstones-piccadilly",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "shot-london",
+       "title": "Shot London",
+       "what": "Try London's most talked-about specialty coffee in Mayfair.",
+       "why": "Signature ice-cube coffees melt into the perfect cup as you sit.",
+       "transit_next": "5-min walk to New Bond Street",
+       "tip": null
+      },
+      {
+       "slot": "morning",
+       "time": "10:30",
+       "gem_id": "ala-a-london-caf-bookshop",
+       "title": "Alaïa London Café & Bookshop",
+       "what": "Find the secret third-floor café inside the Alaïa fashion house.",
+       "why": "Violet Cakes pastries, rare fashion books, and almost no one knows it exists.",
+       "transit_next": "10-min walk to Piccadilly",
+       "tip": null
+      },
+      {
+       "slot": "midday",
+       "time": "12:00",
+       "gem_id": "waterstones-piccadilly",
+       "title": "Waterstones Piccadilly",
+       "what": "Explore Europe's largest bookshop across five floors.",
+       "why": "200,000+ books, a kids section, games store, and a rooftop restaurant.",
+       "transit_next": "2-min walk to Fortnum & Mason",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "13:30",
+       "gem_id": "biscuitorium-at-fortnum-mason",
+       "title": "Biscuitorium at Fortnum & Mason",
+       "what": "Browse the new biscuit palace inside a Piccadilly institution.",
+       "why": "A life-sized Fortnum's replica made entirely from biscuits — 500+ hours of work.",
+       "transit_next": "10-min walk toward Leicester Square",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "nan-hot-pot",
+       "title": "Nan Hot Pot",
+       "what": "End the trip with retro hot pot open until 3am in Leicester Square.",
+       "why": "Double broths, DIY dipping sauces, shaved ice desserts — pure fun.",
+       "transit_next": null,
+       "tip": "Book the First Table app for 50% off food at multiple nearby restaurants if hot pot isn't your thing."
+      }
+     ],
+     "pace_note": "All within a tight Mayfair-Piccadilly loop; lunch is relaxed browsing, not a sit-down."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Oyster card or contactless covers all Tube, bus, and Elizabeth line travel. Most day areas are walkable once you arrive. Avoid taxis between areas.",
+    "where_to_stay": "South Kensington or Covent Garden puts you central for all four days with easy Tube access in every direction.",
+    "best_time": "Late April to early July for long daylight hours; many seasonal exhibitions run spring through summer 2026.",
+    "budget": "Use the First Table app (code EXPLORING for £3 credit) for 50% off food at dozens of restaurants off-peak. Many anchor sites are free — the Gamble Room, Cecil Court, St Dunstan, Embankment Gardens.",
+    "creator_tip_gem_ids": [
+     "first-table-app-london-restaurant-hack"
+    ]
+   },
+   "gem_ids_used": [
+    "bombolone-london",
+    "cecil-court",
+    "victoria-embankment-gardens",
+    "st-dunstan-in-the-east",
+    "rules-restaurant",
+    "michelangelo-s-sistine-chapel-the-exhibition",
+    "tower-bridge-glass-walkway",
+    "house-of-habesha-at-tower-bridge-collective",
+    "lift-109-at-battersea-power-station",
+    "joia-at-art-otel-battersea",
+    "chelsea-physic-garden",
+    "kensington-palace-and-the-sunken-garden",
+    "the-gamble-room-v-a-museum",
+    "the-last-princesses-of-punjab",
+    "natural-history-museum-silent-disco",
+    "shot-london",
+    "ala-a-london-caf-bookshop",
+    "waterstones-piccadilly",
+    "biscuitorium-at-fortnum-mason",
+    "nan-hot-pot"
+   ]
+  },
+  {
+   "id": "exploringlondon-york",
+   "creator": "exploringlondon",
+   "destination": "other",
+   "city": "York",
+   "days_count": 2,
+   "title": "A Perfect 2 Days in York",
+   "hook": "Medieval streets, legendary cream teas, and views over the rooftops.",
+   "summary": "York packs a thousand years of history into a walkable city centre. Two days is just enough to do it justice without rushing.",
+   "best_for": "History lovers, foodies, day-trippers from London",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Medieval streets and castle views",
+     "theme": "The Historic Core",
+     "area": "City Centre",
+     "anchor_gem_id": "the-shambles",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "the-shambles",
+       "title": "The Shambles",
+       "what": "Wander the crooked timber-framed medieval street.",
+       "why": "Iconic, free, and best before the crowds arrive.",
+       "transit_next": "5-min walk south to Tower Street",
+       "tip": "Go before 10am — it fills up fast and the early light makes it magical."
+      },
+      {
+       "slot": "mid-morning",
+       "time": "10:30",
+       "gem_id": "clifford-s-tower",
+       "title": "Clifford's Tower",
+       "what": "Climb the Norman keep for rooftop views over York.",
+       "why": "Best panorama of the medieval skyline in the city.",
+       "transit_next": "2-min walk to the Castle Museum next door",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "12:00",
+       "gem_id": "york-castle-museum",
+       "title": "York Castle Museum",
+       "what": "Explore the recreated Victorian street inside the museum.",
+       "why": "Genuinely immersive — feels like stepping into 1890s York.",
+       "transit_next": "10-min walk north to St Helen's Square",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "betty-s-cafe-tea-rooms",
+       "title": "Betty's Cafe Tea Rooms",
+       "what": "Sit down for a proper cream tea and a fat rascal.",
+       "why": "An institution since 1919 — bucket-list York experience.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All stops are under 15 min apart on foot."
+    },
+    {
+     "day": 2,
+     "hook": "Chocolate, momos, and one last wander",
+     "theme": "Indulgent Treats and Hidden Flavours",
+     "area": "The Shambles & City Centre",
+     "anchor_gem_id": "monk-bar-chocolatiers",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "monk-bar-chocolatiers",
+       "title": "Monk Bar Chocolatiers",
+       "what": "Try the signature hot chocolate shot in an edible cup.",
+       "why": "Unique to York — worth every penny.",
+       "transit_next": "5-min stroll around the Shambles area",
+       "tip": "The hot choc shot sells out — go early in the day."
+      },
+      {
+       "slot": "late-afternoon",
+       "time": "18:00",
+       "gem_id": "tass",
+       "title": "Tass",
+       "what": "Dinner of Nepalese momos before heading home.",
+       "why": "Generous, authentic, and under £11 — brilliant value.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "A lighter day — leaves time to revisit favourites or browse shops."
+    }
+   ],
+   "logistics": {
+    "getting_around": "York's centre is fully walkable — no car or bus needed between any of these stops.",
+    "where_to_stay": "Stay central, within the city walls, to walk everywhere.",
+    "best_time": "Weekday mornings are quietest; avoid bank holidays when The Shambles gets very busy.",
+    "budget": "Betty's and Clifford's Tower are the main spends; the rest is low-cost or free.",
+    "creator_tip_gem_ids": [
+     "betty-s-cafe-tea-rooms",
+     "the-shambles",
+     "monk-bar-chocolatiers"
+    ]
+   },
+   "gem_ids_used": [
+    "the-shambles",
+    "clifford-s-tower",
+    "york-castle-museum",
+    "betty-s-cafe-tea-rooms",
+    "monk-bar-chocolatiers",
+    "tass"
+   ]
+  },
+  {
+   "id": "raimeetravel-kyoto",
+   "creator": "raimeetravel",
+   "destination": "japan",
+   "city": "Kyoto",
+   "days_count": 2,
+   "title": "Kyoto Nobody Tells You About",
+   "hook": "Two days hitting Kyoto's real hidden layer.",
+   "summary": "Skip the tour-bus circuit and spend two days in Kyoto's quieter corners. Sake breweries, hand-dipped candles, rooftop temples, and a kabuki night — all without the crowds.",
+   "best_for": "Curious travelers who want depth over selfie stops",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Fushimi, brewed and made by hand",
+     "theme": "Craft and sake in Kyoto's historic brewing quarter",
+     "area": "Fushimi",
+     "anchor_gem_id": "fushimi-sake-district",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "traditional-japanese-candle-workshop-fushimi",
+       "title": "Traditional Japanese Candle Workshop, Fushimi",
+       "what": "Paint your own hand-dipped candle at a 125-year studio.",
+       "why": "Hands-on craft that fills maybe 90 minutes — done before crowds arrive.",
+       "transit_next": "5-min walk south along canal",
+       "tip": "Book ahead — sessions fill fast and the English page can be hard to find."
+      },
+      {
+       "slot": "midday",
+       "time": "12:00",
+       "gem_id": "fushimi-sake-district",
+       "title": "Fushimi Sake District",
+       "what": "Walk the brewery quarter and order the flight of 18 local sakes.",
+       "why": "Pure spring water fed these breweries for centuries — tastes noticeably different.",
+       "transit_next": "25-min train back to central Kyoto (Kintetsu line)",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "18:30",
+       "gem_id": "minamizawa-theater",
+       "title": "Minamizawa Theater",
+       "what": "Watch a full kabuki performance at Kyoto's oldest stage.",
+       "why": "Drama, dance, and elaborate costumes — a complete cultural evening in one stop.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Three stops, one neighborhood. Afternoon is free."
+    },
+    {
+     "day": 2,
+     "hook": "Meditate, hike, disappear into bamboo",
+     "theme": "Quiet temples, hidden nature, zero crowds",
+     "area": "Kyoto outskirts",
+     "anchor_gem_id": "kyoto-meditation-center",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "kyoto-meditation-center",
+       "title": "Kyoto Meditation Center",
+       "what": "Morning meditation, guided walk, vegetarian lunch, and matcha.",
+       "why": "Creator's single favorite Kyoto experience — peaceful and completely off the tourist map.",
+       "transit_next": "20-min taxi or bus to Yoshiminadera area",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "yoshiminadera-temple",
+       "title": "Yoshiminadera Temple",
+       "what": "Explore a centuries-old hillside temple with sweeping city views.",
+       "why": "Virtually no other visitors — the hidden Kyoto crowds never reach.",
+       "transit_next": "30-min bus or taxi to Raksai area",
+       "tip": null
+      },
+      {
+       "slot": "late-afternoon",
+       "time": "15:30",
+       "gem_id": "raksai-bamboo-park",
+       "title": "Raksai Bamboo Park",
+       "what": "Wander the quiet bamboo groves and peek into the production museum.",
+       "why": "Everything Arashiyama bamboo is, minus the selfie sticks.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Morning is slow and intentional; two easy outdoor stops fill the afternoon."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Train and bus cover most of Kyoto; taxi for the hillside temple and bamboo park.",
+    "where_to_stay": "Central Kyoto keeps both days reachable without long commutes.",
+    "best_time": null,
+    "budget": null,
+    "creator_tip_gem_ids": [
+     "off-the-beaten-path-japan"
+    ]
+   },
+   "gem_ids_used": [
+    "traditional-japanese-candle-workshop-fushimi",
+    "fushimi-sake-district",
+    "minamizawa-theater",
+    "kyoto-meditation-center",
+    "yoshiminadera-temple",
+    "raksai-bamboo-park"
+   ]
+  },
+  {
+   "id": "raimeetravel-madrid",
+   "creator": "raimeetravel",
+   "destination": "other",
+   "city": "Madrid",
+   "days_count": 2,
+   "title": "Two Days in Madrid the Right Way",
+   "hook": "Art, tapas, and parks — no rushing.",
+   "summary": "Two unhurried days anchored by world-class art and the city's best neighbourhood eating. Each day stays in one tight area so you can actually absorb it.",
+   "best_for": "First-timers who want depth over coverage",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Prado morning, Retiro afternoon",
+     "theme": "Art and green space",
+     "area": "Paseo del Arte / Retiro",
+     "anchor_gem_id": "museo-del-prado",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "chocolater-a-san-gin-s",
+       "title": "Chocolatería San Ginés",
+       "what": "Churros and thick hot chocolate for breakfast.",
+       "why": "Open since 1894 — the definitive Madrid start.",
+       "transit_next": "15-min walk or short metro to Prado",
+       "tip": "Go early to beat the queue; it fills up fast even on weekdays."
+      },
+      {
+       "slot": "late-morning",
+       "time": "10:30",
+       "gem_id": "museo-del-prado",
+       "title": "Museo del Prado",
+       "what": "Spend two hours with Velázquez, Goya, and El Greco.",
+       "why": "One of Europe's top museums — give it real time.",
+       "transit_next": "5-min walk to Retiro main entrance",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:00",
+       "gem_id": "retiro-park",
+       "title": "Retiro Park",
+       "what": "Stroll the shaded paths and sit by the ornamental lake.",
+       "why": "Free, beautiful midday reset after museum intensity.",
+       "transit_next": "25-min walk or metro to La Latina",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "la-latina",
+       "title": "La Latina tapas hop",
+       "what": "Bar-hop the medieval streets for pintxos and wine.",
+       "why": "Best atmosphere in Madrid at golden hour — narrow streets, old bars.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Four stops, two on foot. Easy full day with a built-in park break."
+    },
+    {
+     "day": 2,
+     "hook": "Guernica, then huevos rotos",
+     "theme": "Modern art and a Madrid institution lunch",
+     "area": "Paseo del Arte / La Latina",
+     "anchor_gem_id": "museo-reina-sofia",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "10:00",
+       "gem_id": "museo-reina-sofia",
+       "title": "Museo Reina Sofia",
+       "what": "See Guernica and the Dalí and Miró collections.",
+       "why": "Picasso's Guernica alone is worth the visit.",
+       "transit_next": "10-min walk to La Latina / Cava Baja",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "13:00",
+       "gem_id": "casa-lucio",
+       "title": "Casa Lucio",
+       "what": "Huevos rotos — fried eggs broken over crispy potatoes.",
+       "why": "A Madrid institution; this dish is the reason locals have eaten here for decades.",
+       "transit_next": null,
+       "tip": "Book a table ahead — this place fills up every day for lunch."
+      }
+     ],
+     "pace_note": "Just two stops — one big museum, one legendary lunch. Leave the afternoon free."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Metro is fast and cheap for cross-city moves; most Paseo del Arte and La Latina sights are walkable from each other.",
+    "where_to_stay": "Stay near Sol, La Latina, or Paseo del Arte to keep both days walkable.",
+    "best_time": "Spring (April–May) or autumn (September–October) for comfortable weather and smaller crowds.",
+    "budget": "Book flights early and bundle with hotel for best rates. Check entry requirements (EES digital border checks rolling out 2026) before traveling.",
+    "creator_tip_gem_ids": [
+     "2026-europe-entry-ees-etias-updates",
+     "2025-2026-travel-booking-strategy"
+    ]
+   },
+   "gem_ids_used": [
+    "chocolater-a-san-gin-s",
+    "museo-del-prado",
+    "retiro-park",
+    "la-latina",
+    "museo-reina-sofia",
+    "casa-lucio"
+   ]
+  },
+  {
+   "id": "thefloridaqueenie-boca-grande",
+   "creator": "thefloridaqueenie",
+   "destination": "florida",
+   "city": "Boca Grande",
+   "days_count": 2,
+   "title": "Boca Grande: Old Florida at Its Most Untouched",
+   "hook": "An island that time forgot — in the best way.",
+   "summary": "Gasparilla Island is a rare pocket of Old Florida where dolphins swim to shore and a 1913 inn still sets the tone. Two slow days, zero hustle: lighthouse views, legendary lobster rolls, and ice cream by the water.",
+   "best_for": "Couples, slow travelers, Old Florida lovers",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Lighthouse, library, and Old Florida charm",
+     "theme": "Historic Island Landmarks",
+     "area": "Gasparilla Island",
+     "anchor_gem_id": "gasparilla-island-lighthouse",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "gasparilla-island-lighthouse",
+       "title": "Gasparilla Island Lighthouse",
+       "what": "Climb 132 steps for sweeping Gulf sunrise views.",
+       "why": "Built 1881, relocated from Delaware — genuinely one-of-a-kind.",
+       "transit_next": "5-min walk north",
+       "tip": "Go early before the heat builds — the top gets warm fast."
+      },
+      {
+       "slot": "mid-morning",
+       "time": "11:00",
+       "gem_id": "johann-fust-community-library",
+       "title": "Johann Fust Community Library",
+       "what": "Browse rare DuPont shells and the peaceful outdoor sitting area.",
+       "why": "A 1949 island library unlike any library you've ever been inside.",
+       "transit_next": "10-min walk or bike",
+       "tip": null
+      },
+      {
+       "slot": "lunch",
+       "time": "12:30",
+       "gem_id": "newlin-s-gourmet",
+       "title": "Newlin's Gourmet",
+       "what": "Order the lobster roll — full stop.",
+       "why": "Creator says it beats Maine; regulars agree.",
+       "transit_next": "5-min walk",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "gasparilla-inn-and-club",
+       "title": "Gasparilla Inn and Club",
+       "what": "Stroll the grand veranda and manicured grounds.",
+       "why": "A free glimpse into 1913 Old Florida luxury.",
+       "transit_next": "5-min walk",
+       "tip": null
+      },
+      {
+       "slot": "late-afternoon",
+       "time": "16:30",
+       "gem_id": "the-pink-pony",
+       "title": "The Pink Pony",
+       "what": "Pick up an ice cream cone, walk the village.",
+       "why": "Boca Grande's beloved institution for generations.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All stops within easy walking distance; very relaxed pace."
+    },
+    {
+     "day": 2,
+     "hook": "Wildlife, water, and dinner worth staying for",
+     "theme": "Nature, Marina, and a Pink Night Out",
+     "area": "Gasparilla Island",
+     "anchor_gem_id": "boca-grande-beach",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "boca-grande-beach",
+       "title": "Boca Grande Beach",
+       "what": "Swim or wade — watch for manatees at your ankles.",
+       "why": "Crystal Gulf water with near-guaranteed wildlife sightings.",
+       "transit_next": "10-min walk or bike south",
+       "tip": "Get here before 10 am — best wildlife activity is early morning."
+      },
+      {
+       "slot": "mid-morning",
+       "time": "10:30",
+       "gem_id": "boca-grande-rail-trail-gasparilla-island",
+       "title": "Boca Grande Rail Trail",
+       "what": "Walk or kayak under the historic tracks over Gulf waters.",
+       "why": "Dilapidated train tracks over the water — dolphins surface here.",
+       "transit_next": "15-min walk north",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:00",
+       "gem_id": "whidden-s-marina",
+       "title": "Whidden's Marina",
+       "what": "Wander Florida's oldest marina, maritime museum, and gift shop.",
+       "why": "Family-run since 1925 — pure, unfiltered Old Florida.",
+       "transit_next": "10-min walk",
+       "tip": null
+      },
+      {
+       "slot": "dinner",
+       "time": "19:00",
+       "gem_id": "the-pink-elephant-restaurant",
+       "title": "The Pink Elephant Restaurant",
+       "what": "Dinner with pink decor, great food, and a keepsake elephant charm.",
+       "why": "Every cocktail comes with a tiny elephant charm to take home.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Morning is active; afternoon is slow — save energy for dinner."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Boca Grande is tiny — walk, bike, or golf cart everything. No rideshare needed.",
+    "where_to_stay": "The Gasparilla Inn and Club is the splurge; smaller inns and vacation rentals dot the island for budget options.",
+    "best_time": "Winter through early spring (Nov–April) for mild weather and peak tarpon season.",
+    "budget": "Mid-range to splurge; the beach and rail trail are free, Newlin's and The Pink Elephant are the main spends.",
+    "creator_tip_gem_ids": []
+   },
+   "gem_ids_used": [
+    "gasparilla-island-lighthouse",
+    "johann-fust-community-library",
+    "newlin-s-gourmet",
+    "gasparilla-inn-and-club",
+    "the-pink-pony",
+    "boca-grande-beach",
+    "boca-grande-rail-trail-gasparilla-island",
+    "whidden-s-marina",
+    "the-pink-elephant-restaurant"
+   ]
+  },
+  {
+   "id": "thefloridaqueenie-sarasota",
+   "creator": "thefloridaqueenie",
+   "destination": "florida",
+   "city": "Sarasota",
+   "days_count": 2,
+   "title": "Sarasota in 2 Days: Circus Palaces & Quartz Sand",
+   "hook": "Gulf Coast magic — from a Gilded Age estate to the whitest sand in the US.",
+   "summary": "Two very different Sarasota days: one anchored downtown at the Ringling estate and botanical gardens, the other entirely on Siesta Key with a kayak through a wild tidal pass and a sunset dinner on the patio. Neither day asks much of you — just enough to feel like a real Florida insider.",
+   "best_for": "First-timers, culture lovers, beach seekers",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Circus palace, then bay gardens",
+     "theme": "Art, wonder, and bayfront greenery",
+     "area": "Downtown Sarasota / Bayfront",
+     "anchor_gem_id": "the-ringling-museum",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "toastique",
+       "title": "Toastique",
+       "what": "Grab an avocado toast and cold-pressed juice.",
+       "why": "Quickest, freshest fuel before a big morning.",
+       "transit_next": "10-min drive north to the Ringling estate.",
+       "tip": "Go Monday — The Ringling is free all day."
+      },
+      {
+       "slot": "late-morning",
+       "time": "10:00",
+       "gem_id": "the-ringling-museum",
+       "title": "The Ringling Museum",
+       "what": "Tour the circus museum, Baroque galleries, and bayfront palace.",
+       "why": "Baroque art + full circus history on one free Monday estate.",
+       "transit_next": "25-min drive back south to downtown.",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "marie-selby-botanical-gardens",
+       "title": "Marie Selby Botanical Gardens",
+       "what": "Wander orchid collections, koi ponds, and bayfront paths.",
+       "why": "The only botanical garden on earth dedicated to orchid research.",
+       "transit_next": "5-min walk or rideshare within downtown.",
+       "tip": null
+      },
+      {
+       "slot": "late-afternoon",
+       "time": "16:00",
+       "gem_id": "marietta-museum-of-art-and-whimsy",
+       "title": "Marietta Museum of Art and Whimsy",
+       "what": "Explore the stained glass, ironworks, and butterfly gardens.",
+       "why": "Free, offbeat, and genuinely makes you forget your problems.",
+       "transit_next": null,
+       "tip": "Open Thu–Sat, 1–4 pm only (Nov–May). Confirm hours before visiting."
+      }
+     ],
+     "pace_note": "Two anchors close together; afternoon is leisurely and free."
+    },
+    {
+     "day": 2,
+     "hook": "Wild pass, white sand, sunset patio",
+     "theme": "Siesta Key end to end",
+     "area": "Siesta Key",
+     "anchor_gem_id": "siesta-key-beach",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "focaccia-sandwich-and-bakery",
+       "title": "Focaccia Sandwich and Bakery",
+       "what": "Pick up a fresh-baked focaccia sandwich for the beach.",
+       "why": "Siesta Key's most inventive lunch — grab early before it sells out.",
+       "transit_next": "15-min drive south to Turtle Beach / Midnight Pass.",
+       "tip": null
+      },
+      {
+       "slot": "mid-morning",
+       "time": "10:00",
+       "gem_id": "midnight-pass",
+       "title": "Midnight Pass",
+       "what": "Kayak from Turtle Beach through mangroves into the reopened tidal pass.",
+       "why": "A once-closed wild pass that recently reopened — rare Florida experience.",
+       "transit_next": "10-min drive north up Siesta Key to the main beach.",
+       "tip": "Kayak rentals available on-site at Turtle Beach Park."
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:00",
+       "gem_id": "siesta-key-beach",
+       "title": "Siesta Key Beach",
+       "what": "Swim and relax on quartz sand that stays cool underfoot.",
+       "why": "Voted top US beach — 99% quartz, crystal-clear turquoise water.",
+       "transit_next": "5-min drive to Siesta Key Village.",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "18:30",
+       "gem_id": "the-cottage-on-siesta-key",
+       "title": "The Cottage on Siesta Key",
+       "what": "Dinner with live music on the back patio.",
+       "why": "Best sunset-to-evening spot on the Key — strong drinks, great vibe.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "One island all day; paddle in the morning, beach by noon, done."
+    }
+   ],
+   "logistics": {
+    "getting_around": "A car is essential — Siesta Key and the Ringling estate are not walkable from each other. Rideshare works for downtown Sarasota stops.",
+    "where_to_stay": "Downtown Sarasota puts you close to Day 1 stops; Siesta Key Village is ideal if you want to walk to the beach on Day 2.",
+    "best_time": "November through April for dry weather and comfortable temperatures; avoid peak summer heat if possible.",
+    "budget": "Day 1 can be nearly free (Ringling on Monday, Marietta Museum free). Day 2 costs are mainly kayak rental (~$30–40) and meals.",
+    "creator_tip_gem_ids": [
+     "siesta-key-vs-venice-beach-sand-guide"
+    ]
+   },
+   "gem_ids_used": [
+    "toastique",
+    "the-ringling-museum",
+    "marie-selby-botanical-gardens",
+    "marietta-museum-of-art-and-whimsy",
+    "focaccia-sandwich-and-bakery",
+    "midnight-pass",
+    "siesta-key-beach",
+    "the-cottage-on-siesta-key"
+   ]
+  },
+  {
+   "id": "thefloridaqueenie-tampa",
+   "creator": "thefloridaqueenie",
+   "destination": "florida",
+   "city": "Tampa",
+   "days_count": 2,
+   "title": "Tampa Like a Local: Hyde Park, Downtown & the Best Bites",
+   "hook": "Two days, zero filler — just Tampa's best food, views, and waterfront vibes.",
+   "summary": "This itinerary anchors Day 1 in Hyde Park with bikes, tacos, and a steakhouse dinner. Day 2 swings downtown for the aquarium, Oxford Exchange, and rooftop cocktails at golden hour.",
+   "best_for": "Food lovers, couples, first-time Tampa visitors",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Hyde Park, bikes, and steak",
+     "theme": "Neighborhood eats and waterfront golden hour",
+     "area": "Hyde Park",
+     "anchor_gem_id": "bayshore-boulevard",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "elevage-restaurant",
+       "title": "Elevage Restaurant",
+       "what": "Sit-down breakfast at the Epicurean Hotel.",
+       "why": "Those potatoes have a fan base for good reason.",
+       "transit_next": "5-min walk to Hyde Park Village",
+       "tip": "Stay at the Epicurean Hotel to roll out of bed directly into this breakfast."
+      },
+      {
+       "slot": "midday",
+       "time": "12:00",
+       "gem_id": "bar-taco",
+       "title": "Bar Taco",
+       "what": "Casual lunch tacos at Hyde Park Village.",
+       "why": "She went back two days straight — enough said.",
+       "transit_next": "10-min walk south to Bayshore Blvd",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:00",
+       "gem_id": "bayshore-boulevard",
+       "title": "Bayshore Boulevard",
+       "what": "Rent bikes from the Epicurean and ride the waterfront path.",
+       "why": "World's longest sidewalk, waterfront mansions, golden-hour light.",
+       "transit_next": "Ride back to hotel, 10-min",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "meat-market-tampa",
+       "title": "Meat Market Tampa",
+       "what": "Dinner: filet mignon and cookies-and-milk dessert.",
+       "why": "Both rated 10/10 — the best dinner anchor in Hyde Park.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Four stops, one neighborhood — no car needed all day."
+    },
+    {
+     "day": 2,
+     "hook": "Downtown, fish tanks, and rooftop views",
+     "theme": "Culture, coffee, and cocktails at sunset",
+     "area": "Downtown Tampa / Channelside",
+     "anchor_gem_id": "beacon-tampa",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "oxford-exchange",
+       "title": "Oxford Exchange",
+       "what": "Morning coffee inside Tampa's most beautiful bookstore.",
+       "why": "Champagne bar, tea bar, and stunning interiors — a hidden gem.",
+       "transit_next": "15-min drive or TECO streetcar to Channelside",
+       "tip": "The TECO Line Streetcar is free and connects downtown hotels to Channelside — skip parking."
+      },
+      {
+       "slot": "midday",
+       "time": "11:30",
+       "gem_id": "florida-aquarium",
+       "title": "Florida Aquarium",
+       "what": "Explore mesmerizing marine tanks for a couple of hours.",
+       "why": "Genuinely captivating for adults, not just families.",
+       "transit_next": "5-min walk along the waterfront to Sparkman Wharf",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:00",
+       "gem_id": "sparkman-wharf",
+       "title": "Sparkman Wharf",
+       "what": "Lunch at outdoor waterfront food stalls; grab a craft beer.",
+       "why": "Buzzy beer garden on the water — perfect midday reset.",
+       "transit_next": "5-min walk to JW Marriott Water Street",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "18:30",
+       "gem_id": "beacon-tampa",
+       "title": "Beacon Tampa",
+       "what": "Sunset cocktails on the 27th-floor rooftop.",
+       "why": "Panoramic Tampa Bay views — the perfect send-off.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All stops within a 10-min walk of each other downtown."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Use the free TECO Line Streetcar for downtown; rent bikes from the Epicurean Hotel for Bayshore Boulevard. A car is handy for Hyde Park to downtown transfers.",
+    "where_to_stay": "Epicurean Hotel in Hyde Park — culinary-themed boutique with rooftop pool, rain showers, and premium beds right on S Howard Ave.",
+    "best_time": null,
+    "budget": null,
+    "creator_tip_gem_ids": [
+     "teco-line-streetcar"
+    ]
+   },
+   "gem_ids_used": [
+    "elevage-restaurant",
+    "bar-taco",
+    "bayshore-boulevard",
+    "meat-market-tampa",
+    "oxford-exchange",
+    "florida-aquarium",
+    "sparkman-wharf",
+    "beacon-tampa"
+   ]
+  },
+  {
+   "id": "thefloridaqueenie-venice",
+   "creator": "thefloridaqueenie",
+   "destination": "florida",
+   "city": "Venice",
+   "days_count": 2,
+   "title": "Venice, FL: Shark Teeth & Small-Town Gulf Magic",
+   "hook": "A slow Gulf town with prehistoric beaches and zero theme-park crowds.",
+   "summary": "Venice packs a surprising amount of charm into two easy days. Fossil-dark sand, a free circus museum, and a sunset drum circle — all walkable, all genuinely local.",
+   "best_for": "Families, slow travelers, beach combers",
+   "days": [
+    {
+     "day": 1,
+     "hook": "Downtown, depot, pizza, pier",
+     "theme": "Historic Downtown + Venice Beach",
+     "area": "Historic Downtown Venice & Venice Beach",
+     "anchor_gem_id": "venice-train-depot-ringling-brothers-circus-museum",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:30",
+       "gem_id": "venice-train-depot-ringling-brothers-circus-museum",
+       "title": "Venice Train Depot & Ringling Brothers Circus Museum",
+       "what": "Free guided tour of the original circus train car.",
+       "why": "The only Ringling wintering depot left — and it's free.",
+       "transit_next": "5-min walk south on Tampa Ave",
+       "tip": "Tours are informal and short — arrive right at open to catch a guide before the midday heat."
+      },
+      {
+       "slot": "midday",
+       "time": "11:30",
+       "gem_id": "the-soda-fountain",
+       "title": "The Soda Fountain",
+       "what": "Grab a head-sized pizza slice at this 1950s downtown joint.",
+       "why": "Best-value lunch in downtown — kitschy, fast, filling.",
+       "transit_next": "10-min walk west down Venice Ave to the beach",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "13:30",
+       "gem_id": "venice-avenue",
+       "title": "Venice Avenue Stroll",
+       "what": "Walk the banyan-canopied boulevard to Venice Beach.",
+       "why": "Prettiest approach to the Gulf — shade-covered and photo-worthy.",
+       "transit_next": "Arrives directly at Venice Beach",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:00",
+       "gem_id": "venice-beach",
+       "title": "Venice Beach",
+       "what": "Swim, comb the shoreline for shark teeth, catch the Gulf sun.",
+       "why": "Prehistoric teeth wash up here daily — bring a mesh bag.",
+       "transit_next": "2-min walk to beach pavilion",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:30",
+       "gem_id": "venice-beach-drum-circle",
+       "title": "Venice Beach Drum Circle",
+       "what": "Join the free sunset drum circle at the beach pavilion.",
+       "why": "A nightly local tradition — the most joyful way to end a Gulf day.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "All stops within 10-min walk; long afternoon beach break built in."
+    },
+    {
+     "day": 2,
+     "hook": "Fossil beach, craft beer, pier drinks",
+     "theme": "Caspersen Beach + Local Eats",
+     "area": "South Venice & Pier District",
+     "anchor_gem_id": "caspersen-beach",
+     "stops": [
+      {
+       "slot": "morning",
+       "time": "09:00",
+       "gem_id": "caspersen-beach",
+       "title": "Caspersen Beach",
+       "what": "Hunt shark teeth in the dark fossil-sand shallows.",
+       "why": "Venice's best tooth-hunting spot — handfuls guaranteed in rocky shallows.",
+       "transit_next": "10-min drive or rideshare north to pier district",
+       "tip": "Go early before the tide comes in — low tide exposes the most fossil fragments."
+      },
+      {
+       "slot": "midday",
+       "time": "12:00",
+       "gem_id": "sharky-s-beach",
+       "title": "Sharky's Beach",
+       "what": "Casual Gulf-view lunch at the iconic beachfront spot.",
+       "why": "Breezy pier views and a relaxed local vibe — the right midday energy.",
+       "transit_next": "5-min walk or short drive to Three Bridges Brewing",
+       "tip": null
+      },
+      {
+       "slot": "afternoon",
+       "time": "14:30",
+       "gem_id": "three-bridges-brewing",
+       "title": "Three Bridges Brewing",
+       "what": "Afternoon pint, cider, or smash burger in the dog-friendly outdoor taproom.",
+       "why": "Venice's best local brewery — cornhole, craft beer, and good vibes.",
+       "transit_next": "5-min drive back to pier for sunset",
+       "tip": null
+      },
+      {
+       "slot": "evening",
+       "time": "19:00",
+       "gem_id": "finn-s-on-the-pier",
+       "title": "Finn's on the Pier",
+       "what": "Wind down with a craft cocktail next to the Venice Fishing Pier.",
+       "why": "Gulf breeze and creative cocktails — the upscale note to end the trip.",
+       "transit_next": null,
+       "tip": null
+      }
+     ],
+     "pace_note": "Morning beach is the anchor; afternoon is low-key eating and drinking."
+    }
+   ],
+   "logistics": {
+    "getting_around": "Venice is very walkable downtown; a car or rideshare is handy for Caspersen Beach (~2 mi south).",
+    "where_to_stay": "Inn at the Beach — steps from Venice Beach and a short walk to all of downtown.",
+    "best_time": "Shoulder season (Oct–Apr) for cooler temps and calmer Gulf; avoid summer heat and afternoon storms.",
+    "budget": "Most highlights are free (beaches, drum circle, circus museum); budget $30–60/day for food and drinks.",
+    "creator_tip_gem_ids": [
+     "siesta-key-vs-venice-beach-sand-guide"
+    ]
+   },
+   "gem_ids_used": [
+    "venice-train-depot-ringling-brothers-circus-museum",
+    "the-soda-fountain",
+    "venice-avenue",
+    "venice-beach",
+    "venice-beach-drum-circle",
+    "caspersen-beach",
+    "sharky-s-beach",
+    "three-bridges-brewing",
+    "finn-s-on-the-pier"
+   ]
+  }
+ ]
+}
