@@ -1,4 +1,5 @@
 import type { DiscoveryCreator } from '@/lib/types';
+import { mediaSrc } from '@/lib/catalog';
 
 interface Props {
   creator: DiscoveryCreator;
@@ -14,7 +15,7 @@ export default function CreatorCard({ creator, onOpen }: Props) {
     <div className="cc" role="button" onClick={() => onOpen(creator)}>
       <div
         className="cc-media"
-        style={{ backgroundColor: creator.color, backgroundImage: creator.hero ? `url(${creator.hero})` : 'none' }}
+        style={{ backgroundColor: creator.color, backgroundImage: mediaSrc(creator.hero) ? `url(${mediaSrc(creator.hero)})` : 'none' }}
       >
         <span className="cc-city">{creator.city}</span>
       </div>

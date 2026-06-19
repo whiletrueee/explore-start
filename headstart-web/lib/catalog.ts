@@ -22,6 +22,14 @@ export const isMappedV2 = (i: { lat?: number | null; lng?: number | null }) =>
 export const mapsLink = (q?: string | null) =>
   'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q || '');
 
+// Normalize image refs: remote URLs pass through; local "data/img/..." paths become
+// absolute so they resolve on nested routes (e.g. /c/[handle]/[city]).
+export const mediaSrc = (u?: string | null): string | null => {
+  if (!u) return null;
+  if (/^https?:\/\//.test(u) || u.startsWith('/')) return u;
+  return '/' + u.replace(/^\.?\//, '');
+};
+
 // pin metadata for the map (color + glyph)
 export const meta = (g: Gem) => {
   const v = catV2(g);

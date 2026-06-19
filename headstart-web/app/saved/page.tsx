@@ -6,6 +6,7 @@ import type { Gem } from '@/lib/types';
 import { useSaved } from '@/lib/saved';
 import PackRow from '@/components/PackRow';
 import GemDetail from '@/components/GemDetail';
+import ListDetail from '@/components/ListDetail';
 
 export default function SavedPage() {
   const router = useRouter();
@@ -63,14 +64,18 @@ export default function SavedPage() {
       )}
 
       {detail ? (
-        <GemDetail
-          item={detail}
-          creator={detail._creator}
-          pack={null}
-          onBack={() => setDetail(null)}
-          isSaved={saved.some((s) => s.id === detail.id)}
-          onToggleSave={toggle}
-        />
+        detail.category === 'list' ? (
+          <ListDetail item={detail} creator={detail._creator} onBack={() => setDetail(null)} isSaved={saved.some((s) => s.id === detail.id)} onToggleSave={toggle} />
+        ) : (
+          <GemDetail
+            item={detail}
+            creator={detail._creator}
+            pack={null}
+            onBack={() => setDetail(null)}
+            isSaved={saved.some((s) => s.id === detail.id)}
+            onToggleSave={toggle}
+          />
+        )
       ) : null}
     </div>
   );
