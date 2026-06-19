@@ -1,0 +1,563 @@
+{
+ "counts": {
+  "units": 14,
+  "tips": 28,
+  "by_creator": {
+   "thefloridaqueenie": {
+    "units": 2,
+    "tips": 2
+   },
+   "exploringlondon": {
+    "units": 1,
+    "tips": 1
+   },
+   "empty.japan": {
+    "units": 4,
+    "tips": 8
+   },
+   "raimeetravel": {
+    "units": 7,
+    "tips": 17
+   }
+  }
+ },
+ "config": {
+  "GROUP_MIN": 2,
+  "priority": [
+   "where-to-go",
+   "when-to-go",
+   "transit",
+   "budget-hack",
+   "booking",
+   "packing",
+   "what-to-skip",
+   "points-miles"
+  ]
+ },
+ "units": [
+  {
+   "id": "thefloridaqueenie-tip-transit",
+   "creator": "thefloridaqueenie",
+   "kind": "solo",
+   "subcategory": "transit",
+   "place": "florida",
+   "size": 1,
+   "tip": {
+    "text": "Tampa's free trolley unlocks the whole city",
+    "detail": "The free TECO streetcar connects downtown Tampa hotels to Sparkman Wharf and other major attractions — skip the parking headache and hop on for zero cost.",
+    "name": "TECO Line Streetcar",
+    "subcategory": "transit",
+    "place": "Tampa",
+    "themes": [
+     "budget",
+     "free"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DX6voJvj8q0/"
+   }
+  },
+  {
+   "id": "thefloridaqueenie-tip-what-to-skip",
+   "creator": "thefloridaqueenie",
+   "kind": "solo",
+   "subcategory": "what-to-skip",
+   "place": "florida",
+   "size": 1,
+   "tip": {
+    "text": "Pick the right Florida beach sand",
+    "detail": "Siesta Key's 99% quartz sand is cool, white, and perfect for sandcastles; Venice Beach's darker fossil-fragment sand is coarser but loaded with shark's teeth — know before you go.",
+    "name": "Siesta Key vs Venice Beach: Sand Guide",
+    "subcategory": "what-to-skip",
+    "place": "Gulf Coast",
+    "themes": [
+     "budget",
+     "nature"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DXg_2nGFLgO/"
+   }
+  },
+  {
+   "id": "exploringlondon-tip-budget-hack",
+   "creator": "exploringlondon",
+   "kind": "solo",
+   "subcategory": "budget-hack",
+   "place": "london",
+   "size": 1,
+   "tip": {
+    "text": "Eat at London restaurants for half price",
+    "detail": "Book off-peak tables at hundreds of top London restaurants via the First Table app and get 50% off all food automatically. Pay £4-£8 to book; drinks are full price. Use code EXPLORING for £3 free credit.",
+    "name": "First Table App: London Restaurant Hack",
+    "subcategory": "budget-hack",
+    "place": "London",
+    "themes": [
+     "budget",
+     "food"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DVqbxTUCuCI/"
+   }
+  },
+  {
+   "id": "empty.japan-tips-where-to-go",
+   "creator": "empty.japan",
+   "kind": "group",
+   "subcategory": "where-to-go",
+   "heading": "Where to go instead",
+   "place": "japan",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Nagano is more than just ski slopes",
+     "detail": "Beyond world-class skiing, Nagano offers preserved old towns (Matsumoto, Obuse, Ueda), cozy onsen towns, and Japan's richest miso ramen — best experienced in the full winter season.",
+     "name": "Nagano Prefecture Winter Guide",
+     "subcategory": "when-to-go",
+     "place": "Chubu",
+     "themes": [
+      "seasonal",
+      "nature",
+      "food"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DHI1AZCPpfw/"
+    },
+    {
+     "text": "Rural Nagano is Japan's best-kept secret",
+     "detail": "Northern Nagano offers world-class ski resorts, Sea of Japan beaches, weekly hot springs, Lord-of-the-Rings hiking trails, and farm-fresh food — all at 1.5–2x less cost than Kyoto.",
+     "name": "Rural Life in North Nagano Prefecture",
+     "subcategory": "when-to-go",
+     "place": "Chubu",
+     "themes": [
+      "hidden-gem",
+      "nature",
+      "budget"
+     ],
+     "confidence": "medium",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C8ExyvgvuP-/"
+    }
+   ]
+  },
+  {
+   "id": "empty.japan-tips-when-to-go",
+   "creator": "empty.japan",
+   "kind": "group",
+   "subcategory": "when-to-go",
+   "heading": "When to go",
+   "place": "japan",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Sakura that blooms for weeks not days",
+     "detail": "Nagano's mountainous terrain staggers cherry blossom blooms across weeks — some valleys peaking while mountains are still bare, letting you chase sakura longer than almost anywhere else in Japan.",
+     "name": "Nagano Sakura Season",
+     "subcategory": "when-to-go",
+     "place": "Chubu",
+     "themes": [
+      "seasonal",
+      "nature",
+      "photo-spot"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DIv1EEaPYGJ/"
+    },
+    {
+     "text": "Skip cherry blossom season crowds",
+     "detail": "Cherry blossom season is Japan's most unpredictable, crowded, and expensive time to visit. Arrive too early and the trees are bare; unless sakura is your sole goal, consider shoulder seasons instead.",
+     "name": "Japan Cherry Blossom Season: What to Know",
+     "subcategory": "when-to-go",
+     "place": "japan",
+     "themes": [
+      "seasonal",
+      "budget"
+     ],
+     "confidence": "medium",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DMfTJ-ZPEvj/"
+    }
+   ]
+  },
+  {
+   "id": "empty.japan-tips-budget-hack",
+   "creator": "empty.japan",
+   "kind": "group",
+   "subcategory": "budget-hack",
+   "heading": "Cost-saving hacks",
+   "place": "japan",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Hidden sakura spots locals never share",
+     "detail": "Rent a car and drive through small towns and villages to find breathtaking, crowd-free cherry blossom spots that never appear on Google Maps.",
+     "name": "Rural Japan Hidden Sakura Hunting",
+     "subcategory": "budget-hack",
+     "place": "japan",
+     "themes": [
+      "hidden-gem",
+      "seasonal",
+      "nature",
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C6OaPUGPFlu/"
+    },
+    {
+     "text": "Fill your bottle with natural hot spring",
+     "detail": "Scattered across Japan, these roadside dispensers let you take home real geothermal onsen water. Search '温泉スタンド' on Google Maps to find the nearest one.",
+     "name": "Onsen Water Stations (温泉スタンド)",
+     "subcategory": "budget-hack",
+     "place": "japan",
+     "themes": [
+      "hidden-gem",
+      "budget",
+      "nature"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C6liw6PvoYe/"
+    }
+   ]
+  },
+  {
+   "id": "empty.japan-tips-what-to-skip",
+   "creator": "empty.japan",
+   "kind": "group",
+   "subcategory": "what-to-skip",
+   "heading": "Good to know",
+   "place": "japan",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Collect a deity's inked blessing",
+     "detail": "Getting a handwritten Goshuin stamp at temples and shrines is a meaningful ritual and the most unique souvenir from Japan — costs 300–500 yen per stamp and requires a special Goshuincho book.",
+     "name": "Goshuin (temple stamp collecting)",
+     "subcategory": "what-to-skip",
+     "place": "japan",
+     "themes": [
+      "budget",
+      "hidden-gem"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/Cx-fxK1vK7b/"
+    },
+    {
+     "text": "Nail the onsen etiquette perfectly",
+     "detail": "Five essential onsen rules — no phones, tie hair up, keep your towel dry, check tattoo policies, and rinse after the sauna — so you never accidentally offend.",
+     "name": "Japan Onsen Etiquette Rules",
+     "subcategory": "what-to-skip",
+     "place": "japan",
+     "themes": [],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/CzJIPL3PypS/"
+    }
+   ]
+  },
+  {
+   "id": "raimeetravel-tips-where-to-go",
+   "creator": "raimeetravel",
+   "kind": "group",
+   "subcategory": "where-to-go",
+   "heading": "Where to go instead",
+   "place": "japan",
+   "size": 3,
+   "tips": [
+    {
+     "text": "Japan beyond Tokyo and Kyoto",
+     "detail": "Skipping beyond the Tokyo-Kyoto-Osaka tourist circuit and exploring lesser-visited Japanese regions delivers a completely different, more authentic experience that most visitors never discover.",
+     "name": "Off-the-Beaten-Path Japan",
+     "subcategory": "what-to-skip",
+     "place": "japan",
+     "themes": [
+      "hidden-gem"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DTImsudjI_U/"
+    },
+    {
+     "text": "Ski Japan for less than Colorado",
+     "detail": "Lift tickets, accommodation, gear rental, and food in Hakuba all come in significantly cheaper than comparable Colorado resorts — and with points, flights can cost under $200 roundtrip.",
+     "name": "Skiing Hakuba vs Colorado: Cost Breakdown",
+     "subcategory": "budget-hack",
+     "place": "Hakuba",
+     "themes": [
+      "budget",
+      "seasonal"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DTTBBNjDCME/"
+    },
+    {
+     "text": "America's easiest international escape right now",
+     "detail": "Strong USD, no visa, no jet lag, sub-4-hour flights from major US cities — Alberta is the most frictionless international trip Americans can take right now.",
+     "name": "USA to Canada: No Visa, No Jet Lag",
+     "subcategory": "budget-hack",
+     "place": "Canadian Rockies",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "medium",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DYS09yxSfey/"
+    }
+   ]
+  },
+  {
+   "id": "raimeetravel-tips-when-to-go",
+   "creator": "raimeetravel",
+   "kind": "group",
+   "subcategory": "when-to-go",
+   "heading": "When to go",
+   "place": "other",
+   "size": 2,
+   "tips": [
+    {
+     "text": "World Cup 2026 will spike travel costs",
+     "detail": "The 2026 FIFA World Cup spans the US, Mexico, and Canada this summer — flights and hotels in host cities will be significantly more expensive; avoid overlapping dates or book well ahead.",
+     "name": "World Cup 2026 Travel Planning Warning",
+     "subcategory": "when-to-go",
+     "place": "North America",
+     "themes": [
+      "seasonal",
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DT3oHgUkgsU/"
+    },
+    {
+     "text": "Visit Copenhagen before the crowds arrive",
+     "detail": "April through June is the sweet spot — spring and early summer means fewer tourists, pleasant cycling weather, and the city at its most vibrant.",
+     "name": "Copenhagen Spring Travel Window",
+     "subcategory": "when-to-go",
+     "place": "copenhagen",
+     "themes": [
+      "budget",
+      "seasonal"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DY5avnbs_cC/"
+    }
+   ]
+  },
+  {
+   "id": "raimeetravel-tips-transit",
+   "creator": "raimeetravel",
+   "kind": "group",
+   "subcategory": "transit",
+   "heading": "Getting around",
+   "place": "other",
+   "size": 3,
+   "tips": [
+    {
+     "text": "New Europe entry rules change everything",
+     "detail": "Europe is rolling out digital border checks (EES) replacing passport stamps and the ETIAS pre-approval form for non-EU visitors — check both before booking any Europe trip in 2026.",
+     "name": "2026 Europe Entry: EES & ETIAS Updates",
+     "subcategory": "transit",
+     "place": "Europe",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DT3oHgUkgsU/"
+    },
+    {
+     "text": "Sail the city on public harbor buses",
+     "detail": "The Copenhagen City Card covers the harbor buses — genuinely the best way to move around the city and reach waterfront neighborhoods including Refshaleøen.",
+     "name": "Copenhagen City Card + Harbor Bus",
+     "subcategory": "transit",
+     "place": "Copenhagen",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DY5avnbs_cC/"
+    },
+    {
+     "text": "Day-trip to Stonehenge done right",
+     "detail": "Most people arrive from London late at night — you can drive, take a coach tour, or train to Salisbury then shuttle. Reserve parking in advance if driving to avoid long bus queues back.",
+     "name": "London to Stonehenge Solstice Route",
+     "subcategory": "transit",
+     "place": "Salisbury",
+     "themes": [
+      "day-trip",
+      "seasonal"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DZazj9IsmPg/"
+    }
+   ]
+  },
+  {
+   "id": "raimeetravel-tips-budget-hack",
+   "creator": "raimeetravel",
+   "kind": "group",
+   "subcategory": "budget-hack",
+   "heading": "Cost-saving hacks",
+   "place": "other",
+   "size": 4,
+   "tips": [
+    {
+     "text": "Cut these costs and see the world",
+     "detail": "Keep rent low, ditch the car, rent clothes instead of buying, and be strategic with credit card sign-up bonuses — these lifestyle trade-offs can free up thousands per year for travel.",
+     "name": "Budget Trade-offs That Fund More Travel",
+     "subcategory": "budget-hack",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DJiCIAtSwAV/"
+    },
+    {
+     "text": "Fly cheaper with 2026 data",
+     "detail": "Expedia's data shows Friday is 2026's cheapest flight day and August the cheapest month; bundling flight + hotel + car on Expedia saves up to 30% on the whole trip.",
+     "name": "Expedia 2026 Air Hacks Report",
+     "subcategory": "budget-hack",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DU3oVk3jD4D/"
+    },
+    {
+     "text": "Book flights now to lock savings",
+     "detail": "With jet fuel prices rising, book flights immediately; redeem points now (transfer out of portals to airline partners); download Mobile Passport as a Global Entry backup; and get cancel-for-any-reason travel insurance.",
+     "name": "2025-2026 Travel Booking Strategy",
+     "subcategory": "budget-hack",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DV_ipKkDDqx/"
+    },
+    {
+     "text": "Book a mini-trip from inside your trip",
+     "detail": "While already in one European city, find cheap intra-Europe flights for a bonus day-trip to a second destination. Easy wins across the continent's dense flight network.",
+     "name": "European Tripception Strategy",
+     "subcategory": "budget-hack",
+     "place": "Europe",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "medium",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DYrweaOMnqg/"
+    }
+   ]
+  },
+  {
+   "id": "raimeetravel-tips-booking",
+   "creator": "raimeetravel",
+   "kind": "group",
+   "subcategory": "booking",
+   "heading": "Booking tips",
+   "place": "other",
+   "size": 2,
+   "tips": [
+    {
+     "text": "What Americans miss before going abroad",
+     "detail": "Before any international trip: check entry requirements and color-coded safety maps at travel.state.gov, read local laws, and enroll in the free STEP program for real-time country alerts.",
+     "name": "US State Department Pre-Trip Safety Checklist",
+     "subcategory": "booking",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DCfReDvIyXd/"
+    },
+    {
+     "text": "Protect your Europe trip this year",
+     "detail": "With European jet fuel shortages causing flight cancellations, get cancel-for-any-reason insurance, book with points for flexibility, and consider South America as a backup destination.",
+     "name": "Europe Travel Disruption Prep Guide",
+     "subcategory": "booking",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "medium",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DXPO-OCDGon/"
+    }
+   ]
+  },
+  {
+   "id": "raimeetravel-tip-packing",
+   "creator": "raimeetravel",
+   "kind": "solo",
+   "subcategory": "packing",
+   "place": "other",
+   "size": 1,
+   "tip": {
+    "text": "27 outfits from just nine pieces",
+    "detail": "Arrange nine clothing items in a 3x3 grid where every row, column, and diagonal makes a full outfit — a carry-on-only trick that creates 27 combinations in under 10 minutes.",
+    "name": "Sudoku Packing Method",
+    "subcategory": "packing",
+    "place": "other",
+    "themes": [
+     "budget"
+    ],
+    "confidence": "high",
+    "saved_from": 1,
+    "source_reel": "https://www.instagram.com/reel/DXcATRejm9d/"
+   }
+  },
+  {
+   "id": "raimeetravel-tips-points-miles",
+   "creator": "raimeetravel",
+   "kind": "group",
+   "subcategory": "points-miles",
+   "heading": "Points & miles",
+   "place": "other",
+   "size": 2,
+   "tips": [
+    {
+     "text": "Track every card perk you forget",
+     "detail": "A free Google Sheet template from Thrifty Traveler that maps out every benefit on each of your travel credit cards — so you stop leaving hundreds in unused perks on the table.",
+     "name": "Thrifty Traveler Credit Card Benefits Tracker",
+     "subcategory": "points-miles",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DTvuVojEhVU/"
+    },
+    {
+     "text": "Transfer points and fly for free",
+     "detail": "A step-by-step workflow — search seats.aero, find your airline partner, transfer points, then book directly with the loyalty program — that saved the creator $7,000 in one year.",
+     "name": "Credit Card Points Transfer Guide",
+     "subcategory": "points-miles",
+     "place": "other",
+     "themes": [
+      "budget"
+     ],
+     "confidence": "high",
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DWR3eMrjA3v/"
+    }
+   ]
+  }
+ ]
+}
