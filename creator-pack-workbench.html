@@ -191,6 +191,17 @@ tr.mxrow{border-bottom:1px solid #E4E9EF;} tr.mxrow:last-child{border-bottom:non
 .opt .ometa{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);}
 .opt .owhy{font-size:13px;color:#33455c;line-height:1.45;}
 .opt .opills{display:flex;flex-wrap:wrap;gap:6px;font-family:ui-monospace,monospace;font-size:10.5px;margin-top:2px;}
+/* tips — text-first */
+.tips-wrap{margin-top:16px;display:flex;flex-direction:column;gap:20px;max-width:760px;}
+.tip-group .tgh{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);font-weight:800;border-bottom:2px solid var(--ink);padding-bottom:7px;margin-bottom:8px;display:flex;align-items:baseline;gap:9px;}
+.tip-group .tgh .tgn{font-size:10px;color:var(--ink-soft);font-weight:600;font-family:ui-monospace,monospace;}
+.tip-row{padding:9px 0;border-bottom:1px solid #E4E9EF;}
+.tip-row:last-child{border-bottom:none;}
+.tip-row .tt,.tip-solo .tt{font-size:15px;font-weight:750;letter-spacing:-.01em;line-height:1.32;}
+.tip-row .td,.tip-solo .td{font-size:12.5px;color:var(--ink-soft);line-height:1.45;margin-top:3px;}
+.tip-solo{border-left:3px solid var(--accent);background:var(--paper);border-radius:0 11px 11px 0;padding:11px 16px;box-shadow:var(--shadow);}
+.tip-reel{border:none;color:#C0398A;font-size:12px;font-weight:700;}
+.tip-reel:hover{border:none;}
 </style>
 <div class="wrap">
 <header>
@@ -222,6 +233,9 @@ const listsFor=cr=>LISTS.filter(l=>l.creator===cr);
 const abstFor=cr=>ABST.filter(a=>a.creator===cr);
 const LENS_C={local:'#2E7D32',tourist:'#2D6A8E'};
 fetch('lists.json').then(r=>r.json()).then(d=>{LISTS=d.lists||[];ABST=d.abstentions||[];render();}).catch(()=>{});
+let TIPS=[];
+const tipsFor=cr=>TIPS.filter(u=>u.creator===cr);
+fetch('tips.json').then(r=>r.json()).then(d=>{TIPS=d.units||[];render();}).catch(()=>{});
 const esc=s=>(s||'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const mapsLink=t=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(t);
 
@@ -328,15 +342,17 @@ function renderReader(id){const i=ITINS.find(x=>x.id===id);if(!i)return renderIt
   <button class="rback" id="rback2" style="margin-top:18px">← All itineraries</button></div>`;}
 
 function renderPanel(){const cr=active,m=creatorMeta[cr]||{name:cr,tag:''};
- const toggle=(ITINS.length||LISTS.length)?`<div class="modes"><button class="modebtn" aria-pressed="${mode==='gems'}" data-mode="gems">Gems</button><button class="modebtn" aria-pressed="${mode==='itins'}" data-mode="itins">Itineraries &amp; lists</button></div>`:'';
+ const toggle=(ITINS.length||LISTS.length||TIPS.length)?`<div class="modes"><button class="modebtn" aria-pressed="${mode==='gems'}" data-mode="gems">Gems</button><button class="modebtn" aria-pressed="${mode==='itins'}" data-mode="itins">Itineraries &amp; lists</button><button class="modebtn" aria-pressed="${mode==='tips'}" data-mode="tips">Tips</button></div>`:'';
  let inner;
- if(mode==='itins'){ inner = openList ? renderListReader(openList) : openItin ? renderReader(openItin) : (renderListsSection(cr)+renderItinList(cr)); }
+ if(mode==='tips'){ inner = renderTipsView(cr); }
+ else if(mode==='itins'){ inner = openList ? renderListReader(openList) : openItin ? renderReader(openItin) : (renderListsSection(cr)+renderItinList(cr)); }
  else {
   const kc=cats.map(([k,l])=>`<button class="chip" aria-pressed="${selCat===k}" data-cat="${k}">${l}</button>`).join('');
   inner=renderMatrix(cr)+`<div class="bar"><span class="lab">Category</span><button class="chip" aria-pressed="${!selCat}" data-cat="">All</button>${kc}<button class="chip clear" data-clear="1">Reset</button></div><div id="content">${renderContent(cr)}</div>`;
  }
  panel.innerHTML=`<div class="crtitle"><h2>${m.name}</h2><span class="tg">${m.tag}</span></div>${toggle}${inner}`;
- document.querySelectorAll('.modebtn').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;openItin=null;render();});
+ document.querySelectorAll('.modebtn').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;openItin=null;openList=null;render();});
+ if(mode==='tips') return;   // tips view has no interactive cells, just links
  if(mode==='itins'){
   document.querySelectorAll('.itin-card[data-itin]').forEach(c=>c.onclick=()=>{openItin=c.dataset.itin;openList=null;render();window.scrollTo(0,0);});
   document.querySelectorAll('.list-card[data-list]').forEach(c=>c.onclick=()=>{openList=c.dataset.list;openItin=null;render();window.scrollTo(0,0);});
@@ -425,6 +441,22 @@ function renderListReader(id){const l=LISTS.find(x=>x.id===id);if(!l)return rend
    <div class="lr-help">These are options, not a route — most people pick one or two.</div></div>
   ${l.options.map(optRow).join('')}
   <button class="rback" id="lrback2" style="margin-top:18px">← Back to itineraries &amp; lists</button></div>`;}
+
+// ---- tips (text-first view; concise hooks + expandable detail) ----
+function tipReel(t){return t.source_reel?` <a class="tip-reel" href="${esc(t.source_reel)}" target="_blank" rel="noopener" title="source reel">▶</a>`:'';}
+function tipRow(t){return `<div class="tip-row"><div class="tt">${esc(t.text)}${tipReel(t)}</div>${t.detail?`<div class="td">${esc(t.detail)}</div>`:''}</div>`;}
+function renderTipsView(cr){const us=tipsFor(cr);
+ if(!us.length)return `<div class="empty">No travel tips for ${esc(creatorMeta[cr]?creatorMeta[cr].name:cr)} yet — none surfaced from this creator's reels.</div>`;
+ const ntips=us.reduce((a,u)=>a+u.size,0);
+ let h=`<div class="count-note">${ntips} tips · ${us.length} block${us.length===1?'':'s'} · ordered by what matters most to a first-time visitor</div><div class="tips-wrap">`;
+ us.forEach(u=>{
+  if(u.kind==='group'){
+   h+=`<div class="tip-group"><div class="tgh">${esc(u.heading)}<span class="tgn">${u.size}</span></div>${u.tips.map(tipRow).join('')}</div>`;
+  }else{
+   h+=`<div class="tip-solo"><div class="tt">${esc(u.tip.text)}${tipReel(u.tip)}</div>${u.tip.detail?`<div class="td">${esc(u.tip.detail)}</div>`:''}</div>`;
+  }
+ });
+ return h+`</div>`;}
 
 function render(){renderTabs();renderPanel();}
 renderLegend();render();
