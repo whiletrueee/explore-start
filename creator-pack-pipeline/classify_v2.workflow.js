@@ -43,7 +43,7 @@ Each item object has EXACTLY these keys:
 - category: one of the categories above.
 - subcategory: one allowed subcategory for that category.
 - why: 1-2 punchy sentences (max ~35 words) describing what it is and why it's worth it.
-- destination: new-york | london | florida | rome | copenhagen | japan | maldives | other
+- destination: new-york | london | florida | rome | copenhagen | japan | maldives | dubai | singapore | other
 - region: broader region if relevant ("Gulf Coast", "Kansai", "Cotswolds") else null.
 - city: the city/town else null.
 - area: neighborhood / sub-area else null.

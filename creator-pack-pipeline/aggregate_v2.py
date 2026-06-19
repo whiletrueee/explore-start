@@ -3,9 +3,11 @@ import json, glob, collections, re, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from profiles import TAXONOMY, profile
 
-SP="/private/tmp/claude-501/-Users-headout-Documents-Yuvraj-2026-Claude---Headout-Headstart-2-0---Hackin-2026-Hackin-2026---Headstart-2-0/d31d13bd-282e-444b-ad76-77d835723ddb/scratchpad"
-RES=SP+"/results_v2"
-OUT="/Users/headout/Documents/Yuvraj 2026/Claude - Headout/Headstart 2.0 - Hackin 2026/Hackin 2026 - Headstart 2.0"
+SP=os.environ.get("PIPELINE_WORK","/private/tmp/claude-501/-Users-headout-Documents-Yuvraj-2026-Claude---Headout-Headstart-2-0---Hackin-2026-Hackin-2026---Headstart-2-0/d31d13bd-282e-444b-ad76-77d835723ddb/scratchpad")
+RES=os.environ.get("PIPELINE_RESULTS", SP+"/results_v2")
+# OUT = dir that receives classified-items-v2.json (point at a scratch dir to keep a
+# per-run file for merging instead of clobbering an existing multi-creator dataset)
+OUT=os.environ.get("PIPELINE_OUT","/Users/headout/Documents/Yuvraj 2026/Claude - Headout/Headstart 2.0 - Hackin 2026/Hackin 2026 - Headstart 2.0")
 
 VALID_CAT=set(TAXONOMY)
 def fix_sub(cat, sub):
