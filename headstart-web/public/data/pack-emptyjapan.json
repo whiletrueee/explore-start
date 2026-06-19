@@ -1,0 +1,3317 @@
+{
+ "creator": {
+  "handle": "empty.japan",
+  "name": "empty.japan",
+  "tag": "Japan secret spots",
+  "color": "#7A4FA3",
+  "destination": "Japan"
+ },
+ "center": [
+  37.0,
+  137.5
+ ],
+ "zoom": 5,
+ "cityMeta": {
+  "Kusatsu": {
+   "center": [
+    36.63096,
+    138.57806
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Kinosaki": {
+   "center": [
+    35.6237,
+    134.81366
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Osaka": {
+   "center": [
+    34.68741,
+    135.48923
+   ],
+   "zoom": 12,
+   "count": 2
+  },
+  "Kyoto": {
+   "center": [
+    35.01351,
+    135.73806
+   ],
+   "zoom": 12,
+   "count": 18
+  },
+  "Ine": {
+   "center": [
+    35.67513,
+    135.27274
+   ],
+   "zoom": 12,
+   "count": 2
+  },
+  "Kobe": {
+   "center": [
+    34.68684,
+    135.19678
+   ],
+   "zoom": 12,
+   "count": 2
+  },
+  "Tamba": {
+   "center": [
+    35.17718,
+    135.0364
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Yamanouchi": {
+   "center": [
+    36.73281,
+    138.46232
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Moriyama": {
+   "center": [
+    35.05088,
+    136.00551
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Around Japan": {
+   "center": [
+    36.2033,
+    137.08717
+   ],
+   "zoom": 12,
+   "count": 12
+  },
+  "Uji": {
+   "center": [
+    34.88512,
+    135.79957
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Miyama": {
+   "center": [
+    33.14277,
+    130.47303
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Sapporo": {
+   "center": [
+    43.06194,
+    141.35429
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Noboribetsu": {
+   "center": [
+    42.41755,
+    141.1049
+   ],
+   "zoom": 12,
+   "count": 2
+  },
+  "Furano": {
+   "center": [
+    43.34231,
+    142.3835
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Nozawa Onsen": {
+   "center": [
+    36.91722,
+    138.46402
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Nantan": {
+   "center": [
+    35.10168,
+    135.46671
+   ],
+   "zoom": 12,
+   "count": 2
+  },
+  "Kameoka": {
+   "center": [
+    35.00704,
+    135.57017
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Miyazu": {
+   "center": [
+    35.568,
+    135.19064
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Tokyo": {
+   "center": [
+    35.68646,
+    139.75269
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Toyama": {
+   "center": [
+    36.83946,
+    137.43672
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Matsumoto": {
+   "center": [
+    36.23842,
+    137.96879
+   ],
+   "zoom": 12,
+   "count": 2
+  },
+  "Takasaki": {
+   "center": [
+    36.32743,
+    139.00275
+   ],
+   "zoom": 12,
+   "count": 3
+  },
+  "Ueda": {
+   "center": [
+    36.40372,
+    138.26025
+   ],
+   "zoom": 12,
+   "count": 1
+  },
+  "Joetsu": {
+   "center": [
+    37.14788,
+    138.23595
+   ],
+   "zoom": 12,
+   "count": 1
+  }
+ },
+ "items": [
+  {
+   "id": "kusatsu-onsen-tattoo-friendly-public-baths",
+   "hook": "Tattoo-friendly onsens in Kusatsu",
+   "name": "Kusatsu Onsen — Tattoo-Friendly Public Baths",
+   "why": "Three public onsens in Kusatsu — Sai-no-kawara, Otaki-no-yu, and Goza-no-yu — welcome tattoos of any size, making this one of Japan's most accessible hot-spring towns for inked travellers.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Kusatsu",
+   "area": null,
+   "region": "Kanto / Gunma",
+   "location_text": "Kusatsu Onsen, Gunma Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C-XkB34Pj5I/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.6309616,
+   "lng": 138.5780638,
+   "approx": false
+  },
+  {
+   "id": "kinosaki-onsen",
+   "hook": "Seven inked-friendly baths near Kyoto",
+   "name": "Kinosaki Onsen",
+   "why": "Charming historic onsen town near Kyoto where all seven public bathhouses permit tattoos of any size — perfect for a ryokan-and-yukata overnight escape.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Kinosaki",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Kinosaki Onsen, Toyooka, Hyogo Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C-XkB34Pj5I/",
+   "saved_from": 3,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.6237033,
+   "lng": 134.8136569,
+   "approx": false
+  },
+  {
+   "id": "sandaime-wakihiko-shouten",
+   "hook": "Osaka's top restaurant, no sponsors",
+   "name": "Sandaime Wakihiko Shouten",
+   "why": "One of the creator's genuine top-3 restaurants in Osaka — a local favourite in Fukushima Ward worth seeking out for an authentic, unpaid recommendation.",
+   "category": "eat",
+   "subcategory": "restaurant",
+   "city": "Osaka",
+   "area": "Fukushima",
+   "region": "Kansai",
+   "location_text": "2 Chome-10-22 Fukushima, Fukushima Ward, Osaka 553-0003, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "food"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0_p7sgvAke/",
+   "saved_from": 1,
+   "media_url": "data/img/C0_p7sgvAke.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.6938507,
+   "lng": 135.4866061,
+   "approx": false
+  },
+  {
+   "id": "daisugi-northern-kyoto",
+   "hook": "A forest of trees from one trunk",
+   "name": "Daisugi — Northern Kyoto",
+   "why": "Ancient Japanese forestry technique creating groves where dozens of straight cedar trunks grow from a single base — most prevalent in Kyoto's northern districts and visually unlike anything else.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Kyoto",
+   "area": "Northern Kyoto",
+   "region": "Kansai",
+   "location_text": "Northern Kyoto, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": "free",
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot",
+    "free"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0jV0R6vi8A/",
+   "saved_from": 1,
+   "media_url": "data/img/C0jV0R6vi8A.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.0373178,
+   "lng": 135.6964098,
+   "approx": false
+  },
+  {
+   "id": "kokonoe-sakura",
+   "hook": "A 650-year-old imperial cherry tree",
+   "name": "Kokonoe Sakura",
+   "why": "Said to have been planted by an emperor 650 years ago, this ancient cherry tree now blooms on just one remaining branch once a year — a fleeting, almost mythic floral event.",
+   "category": "nature",
+   "subcategory": "natural-landmark",
+   "city": "Kyoto",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Kokonoe Sakura, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Single annual bloom, typically late March–April",
+   "themes": [
+    "seasonal",
+    "bucket-list",
+    "nature",
+    "hidden-gem"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0jV0R6vi8A/",
+   "saved_from": 1,
+   "media_url": "data/img/C0jV0R6vi8A.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.00678,
+   "lng": 135.75374,
+   "approx": true
+  },
+  {
+   "id": "yuryu-pine-tree",
+   "hook": "Japan's widest pine spans 50 metres",
+   "name": "Yuryu Pine Tree",
+   "why": "One of Japan's greatest pine trees — only 2 metres tall yet spreading over 50 metres wide, a jaw-dropping natural sculpture recognised as a national treasure.",
+   "category": "nature",
+   "subcategory": "natural-landmark",
+   "city": "Kyoto",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Yuryu Pine Tree, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0jV0R6vi8A/",
+   "saved_from": 1,
+   "media_url": "data/img/C0jV0R6vi8A.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 34.93828,
+   "lng": 135.6449362,
+   "approx": false
+  },
+  {
+   "id": "funaya-boat-houses-ine",
+   "hook": "Fishermen's floating houses in Ine",
+   "name": "Funaya Boat Houses — Ine",
+   "why": "Ine's iconic funaya are traditional wooden boathouses built directly over the sea, where the ground floor is a garage for fishing boats and the upper floor is a home — virtually unchanged for centuries.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Ine",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Ine, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0wQSRSvXVF/",
+   "saved_from": 1,
+   "media_url": "data/img/C0wQSRSvXVF.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.6751344,
+   "lng": 135.2727378,
+   "approx": false
+  },
+  {
+   "id": "private-onsen-in-the-mountains-kobe",
+   "hook": "Secret mountain onsen near Kobe",
+   "name": "Private Onsen in the Mountains — Kobe",
+   "why": "A hidden private hot-spring bath tucked into the mountains outside Kobe, offering complete seclusion and stunning natural scenery — the kind of off-grid retreat rarely featured in guidebooks.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Kobe",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Mountains near Kobe, Hyogo Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "luxury"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0wQSRSvXVF/",
+   "saved_from": 1,
+   "media_url": "data/img/C0wQSRSvXVF.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.68044,
+   "lng": 135.19918,
+   "approx": true
+  },
+  {
+   "id": "kochidani-amida-ji-temple",
+   "hook": "A mossy hidden temple in Ohara",
+   "name": "Kochidani Amida-ji Temple",
+   "why": "A barely-visited hillside temple in Ohara, north of Kyoto, draped in moss and surrounded by dense cedar forest — a quintessential wabi-sabi off-the-beaten-path discovery.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Kyoto",
+   "area": "Ohara",
+   "region": "Kansai",
+   "location_text": "Kochidani Amida-ji Temple, Ohara, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0wQSRSvXVF/",
+   "saved_from": 1,
+   "media_url": "data/img/C0wQSRSvXVF.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.00838,
+   "lng": 135.77614,
+   "approx": true
+  },
+  {
+   "id": "mt-atago",
+   "hook": "Sacred sunrise hike above Kyoto",
+   "name": "Mt. Atago",
+   "why": "Kyoto's highest peak at 924 m, home to the revered Atago Shrine, with a pre-dawn hike rewarded by sweeping views over the city and Arashiyama forest below.",
+   "category": "nature",
+   "subcategory": "hike-trail",
+   "city": "Kyoto",
+   "area": "Arashiyama",
+   "region": "Kansai",
+   "location_text": "Mt. Atago, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "bucket-list",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C0wQSRSvXVF/",
+   "saved_from": 1,
+   "media_url": "data/img/C0wQSRSvXVF.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.0600453,
+   "lng": 135.6342851,
+   "approx": false
+  },
+  {
+   "id": "tamba-hyogo",
+   "hook": "Ancient village life in rural Tamba",
+   "name": "Tamba, Hyogo",
+   "why": "A rural mountainous area of Hyogo Prefecture dotted with traditional farmhouses, ancient shrines, and autumn foliage — a low-key escape from Osaka and Kyoto that few tourists reach.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Tamba",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Tamba, Hyogo Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C19bMkXPzMn/",
+   "saved_from": 1,
+   "media_url": "data/img/C19bMkXPzMn.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.1771828,
+   "lng": 135.0363959,
+   "approx": false
+  },
+  {
+   "id": "kamo-jinja-shrine-ukyo-ward",
+   "hook": "Shinto shrine hidden in Kyoto forest",
+   "name": "Kamo Jinja Shrine — Ukyo Ward",
+   "why": "A quiet Shinto shrine in Kyoto's Ukyo Ward surrounded by ancient trees, offering a meditative escape well off the standard tourist trail through the city's western forests.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Kyoto",
+   "area": "Ukyo Ward",
+   "region": "Kansai",
+   "location_text": "Kamo Jinja Shrine, Ukyo Ward, Kyoto, Japan",
+   "website": null,
+   "price_text": "free",
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "free",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C19bMkXPzMn/",
+   "saved_from": 1,
+   "media_url": "data/img/C19bMkXPzMn.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.00198,
+   "lng": 135.76494,
+   "approx": true
+  },
+  {
+   "id": "snow-monkey-park",
+   "hook": "Wild monkeys soak in hot springs",
+   "name": "Snow Monkey Park",
+   "why": "Watch Japanese macaques bathe in steaming outdoor hot springs against a snowy mountain backdrop — one of Japan's most surreal and iconic wildlife encounters.",
+   "category": "nature",
+   "subcategory": "natural-landmark",
+   "city": "Yamanouchi",
+   "area": "Jigokudani",
+   "region": "Chubu",
+   "location_text": "Jigokudani Monkey Park, Yamanouchi, Nagano, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Best in winter (December-March) when snow is present",
+   "themes": [
+    "bucket-list",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C1HQZzOPnx9/",
+   "saved_from": 1,
+   "media_url": "data/img/C1HQZzOPnx9.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 36.7328117,
+   "lng": 138.4623185,
+   "approx": false
+  },
+  {
+   "id": "arancino-kyoto",
+   "hook": "Italian-Japanese fusion on Kyoto's oldest canal",
+   "name": "Arancino Kyoto",
+   "why": "Multi-course Italian-Japanese fusion beside the historic Takase River, where every dish is as visually stunning as it is flavourful — you'll photograph every course.",
+   "category": "eat",
+   "subcategory": "fine-dining",
+   "city": "Kyoto",
+   "area": "Nakagyo",
+   "region": "Kansai",
+   "location_text": "Kyoto, Nakagyo Ward, Ichinofunairicho, 537-9",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "food",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C2KSMlfPo3j/",
+   "saved_from": 1,
+   "media_url": "data/img/C2KSMlfPo3j.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.01217,
+   "lng": 135.769483,
+   "approx": false
+  },
+  {
+   "id": "teishokuya-japanese-set-meal-restaurants",
+   "hook": "Japan's ultimate comfort meal under $10",
+   "name": "Teishokuya (Japanese set meal restaurants)",
+   "why": "Teishokuya diners serve a balanced set meal — rice, miso soup, protein, and sides — on every street corner across Japan. Search 'Teishokuya' on Google Maps to find one near you.",
+   "category": "eat",
+   "subcategory": "restaurant",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "food",
+    "budget"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C32ZtCOPHYo/",
+   "saved_from": 1,
+   "media_url": "data/img/C32ZtCOPHYo.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   }
+  },
+  {
+   "id": "ukimido-floating-hall",
+   "hook": "A hall that floats above a sacred lake",
+   "name": "Ukimido Floating Hall",
+   "why": "A serene wooden pavilion that appears to hover on the surface of Lake Biwa, offering an impossibly tranquil scene straight from a classical Japanese painting.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Moriyama",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Ukimido Floating Hall, Lake Biwa, Shiga, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C3aG119vtko/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.05088,
+   "lng": 136.00551,
+   "approx": true
+  },
+  {
+   "id": "ryuzoji-temple",
+   "hook": "A hidden temple swallowed by forest",
+   "name": "Ryuzoji Temple",
+   "why": "Hidden deep in a mountain forest in Hyogo, this hard-to-find temple rewards determined explorers with moss-covered stone and near-total solitude.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": null,
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Ryuzoji Temple, Hyogo, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C3aG119vtko/",
+   "saved_from": 2,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.4294,
+   "lng": 135.21132,
+   "approx": true
+  },
+  {
+   "id": "aga-shrine",
+   "hook": "Squeeze through rocks to test your heart",
+   "name": "Aga Shrine",
+   "why": "Legend says only those with a pure heart can pass through the narrow rock crevice at the entrance — a quirky, mythic ritual that makes this Shiga shrine unforgettable.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": null,
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Aga Shrine, Shiga, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Cherry blossom season (late March–April) for sakura viewing",
+   "themes": [
+    "hidden-gem",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C3aG119vtko/",
+   "saved_from": 2,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.1181896,
+   "lng": 136.1824393,
+   "approx": false
+  },
+  {
+   "id": "jonangu-shrine-plum-blossoms",
+   "hook": "Pink clouds before cherry blossom season",
+   "name": "Jonangu Shrine (Plum Blossoms)",
+   "why": "Jonangu's garden erupts in pink-and-white plum blossoms in mid-February — weeks before cherry season — with far smaller crowds. Arrive early or just before closing.",
+   "category": "nature",
+   "subcategory": "park-garden",
+   "city": "Kyoto",
+   "area": "Fushimi",
+   "region": "Kansai",
+   "location_text": "Jonangu Shrine, Fushimi, Kyoto, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Mid-to-late February; arrive early or 30 minutes before closing to avoid crowds",
+   "themes": [
+    "hidden-gem",
+    "seasonal",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C3kZW8ZvhKz/",
+   "saved_from": 1,
+   "media_url": "data/img/C3kZW8ZvhKz.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 34.9505959,
+   "lng": 135.7469948,
+   "approx": false
+  },
+  {
+   "id": "hogon-in-plum-blossoms-at-arashiyama",
+   "hook": "Plum blossoms framing ancient bamboo statues",
+   "name": "Hogon-in (Plum Blossoms at Arashiyama)",
+   "why": "The stone statues in front of Hogon-in temple frame beautifully against blooming Japanese plum trees in February, a lesser-visited alternative to Arashiyama's crowds.",
+   "category": "nature",
+   "subcategory": "park-garden",
+   "city": "Kyoto",
+   "area": "Arashiyama",
+   "region": "Kansai",
+   "location_text": "Hogon-in, Arashiyama, Kyoto, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Mid-to-late February for plum blossom peak",
+   "themes": [
+    "hidden-gem",
+    "seasonal",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C3kZW8ZvhKz/",
+   "saved_from": 1,
+   "media_url": "data/img/C3kZW8ZvhKz.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.0141615,
+   "lng": 135.6740106,
+   "approx": false
+  },
+  {
+   "id": "rural-japan-hidden-sakura-hunting",
+   "hook": "Hidden sakura spots locals never share",
+   "name": "Rural Japan Hidden Sakura Hunting",
+   "why": "Rent a car and drive through small towns and villages to find breathtaking, crowd-free cherry blossom spots that never appear on Google Maps.",
+   "category": "plan",
+   "subcategory": "budget-hack",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": null,
+   "date_info": "Cherry blossom season, typically late March–April",
+   "themes": [
+    "hidden-gem",
+    "seasonal",
+    "nature",
+    "budget"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C6OaPUGPFlu/",
+   "saved_from": 1,
+   "media_url": "data/img/C6OaPUGPFlu.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   }
+  },
+  {
+   "id": "onsen-water-stations",
+   "hook": "Fill your bottle with natural hot spring",
+   "name": "Onsen Water Stations (温泉スタンド)",
+   "why": "Scattered across Japan, these roadside dispensers let you take home real geothermal onsen water. Search '温泉スタンド' on Google Maps to find the nearest one.",
+   "category": "plan",
+   "subcategory": "budget-hack",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "budget",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C6liw6PvoYe/",
+   "saved_from": 1,
+   "media_url": "data/img/C6liw6PvoYe.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   }
+  },
+  {
+   "id": "uji",
+   "hook": "Sip the world's finest matcha in Uji",
+   "name": "Uji",
+   "why": "A quiet town just south of Kyoto renowned as Japan's premier matcha-producing region, with historic tea houses, temples, and riverside scenery.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Uji",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Uji, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "day-trip",
+    "food",
+    "hidden-gem"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C7T8aADvdpe/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.885124,
+   "lng": 135.7995651,
+   "approx": false
+  },
+  {
+   "id": "kyoto-by-the-sea-kyotango-kinosaki-coast",
+   "hook": "Japan's coastline begins at Kyoto's shore",
+   "name": "Kyoto by the Sea (Kyotango/Kinosaki Coast)",
+   "why": "Kyoto Prefecture's northern coast along the Sea of Japan offers dramatic cliffs, sandy beaches, and fresh seafood far from the usual tourist trail.",
+   "category": "nature",
+   "subcategory": "beach",
+   "city": null,
+   "area": "Kyotango",
+   "region": "Kansai",
+   "location_text": "Kyotango, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "day-trip"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C7T8aADvdpe/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": 1,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.6242023,
+   "lng": 135.0610964,
+   "approx": false
+  },
+  {
+   "id": "kayabuki-no-sato",
+   "hook": "Thatched rooftops frozen in feudal Japan",
+   "name": "Kayabuki no Sato",
+   "why": "A perfectly preserved village of traditional thatched-roof farmhouses in northern Kyoto, often shrouded in morning mist — a surreal step back in time.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Miyama",
+   "area": "Kayabuki no Sato",
+   "region": "Kansai",
+   "location_text": "Kayabuki no Sato, Miyama, Nantan, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C7T8aADvdpe/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 33.14277,
+   "lng": 130.47303,
+   "approx": true
+  },
+  {
+   "id": "mount-hiei-omihachiman-shiga-prefecture",
+   "hook": "Ancient shrine route above Lake Biwa",
+   "name": "Mount Hiei & Omihachiman (Shiga Prefecture)",
+   "why": "Shiga Prefecture hides Mount Hiei's sacred ridge trail and the canal-laced merchant town of Omihachiman — all within an hour of Kyoto yet completely tourist-free.",
+   "category": "nature",
+   "subcategory": "hike-trail",
+   "city": null,
+   "area": "Shiga Prefecture",
+   "region": "Kansai",
+   "location_text": "Mount Hiei, Shiga-Kyoto border, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "day-trip"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C7T8aADvdpe/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 34.4422,
+   "lng": 135.23212,
+   "approx": true
+  },
+  {
+   "id": "rural-life-in-north-nagano-prefecture",
+   "hook": "Rural Nagano is Japan's best-kept secret",
+   "name": "Rural Life in North Nagano Prefecture",
+   "why": "Northern Nagano offers world-class ski resorts, Sea of Japan beaches, weekly hot springs, Lord-of-the-Rings hiking trails, and farm-fresh food — all at 1.5–2x less cost than Kyoto.",
+   "category": "plan",
+   "subcategory": "when-to-go",
+   "city": null,
+   "area": "North Nagano Prefecture",
+   "region": "Chubu",
+   "location_text": "Nagano Prefecture, Japan",
+   "website": null,
+   "price_text": "Rent from ~$570/month; food costs 1.5–2x cheaper than Kyoto",
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "budget"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8ExyvgvuP-/",
+   "saved_from": 1,
+   "media_url": "data/img/C8ExyvgvuP-.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   },
+   "lat": 36.1143945,
+   "lng": 138.0319015,
+   "approx": false
+  },
+  {
+   "id": "hokkaido-summer-road-trip-sapporo-to-sapporo-loop",
+   "hook": "Ten days through Hokkaido's wild heart",
+   "name": "Hokkaido Summer Road Trip: Sapporo to Sapporo Loop",
+   "why": "A 10–14 day self-drive loop from Sapporo hits active volcanoes, caldera lakes, lavender fields, wild waterfalls, and coastal hot springs largely free of foreign tourists.",
+   "category": "itinerary",
+   "subcategory": "multi-day",
+   "city": "Sapporo",
+   "area": null,
+   "region": "Hokkaido",
+   "location_text": "Sapporo, Hokkaido, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Best in summer (June–August)",
+   "themes": [
+    "nature",
+    "hidden-gem",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8ep74tPnD2/",
+   "saved_from": 1,
+   "media_url": "data/img/C8ep74tPnD2.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": 1,
+    "hours": false,
+    "price": false,
+    "scope": "multi"
+   },
+   "lat": 43.061936,
+   "lng": 141.3542924,
+   "approx": false
+  },
+  {
+   "id": "ebisu-rock-daikoku-rock",
+   "hook": "Two giant sea stacks guard a secret beach",
+   "name": "Ebisu Rock & Daikoku Rock",
+   "why": "Dramatic volcanic sea stacks rising from Noboribetsu's coastline, best accessed by car, with barely another visitor in sight.",
+   "category": "nature",
+   "subcategory": "natural-landmark",
+   "city": "Noboribetsu",
+   "area": null,
+   "region": "Hokkaido",
+   "location_text": "Ebisu Rock, Noboribetsu, Hokkaido, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8ep74tPnD2/",
+   "saved_from": 1,
+   "media_url": "data/img/C8ep74tPnD2.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 42.42395,
+   "lng": 141.1001,
+   "approx": true
+  },
+  {
+   "id": "noboribetsu-jigokudani-hell-valley",
+   "hook": "Hell Valley bubbles with sulphur and steam",
+   "name": "Noboribetsu Jigokudani (Hell Valley)",
+   "why": "A volcanic crater valley spewing boiling sulphurous springs with vivid ochre earth — the geological source of Noboribetsu's famous onsen resorts.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Noboribetsu",
+   "area": "Jigokudani",
+   "region": "Hokkaido",
+   "location_text": "Noboribetsu Jigokudani, Noboribetsu, Hokkaido, Japan",
+   "website": null,
+   "price_text": "free",
+   "date_info": null,
+   "themes": [
+    "nature",
+    "bucket-list",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8ep74tPnD2/",
+   "saved_from": 1,
+   "media_url": "data/img/C8ep74tPnD2.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 42.41115,
+   "lng": 141.1097,
+   "approx": true
+  },
+  {
+   "id": "lake-shikotsu",
+   "hook": "Japan's clearest caldera lake, peacefully alone",
+   "name": "Lake Shikotsu",
+   "why": "One of Japan's deepest and clearest volcanic caldera lakes, ringed by forested peaks — far less crowded than Lake Toya but just as stunning.",
+   "category": "nature",
+   "subcategory": "natural-landmark",
+   "city": null,
+   "area": "Shikotsu-Toya National Park",
+   "region": "Hokkaido",
+   "location_text": "Lake Shikotsu, Chitose, Hokkaido, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "nature",
+    "hidden-gem"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8ep74tPnD2/",
+   "saved_from": 1,
+   "media_url": "data/img/C8ep74tPnD2.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 42.7538546,
+   "lng": 141.3275269,
+   "approx": false
+  },
+  {
+   "id": "furano",
+   "hook": "Purple lavender fields rolled across the valley",
+   "name": "Furano",
+   "why": "Hokkaido's iconic lavender capital erupts in purple and multicoloured flower fields each July, framed by rolling hills and snow-capped peaks.",
+   "category": "nature",
+   "subcategory": "park-garden",
+   "city": "Furano",
+   "area": null,
+   "region": "Hokkaido",
+   "location_text": "Furano, Hokkaido, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Peak lavender mid-July",
+   "themes": [
+    "seasonal",
+    "photo-spot",
+    "nature",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8ep74tPnD2/",
+   "saved_from": 1,
+   "media_url": "data/img/C8ep74tPnD2.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 43.3423076,
+   "lng": 142.3834956,
+   "approx": false
+  },
+  {
+   "id": "takenoko-matsuri-bamboo-festival-nozawa-onsen",
+   "hook": "A bamboo festival in a secret onsen village",
+   "name": "Takenoko Matsuri (Bamboo Festival), Nozawa Onsen",
+   "why": "Each summer this charming onsen village fills with food stalls serving bamboo shoot dishes and traditional dance performances — a rarely photographed local festival.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Nozawa Onsen",
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Nozawa Onsen, Nagano Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Summer (typically June–July)",
+   "themes": [
+    "hidden-gem",
+    "seasonal",
+    "food"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C8o1-tPviPR/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.9172241,
+   "lng": 138.4640226,
+   "approx": false
+  },
+  {
+   "id": "togakushi-shrine-okusha",
+   "hook": "Cedar giants guard a mythic mountain shrine",
+   "name": "Togakushi Shrine Okusha (戸隠神社 奥社)",
+   "why": "A 30–40 minute forest trail lined with towering 400-year-old cedar trees leads to a legendary shrine in the mountains — one of Japan's most beautiful spiritual paths.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": null,
+   "area": "Togakushi, Nagano",
+   "region": "Chubu",
+   "location_text": "Togakushi Shrine Okusha, Togakushi, Nagano City, Nagano Prefecture, Japan",
+   "website": null,
+   "price_text": "free",
+   "date_info": "Especially recommended in summer to escape heat",
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C9M4OgsP1k2/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.58677,
+   "lng": 137.34552,
+   "approx": true
+  },
+  {
+   "id": "tsubame-onsen",
+   "hook": "A wild outdoor hot spring on a volcano's flank",
+   "name": "Tsubame Onsen",
+   "why": "A secluded outdoor onsen perched on the slopes of Mount Myoko, offering a genuine wild bathing experience far from tourist-resort crowds.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": null,
+   "area": "Mt. Myoko, Niigata",
+   "region": "Chubu",
+   "location_text": "Tsubame Onsen, Mt. Myoko, Myoko City, Niigata Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C9hfFOkvE1J/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.59637,
+   "lng": 137.35032,
+   "approx": true
+  },
+  {
+   "id": "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+   "hook": "A 600-year-old dragon pine still alive",
+   "name": "Yuryu-no-Matsu (Dragon Pine), Yoshiminedera Temple",
+   "why": "A legendary 600-year-old pine tree trained into a sweeping dragon-like canopy at a hillside temple in western Kyoto — one of Japan's three great pine trees.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Kyoto",
+   "area": "Nishiyama",
+   "region": "Kansai",
+   "location_text": "Yoshiminedera Temple, Oharano Oshio-cho, Nishikyo-ku, Kyoto, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/C_dEjjVveBM/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.00838,
+   "lng": 135.75694,
+   "approx": true
+  },
+  {
+   "id": "kayabuki-no-sato-2",
+   "hook": "A Ghibli village frozen in time",
+   "name": "Kayabuki No Sato",
+   "why": "A charming thatched-roof village in northern Kyoto Prefecture surrounded by forests, mountains, and rivers — with far fewer tourists than central Kyoto.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Nantan",
+   "area": "Kayabuki No Sato",
+   "region": "Kansai",
+   "location_text": "Kayabuki No Sato, Miyama, Nantan, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Special illumination events in May and December",
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/Cq5Zi5aLOUs/",
+   "saved_from": 3,
+   "media_url": "data/img/Cq5Zi5aLOUs.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.09768,
+   "lng": 135.47711,
+   "approx": true
+  },
+  {
+   "id": "kochidani-amida-ji-temple-2",
+   "hook": "A temple hiding deep in forest",
+   "name": "Kochidani Amida-ji Temple",
+   "why": "A hidden forest temple that looks abandoned at first glance — closed January–February but breathtaking when open, with virtually zero tourist crowds.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": null,
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Kochidani Amida-ji Temple (阿弥陀寺), Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Closed to visitors in January and February",
+   "themes": [
+    "hidden-gem",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CrLfI4FNFd3/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.431,
+   "lng": 135.20812,
+   "approx": true
+  },
+  {
+   "id": "kifune-shrine",
+   "hook": "Draw your fortune at a river shrine",
+   "name": "Kifune Shrine",
+   "why": "A mystical Shinto shrine in the Kyoto mountains where you can try Omikuji fortune-telling — draw a slip from the water to reveal your fate.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Kyoto",
+   "area": "Kibune",
+   "region": "Kansai",
+   "location_text": "Kifune Shrine, Kibune, Sakyo Ward, Kyoto, Japan",
+   "website": "https://kifunejinja.jp",
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "bucket-list",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CsEEDlkLP8B/",
+   "saved_from": 1,
+   "media_url": "data/img/CsEEDlkLP8B.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.1218892,
+   "lng": 135.7629362,
+   "approx": false
+  },
+  {
+   "id": "kuhonji-temple",
+   "hook": "A completely empty ancient temple",
+   "name": "Kuhonji Temple",
+   "why": "A tranquil, tourist-free Buddhist temple in rural Nantan City — stumbled upon by accident and utterly serene with no crowds whatsoever.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Nantan",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Kuhonji Temple (九品寺), Nantan, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CsYqyCyBjWq/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.10568,
+   "lng": 135.45631,
+   "approx": true
+  },
+  {
+   "id": "sushi-akazu",
+   "hook": "Sushi aged in red vinegar for a decade",
+   "name": "Sushi Akazu",
+   "why": "Osaka's standout omakase spot specializing in sushi seasoned with 10-year-aged red vinegar — a rare 20-course tasting menu that demands a reservation.",
+   "category": "eat",
+   "subcategory": "fine-dining",
+   "city": "Osaka",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Sushi Akazu, Osaka, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "bucket-list",
+    "food",
+    "luxury"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CtJmKcPOcIp/",
+   "saved_from": 1,
+   "media_url": "data/img/CtJmKcPOcIp.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.68096,
+   "lng": 135.49185,
+   "approx": true
+  },
+  {
+   "id": "japan-summer-festival-guide",
+   "hook": "Four unmissable summer festivals in Japan",
+   "name": "Japan Summer Festival Guide",
+   "why": "Four standout seasonal festivals: Nara Tokae lanterns (Aug 5–14), Daimonji fire mountains in Kyoto (Aug 16), Himeji Yukata Festival (Jun 24–25), and Matsuo Taisha Hassaku Festival (Sep 3).",
+   "category": "list",
+   "subcategory": "themed-collection",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": null,
+   "date_info": "Nara Tokae: Aug 5–14; Daimonji (Kyoto): Aug 16; Yukata Festival (Himeji): Jun 24–25; Hassaku Festival (Matsuo Taisha, Kyoto): Sep 3",
+   "themes": [
+    "seasonal",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/Ct_qk6kubTC/",
+   "saved_from": 1,
+   "media_url": "data/img/Ct_qk6kubTC.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   }
+  },
+  {
+   "id": "kinosaki-to-hozukyo-river-hike",
+   "hook": "Princess Mononoke vibes along the river",
+   "name": "Kinosaki to Hozukyo River Hike",
+   "why": "A lush riverside hike from Kinosaki bus stop to Hozukyo JR station through dramatic forest gorges that feel straight out of a Studio Ghibli film.",
+   "category": "nature",
+   "subcategory": "hike-trail",
+   "city": "Kameoka",
+   "area": "Hozu Gorge",
+   "region": "Kansai",
+   "location_text": "Kinosaki bus stop to Hozukyo Station, Hozu River, Kyoto Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Best in spring and autumn",
+   "themes": [
+    "nature",
+    "hidden-gem",
+    "photo-spot",
+    "seasonal"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CuRk2QKOLz_/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.00704,
+   "lng": 135.57017,
+   "approx": true
+  },
+  {
+   "id": "atago-shrine-atago-san",
+   "hook": "Kyoto's mountaintop shrine secret",
+   "name": "Atago Shrine (Atago-san)",
+   "why": "A mysterious, atmospheric shrine perched atop Atago Mountain in Kyoto — relatively undiscovered and perfect for fresh mountain air and spiritual calm.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Kyoto",
+   "area": "Atago Mountain",
+   "region": "Kansai",
+   "location_text": "Atago Shrine, Atago-san, Ukyo-ku, Kyoto",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/Cv9xXoUuOoG/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.00838,
+   "lng": 135.78254,
+   "approx": true
+  },
+  {
+   "id": "enishi-dandan-noodles-enishi-dandannoodles",
+   "hook": "Kobe's cozy dandan noodle den",
+   "name": "Enishi Dandan Noodles (enishi_dandannoodles)",
+   "why": "A small, intimate noodle shop in Kobe serving exceptional dandan noodles — the kind of snug, soul-warming spot that feels straight out of Spirited Away.",
+   "category": "eat",
+   "subcategory": "restaurant",
+   "city": "Kobe",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Kobe, Hyogo, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "food"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CvHx6GZrQUv/",
+   "saved_from": 1,
+   "media_url": "data/img/CvHx6GZrQUv.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 34.6932379,
+   "lng": 135.1943764,
+   "approx": false
+  },
+  {
+   "id": "amanohashidate",
+   "hook": "Japan's sandbar to the sky",
+   "name": "Amanohashidate",
+   "why": "One of Japan's Three Views — a 3.6 km pine-covered sandbar stretching across Miyazu Bay, best admired upside-down between your legs for a classic floating-bridge illusion.",
+   "category": "nature",
+   "subcategory": "beach",
+   "city": "Miyazu",
+   "area": "Kyoto by the Sea (Ama-no-Hashidate)",
+   "region": "Kansai",
+   "location_text": "Amanohashidate, Miyazu, Kyoto Prefecture",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "bucket-list",
+    "photo-spot",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CvXKJ3PMCiz/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": 1,
+    "hours": false,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.5680023,
+   "lng": 135.1906382,
+   "approx": false
+  },
+  {
+   "id": "ine",
+   "hook": "Fishermen's village frozen in time",
+   "name": "Ine",
+   "why": "A remote fishing village on the Sea of Japan where traditional funaya boathouses sit directly on the water — one of Japan's most scenic and least-visited coastal spots.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Ine",
+   "area": "Kyoto by the Sea",
+   "region": "Kansai",
+   "location_text": "Ine-cho, Yosa-gun, Kyoto Prefecture",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "nature"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CvXKJ3PMCiz/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.6751344,
+   "lng": 135.2727378,
+   "approx": false
+  },
+  {
+   "id": "arashiyama",
+   "hook": "Bamboo grove in every season",
+   "name": "Arashiyama",
+   "why": "Kyoto's iconic riverside district transforms dramatically between summer green and winter snow — the bamboo grove, Tenryu-ji garden, and mountain backdrop are stunning year-round.",
+   "category": "nature",
+   "subcategory": "park-garden",
+   "city": "Kyoto",
+   "area": "Arashiyama",
+   "region": "Kansai",
+   "location_text": "Arashiyama, Ukyo-ku, Kyoto",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "bucket-list",
+    "photo-spot",
+    "seasonal"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CwC7XY1RZmj/",
+   "saved_from": 1,
+   "media_url": "data/img/CwC7XY1RZmj.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.0136707,
+   "lng": 135.6793534,
+   "approx": false
+  },
+  {
+   "id": "otagi-nenbutsu-ji-temple",
+   "hook": "A thousand stone monks in hiding",
+   "name": "Otagi Nenbutsu-ji Temple",
+   "why": "A remote Kyoto temple packed with 1,200 moss-covered stone rakan statues, each with a unique expression — every visit reveals a new face you've never noticed before.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Kyoto",
+   "area": "Sagano / Arashiyama",
+   "region": "Kansai",
+   "location_text": "Otagi Nenbutsu-ji, 2-5 Saganisonin Monzen-cho, Ukyo-ku, Kyoto",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/Cwh07DDNoiY/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.02118,
+   "lng": 135.77294,
+   "approx": true
+  },
+  {
+   "id": "goshuin-temple-stamp-collecting",
+   "hook": "Collect a deity's inked blessing",
+   "name": "Goshuin (temple stamp collecting)",
+   "why": "Getting a handwritten Goshuin stamp at temples and shrines is a meaningful ritual and the most unique souvenir from Japan — costs 300–500 yen per stamp and requires a special Goshuincho book.",
+   "category": "plan",
+   "subcategory": "what-to-skip",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": "300–500 yen per stamp",
+   "date_info": null,
+   "themes": [
+    "budget",
+    "hidden-gem"
+   ],
+   "source_reel": "https://www.instagram.com/reel/Cx-fxK1vK7b/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   }
+  },
+  {
+   "id": "kitano-tenmangu-shrine-flea-market-tenjin-san",
+   "hook": "Kyoto's oldest antique flea market",
+   "name": "Kitano Tenmangu Shrine Flea Market (Tenjin-san)",
+   "why": "A beloved monthly antique and food market held on the 25th of every month at Kitano Tenmangu Shrine — an unmissable slice of local Kyoto life with vendors selling ceramics, vintage kimono, and street food.",
+   "category": "shop",
+   "subcategory": "market",
+   "city": "Kyoto",
+   "area": "Kamigyo-ku",
+   "region": "Kansai",
+   "location_text": "Kitano Tenmangu Shrine, Bakuro-cho, Kamigyo-ku, Kyoto",
+   "website": null,
+   "price_text": null,
+   "date_info": "25th of every month, 08:00–16:00",
+   "themes": [
+    "hidden-gem",
+    "free",
+    "food"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CxK_uuNPi3v/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.00358,
+   "lng": 135.76334,
+   "approx": true
+  },
+  {
+   "id": "toji-temple-flea-market-kobo-san",
+   "hook": "Sprawling temple market at dawn",
+   "name": "Toji Temple Flea Market (Kobo-san)",
+   "why": "Kyoto's largest flea market wraps around the iconic five-story pagoda of Toji Temple on the 21st of each month (plus first Sundays) — arrive early for the best antique finds and street food.",
+   "category": "shop",
+   "subcategory": "market",
+   "city": "Kyoto",
+   "area": "Minami-ku",
+   "region": "Kansai",
+   "location_text": "Toji Temple, 1 Toji-cho, Minami-ku, Kyoto",
+   "website": null,
+   "price_text": null,
+   "date_info": "21st of every month and first Sunday of each month, 08:00–16:00",
+   "themes": [
+    "hidden-gem",
+    "food",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CxK_uuNPi3v/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": false,
+    "scope": "point"
+   },
+   "lat": 35.01958,
+   "lng": 135.77134,
+   "approx": true
+  },
+  {
+   "id": "rokujuan",
+   "hook": "Floral mochi in a century-old house",
+   "name": "Rokujuan (麓寿庵)",
+   "why": "A Kyoto cafe inside a 100-year-old townhouse serving exquisite Warabi Mochi decorated with real flowers — a beautiful, rare sweet worth seeking out.",
+   "category": "eat",
+   "subcategory": "cafe",
+   "city": "Kyoto",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "麓寿庵 Rokujuan, Kyoto, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "food",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/Cy5pP0vPUDd/",
+   "saved_from": 1,
+   "media_url": "data/img/Cy5pP0vPUDd.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.00518,
+   "lng": 135.76654,
+   "approx": true
+  },
+  {
+   "id": "japan-onsen-etiquette-rules",
+   "hook": "Nail the onsen etiquette perfectly",
+   "name": "Japan Onsen Etiquette Rules",
+   "why": "Five essential onsen rules — no phones, tie hair up, keep your towel dry, check tattoo policies, and rinse after the sauna — so you never accidentally offend.",
+   "category": "plan",
+   "subcategory": "what-to-skip",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [],
+   "source_reel": "https://www.instagram.com/reel/CzJIPL3PypS/",
+   "saved_from": 1,
+   "media_url": "data/img/CzJIPL3PypS.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   }
+  },
+  {
+   "id": "unagi-no-naruse",
+   "hook": "An $18 unagi set lunch in Tokyo",
+   "name": "Unagi no Naruse",
+   "why": "A beloved eel-rice chain packed with Tokyo office workers at lunch — the full unagi set costs under $18, making it one of the city's great value splurges.",
+   "category": "eat",
+   "subcategory": "restaurant",
+   "city": "Tokyo",
+   "area": "Shiodome",
+   "region": null,
+   "location_text": "1-8-2 Higashi-Shinbashi, Minato-ku, Tokyo, Caretta Shiodome B1",
+   "website": null,
+   "price_text": "Under $18 for a full unagi set",
+   "date_info": null,
+   "themes": [
+    "food",
+    "budget"
+   ],
+   "source_reel": "https://www.instagram.com/reel/CzoFvnLPqcE/",
+   "saved_from": 1,
+   "media_url": "data/img/CzoFvnLPqcE.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 35.68646,
+   "lng": 139.75269,
+   "approx": true
+  },
+  {
+   "id": "kintarou-onsen-hotel-kaiseki-dinner",
+   "hook": "A $70 Kaiseki that outshines $250 ones",
+   "name": "Kintarou Onsen Hotel Kaiseki Dinner",
+   "why": "A stunning multi-course seasonal Kaiseki dinner at a Toyama onsen hotel — just $70 yet ranked more memorable than far pricier meals. Peak Japanese seasonal cooking at a real-deal price.",
+   "category": "eat",
+   "subcategory": "fine-dining",
+   "city": "Toyama",
+   "area": null,
+   "region": "Hokuriku",
+   "location_text": "Kintarou Onsen Hotel, Toyama, Japan",
+   "website": null,
+   "price_text": "$70 for the Kaiseki dinner",
+   "date_info": null,
+   "themes": [
+    "food",
+    "hidden-gem",
+    "luxury"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DCHB24Ov0i3/",
+   "saved_from": 1,
+   "media_url": "data/img/DCHB24Ov0i3.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.8394591,
+   "lng": 137.4367231,
+   "approx": false
+  },
+  {
+   "id": "matsumoto-castle-winter-light-up",
+   "hook": "A castle glowing in winter darkness",
+   "name": "Matsumoto Castle Winter Light-Up",
+   "why": "Japan's iconic black castle is illuminated nightly through winter, reflecting on its moat in an otherworldly glow — a free annual spectacle in Matsumoto city.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Matsumoto",
+   "area": null,
+   "region": "Nagano",
+   "location_text": "Matsumoto Castle, Matsumoto, Nagano, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "December 14 to February 16, 18:00–22:00 nightly (annual event, confirm each year)",
+   "themes": [
+    "bucket-list",
+    "photo-spot",
+    "seasonal"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DDuBJYcP4bG/",
+   "saved_from": 1,
+   "media_url": "data/img/DDuBJYcP4bG.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.2386353,
+   "lng": 137.9688709,
+   "approx": false
+  },
+  {
+   "id": "shorinzan-daruma-ji-temple",
+   "hook": "The temple where wishes get eyes",
+   "name": "Shorinzan Daruma-ji Temple",
+   "why": "Japan's most famous Daruma doll temple, where visitors paint one eye on a wish-doll and complete it when the goal is achieved — a living ritual of perseverance and intention.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Takasaki",
+   "area": null,
+   "region": "Kanto",
+   "location_text": "Shorinzan Daruma-ji Temple, Takasaki, Gunma, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DFpmFyPvw71/",
+   "saved_from": 1,
+   "media_url": "data/img/DFpmFyPvw71.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.3269,
+   "lng": 138.99528,
+   "approx": true
+  },
+  {
+   "id": "twisted-brew",
+   "hook": "Coffee shop with lucky charm vibes",
+   "name": "Twisted Brew",
+   "why": "A characterful local coffee shop near Daruma-ji Temple that pairs perfectly with a visit to the landmark — quirky name, local atmosphere, great stop on the Takasaki Daruma trail.",
+   "category": "drink",
+   "subcategory": "coffee",
+   "city": "Takasaki",
+   "area": null,
+   "region": "Kanto",
+   "location_text": "Twisted Brew, Takasaki, Gunma, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DFpmFyPvw71/",
+   "saved_from": 1,
+   "media_url": "data/img/DFpmFyPvw71.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.3301,
+   "lng": 139.00168,
+   "approx": true
+  },
+  {
+   "id": "sunny-kitchen",
+   "hook": "Lunch spot beside a wish temple",
+   "name": "Sunny Kitchen",
+   "why": "A friendly local restaurant close to Shorinzan Daruma-ji Temple — ideal for a meal before or after making your Daruma wish in Takasaki.",
+   "category": "eat",
+   "subcategory": "restaurant",
+   "city": "Takasaki",
+   "area": null,
+   "region": "Kanto",
+   "location_text": "Sunny Kitchen, Takasaki, Gunma, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DFpmFyPvw71/",
+   "saved_from": 1,
+   "media_url": "data/img/DFpmFyPvw71.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": 1,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.3253,
+   "lng": 139.01128,
+   "approx": true
+  },
+  {
+   "id": "jizo-onsen",
+   "hook": "Hot springs that heat a Nagano winter",
+   "name": "Jizo Onsen",
+   "why": "A local onsen in Ueda, Nagano favored by residents braving the harsh mountain winters — authentic, no-frills, and exactly the kind of warming soak that makes cold-weather Japan trips unforgettable.",
+   "category": "see-do",
+   "subcategory": "experience",
+   "city": "Ueda",
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Jizo Onsen, Ueda, Nagano, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Best appreciated in winter months",
+   "themes": [
+    "hidden-gem",
+    "nature",
+    "budget"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DGfqCZYP_KA/",
+   "saved_from": 1,
+   "media_url": "data/img/DGfqCZYP_KA.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": 1,
+    "book": 1,
+    "date": false,
+    "hours": false,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.40372,
+   "lng": 138.26025,
+   "approx": true
+  },
+  {
+   "id": "nagano-prefecture-winter-guide",
+   "hook": "Nagano is more than just ski slopes",
+   "name": "Nagano Prefecture Winter Guide",
+   "why": "Beyond world-class skiing, Nagano offers preserved old towns (Matsumoto, Obuse, Ueda), cozy onsen towns, and Japan's richest miso ramen — best experienced in the full winter season.",
+   "category": "plan",
+   "subcategory": "when-to-go",
+   "city": null,
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Nagano Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Winter season (December–March)",
+   "themes": [
+    "seasonal",
+    "nature",
+    "food"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DHI1AZCPpfw/",
+   "saved_from": 1,
+   "media_url": "data/img/DHI1AZCPpfw.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   },
+   "lat": 36.1143945,
+   "lng": 138.0319015,
+   "approx": false
+  },
+  {
+   "id": "matsumoto",
+   "hook": "Old streets frozen in feudal time",
+   "name": "Matsumoto",
+   "why": "One of Nagano's most beautifully preserved historic cities, home to Japan's oldest original castle and charming old-town streets that look like a winter dream under snow.",
+   "category": "see-do",
+   "subcategory": "landmark",
+   "city": "Matsumoto",
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Matsumoto, Nagano, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Stunning in winter",
+   "themes": [
+    "bucket-list",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DHI1AZCPpfw/",
+   "saved_from": 1,
+   "media_url": "data/img/DHI1AZCPpfw.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.2382047,
+   "lng": 137.9687141,
+   "approx": false
+  },
+  {
+   "id": "nagano-miso-ramen",
+   "hook": "Miso ramen that redefines the bowl",
+   "name": "Nagano Miso Ramen",
+   "why": "Nagano's regional miso ramen is said to be the richest and most flavorful in Japan — a must-eat after a cold day on the slopes or wandering winter streets.",
+   "category": "eat",
+   "subcategory": "street-food",
+   "city": null,
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Nagano Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "food",
+    "seasonal"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DHI1AZCPpfw/",
+   "saved_from": 1,
+   "media_url": "data/img/DHI1AZCPpfw.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 36.1143945,
+   "lng": 138.0319015,
+   "approx": false
+  },
+  {
+   "id": "kyoto-hidden-shops",
+   "hook": "Kyoto's hidden-sign shopping labyrinth",
+   "name": "Kyoto Hidden Shops",
+   "why": "Kyoto's backstreets are lined with tiny unnamed shops — handwritten kanji boards, quiet doorways hiding handmade ceramics, wagashi, and curiosities you won't find anywhere else in Japan.",
+   "category": "itinerary",
+   "subcategory": "neighborhood-walk",
+   "city": "Kyoto",
+   "area": null,
+   "region": "Kansai",
+   "location_text": "Kyoto, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "bucket-list"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DHa6NZWPtdd/",
+   "saved_from": 1,
+   "media_url": "data/img/DHa6NZWPtdd.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": 1,
+    "hours": false,
+    "price": false,
+    "scope": "multi"
+   },
+   "lat": 35.0115754,
+   "lng": 135.7681441,
+   "approx": false
+  },
+  {
+   "id": "nagano-sakura-season",
+   "hook": "Sakura that blooms for weeks not days",
+   "name": "Nagano Sakura Season",
+   "why": "Nagano's mountainous terrain staggers cherry blossom blooms across weeks — some valleys peaking while mountains are still bare, letting you chase sakura longer than almost anywhere else in Japan.",
+   "category": "plan",
+   "subcategory": "when-to-go",
+   "city": null,
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Nagano Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": "Late March through early May depending on elevation",
+   "themes": [
+    "seasonal",
+    "nature",
+    "photo-spot"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DIv1EEaPYGJ/",
+   "saved_from": 1,
+   "media_url": "data/img/DIv1EEaPYGJ.jpg",
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   },
+   "lat": 36.1143945,
+   "lng": 138.0319015,
+   "approx": false
+  },
+  {
+   "id": "japan-cherry-blossom-season-what-to-know",
+   "hook": "Skip cherry blossom season crowds",
+   "name": "Japan Cherry Blossom Season: What to Know",
+   "why": "Cherry blossom season is Japan's most unpredictable, crowded, and expensive time to visit. Arrive too early and the trees are bare; unless sakura is your sole goal, consider shoulder seasons instead.",
+   "category": "plan",
+   "subcategory": "when-to-go",
+   "city": null,
+   "area": null,
+   "region": null,
+   "location_text": null,
+   "website": null,
+   "price_text": null,
+   "date_info": "Cherry blossom season typically late March to mid-April",
+   "themes": [
+    "seasonal",
+    "budget"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DMfTJ-ZPEvj/",
+   "saved_from": 1,
+   "media_url": null,
+   "profile": {
+    "loc": false,
+    "addr": false,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": false,
+    "price": false,
+    "scope": "none"
+   }
+  },
+  {
+   "id": "tokoroten-seaweed-jelly-noodles-in-joetsu",
+   "hook": "Jelly noodles made from seaweed",
+   "name": "Tokoroten (Seaweed Jelly Noodles) in Joetsu",
+   "why": "Tokoroten is a traditional Japanese jelly noodle made from seaweed, served sweet or sour with multiple dipping sauces and mustard. A uniquely textured local specialty best discovered in Joetsu.",
+   "category": "eat",
+   "subcategory": "street-food",
+   "city": "Joetsu",
+   "area": null,
+   "region": "Chubu",
+   "location_text": "Joetsu, Niigata Prefecture, Japan",
+   "website": null,
+   "price_text": null,
+   "date_info": null,
+   "themes": [
+    "hidden-gem",
+    "food"
+   ],
+   "source_reel": "https://www.instagram.com/reel/DOdYal6ksMv/",
+   "saved_from": 1,
+   "media_url": "data/img/DOdYal6ksMv.jpg",
+   "profile": {
+    "loc": 1,
+    "addr": 1,
+    "web": false,
+    "book": false,
+    "date": false,
+    "hours": 1,
+    "price": 1,
+    "scope": "point"
+   },
+   "lat": 37.1478816,
+   "lng": 138.2359501,
+   "approx": false
+  }
+ ],
+ "itinerary": {
+  "id": "emptyjapan-kyoto",
+  "creator": "empty.japan",
+  "destination": "japan",
+  "city": "Kyoto",
+  "days_count": 3,
+  "title": "Kyoto Off the Map",
+  "hook": "The Kyoto nobody else finds.",
+  "summary": "Three days roaming the forests, hillside temples, and hidden markets that tourists miss entirely. No crowds, no queues — just the real Kyoto.",
+  "best_for": "Slow travellers who want nature, spirituality, and genuine discovery over highlight-reel ticking.",
+  "days": [
+   {
+    "day": 1,
+    "hook": "Moss, cedar, stone monks",
+    "theme": "Hidden temples deep in Arashiyama's back lanes",
+    "area": "Sagano / Arashiyama",
+    "anchor_gem_id": "otagi-nenbutsu-ji-temple",
+    "stops": [
+     {
+      "slot": "morning",
+      "time": "09:00",
+      "gem_id": "arashiyama",
+      "title": "Arashiyama Bamboo Grove + Tenryu-ji",
+      "what": "Walk the bamboo grove, explore the Tenryu-ji garden.",
+      "why": "Stunning year-round; beautiful early before tour groups arrive.",
+      "transit_next": "15-min walk north through Sagano lanes",
+      "tip": "Get your Goshuincho stamped at Tenryu-ji (300–500 yen) — first of many on the trip."
+     },
+     {
+      "slot": "late-morning",
+      "time": "10:30",
+      "gem_id": "otagi-nenbutsu-ji-temple",
+      "title": "Otagi Nenbutsu-ji Temple",
+      "what": "Wander 1,200 moss-covered stone rakan statues.",
+      "why": "Each face is unique — you keep spotting new ones.",
+      "transit_next": "20-min walk or 10-min taxi back toward Arashiyama",
+      "tip": null
+     },
+     {
+      "slot": "lunch",
+      "time": "12:30",
+      "gem_id": "arashiyama",
+      "title": "Lunch in Arashiyama village",
+      "what": "Pick a riverside tofu or soba spot along Nakanoshima.",
+      "why": "Refuel before the afternoon; great views over the Oi River.",
+      "transit_next": "30-min bus or taxi to Nakagyo",
+      "tip": null
+     },
+     {
+      "slot": "evening",
+      "time": "19:00",
+      "gem_id": "arancino-kyoto",
+      "title": "Arancino Kyoto",
+      "what": "Multi-course Italian-Japanese fusion beside Takase River.",
+      "why": "Every course is as photogenic as it is delicious.",
+      "transit_next": null,
+      "tip": null
+     }
+    ],
+    "pace_note": "Compact western Kyoto loop; easy walking between stops."
+   },
+   {
+    "day": 2,
+    "hook": "Mountain shrine, cedar forest",
+    "theme": "Northern wilds — Kibune valley and Daisugi groves",
+    "area": "Kibune / Northern Kyoto",
+    "anchor_gem_id": "kifune-shrine",
+    "stops": [
+     {
+      "slot": "morning",
+      "time": "09:00",
+      "gem_id": "kifune-shrine",
+      "title": "Kifune Shrine",
+      "what": "Try water Omikuji fortune-telling at the river shrine.",
+      "why": "Atmospheric mountain setting; ritual you won't find elsewhere.",
+      "transit_next": "Short walk into the surrounding cedar valley",
+      "tip": "Take the Eizan Railway to Kibune-guchi (35 min from Demachiyanagi) — no need to rent a car."
+     },
+     {
+      "slot": "late-morning",
+      "time": "10:45",
+      "gem_id": "daisugi-northern-kyoto",
+      "title": "Daisugi Cedar Groves",
+      "what": "See dozens of straight trunks rising from a single base.",
+      "why": "An ancient forestry technique that looks like nothing else.",
+      "transit_next": "40-min bus south toward Ohara",
+      "tip": null
+     },
+     {
+      "slot": "afternoon",
+      "time": "13:30",
+      "gem_id": "kochidani-amida-ji-temple",
+      "title": "Kochidani Amida-ji Temple",
+      "what": "Explore a barely-visited mossy hillside temple in Ohara.",
+      "why": "Pure wabi-sabi — cedar, moss, total silence.",
+      "transit_next": "10-min walk to Ohara village centre for dinner",
+      "tip": null
+     },
+     {
+      "slot": "dinner",
+      "time": "18:00",
+      "gem_id": "kochidani-amida-ji-temple",
+      "title": "Ohara village dinner",
+      "what": "Simple set meal at a local shokudo in Ohara.",
+      "why": "Small village restaurants close early — eat here before heading back.",
+      "transit_next": null,
+      "tip": null
+     }
+    ],
+    "pace_note": "One valley per half-day; bus connections keep it relaxed."
+   },
+   {
+    "day": 3,
+    "hook": "Dragon pine, market finds",
+    "theme": "Western hills ancient pines + flea market morning",
+    "area": "Nishiyama / Kamigyo-ku",
+    "anchor_gem_id": "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+    "stops": [
+     {
+      "slot": "morning",
+      "time": "09:00",
+      "gem_id": "kitano-tenmangu-shrine-flea-market-tenjin-san",
+      "title": "Kitano Tenmangu Flea Market (Tenjin-san)",
+      "what": "Browse ceramics, vintage kimono, and street food stalls.",
+      "why": "Beloved monthly market — a real slice of local Kyoto life.",
+      "transit_next": "30-min taxi or bus west to Nishiyama",
+      "tip": "Market runs on the 25th of every month, 08:00–16:00 — plan your dates around it."
+     },
+     {
+      "slot": "late-morning",
+      "time": "11:30",
+      "gem_id": "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+      "title": "Dragon Pine at Yoshiminedera Temple",
+      "what": "See a 600-year-old pine trained into a sweeping dragon canopy.",
+      "why": "One of Japan's three great pines — jaw-dropping natural sculpture.",
+      "transit_next": "20-min drive back toward central Kyoto",
+      "tip": null
+     },
+     {
+      "slot": "afternoon",
+      "time": "14:00",
+      "gem_id": "rokujuan",
+      "title": "Rokujuan Cafe",
+      "what": "Warabi Mochi decorated with real flowers in a century-old townhouse.",
+      "why": "A rare, beautiful sweet worth the hunt.",
+      "transit_next": "10-min walk to Nakagyo dining area",
+      "tip": null
+     },
+     {
+      "slot": "evening",
+      "time": "19:00",
+      "gem_id": "arancino-kyoto",
+      "title": "Farewell dinner at Arancino Kyoto",
+      "what": "Return to the Takase River canal for a final long dinner.",
+      "why": "Perfect close — every course a photograph, every bite a memory.",
+      "transit_next": null,
+      "tip": null
+     }
+    ],
+    "pace_note": "Easy pace — market, one temple, one cafe, one dinner."
+   }
+  ],
+  "logistics": {
+   "getting_around": "Eizan Railway for the northern valley (Kibune); local buses and taxis for Ohara and Nishiyama. No car needed within the city.",
+   "where_to_stay": "Stay in Nakagyo or Higashiyama — central enough for all three day-trip directions.",
+   "best_time": "Year-round. Plum blossom (Feb) and cherry season (late Mar–Apr) add spectacular colour to most stops.",
+   "budget": "Budget ~3,000–5,000 yen/day for entry fees and transport. Pick up a Goshuincho book (500–1,000 yen) for temple stamps at 300–500 yen each.",
+   "creator_tip_gem_ids": [
+    "goshuin-temple-stamp-collecting",
+    "rural-japan-hidden-sakura-hunting"
+   ]
+  },
+  "gem_ids_used": [
+   "arashiyama",
+   "otagi-nenbutsu-ji-temple",
+   "arancino-kyoto",
+   "kifune-shrine",
+   "daisugi-northern-kyoto",
+   "kochidani-amida-ji-temple",
+   "kitano-tenmangu-shrine-flea-market-tenjin-san",
+   "yuryu-no-matsu-dragon-pine-yoshiminedera-temple",
+   "rokujuan"
+  ]
+ },
+ "price": 3,
+ "curatedLists": [
+  {
+   "id": "empty.japan-kyoto-hybrid-hidden-gem-see-do",
+   "headline": "Hidden-gem things to do in Kyoto",
+   "subhead": "7 spots locals rate, pulled from 7 reels",
+   "axis": "hidden-gem × see-do",
+   "place": "Kyoto",
+   "lens": "local",
+   "themes": [
+    "hidden-gem",
+    "photo-spot",
+    "nature",
+    "free"
+   ],
+   "areas": [
+    "Northern Kyoto",
+    "Ohara",
+    "Nishiyama",
+    "Kibune",
+    "Sagano / Arashiyama",
+    "Ukyo Ward",
+    "Atago Mountain"
+   ],
+   "price_band": "free",
+   "source_reel_count": 7,
+   "options": [
+    {
+     "name": "Daisugi — Northern Kyoto",
+     "hook": "A forest of trees from one trunk",
+     "why": "Ancient Japanese forestry technique creating groves where dozens of straight cedar trunks grow from a single base — most prevalent in Kyoto's northern districts and visually unlike anything else.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Northern Kyoto",
+     "city": "Kyoto",
+     "location_text": "Northern Kyoto, Kyoto Prefecture, Japan",
+     "website": null,
+     "price_text": "free",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "nature",
+      "photo-spot",
+      "free"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C0jV0R6vi8A/",
+     "media_url": "data/img/C0jV0R6vi8A.jpg",
+     "id": "daisugi-northern-kyoto"
+    },
+    {
+     "name": "Kochidani Amida-ji Temple",
+     "hook": "A mossy hidden temple in Ohara",
+     "why": "A barely-visited hillside temple in Ohara, north of Kyoto, draped in moss and surrounded by dense cedar forest — a quintessential wabi-sabi off-the-beaten-path discovery.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Ohara",
+     "city": "Kyoto",
+     "location_text": "Kochidani Amida-ji Temple, Ohara, Kyoto Prefecture, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "nature",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C0wQSRSvXVF/",
+     "media_url": "data/img/C0wQSRSvXVF.jpg",
+     "id": "kochidani-amida-ji-temple"
+    },
+    {
+     "name": "Yuryu-no-Matsu (Dragon Pine), Yoshiminedera Temple",
+     "hook": "A 600-year-old dragon pine still alive",
+     "why": "A legendary 600-year-old pine tree trained into a sweeping dragon-like canopy at a hillside temple in western Kyoto — one of Japan's three great pine trees.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Nishiyama",
+     "city": "Kyoto",
+     "location_text": "Yoshiminedera Temple, Oharano Oshio-cho, Nishikyo-ku, Kyoto, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot",
+      "bucket-list"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C_dEjjVveBM/",
+     "media_url": null,
+     "id": "yuryu-no-matsu-dragon-pine-yoshiminedera-temple"
+    },
+    {
+     "name": "Kifune Shrine",
+     "hook": "Draw your fortune at a river shrine",
+     "why": "A mystical Shinto shrine in the Kyoto mountains where you can try Omikuji fortune-telling — draw a slip from the water to reveal your fate.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Kibune",
+     "city": "Kyoto",
+     "location_text": "Kifune Shrine, Kibune, Sakyo Ward, Kyoto, Japan",
+     "website": "https://kifunejinja.jp",
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "bucket-list",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/CsEEDlkLP8B/",
+     "media_url": "data/img/CsEEDlkLP8B.jpg",
+     "id": "kifune-shrine"
+    },
+    {
+     "name": "Otagi Nenbutsu-ji Temple",
+     "hook": "A thousand stone monks in hiding",
+     "why": "A remote Kyoto temple packed with 1,200 moss-covered stone rakan statues, each with a unique expression — every visit reveals a new face you've never noticed before.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Sagano / Arashiyama",
+     "city": "Kyoto",
+     "location_text": "Otagi Nenbutsu-ji, 2-5 Saganisonin Monzen-cho, Ukyo-ku, Kyoto",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/Cwh07DDNoiY/",
+     "media_url": null,
+     "id": "otagi-nenbutsu-ji-temple"
+    },
+    {
+     "name": "Kamo Jinja Shrine — Ukyo Ward",
+     "hook": "Shinto shrine hidden in Kyoto forest",
+     "why": "A quiet Shinto shrine in Kyoto's Ukyo Ward surrounded by ancient trees, offering a meditative escape well off the standard tourist trail through the city's western forests.",
+     "category": "see-do",
+     "subcategory": "landmark",
+     "area": "Ukyo Ward",
+     "city": "Kyoto",
+     "location_text": "Kamo Jinja Shrine, Ukyo Ward, Kyoto, Japan",
+     "website": null,
+     "price_text": "free",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "free",
+      "nature"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C19bMkXPzMn/",
+     "media_url": "data/img/C19bMkXPzMn.jpg",
+     "id": "kamo-jinja-shrine-ukyo-ward"
+    },
+    {
+     "name": "Atago Shrine (Atago-san)",
+     "hook": "Kyoto's mountaintop shrine secret",
+     "why": "A mysterious, atmospheric shrine perched atop Atago Mountain in Kyoto — relatively undiscovered and perfect for fresh mountain air and spiritual calm.",
+     "category": "see-do",
+     "subcategory": "experience",
+     "area": "Atago Mountain",
+     "city": "Kyoto",
+     "location_text": "Atago Shrine, Atago-san, Ukyo-ku, Kyoto",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "nature",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/Cv9xXoUuOoG/",
+     "media_url": null,
+     "id": "atago-shrine-atago-san"
+    }
+   ]
+  },
+  {
+   "id": "empty.japan-kyoto-hybrid-photo-spot-nature",
+   "headline": "Most photogenic nature escapes in Kyoto",
+   "subhead": "5 top picks, pulled from 4 reels",
+   "axis": "photo-spot × nature",
+   "place": "Kyoto",
+   "lens": "tourist",
+   "themes": [
+    "photo-spot",
+    "hidden-gem",
+    "seasonal",
+    "bucket-list"
+   ],
+   "areas": [
+    "Arashiyama",
+    "Fushimi"
+   ],
+   "price_band": null,
+   "source_reel_count": 4,
+   "options": [
+    {
+     "name": "Mt. Atago",
+     "hook": "Sacred sunrise hike above Kyoto",
+     "why": "Kyoto's highest peak at 924 m, home to the revered Atago Shrine, with a pre-dawn hike rewarded by sweeping views over the city and Arashiyama forest below.",
+     "category": "nature",
+     "subcategory": "hike-trail",
+     "area": "Arashiyama",
+     "city": "Kyoto",
+     "location_text": "Mt. Atago, Kyoto Prefecture, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "nature",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C0wQSRSvXVF/",
+     "media_url": "data/img/C0wQSRSvXVF.jpg",
+     "id": "mt-atago"
+    },
+    {
+     "name": "Jonangu Shrine (Plum Blossoms)",
+     "hook": "Pink clouds before cherry blossom season",
+     "why": "Jonangu's garden erupts in pink-and-white plum blossoms in mid-February — weeks before cherry season — with far smaller crowds. Arrive early or just before closing.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Fushimi",
+     "city": "Kyoto",
+     "location_text": "Jonangu Shrine, Fushimi, Kyoto, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": "Mid-to-late February; arrive early or 30 minutes before closing to avoid crowds",
+     "themes": [
+      "hidden-gem",
+      "seasonal",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C3kZW8ZvhKz/",
+     "media_url": "data/img/C3kZW8ZvhKz.jpg",
+     "id": "jonangu-shrine-plum-blossoms"
+    },
+    {
+     "name": "Hogon-in (Plum Blossoms at Arashiyama)",
+     "hook": "Plum blossoms framing ancient bamboo statues",
+     "why": "The stone statues in front of Hogon-in temple frame beautifully against blooming Japanese plum trees in February, a lesser-visited alternative to Arashiyama's crowds.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Arashiyama",
+     "city": "Kyoto",
+     "location_text": "Hogon-in, Arashiyama, Kyoto, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": "Mid-to-late February for plum blossom peak",
+     "themes": [
+      "hidden-gem",
+      "seasonal",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C3kZW8ZvhKz/",
+     "media_url": "data/img/C3kZW8ZvhKz.jpg",
+     "id": "hogon-in-plum-blossoms-at-arashiyama"
+    },
+    {
+     "name": "Arashiyama",
+     "hook": "Bamboo grove in every season",
+     "why": "Kyoto's iconic riverside district transforms dramatically between summer green and winter snow — the bamboo grove, Tenryu-ji garden, and mountain backdrop are stunning year-round.",
+     "category": "nature",
+     "subcategory": "park-garden",
+     "area": "Arashiyama",
+     "city": "Kyoto",
+     "location_text": "Arashiyama, Ukyo-ku, Kyoto",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "bucket-list",
+      "photo-spot",
+      "seasonal"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/CwC7XY1RZmj/",
+     "media_url": "data/img/CwC7XY1RZmj.jpg",
+     "id": "arashiyama"
+    },
+    {
+     "name": "Yuryu Pine Tree",
+     "hook": "Japan's widest pine spans 50 metres",
+     "why": "One of Japan's greatest pine trees — only 2 metres tall yet spreading over 50 metres wide, a jaw-dropping natural sculpture recognised as a national treasure.",
+     "category": "nature",
+     "subcategory": "natural-landmark",
+     "area": null,
+     "city": "Kyoto",
+     "location_text": "Yuryu Pine Tree, Kyoto Prefecture, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "nature",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C0jV0R6vi8A/",
+     "media_url": "data/img/C0jV0R6vi8A.jpg",
+     "id": "yuryu-pine-tree"
+    }
+   ]
+  },
+  {
+   "id": "empty.japan-japan-hack",
+   "headline": "Japan on a budget",
+   "subhead": "8 spots locals rate, pulled from 8 reels",
+   "axis": "plan/hack",
+   "place": "Japan",
+   "lens": "local",
+   "themes": [
+    "nature",
+    "budget",
+    "hidden-gem",
+    "seasonal"
+   ],
+   "areas": [
+    "North Nagano Prefecture"
+   ],
+   "price_band": "paid",
+   "source_reel_count": 8,
+   "options": [
+    {
+     "name": "Rural Japan Hidden Sakura Hunting",
+     "hook": "Hidden sakura spots locals never share",
+     "why": "Rent a car and drive through small towns and villages to find breathtaking, crowd-free cherry blossom spots that never appear on Google Maps.",
+     "category": "plan",
+     "subcategory": "budget-hack",
+     "area": null,
+     "city": null,
+     "location_text": null,
+     "website": null,
+     "price_text": null,
+     "date_info": "Cherry blossom season, typically late March–April",
+     "themes": [
+      "hidden-gem",
+      "seasonal",
+      "nature",
+      "budget"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C6OaPUGPFlu/",
+     "media_url": "data/img/C6OaPUGPFlu.jpg",
+     "id": "rural-japan-hidden-sakura-hunting"
+    },
+    {
+     "name": "Onsen Water Stations (温泉スタンド)",
+     "hook": "Fill your bottle with natural hot spring",
+     "why": "Scattered across Japan, these roadside dispensers let you take home real geothermal onsen water. Search '温泉スタンド' on Google Maps to find the nearest one.",
+     "category": "plan",
+     "subcategory": "budget-hack",
+     "area": null,
+     "city": null,
+     "location_text": null,
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "budget",
+      "nature"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C6liw6PvoYe/",
+     "media_url": "data/img/C6liw6PvoYe.jpg",
+     "id": "onsen-water-stations"
+    },
+    {
+     "name": "Goshuin (temple stamp collecting)",
+     "hook": "Collect a deity's inked blessing",
+     "why": "Getting a handwritten Goshuin stamp at temples and shrines is a meaningful ritual and the most unique souvenir from Japan — costs 300–500 yen per stamp and requires a special Goshuincho book.",
+     "category": "plan",
+     "subcategory": "what-to-skip",
+     "area": null,
+     "city": null,
+     "location_text": null,
+     "website": null,
+     "price_text": "300–500 yen per stamp",
+     "date_info": null,
+     "themes": [
+      "budget",
+      "hidden-gem"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/Cx-fxK1vK7b/",
+     "media_url": null,
+     "id": "goshuin-temple-stamp-collecting"
+    },
+    {
+     "name": "Japan Onsen Etiquette Rules",
+     "hook": "Nail the onsen etiquette perfectly",
+     "why": "Five essential onsen rules — no phones, tie hair up, keep your towel dry, check tattoo policies, and rinse after the sauna — so you never accidentally offend.",
+     "category": "plan",
+     "subcategory": "what-to-skip",
+     "area": null,
+     "city": null,
+     "location_text": null,
+     "website": null,
+     "price_text": null,
+     "date_info": null,
+     "themes": [],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/CzJIPL3PypS/",
+     "media_url": "data/img/CzJIPL3PypS.jpg",
+     "id": "japan-onsen-etiquette-rules"
+    },
+    {
+     "name": "Nagano Prefecture Winter Guide",
+     "hook": "Nagano is more than just ski slopes",
+     "why": "Beyond world-class skiing, Nagano offers preserved old towns (Matsumoto, Obuse, Ueda), cozy onsen towns, and Japan's richest miso ramen — best experienced in the full winter season.",
+     "category": "plan",
+     "subcategory": "when-to-go",
+     "area": null,
+     "city": null,
+     "location_text": "Nagano Prefecture, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": "Winter season (December–March)",
+     "themes": [
+      "seasonal",
+      "nature",
+      "food"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DHI1AZCPpfw/",
+     "media_url": "data/img/DHI1AZCPpfw.jpg",
+     "id": "nagano-prefecture-winter-guide"
+    },
+    {
+     "name": "Nagano Sakura Season",
+     "hook": "Sakura that blooms for weeks not days",
+     "why": "Nagano's mountainous terrain staggers cherry blossom blooms across weeks — some valleys peaking while mountains are still bare, letting you chase sakura longer than almost anywhere else in Japan.",
+     "category": "plan",
+     "subcategory": "when-to-go",
+     "area": null,
+     "city": null,
+     "location_text": "Nagano Prefecture, Japan",
+     "website": null,
+     "price_text": null,
+     "date_info": "Late March through early May depending on elevation",
+     "themes": [
+      "seasonal",
+      "nature",
+      "photo-spot"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DIv1EEaPYGJ/",
+     "media_url": "data/img/DIv1EEaPYGJ.jpg",
+     "id": "nagano-sakura-season"
+    },
+    {
+     "name": "Rural Life in North Nagano Prefecture",
+     "hook": "Rural Nagano is Japan's best-kept secret",
+     "why": "Northern Nagano offers world-class ski resorts, Sea of Japan beaches, weekly hot springs, Lord-of-the-Rings hiking trails, and farm-fresh food — all at 1.5–2x less cost than Kyoto.",
+     "category": "plan",
+     "subcategory": "when-to-go",
+     "area": "North Nagano Prefecture",
+     "city": null,
+     "location_text": "Nagano Prefecture, Japan",
+     "website": null,
+     "price_text": "Rent from ~$570/month; food costs 1.5–2x cheaper than Kyoto",
+     "date_info": null,
+     "themes": [
+      "hidden-gem",
+      "nature",
+      "budget"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/C8ExyvgvuP-/",
+     "media_url": "data/img/C8ExyvgvuP-.jpg",
+     "id": "rural-life-in-north-nagano-prefecture"
+    },
+    {
+     "name": "Japan Cherry Blossom Season: What to Know",
+     "hook": "Skip cherry blossom season crowds",
+     "why": "Cherry blossom season is Japan's most unpredictable, crowded, and expensive time to visit. Arrive too early and the trees are bare; unless sakura is your sole goal, consider shoulder seasons instead.",
+     "category": "plan",
+     "subcategory": "when-to-go",
+     "area": null,
+     "city": null,
+     "location_text": null,
+     "website": null,
+     "price_text": null,
+     "date_info": "Cherry blossom season typically late March to mid-April",
+     "themes": [
+      "seasonal",
+      "budget"
+     ],
+     "saved_from": 1,
+     "source_reel": "https://www.instagram.com/reel/DMfTJ-ZPEvj/",
+     "media_url": null,
+     "id": "japan-cherry-blossom-season-what-to-know"
+    }
+   ]
+  }
+ ],
+ "guideName": "Japan, Off the Map",
+ "cover": "data/img/C0jV0R6vi8A.jpg"
+}
