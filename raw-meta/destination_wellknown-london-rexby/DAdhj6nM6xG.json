@@ -1,0 +1,19 @@
+{
+  "reel_id": "DAdhj6nM6xG",
+  "creator": "destination_wellknown",
+  "url": "https://www.instagram.com/reel/DAdhj6nM6xG/",
+  "caption": "this guy probably eats pineapple on his pizza 😡\n\nNo, to be serious: \n\nI’ve just returned from a week in Mallorca, where I stayed in Cala d’or and Alcudia - and I think it was pretty great 🙌\n\nTravelling to Mallorca in the off-season has been two things: \n\nFirst, it’s pretty amazing to experience Mallorca without THAT many other tourists. There are still a lot of tourists (and I’m one of them), but it’s on a different level compared to the summer months. \n\nThe weather has changed a lot from day to day, and one day, we had a pretty hefty thunderstorm for 2 hours. And then the sun broke through, it was 25 degrees, and we went to the beach 😅\n\nHave you been to Mallorca or Sardinia? What did you think about (any of) the islands?\n\n#mallorca #sardinia #europetravel",
+  "metadata": {
+    "hashtags": [
+      "mallorca",
+      "sardinia",
+      "europetravel"
+    ],
+    "mentions": [],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/destination_wellknown/DAdhj6nM6xG/DAdhj6nM6xG.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/destination_wellknown/DAdhj6nM6xG/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T07:13:21.615Z"
+}

@@ -1,0 +1,24 @@
+{
+  "reel_id": "C9uiUlZoaRP",
+  "creator": "destination_wellknown",
+  "url": "https://www.instagram.com/reel/C9uiUlZoaRP/",
+  "caption": "Don’t skip this island in Denmark 🇩🇰\n\nBornholm is the best travel destination in Denmark, but they sure do eat some weird stuff over here 🤠\n\nThe fishing industry here on Bornholm used to be enormous, but unfortunately, those days are over due to several reasons, but we can still enjoy the local way of eating fish 🥰\n\n📍Allinge Røgeri, Bornholm 🇩🇰\n\nI very much enjoyed the salty herring. It’s VERY salty indeed but probably my favourite of all the different kinds. Even if you don’t really appreciate herring I think you’d like this - it’s a bit like a deep fried herring with plenty of salt? 😂\n\nWhat is the weirdest thing you’ve ever eaten on your travels?\n\n#bornholm #danishfood #denmarktravel #denmarktrip",
+  "metadata": {
+    "hashtags": [
+      "bornholm",
+      "danishfood",
+      "denmarktravel",
+      "denmarktrip"
+    ],
+    "mentions": [],
+    "geo_locations": [
+      "Allinge Røgeri, Bornholm 🇩🇰"
+    ],
+    "pinned_places": [
+      "Allinge Røgeri, Bornholm 🇩🇰"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/destination_wellknown/C9uiUlZoaRP/C9uiUlZoaRP.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/destination_wellknown/C9uiUlZoaRP/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T07:13:17.432Z"
+}

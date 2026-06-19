@@ -1,0 +1,21 @@
+{
+  "reel_id": "DTeMJcok143",
+  "creator": "kristinacors",
+  "url": "https://www.instagram.com/reel/DTeMJcok143/",
+  "caption": "Don’t miss out on the hottest new restaurant in Sydney! Watch until the end of the video for the name! #travelbucketlist #sydneyaustralia #bestrestaurantsinsydney #visitsydney #sydneyaustraliaitinerary",
+  "metadata": {
+    "hashtags": [
+      "travelbucketlist",
+      "sydneyaustralia",
+      "bestrestaurantsinsydney",
+      "visitsydney",
+      "sydneyaustraliaitinerary"
+    ],
+    "mentions": [],
+    "geo_locations": [],
+    "pinned_places": []
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/kristinacors/DTeMJcok143/DTeMJcok143.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/kristinacors/DTeMJcok143/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T07:13:34.237Z"
+}

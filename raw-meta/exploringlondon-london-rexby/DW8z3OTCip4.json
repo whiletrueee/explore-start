@@ -1,0 +1,21 @@
+{
+  "reel_id": "DW8z3OTCip4",
+  "creator": "exploringlondon",
+  "url": "https://www.instagram.com/reel/DW8z3OTCip4/",
+  "caption": "The Tulip Festival is back at Arundel Castle @arundelcastleuk and now is the best time to visit! It’s massive, with endless gardens and grounds and right now, everything is blooming. It’s one of England’s largest inhabited and complete castles and it’s a bucket list destination in England, under 2 hours from London by train!\n\n📍 Arundel Castle, West Sussex, BN18 9AB\n🚝 Take the Southern Railway from London Victoria to Arundel Station and walk 10-15 mins to the castle 🏰",
+  "metadata": {
+    "hashtags": [],
+    "mentions": [
+      "arundelcastleuk"
+    ],
+    "geo_locations": [
+      "Arundel Castle, West Sussex, BN18 9AB"
+    ],
+    "pinned_places": [
+      "Arundel Castle, West Sussex, BN18 9AB"
+    ]
+  },
+  "transcription": null,
+  "transcription_error": "Command failed: ffmpeg -y -i \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/exploringlondon/DW8z3OTCip4/DW8z3OTCip4.mp4\" -vn -ac 1 -ar 16000 -b:a 64k \"/Users/harshitsingh/Headout/reel-rd/thu-hackin/reel-batch/downloads/exploringlondon/DW8z3OTCip4/audio.mp3\" 2>/dev/null",
+  "generated_at": "2026-06-19T07:05:39.407Z"
+}
