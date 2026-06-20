@@ -114,7 +114,19 @@ export default function GuidePage() {
   const dest = c.destination || 'this trip';
   const placesAll = items.filter((i) => GRID.includes(i.category));
   const lists = items.filter((i) => i.category === 'list');
-  const tips = items.filter((i) => i.category === 'plan');
+  const tipsRaw = items.filter((i) => i.category === 'plan');
+  // Dedupe tips by name for handles known to have duplicate plan entries.
+  const tips = c.handle === 'ladyandhersweetescapes-dubai'
+    ? (() => {
+        const seen = new Set<string>();
+        return tipsRaw.filter((t) => {
+          const k = (t.name || '').trim().toLowerCase();
+          if (!k || seen.has(k)) return false;
+          seen.add(k);
+          return true;
+        });
+      })()
+    : tipsRaw;
   const itinItems = items.filter((i) => i.category === 'itinerary');
   const curatedLists = (pack.curatedLists || []).filter(
     (l) => !activeGuide || l.guide_id === activeGuide.id,
