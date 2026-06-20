@@ -11,7 +11,11 @@ const DEST_COUNTRY: Record<string, string> = {
   Singapore: 'Singapore',
   London: 'UK',
   Florida: 'USA',
+  'Boca Grande': 'USA',
   Japan: 'Japan',
+  Kyoto: 'Japan',
+  Tokyo: 'Japan',
+  Osaka: 'Japan',
 };
 
 export default function Home() {
