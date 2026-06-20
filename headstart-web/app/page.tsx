@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import type { Discovery, DiscoveryCreator } from '@/lib/types';
 import CreatorCard from '@/components/CreatorCard';
 import { fetchDiscovery } from '@/lib/api';
+import { creatorRank } from '@/lib/guide-name';
 
 const DEST_COUNTRY: Record<string, string> = {
   Dubai: 'UAE',
@@ -30,7 +31,7 @@ export default function Home() {
 
   if (!disc) return <div className="hm"><div className="mp-empty">Loading…</div></div>;
 
-  const creators = disc.creators;
+  const creators = [...disc.creators].sort((a, b) => creatorRank(a.handle) - creatorRank(b.handle));
   const countryOf = (c: DiscoveryCreator) => DEST_COUNTRY[c.city] || c.city;
 
   const countries: Record<string, { count: number; cities: Record<string, number> }> = {};

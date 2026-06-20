@@ -13,6 +13,7 @@ import ItineraryDetail, { type Itin } from '@/components/ItineraryDetail';
 import ListDetail from '@/components/ListDetail';
 import TipRow from '@/components/TipRow';
 import { fetchPack } from '@/lib/api';
+import { creativeGuideName } from '@/lib/guide-name';
 
 const PER_GROUP = 6;
 const PRIMARIES: [string, string][] = [
@@ -124,7 +125,7 @@ export default function GuidePage() {
     pack.itinerary && (!activeGuide || pack.itinerary.guide_id === activeGuide.id)
       ? pack.itinerary
       : null;
-  const guideHeader = activeGuide?.name ?? pack.guideName ?? 'Guide';
+  const guideHeader = creativeGuideName(activeGuide?.name ?? pack.guideName, c.handle);
 
   const browseGems = placesAll;
   const catsPresent = GRID.filter((k) => browseGems.some((i) => i.category === k));
