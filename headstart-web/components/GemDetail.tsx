@@ -29,8 +29,8 @@ export default function GemDetail({ item, creator, pack, onBack, isSaved, onTogg
   const c = catV2(item);
   const mapped = isMappedV2(item);
   const themes = (item.themes || []).slice(0, 4);
-  const bookable = (item.profile && item.profile.book) || ['eat', 'see-do', 'view'].includes(item.category);
   const headoutUrl = item.headout_url ?? null;
+  const bookable = !!headoutUrl;
   const why = item.why || '';
   const long = why.length > 220;
   const heroSrc = imageSrc(item);
