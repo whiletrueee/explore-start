@@ -71,7 +71,7 @@ type RunEvent = {
 
 type RunStatus = 'queued' | 'running' | 'done' | 'failed' | 'cancelled';
 
-const SUGGESTIONS = ['flipjapanguide', 'empty.japan', 'lyrarooo'];
+const SUGGESTIONS = ['flipjapanguide', 'lyrarooo'];
 
 function initStates(): Record<PhaseKey, PhaseState> {
   const out = {} as Record<PhaseKey, PhaseState>;
@@ -284,8 +284,6 @@ export default function GeneratePage() {
 
         <div className="gp-meta">
           <div className="gp-meta-row"><span>⏱</span> takes 3–15 min depending on reel count</div>
-          <div className="gp-meta-row"><span>💰</span> ~$0.20–1 in API costs per creator</div>
-          <div className="gp-meta-row"><span>🤖</span> Claude + Whisper + Google Places + Headout + yt-dlp</div>
         </div>
       </div>
     );
