@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import type { Gem, Pack } from '@/lib/types';
-import { mediaSrc } from '@/lib/catalog';
+import { imageSrc } from '@/lib/catalog';
 import { useNav } from '@/lib/nav';
 import MapView from './MapView';
 import { tripType } from './ItineraryCard';
@@ -114,7 +114,7 @@ export default function ItineraryDetail({ itinerary, itemsById, pack, onBack }: 
                 <div className="itd-stops">
                   {(d.stops || []).map((s, i) => {
                     const g = s.gem_id ? itemsById[s.gem_id] : undefined;
-                    const img = mediaSrc(g?.media_url);
+                    const img = g ? imageSrc(g, 'thumb') : null;
                     return (
                       <div key={i} className="itd-stop">
                         <div className="itd-rail">

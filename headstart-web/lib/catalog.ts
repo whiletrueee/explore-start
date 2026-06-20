@@ -26,9 +26,52 @@ export const mapsLink = (q?: string | null) =>
 // absolute so they resolve on nested routes (e.g. /c/[handle]/[city]).
 export const mediaSrc = (u?: string | null): string | null => {
   if (!u) return null;
-  if (/^https?:\/\//.test(u) || u.startsWith('/')) return u;
+  if (/^https?:\/\//.test(u)) return u;
+  // /api/... is served by headstart-admin — prefix with its origin so it resolves cross-domain.
+  if (u.startsWith('/api/')) return absoluteAdmin(u);
+  if (u.startsWith('/')) return u;
   return '/' + u.replace(/^\.?\//, '');
 };
+
+// headstart-admin origin (strip trailing /api from NEXT_PUBLIC_API_BASE).
+// Used to absolute-ize root-relative proxy URLs like /api/places/photo?ref=...
+const ADMIN_ORIGIN = (() => {
+  const base = process.env.NEXT_PUBLIC_API_BASE || '';
+  if (!base) return '';
+  return base.replace(/\/api\/?$/, '');
+})();
+
+const absoluteAdmin = (u: string): string => {
+  if (/^https?:\/\//.test(u)) return u;
+  if (u.startsWith('/') && ADMIN_ORIGIN) return ADMIN_ORIGIN + u;
+  return u;
+};
+
+export interface GemImage {
+  url: string;
+  thumb?: string;
+  w?: number;
+  h?: number;
+  attribution?: string[];
+}
+
+// Pick the best image for a gem-like item. Prefers Google Places photos
+// enriched into master-json (item.images[]), falls back to legacy media_url.
+export const imageSrc = (
+  item: { images?: GemImage[]; media_url?: string | null },
+  variant: 'full' | 'thumb' = 'full',
+): string | null => {
+  const first = item.images?.[0];
+  if (first) {
+    const u = variant === 'thumb' ? first.thumb || first.url : first.url;
+    return absoluteAdmin(u);
+  }
+  return mediaSrc(item.media_url);
+};
+
+// HTML attribution snippet(s) Google requires us to show alongside Places photos.
+export const imageAttribution = (item: { images?: GemImage[] }): string[] =>
+  item.images?.[0]?.attribution || [];
 
 // pin metadata for the map (color + glyph)
 export const meta = (g: Gem) => {

@@ -140,9 +140,10 @@ export default function GuidePage() {
     why: L.subhead,
     category: 'list',
     subcategory: 'roundup',
-    themes: (L.themes as string[]) || [],
+    themes: ((L as { themes?: string[] }).themes) || [],
     price_text: L.price_band || null,
     media_url: (L.options && L.options[0] && (L.options[0].media_url as string)) || null,
+    images: (L.options && L.options[0] && (L.options[0] as Gem).images) || undefined,
     options: L.options as Gem[],
   }));
   const listEntries = [...curatedAsItems, ...lists];
@@ -177,7 +178,7 @@ export default function GuidePage() {
     ...itinItems.map((it) => ({
       title: it.name || it.hook || 'Itinerary',
       hook: it.hook,
-      cover: it.media_url,
+      cover: (it as Gem).images?.[0]?.url || it.media_url,
       days: typeof it.days === 'number' ? it.days : undefined,
       city: it.city,
       raw: it as Itin,

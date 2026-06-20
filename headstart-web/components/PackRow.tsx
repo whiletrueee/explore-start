@@ -1,5 +1,5 @@
 import type { Gem } from '@/lib/types';
-import { catV2, mediaSrc } from '@/lib/catalog';
+import { catV2, imageSrc } from '@/lib/catalog';
 
 interface Props {
   item: Gem;
@@ -13,7 +13,7 @@ interface Props {
 // Same design for every gem category; the per-category difference lives in the detail page.
 export default function PackRow({ item, selected, onOpen, saved, onSave }: Props) {
   const c = catV2(item);
-  const src = mediaSrc(item.media_url);
+  const src = imageSrc(item, 'thumb');
   const media = src
     ? { backgroundImage: `url(${src})` }
     : { background: `linear-gradient(145deg, ${c.color}, ${c.color}99)` };

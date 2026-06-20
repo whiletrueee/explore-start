@@ -24,6 +24,7 @@ export interface Gem {
   saved_from?: number;
   source_reel?: string | null;
   media_url?: string | null;
+  images?: Array<{ url: string; thumb?: string; w?: number; h?: number; attribution?: string[] }>;
   profile?: Record<string, unknown>;
   lat?: number | null;
   lng?: number | null;

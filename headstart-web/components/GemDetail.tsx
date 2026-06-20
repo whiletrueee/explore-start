@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useNav } from '@/lib/nav';
 import type { Gem, Creator, Pack } from '@/lib/types';
-import { catV2, isMappedV2, mapsLink, mediaSrc } from '@/lib/catalog';
+import { catV2, isMappedV2, mapsLink, imageSrc, imageAttribution } from '@/lib/catalog';
 import MapView from './MapView';
 
 interface Props {
@@ -33,8 +33,9 @@ export default function GemDetail({ item, creator, pack, onBack, isSaved, onTogg
   const headoutUrl = item.headout_url ?? null;
   const why = item.why || '';
   const long = why.length > 220;
-  const heroSrc = mediaSrc(item.media_url);
+  const heroSrc = imageSrc(item);
   const hasMedia = !!heroSrc;
+  const photoAttr = imageAttribution(item);
   const showHook = item.name && item.hook && item.name !== item.hook;
   const handle = (creator && creator.handle) || item._creator?.handle || '';
 
@@ -99,6 +100,13 @@ export default function GemDetail({ item, creator, pack, onBack, isSaved, onTogg
           >
             {hasMedia ? null : <span className="gd-hero-glyph">{c.glyph}</span>}
             {heroBtns}
+            {hasMedia && photoAttr.length ? (
+              <div
+                className="gd-hero-attr"
+                // Google Places photo attribution snippets are HTML-with-anchor; safe and required by ToS.
+                dangerouslySetInnerHTML={{ __html: photoAttr.join(' · ') }}
+              />
+            ) : null}
           </div>
           <div className="gd-body">
             <div className="gd-eat-kicker" style={{ color: c.color }}>

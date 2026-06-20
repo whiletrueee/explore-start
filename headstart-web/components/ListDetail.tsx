@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import type { Gem, Creator } from '@/lib/types';
-import { catV2, mediaSrc } from '@/lib/catalog';
+import { catV2, imageSrc } from '@/lib/catalog';
 import { useNav } from '@/lib/nav';
 
 interface Item {
@@ -45,7 +45,7 @@ export default function ListDetail({ item, creator, onBack, isSaved, onToggleSav
   }, []);
 
   const c = catV2(item);
-  const heroSrc = mediaSrc(item.media_url);
+  const heroSrc = imageSrc(item);
   const place = item.area || item.city;
   const themes = (item.themes || []).slice(0, 4);
   const handle = (creator && creator.handle) || item._creator?.handle;
