@@ -1430,7 +1430,7 @@ body {
 .mp-modal-x { width:100%; border:none; background:none; color:var(--soft); font:inherit; font-size:13.5px; font-weight:600; padding:12px 0 2px; cursor:pointer; }
 
 /* ============ /generate page ============ */
-.gp { padding: 18px 16px 80px; }
+.gp { padding: 18px 16px 80px; height: 100%; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 
 .gp-hero { text-align: center; padding: 22px 6px 18px; }
 .gp-hero-dots { display: inline-flex; gap: 8px; margin-bottom: 14px; }
