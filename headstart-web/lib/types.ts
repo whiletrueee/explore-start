@@ -35,6 +35,8 @@ export interface Gem {
   headout_url?: string | null;
   headout_subcategory_id?: number | null;
   headout_collection_id?: number | null;
+  // city-guide membership (null = orphan, not part of any guide)
+  guide_id?: string | null;
   // structured round-up items (curated lists) — each is gem-like with its own why/area/price
   options?: Gem[];
   // attached when saved to the wishlist
@@ -46,6 +48,10 @@ export interface DiscoveryCreator extends Creator {
   packTitle?: string;
   hero?: string;
   counts?: { gems?: number; itineraries?: number; lists?: number; tips?: number };
+  // city-level guide this card represents. A creator with multiple guides
+  // appears as multiple discovery entries with the same `handle` but different `guideId`.
+  guideId?: string | null;
+  guideName?: string | null;
   gems?: Gem[];
   tips?: Gem[];
   lists?: Gem[];
@@ -91,6 +97,16 @@ export interface ItineraryData {
   days?: ItineraryDay[];
   logistics?: { getting_around?: string; where_to_stay?: string; best_time?: string };
   gem_ids_used?: string[];
+  guide_id?: string | null;
+}
+
+export interface GuideMeta {
+  id: string;
+  name: string;
+  label: string;
+  destination: string | null;
+  cities: string[];
+  counts: { gems: number; lists: number; itineraries: number; tips: number };
 }
 
 export interface Pack {
@@ -101,8 +117,9 @@ export interface Pack {
   items: Gem[];
   itinerary: ItineraryData | null;
   price: number;
-  curatedLists: Array<{ id: string; headline: string; subhead: string; price_band?: string; lens?: string; themes?: string[]; options: Gem[] }>;
+  curatedLists: Array<{ id: string; headline: string; subhead: string; price_band?: string; lens?: string; themes?: string[]; options: Gem[]; guide_id?: string | null }>;
   guideName: string;
   cover?: string | null;
   freeCity?: string;
+  guides?: GuideMeta[];
 }

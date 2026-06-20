@@ -26,7 +26,7 @@ export default function CreatorCard({ creator, onOpen }: Props) {
           </span>
           <span className="cc-handle">@{creator.handle}</span>
         </div>
-        <div className="cc-pack">{creator.packTitle}</div>
+        <div className="cc-pack">{creator.guideName ?? creator.packTitle}</div>
         <div className="cc-sub">
           {total} spots{itins ? ` · ${itins} ${itins === 1 ? 'itinerary' : 'itineraries'}` : ''}
         </div>

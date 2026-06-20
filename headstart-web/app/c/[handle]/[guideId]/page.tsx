@@ -23,8 +23,9 @@ const PRIMARIES: [string, string][] = [
 ];
 
 export default function GuidePage() {
-  const params = useParams<{ handle: string; city: string }>();
+  const params = useParams<{ handle: string; guideId: string }>();
   const handle = params.handle;
+  const guideIdParam = params.guideId && params.guideId !== 'guide' ? params.guideId : null;
   const router = useRouter();
   const { savedIds, toggle } = useSaved();
 
@@ -52,7 +53,22 @@ export default function GuidePage() {
       .catch(() => setErr(true));
   }, [handle]);
 
-  const items: Gem[] = pack ? pack.items : [];
+  // Resolve the active guide from pack.guides (preferred) or fall back to the URL slug.
+  // When `guideIdParam` is null (legacy `/c/handle/guide` URL) and the pack has exactly
+  // one guide, auto-select it so the page still renders something coherent.
+  const activeGuide = useMemo(() => {
+    if (!pack?.guides?.length) return null;
+    if (guideIdParam) return pack.guides.find((g) => g.id === guideIdParam) ?? null;
+    return pack.guides.length === 1 ? pack.guides[0] : null;
+  }, [pack, guideIdParam]);
+
+  // Scope all entity arrays to the active guide. Items with `guide_id == null`
+  // (orphans) are excluded from the guide view but never deleted from the pack.
+  const rawItems: Gem[] = pack ? pack.items : [];
+  const items: Gem[] = useMemo(
+    () => (activeGuide ? rawItems.filter((i) => i.guide_id === activeGuide.id) : rawItems),
+    [rawItems, activeGuide],
+  );
   const itemsById = useMemo(() => Object.fromEntries(items.map((i) => [i.id, i])), [items]);
 
   const toggleExpand = (k: string) =>
@@ -99,7 +115,16 @@ export default function GuidePage() {
   const lists = items.filter((i) => i.category === 'list');
   const tips = items.filter((i) => i.category === 'plan');
   const itinItems = items.filter((i) => i.category === 'itinerary');
-  const curatedLists = pack.curatedLists || [];
+  const curatedLists = (pack.curatedLists || []).filter(
+    (l) => !activeGuide || l.guide_id === activeGuide.id,
+  );
+  // Pack-level itinerary (legacy singular shape) belongs to the active guide only when
+  // its `guide_id` matches. Outside a guide view, show it as before.
+  const packItinerary =
+    pack.itinerary && (!activeGuide || pack.itinerary.guide_id === activeGuide.id)
+      ? pack.itinerary
+      : null;
+  const guideHeader = activeGuide?.name ?? pack.guideName ?? 'Guide';
 
   const browseGems = placesAll;
   const catsPresent = GRID.filter((k) => browseGems.some((i) => i.category === k));
@@ -138,8 +163,8 @@ export default function GuidePage() {
     primary === 'gems'
       ? `${gemsFiltered.length} ${cat ? catV2({ category: cat }).label.toLowerCase() : 'gems'}`
       : primary === 'itinerary'
-        ? pack.itinerary
-          ? `${(pack.itinerary.days || []).length} days`
+        ? packItinerary
+          ? `${(packItinerary.days || []).length} days`
           : itinItems.length
             ? `${itinItems.length} ${itinItems.length === 1 ? 'itinerary' : 'itineraries'}`
             : 'none yet'
@@ -147,18 +172,18 @@ export default function GuidePage() {
           ? `${listCount} ${listCount === 1 ? 'list' : 'lists'}`
           : `${tips.length} tips`;
 
-  const itinCount = pack.itinerary ? 1 : itinItems.length;
+  const itinCount = packItinerary ? 1 : itinItems.length;
 
   // itinerary tab front-page cards: the detailed pack itinerary (if any) + summary itinerary items
   const itinEntries: Array<{ title: string; hook?: string; cover?: string | null; days?: number; city?: string; raw: Itin }> = [
-    ...(pack.itinerary
+    ...(packItinerary
       ? [{
-          title: pack.itinerary.title || 'Itinerary',
-          hook: pack.itinerary.hook,
+          title: packItinerary.title || 'Itinerary',
+          hook: packItinerary.hook,
           cover: pack.cover,
-          days: pack.itinerary.days_count,
-          city: pack.itinerary.city,
-          raw: pack.itinerary as Itin,
+          days: packItinerary.days_count,
+          city: packItinerary.city,
+          raw: packItinerary as Itin,
         }]
       : []),
     ...itinItems.map((it) => ({
@@ -178,7 +203,7 @@ export default function GuidePage() {
         <span className="mp-av" style={{ background: c.color }}>{c.name[0]}</span>
         <div className="mp-thin-id">
           <span className="mp-thin-handle">@{c.handle}</span>
-          <span className="mp-thin-name">{pack.guideName || 'Guide'}</span>
+          <span className="mp-thin-name">{guideHeader}</span>
         </div>
       </div>
 
@@ -198,7 +223,7 @@ export default function GuidePage() {
               <span className="mp-gh-handle">@{c.handle}</span>
               <span className="mp-gh-sub">· {c.tag || ''}</span>
             </div>
-            <h1 className="mp-gh-name">{pack.guideName || 'Guide'}</h1>
+            <h1 className="mp-gh-name">{guideHeader}</h1>
           </div>
           <div className="mp-gh-vol">
             <span><b>{placesAll.length}</b> gems</span>

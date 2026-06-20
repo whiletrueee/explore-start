@@ -117,7 +117,13 @@ export default function Home() {
       </div>
       <div className="hm-catalogue">
         {shown.length ? (
-          shown.map((c) => <CreatorCard key={c.handle} creator={c} onOpen={(cr) => router.push(`/c/${cr.handle}/guide`)} />)
+          shown.map((c) => (
+            <CreatorCard
+              key={`${c.handle}:${c.guideId ?? 'guide'}`}
+              creator={c}
+              onOpen={(cr) => router.push(`/c/${cr.handle}/${cr.guideId ?? 'guide'}`)}
+            />
+          ))
         ) : (
           <div className="mp-empty">No guides in this destination yet.</div>
         )}
