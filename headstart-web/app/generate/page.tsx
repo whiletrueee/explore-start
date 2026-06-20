@@ -5,6 +5,16 @@ import { useRouter } from 'next/navigation';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? '';
 
+function getAdminToken(): string | null {
+  if (typeof window === 'undefined') return null;
+  let t = window.localStorage.getItem('adminToken');
+  if (!t) {
+    t = window.prompt('Enter access token to generate guides:');
+    if (t) window.localStorage.setItem('adminToken', t.trim());
+  }
+  return t?.trim() || null;
+}
+
 type PhaseKey =
   | 'discover'
   | 'download'
@@ -108,12 +118,23 @@ export default function GeneratePage() {
     setCreatorHandle(normalized);
     startedAt.current = Date.now();
 
+    const token = getAdminToken();
+    if (!token) {
+      setError('Access token required');
+      setPhase('idle');
+      return;
+    }
+
     try {
       const res = await fetch(`${API_BASE}/runs`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` },
         body: JSON.stringify({ creator: normalized, kind: 'full' }),
       });
+      if (res.status === 401) {
+        window.localStorage.removeItem('adminToken');
+        throw new Error('Invalid token — try again');
+      }
       const body = (await res.json().catch(() => ({}))) as { runId?: string; error?: string };
       if (!res.ok || !body.runId) throw new Error(body.error ?? `HTTP ${res.status}`);
       setRunId(body.runId);
@@ -127,7 +148,9 @@ export default function GeneratePage() {
 
   function openSSE(rid: string) {
     sseRef.current?.close();
-    const es = new EventSource(`${API_BASE}/runs/${rid}/events`);
+    const token = typeof window !== 'undefined' ? window.localStorage.getItem('adminToken') : null;
+    const url = `${API_BASE}/runs/${rid}/events${token ? `?token=${encodeURIComponent(token)}` : ''}`;
+    const es = new EventSource(url);
     sseRef.current = es;
 
     const onEvent = (ev: MessageEvent) => {
@@ -197,7 +220,11 @@ export default function GeneratePage() {
   async function cancel() {
     if (!runId) return;
     try {
-      await fetch(`${API_BASE}/runs/${runId}/cancel`, { method: 'POST' });
+      const token = window.localStorage.getItem('adminToken');
+      await fetch(`${API_BASE}/runs/${runId}/cancel`, {
+        method: 'POST',
+        headers: token ? { authorization: `Bearer ${token}` } : {},
+      });
     } catch {}
   }
 
