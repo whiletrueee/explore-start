@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import type { Discovery, DiscoveryCreator } from '@/lib/types';
 import CreatorCard from '@/components/CreatorCard';
+import { fetchDiscovery } from '@/lib/api';
 
 const DEST_COUNTRY: Record<string, string> = {
   Dubai: 'UAE',
@@ -20,7 +21,7 @@ export default function Home() {
   const [cityF, setCityF] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/data/discovery.json').then((r) => r.json()).then(setDisc);
+    fetchDiscovery<Discovery>().then(setDisc).catch(() => setDisc(null));
   }, []);
 
   if (!disc) return <div className="hm"><div className="mp-empty">Loading…</div></div>;

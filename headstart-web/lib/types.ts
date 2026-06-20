@@ -29,6 +29,11 @@ export interface Gem {
   lng?: number | null;
   approx?: boolean;
   days?: number;
+  headout_tgid?: number | null;
+  headout_poi?: string | null;
+  headout_url?: string | null;
+  headout_subcategory_id?: number | null;
+  headout_collection_id?: number | null;
   // structured round-up items (curated lists) — each is gem-like with its own why/area/price
   options?: Gem[];
   // attached when saved to the wishlist
@@ -95,7 +100,7 @@ export interface Pack {
   items: Gem[];
   itinerary: ItineraryData | null;
   price: number;
-  curatedLists: Array<{ id: string; headline: string; subhead: string; price_band?: string; lens?: string; options: Gem[] }>;
+  curatedLists: Array<{ id: string; headline: string; subhead: string; price_band?: string; lens?: string; themes?: string[]; options: Gem[] }>;
   guideName: string;
   cover?: string | null;
   freeCity?: string;

@@ -12,6 +12,7 @@ import ItineraryCard from '@/components/ItineraryCard';
 import ItineraryDetail, { type Itin } from '@/components/ItineraryDetail';
 import ListDetail from '@/components/ListDetail';
 import TipRow from '@/components/TipRow';
+import { fetchPack } from '@/lib/api';
 
 const PER_GROUP = 6;
 const PRIMARIES: [string, string][] = [
@@ -20,7 +21,6 @@ const PRIMARIES: [string, string][] = [
   ['lists', 'Lists'],
   ['tips', 'Tips'],
 ];
-const fileFor = (h: string) => '/data/pack-' + h.replace(/[^a-z0-9]/gi, '') + '.json';
 
 export default function GuidePage() {
   const params = useParams<{ handle: string; city: string }>();
@@ -50,11 +50,7 @@ export default function GuidePage() {
     setItin(null);
     setScrolled(false);
     setUnlocked(localStorage.getItem('hs_unlocked_' + handle) === '1');
-    fetch(fileFor(handle))
-      .then((r) => {
-        if (!r.ok) throw new Error('no pack');
-        return r.json();
-      })
+    fetchPack<Pack>(handle)
       .then(setPack)
       .catch(() => setErr(true));
   }, [handle]);

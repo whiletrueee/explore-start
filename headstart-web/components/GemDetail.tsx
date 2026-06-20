@@ -30,6 +30,7 @@ export default function GemDetail({ item, creator, pack, onBack, isSaved, onTogg
   const mapped = isMappedV2(item);
   const themes = (item.themes || []).slice(0, 4);
   const bookable = (item.profile && item.profile.book) || ['eat', 'see-do', 'view'].includes(item.category);
+  const headoutUrl = item.headout_url ?? null;
   const why = item.why || '';
   const long = why.length > 220;
   const heroSrc = mediaSrc(item.media_url);
@@ -73,7 +74,11 @@ export default function GemDetail({ item, creator, pack, onBack, isSaved, onTogg
 
   const footer = (
     <div className="gd-foot">
-      {bookable ? <button className="gd-book">Book on Headout →</button> : null}
+      {bookable && headoutUrl ? (
+        <a className="gd-book" href={headoutUrl} target="_blank" rel="noopener noreferrer">
+          Book on Headout →
+        </a>
+      ) : null}
       {item.source_reel ? (
         <a className={'gd-reel' + (bookable ? '' : ' solo')} href={item.source_reel} target="_blank" rel="noopener noreferrer">
           ▶ Watch the source reel
@@ -212,7 +217,11 @@ export default function GemDetail({ item, creator, pack, onBack, isSaved, onTogg
       </div>
 
       <div className="gd-foot">
-        {bookable ? <button className="gd-book">Book on Headout →</button> : null}
+        {bookable && headoutUrl ? (
+        <a className="gd-book" href={headoutUrl} target="_blank" rel="noopener noreferrer">
+          Book on Headout →
+        </a>
+      ) : null}
         {item.source_reel ? (
           <a className={'gd-reel' + (bookable ? '' : ' solo')} href={item.source_reel} target="_blank" rel="noopener noreferrer">
             ▶ Watch the source reel

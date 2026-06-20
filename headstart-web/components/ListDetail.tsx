@@ -48,7 +48,7 @@ export default function ListDetail({ item, creator, onBack, isSaved, onToggleSav
   const heroSrc = mediaSrc(item.media_url);
   const place = item.area || item.city;
   const themes = (item.themes || []).slice(0, 4);
-  const handle = (creator && creator.handle) || item._creator?.handle || item.creator;
+  const handle = (creator && creator.handle) || item._creator?.handle;
   const showHook = item.name && item.hook && item.name !== item.hook;
 
   // structured round-up (curated list) → rich items with descriptions; else parse the prose

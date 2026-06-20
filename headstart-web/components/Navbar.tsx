@@ -10,6 +10,7 @@ export default function Navbar() {
   const { saved } = useSaved();
   const { back } = useNav();
   const onSaved = path === '/saved';
+  const onGenerate = path === '/generate';
   return (
     <header className="hs-nav">
       {back ? (
@@ -21,9 +22,18 @@ export default function Navbar() {
           <span className="hs-logo">✦</span> Headstart
         </button>
       )}
-      <button className={'hs-saved' + (onSaved ? ' on' : '')} onClick={() => router.push('/saved')} aria-label="Saved">
-        <span className="hs-saved-ic">🔖</span> Saved{saved.length ? <i>{saved.length}</i> : null}
-      </button>
+      <div className="hs-nav-right">
+        <button
+          className={'hs-gen' + (onGenerate ? ' on' : '')}
+          onClick={() => router.push('/generate')}
+          aria-label="Generate"
+        >
+          ✨ Generate
+        </button>
+        <button className={'hs-saved' + (onSaved ? ' on' : '')} onClick={() => router.push('/saved')} aria-label="Saved">
+          <span className="hs-saved-ic">🔖</span> Saved{saved.length ? <i>{saved.length}</i> : null}
+        </button>
+      </div>
     </header>
   );
 }
