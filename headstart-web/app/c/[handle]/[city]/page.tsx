@@ -37,8 +37,6 @@ export default function GuidePage() {
   const [selected, setSelected] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set());
   const [scrolled, setScrolled] = useState(false);
-  const [unlocked, setUnlocked] = useState(false);
-  const [modal, setModal] = useState(false);
 
   useEffect(() => {
     setPack(null);
@@ -49,7 +47,6 @@ export default function GuidePage() {
     setDetail(null);
     setItin(null);
     setScrolled(false);
-    setUnlocked(localStorage.getItem('hs_unlocked_' + handle) === '1');
     fetchPack<Pack>(handle)
       .then(setPack)
       .catch(() => setErr(true));
@@ -82,11 +79,6 @@ export default function GuidePage() {
     const s = (e.target as HTMLDivElement).scrollTop > 30;
     setScrolled((p) => (p === s ? p : s));
   };
-  const confirmUnlock = () => {
-    setUnlocked(true);
-    localStorage.setItem('hs_unlocked_' + handle, '1');
-    setModal(false);
-  };
 
   if (err)
     return (
@@ -103,17 +95,13 @@ export default function GuidePage() {
 
   const c = pack.creator;
   const dest = c.destination || 'this trip';
-  const cityMeta = pack.cityMeta || {};
-  const FREE_CITY = pack.freeCity || c.destination;
-  const cityOf = (i: Gem) => i.city || dest;
   const placesAll = items.filter((i) => GRID.includes(i.category));
   const lists = items.filter((i) => i.category === 'list');
   const tips = items.filter((i) => i.category === 'plan');
   const itinItems = items.filter((i) => i.category === 'itinerary');
   const curatedLists = pack.curatedLists || [];
 
-  const lockedCount = placesAll.filter((i) => cityOf(i) !== FREE_CITY).length;
-  const browseGems = unlocked ? placesAll : placesAll.filter((i) => cityOf(i) === FREE_CITY);
+  const browseGems = placesAll;
   const catsPresent = GRID.filter((k) => browseGems.some((i) => i.category === k));
   const gemsFiltered = cat ? browseGems.filter((i) => i.category === cat) : browseGems;
 
@@ -124,12 +112,10 @@ export default function GuidePage() {
     regionCounts[r] = (regionCounts[r] || 0) + 1;
   });
   const regions = Object.keys(regionCounts).sort((a, b) => regionCounts[b] - regionCounts[a]);
-  const groups = unlocked
-    ? regions.map((r) => ({ key: r, label: r, items: gemsFiltered.filter((i) => regionOf(i) === r) }))
-    : [{ key: 'free', label: FREE_CITY, items: gemsFiltered }];
+  const groups = regions.map((r) => ({ key: r, label: r, items: gemsFiltered.filter((i) => regionOf(i) === r) }));
 
-  const mapCenter = unlocked ? pack.center : cityMeta[FREE_CITY]?.center || pack.center;
-  const mapZoom = unlocked ? pack.zoom : cityMeta[FREE_CITY]?.zoom || pack.zoom;
+  const mapCenter = pack.center;
+  const mapZoom = pack.zoom;
   const mapPins = (primary === 'gems' ? gemsFiltered : browseGems).filter(isMappedV2);
 
   // Lists tab cards: structured curated lists (rich, with per-item descriptions) + prose round-up items
@@ -274,12 +260,6 @@ export default function GuidePage() {
                   </div>
                 );
               })}
-              {!unlocked && lockedCount > 0 ? (
-                <button className="mp-locked" onClick={() => setModal(true)}>
-                  <strong>🔒 {lockedCount} more spots</strong>
-                  <span>Hidden gems beyond {FREE_CITY} — unlock to see them all on the map.</span>
-                </button>
-              ) : null}
               <div className="mp-bodypad" />
             </>
           ) : null}
@@ -332,27 +312,6 @@ export default function GuidePage() {
       ) : null}
 
       {itin ? <ItineraryDetail itinerary={itin} itemsById={itemsById} pack={pack} onBack={() => setItin(null)} /> : null}
-
-      {!unlocked && !detail && !itin ? (
-        <div className="mp-unlockbar">
-          <div className="mp-unlock-info">
-            <strong>Unlock the full guide</strong>
-            <span>{lockedCount} more spots · creator keeps 100%</span>
-          </div>
-          <button className="mp-unlock-btn" onClick={() => setModal(true)}>${pack.price}</button>
-        </div>
-      ) : null}
-
-      {modal ? (
-        <div className="mp-modal-scrim" onClick={() => setModal(false)}>
-          <div className="mp-modal" onClick={(e) => e.stopPropagation()}>
-            <h3>Unlock {pack.guideName}</h3>
-            <p>Get all {placesAll.length} spots on the map, plus itineraries, lists and tips. The creator keeps 100%.</p>
-            <button className="mp-modal-go" onClick={confirmUnlock}>Unlock for ${pack.price}</button>
-            <button className="mp-modal-x" onClick={() => setModal(false)}>Maybe later</button>
-          </div>
-        </div>
-      ) : null}
     </div>
   );
 }
