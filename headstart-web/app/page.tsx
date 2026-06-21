@@ -31,7 +31,10 @@ export default function Home() {
 
   if (!disc) return <div className="hm"><div className="mp-empty">Loading…</div></div>;
 
-  const creators = [...disc.creators].sort((a, b) => creatorRank(a.handle) - creatorRank(b.handle));
+  // Exclude creators with no guides (guideId === null) from the discovery feed.
+  const creators = [...disc.creators]
+    .filter((c) => c.guideId != null)
+    .sort((a, b) => creatorRank(a.handle) - creatorRank(b.handle));
   const countryOf = (c: DiscoveryCreator) => DEST_COUNTRY[c.city] || c.city;
 
   const countries: Record<string, { count: number; cities: Record<string, number> }> = {};

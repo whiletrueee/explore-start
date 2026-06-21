@@ -29,6 +29,7 @@ type PhaseKey =
   | 'itinerary-prep'
   | 'itinerary-compose'
   | 'link-headout'
+  | 'resolve-guides'
   | 'build-pack';
 
 type PhaseDef = { key: PhaseKey; label: string; emoji: string };
@@ -47,6 +48,7 @@ const PHASES: PhaseDef[] = [
   { key: 'itinerary-prep',     label: 'Planning days',           emoji: '🗓️' },
   { key: 'itinerary-compose',  label: 'Crafting itineraries',    emoji: '🪄' },
   { key: 'link-headout',       label: 'Linking Headout products', emoji: '🎟️' },
+  { key: 'resolve-guides',     label: 'Resolving guides',        emoji: '📐' },
   { key: 'build-pack',         label: 'Assembling guide',        emoji: '🎁' },
 ];
 
@@ -95,6 +97,7 @@ export default function GeneratePage() {
   const [states, setStates] = useState<Record<PhaseKey, PhaseState>>(initStates);
   const [error, setError] = useState<string | null>(null);
   const [tick, setTick] = useState(0); // re-render once a second for live elapsed
+  const [guideCount, setGuideCount] = useState<number | null>(null);
   const startedAt = useRef<number | null>(null);
   const sseRef = useRef<EventSource | null>(null);
 
@@ -157,6 +160,15 @@ export default function GeneratePage() {
       let e: RunEvent | null = null;
       try { e = JSON.parse(ev.data) as RunEvent; } catch { return; }
       if (!e?.phase) return;
+
+      // Capture guide count from resolve-guides done event
+      if (e.phase === 'resolve-guides' && e.level === 'done' && e.data) {
+        const guides = (e.data as { guides?: unknown[] }).guides;
+        if (Array.isArray(guides)) {
+          setGuideCount(guides.length);
+        }
+      }
+
       setStates((prev) => {
         const next = { ...prev };
         const cur = next[e.phase] ?? { status: 'pending', message: '', startedAt: null, finishedAt: null };
@@ -235,6 +247,7 @@ export default function GeneratePage() {
     setStates(initStates());
     setError(null);
     setHandle('');
+    setGuideCount(null);
   }
 
   void tick; // ensure tick triggers rerender
@@ -290,22 +303,43 @@ export default function GeneratePage() {
   }
 
   if (phase === 'done') {
+    const hasGuides = guideCount === null || guideCount > 0;
     return (
       <div className="gp">
         <div className="gp-done">
-          <div className="gp-burst">
-            <div className="gp-burst-ring" />
-            <div className="gp-burst-ring gp-burst-ring2" />
-            <div className="gp-burst-check">✓</div>
-          </div>
-          <h1 className="gp-h1">Your guide is ready</h1>
-          <p className="gp-sub">Generated <strong>@{creatorHandle}</strong> in {fmtElapsed(totalElapsed)}.</p>
-          <button
-            className="gp-cta gp-cta-big"
-            onClick={() => router.push(`/c/${creatorHandle}/guide`)}
-          >
-            View the guide →
-          </button>
+          {hasGuides ? (
+            <>
+              <div className="gp-burst">
+                <div className="gp-burst-ring" />
+                <div className="gp-burst-ring gp-burst-ring2" />
+                <div className="gp-burst-check">✓</div>
+              </div>
+              <h1 className="gp-h1">Your guide is ready</h1>
+              <p className="gp-sub">Generated <strong>@{creatorHandle}</strong> in {fmtElapsed(totalElapsed)}.</p>
+              <button
+                className="gp-cta gp-cta-big"
+                onClick={() => router.push(`/c/${creatorHandle}/guide`)}
+              >
+                View the guide →
+              </button>
+            </>
+          ) : (
+            <>
+              <div className="gp-burst">
+                <div className="gp-burst-ring" />
+                <div className="gp-burst-ring gp-burst-ring2" />
+                <div className="gp-burst-check" style={{ color: '#f59e0b' }}>!</div>
+              </div>
+              <h1 className="gp-h1">Guide not generated</h1>
+              <p className="gp-sub">
+                The pipeline finished but no city-level guide was created for <strong>@{creatorHandle}</strong>.
+                Every city had fewer than 10 gems.
+              </p>
+              <p className="gp-sub" style={{ fontSize: '13px', marginTop: '8px' }}>
+                Try fetching more reels or pick a creator with denser city coverage.
+              </p>
+            </>
+          )}
           <button className="gp-link" onClick={reset}>Generate another</button>
         </div>
       </div>
