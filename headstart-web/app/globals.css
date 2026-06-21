@@ -1408,6 +1408,8 @@ body {
 
 /* per-item description in list detail */
 .ld-it-desc { margin:5px 0 0; font-size:12.5px; line-height:1.5; color:var(--ink-soft); }
+.ld-it-reel { display:inline-block; margin-top:6px; font-size:12px; font-weight:600; color:var(--brand); text-decoration:none; }
+.ld-it-reel:hover { text-decoration:underline; }
 
 /* Tips tab: accordion rows */
 .tips-list { padding:4px 12px 0; }

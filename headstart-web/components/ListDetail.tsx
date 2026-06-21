@@ -9,6 +9,7 @@ interface Item {
   title: string;
   detail: string | null;
   description?: string | null;
+  source_reel?: string | null;
 }
 
 // Best-effort: turn a round-up's prose into discrete items.
@@ -56,6 +57,7 @@ export default function ListDetail({ item, creator, onBack, isSaved, onToggleSav
     title: o.name || o.hook || '',
     detail: o.area || o.city || o.price_text || null,
     description: o.why || o.hook || null,
+    source_reel: (o as unknown as { source_reel?: string | null }).source_reel ?? null,
   }));
   const parsed = parseItems(item.why);
   const items: Item[] = structured.length ? structured : parsed;
@@ -96,6 +98,16 @@ export default function ListDetail({ item, creator, onBack, isSaved, onToggleSav
                     <span className="ld-it-title">{it.title}</span>
                     {it.detail ? <span className="ld-it-detail">{it.detail}</span> : null}
                     {it.description ? <p className="ld-it-desc">{it.description}</p> : null}
+                    {it.source_reel ? (
+                      <a
+                        className="ld-it-reel"
+                        href={it.source_reel}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        ▶ Watch reel
+                      </a>
+                    ) : null}
                   </div>
                 </li>
               ))}
