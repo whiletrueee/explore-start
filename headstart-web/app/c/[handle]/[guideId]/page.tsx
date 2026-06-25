@@ -113,6 +113,7 @@ export default function GuidePage() {
   const c = pack.creator;
   const dest = c.destination || 'this trip';
   const placesAll = items.filter((i) => GRID.includes(i.category));
+  const lists = items.filter((i) => i.category === 'list');
   const tipsRaw = items.filter((i) => i.category === 'plan');
   // Dedupe tips by name for handles known to have duplicate plan entries.
   const tips = c.handle === 'ladyandhersweetescapes-dubai'
@@ -155,7 +156,7 @@ export default function GuidePage() {
   const mapZoom = pack.zoom;
   const mapPins = (primary === 'gems' ? gemsFiltered : browseGems).filter(isMappedV2);
 
-  // Lists tab cards: structured curated lists only (prose round-up items intentionally excluded)
+  // Lists tab cards: structured curated lists (rich, with per-item descriptions) + prose round-up items
   const curatedAsItems: Gem[] = curatedLists.map((L) => ({
     id: L.id,
     name: L.headline,
@@ -169,7 +170,7 @@ export default function GuidePage() {
     images: (L.options && L.options[0] && (L.options[0] as Gem).images) || undefined,
     options: L.options as Gem[],
   }));
-  const listEntries = curatedAsItems;
+  const listEntries = [...curatedAsItems, ...lists];
   const listCount = listEntries.length;
   const count =
     primary === 'gems'
