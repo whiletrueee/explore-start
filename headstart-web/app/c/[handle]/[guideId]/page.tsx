@@ -128,9 +128,6 @@ export default function GuidePage() {
       })()
     : tipsRaw;
   const itinItems = items.filter((i) => i.category === 'itinerary');
-  const curatedLists = (pack.curatedLists || []).filter(
-    (l) => !activeGuide || l.guide_id === activeGuide.id,
-  );
   // Pack-level itinerary (legacy singular shape) belongs to the active guide only when
   // its `guide_id` matches. Outside a guide view, show it as before.
   const packItinerary =
@@ -156,21 +153,7 @@ export default function GuidePage() {
   const mapZoom = pack.zoom;
   const mapPins = (primary === 'gems' ? gemsFiltered : browseGems).filter(isMappedV2);
 
-  // Lists tab cards: structured curated lists (rich, with per-item descriptions) + prose round-up items
-  const curatedAsItems: Gem[] = curatedLists.map((L) => ({
-    id: L.id,
-    name: L.headline,
-    hook: L.subhead,
-    why: L.subhead,
-    category: 'list',
-    subcategory: 'roundup',
-    themes: ((L as { themes?: string[] }).themes) || [],
-    price_text: L.price_band || null,
-    media_url: (L.options && L.options[0] && (L.options[0].media_url as string)) || null,
-    images: (L.options && L.options[0] && (L.options[0] as Gem).images) || undefined,
-    options: L.options as Gem[],
-  }));
-  const listEntries = [...curatedAsItems, ...lists];
+  const listEntries = lists;
   const listCount = listEntries.length;
   const count =
     primary === 'gems'
